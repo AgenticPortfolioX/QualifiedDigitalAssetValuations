@@ -8,10 +8,7 @@ import { Info, Share2, Shield, LayoutGrid, Play, Pause, Coins, FileText, Trendin
 import { useState } from "react";
 
 export default function App() {
-  const [isPlaying, setIsPlaying] = useState(true);
   const [view, setView] = useState<"home" | "compliance" | "about" | "quote" | "scope" | "legal" | "privacy" | "terms">("home");
-
-  // Attach setView to window for access from sub-components
   if (typeof window !== "undefined") {
     (window as any).setView = setView;
   }
@@ -104,7 +101,7 @@ export default function App() {
       </footer>
 
       {/* Main Content Area */}
-      <div className="relative z-10 w-full max-w-7xl px-6 md:px-12 flex flex-col md:flex-row items-center justify-center md:justify-between py-24 md:py-0 gap-12 md:gap-0 h-full md:h-auto overflow-y-auto md:overflow-visible">
+      <div className="relative z-10 w-full max-w-7xl px-6 md:px-12 flex flex-col md:flex-row items-center justify-center md:justify-between pt-[30vh] pb-24 md:py-0 gap-12 md:gap-0 h-full md:h-auto overflow-y-auto md:overflow-visible">
         
         {/* Left Text */}
         <motion.div 
@@ -128,10 +125,10 @@ export default function App() {
         <div className="relative flex items-center justify-center w-[300px] sm:w-[500px] h-[400px] md:h-[600px] perspective-1000 scale-75 sm:scale-[0.85] md:scale-100 shrink-0">
           {/* Card 1 */}
           <motion.div
-            animate={isPlaying ? {
+            animate={{
               rotateY: [-5, 5, -5],
               y: [-10, 10, -10],
-            } : {}}
+            }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             className="absolute left-0 w-64 h-96 bg-white rounded-3xl shadow-2xl p-6 flex flex-col gap-4 border border-gray-100 z-10 -rotate-6 transform translate-x-[-20%]"
           >
@@ -164,10 +161,10 @@ export default function App() {
           {/* Card 2 - Compliance Hub Link */}
           <motion.button
             onClick={() => setView("compliance")}
-            animate={isPlaying ? {
+            animate={{
               rotateY: [5, -5, 5],
               y: [10, -10, 10],
-            } : {}}
+            }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
             className="absolute right-0 w-64 h-96 bg-white rounded-3xl shadow-2xl p-6 flex flex-col gap-4 border border-gray-100 z-20 rotate-6 transform translate-x-[20%] text-left hover:scale-105 transition-transform cursor-pointer group"
           >
@@ -222,21 +219,6 @@ export default function App() {
           </h1>
         </motion.button>
 
-      </div>
-
-      {/* Control Bar */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30">
-        <div className="bg-black rounded-full h-14 px-2 flex items-center gap-1 shadow-2xl">
-          <button 
-            onClick={() => setIsPlaying(!isPlaying)}
-            className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors"
-          >
-            {isPlaying ? <Pause className="w-5 h-5 fill-black" /> : <Play className="w-5 h-5 fill-black ml-0.5" />}
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center text-white hover:bg-white/10 rounded-full transition-colors">
-            <LayoutGrid className="w-5 h-5" />
-          </button>
-        </div>
       </div>
 
       {/* Floating Decorative Elements */}
