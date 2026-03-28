@@ -65,10 +65,10 @@ export default function App() {
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="absolute left-[-10%] top-[-10%] w-[70%] h-[120%] bg-google-yellow rounded-full z-0"
+        className="absolute left-[-20%] md:left-[-10%] top-[-10%] w-[140%] md:w-[70%] h-[120%] bg-google-yellow rounded-full z-0"
       />
 
-      <nav className="absolute top-8 left-12 z-20">
+      <nav className="absolute top-6 md:top-8 left-6 md:left-12 z-20">
         <button 
           onClick={() => setView("about")}
           className="text-white font-medium hover:opacity-80 transition-opacity"
@@ -76,7 +76,7 @@ export default function App() {
           About
         </button>
       </nav>
-      <nav className="absolute top-8 right-12 z-20">
+      <nav className="absolute top-6 md:top-8 right-6 md:right-12 z-20">
         <button 
           onClick={() => setView("legal")}
           className="text-white font-medium hover:opacity-80 transition-opacity cursor-pointer"
@@ -86,34 +86,34 @@ export default function App() {
       </nav>
 
       {/* Bottom Navigation */}
-      <footer className="absolute bottom-8 left-12 z-20 flex items-center gap-3">
-        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg">
+      <footer className="absolute bottom-6 md:bottom-8 left-6 md:left-12 z-20 flex items-center gap-3">
+        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg shrink-0">
           <TrendingUp className="text-google-blue w-5 h-5" />
         </div>
-        <span className="text-white font-semibold tracking-tight text-base opacity-90">
+        <span className="text-white font-semibold tracking-tight text-sm md:text-base opacity-90 hidden sm:inline-block">
           Qualified Digital Asset Valuations
         </span>
       </footer>
-      <footer className="absolute bottom-8 right-12 z-20">
+      <footer className="absolute bottom-6 md:bottom-8 right-6 md:right-12 z-20">
         <button 
           onClick={() => setView("scope")}
-          className="text-white font-medium hover:opacity-80 transition-opacity cursor-pointer"
+          className="text-white font-medium hover:opacity-80 transition-opacity cursor-pointer text-sm md:text-base"
         >
           Scope & Services
         </button>
       </footer>
 
       {/* Main Content Area */}
-      <div className="relative z-10 w-full max-w-7xl px-12 flex items-center justify-between">
+      <div className="relative z-10 w-full max-w-7xl px-6 md:px-12 flex flex-col md:flex-row items-center justify-center md:justify-between py-24 md:py-0 gap-12 md:gap-0 h-full md:h-auto overflow-y-auto md:overflow-visible">
         
         {/* Left Text */}
         <motion.div 
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="flex-1"
+          className="flex-1 text-center md:text-left mt-16 md:mt-0"
         >
-          <h1 className="text-6xl font-black text-white tracking-tighter leading-none">
+          <h1 className="text-5xl md:text-6xl font-black text-white tracking-tighter leading-none">
             IRS <br />
             <span className="relative inline">Qualified Valuations<motion.div 
                 initial={{ width: 0 }}
@@ -125,7 +125,7 @@ export default function App() {
         </motion.div>
 
         {/* Center Cards */}
-        <div className="relative flex items-center justify-center w-[500px] h-[600px] perspective-1000">
+        <div className="relative flex items-center justify-center w-[300px] sm:w-[500px] h-[400px] md:h-[600px] perspective-1000 scale-75 sm:scale-[0.85] md:scale-100 shrink-0">
           {/* Card 1 */}
           <motion.div
             animate={isPlaying ? {
@@ -209,9 +209,9 @@ export default function App() {
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="flex-1 text-right group cursor-pointer"
+          className="flex-1 text-center md:text-right group cursor-pointer mb-24 md:mb-0"
         >
-          <h1 className="text-6xl font-black text-gray-900 tracking-tighter leading-none group-hover:text-white transition-colors">
+          <h1 className="text-5xl md:text-6xl font-black text-gray-900 tracking-tighter leading-none group-hover:text-white transition-colors">
             Start <br />
             <span className="relative inline">Appraisal<motion.div 
                 initial={{ width: 0 }}
@@ -303,7 +303,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
 
   return (
     <main className="min-h-screen bg-white">
-      <header className="px-12 py-8 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-50">
+      <header className="px-6 md:px-12 py-8 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-50">
         <button 
           onClick={onBack}
           className="flex items-center gap-2 text-gray-400 hover:text-google-blue transition-colors font-black uppercase tracking-widest text-xs"
@@ -318,7 +318,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
       </header>
 
       {/* Hero Section */}
-      <section className="px-12 pt-6 pb-5 bg-google-blue text-white relative">
+      <section className="px-6 md:px-12 pt-6 pb-5 bg-google-blue text-white relative">
         <div className="relative z-10 max-w-4xl">
           <motion.h2 
             initial={{ y: 20, opacity: 0 }}
@@ -336,7 +336,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
       </section>
 
       {/* Disclaimers Grid */}
-      <section className="px-12 py-24 max-w-7xl mx-auto">
+      <section className="px-6 md:px-12 py-24 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {disclaimers.map((item, i) => (
             <motion.div 
@@ -358,7 +358,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
       </section>
 
       {/* Resources Section */}
-      <section className="px-12 py-24 bg-gray-900 text-white">
+      <section className="px-6 md:px-12 py-24 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
             <div>
@@ -389,7 +389,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
       </section>
 
       {/* Footer */}
-      <footer className="px-12 py-12 border-t border-gray-100 text-center">
+      <footer className="px-6 md:px-12 py-12 border-t border-gray-100 text-center">
         <p className="text-gray-400 text-sm font-medium">
           &copy; {new Date().getFullYear()} Specialized Valuation Expertise. All rights reserved.
         </p>
@@ -402,7 +402,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       {/* Header */}
-      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-12 py-6 flex items-center justify-between">
+      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-6 md:px-12 py-6 flex items-center justify-between">
         <button 
           onClick={onBack}
           className="flex items-center gap-2 text-google-blue font-bold hover:opacity-70 transition-opacity"
@@ -420,7 +420,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       </header>
 
       {/* Hero Section */}
-      <section className="px-12 pt-6 pb-5 bg-google-blue text-white relative">
+      <section className="px-6 md:px-12 pt-6 pb-5 bg-google-blue text-white relative">
         <div className="absolute right-[-5%] top-[-10%] w-[40%] h-[120%] bg-google-yellow rounded-full opacity-20 z-0" />
         <div className="relative z-10 max-w-6xl">
           <motion.h2 
@@ -440,7 +440,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       </section>
 
       {/* Security & Privacy Section */}
-      <section className="px-12 py-24 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl mx-auto">
+      <section className="px-6 md:px-12 py-24 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl mx-auto">
         <div className="flex flex-col gap-8">
           <div className="w-16 h-16 bg-google-blue/10 rounded-2xl flex items-center justify-center">
             <Shield className="text-google-blue w-8 h-8" />
@@ -490,7 +490,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       </section>
 
       {/* Professional Pedigree Section */}
-      <section className="px-12 py-24 bg-gray-900 text-white">
+      <section className="px-6 md:px-12 py-24 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row gap-16 items-start">
             <div className="flex-1 space-y-8">
@@ -560,7 +560,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       </section>
 
       {/* Contact & Support Section */}
-      <section className="px-12 py-24 bg-white">
+      <section className="px-6 md:px-12 py-24 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div className="w-20 h-20 bg-google-blue/10 rounded-full flex items-center justify-center mx-auto">
             <Phone className="text-google-blue w-10 h-10" />
@@ -574,7 +574,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
           </div>
           <button 
             onClick={onStart}
-            className="px-12 py-6 bg-google-blue text-white font-black rounded-3xl shadow-xl hover:scale-105 active:scale-95 transition-all"
+            className="px-6 md:px-12 py-6 bg-google-blue text-white font-black rounded-3xl shadow-xl hover:scale-105 active:scale-95 transition-all"
           >
             Start Appraisal
           </button>
@@ -582,7 +582,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       </section>
 
       {/* CTA Footer */}
-      <footer className="bg-gray-50 px-12 py-16 border-t border-gray-100">
+      <footer className="bg-gray-50 px-6 md:px-12 py-16 border-t border-gray-100">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <h4 className="text-3xl font-black text-gray-900 tracking-tight">Expertise You Can Trust.</h4>
@@ -604,7 +604,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       {/* Header */}
-      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-12 py-6 flex items-center justify-between">
+      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-6 md:px-12 py-6 flex items-center justify-between">
         <button 
           onClick={onBack}
           className="flex items-center gap-2 text-google-blue font-bold hover:opacity-70 transition-opacity"
@@ -622,7 +622,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
       </header>
 
       {/* Hero Section */}
-      <section className="px-12 py-5 bg-google-blue text-white relative">
+      <section className="px-6 md:px-12 py-5 bg-google-blue text-white relative">
         <div className="relative z-10 max-w-4xl">
           <motion.h2 
             initial={{ y: 20, opacity: 0 }}
@@ -642,7 +642,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
       </section>
 
       {/* Digital Asset Scope Section */}
-      <section className="px-12 py-24 max-w-7xl mx-auto w-full">
+      <section className="px-6 md:px-12 py-24 max-w-7xl mx-auto w-full">
         <div className="mb-16">
           <h3 className="text-4xl font-black text-gray-900 tracking-tighter mb-4">1. Digital Asset Scope</h3>
           <p className="text-lg text-gray-500 font-medium">My technical expertise spans the entire digital asset ecosystem.</p>
@@ -694,7 +694,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
       </section>
 
       {/* Specialized Service Tiers Section */}
-      <section className="px-12 py-24 bg-gray-50 border-y border-gray-100">
+      <section className="px-6 md:px-12 py-24 bg-gray-50 border-y border-gray-100">
         <div className="max-w-7xl mx-auto w-full">
           <div className="mb-16">
             <h3 className="text-4xl font-black text-gray-900 tracking-tighter mb-4">2. Specialized Service Tiers</h3>
@@ -751,7 +751,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
         </div>
       </section>
 
-      <footer className="bg-white px-12 py-20">
+      <footer className="bg-white px-6 md:px-12 py-20">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 bg-google-blue p-16 rounded-[48px] text-white shadow-2xl relative">
           <div className="relative z-10">
             <h4 className="text-4xl font-black tracking-tight mb-2">Ready to Proceed?</h4>
@@ -774,7 +774,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       {/* Header */}
-      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-12 py-6 flex items-center justify-between">
+      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-6 md:px-12 py-6 flex items-center justify-between">
         <button 
           onClick={onBack}
           className="flex items-center gap-2 text-google-blue font-bold hover:opacity-70 transition-opacity"
@@ -792,7 +792,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
       </header>
 
       {/* Hero Section */}
-      <section className="px-12 py-5 bg-google-blue text-white relative">
+      <section className="px-6 md:px-12 py-5 bg-google-blue text-white relative">
         <div className="relative z-10 max-w-4xl">
           <motion.h2 
             initial={{ y: 20, opacity: 0 }}
@@ -812,7 +812,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
       </section>
 
       {/* Content Grid */}
-      <section className="px-12 py-24 grid grid-cols-1 md:grid-cols-3 gap-12 max-w-7xl mx-auto">
+      <section className="px-6 md:px-12 py-24 grid grid-cols-1 md:grid-cols-3 gap-12 max-w-7xl mx-auto">
         
         {/* USPAP */}
         <motion.div 
@@ -891,7 +891,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
       </section>
 
       {/* CTA Footer */}
-      <footer className="mt-auto bg-gray-50 px-12 py-16 border-t border-gray-100">
+      <footer className="mt-auto bg-gray-50 px-6 md:px-12 py-16 border-t border-gray-100">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <h4 className="text-3xl font-black text-gray-900 tracking-tight">Protect Your Assets.</h4>
@@ -1185,7 +1185,7 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
   return (
     <main className="min-h-screen bg-white">
       <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-12 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
           <button 
             onClick={onBack}
             className="flex items-center gap-2 text-gray-400 hover:text-google-blue transition-colors font-bold uppercase tracking-widest text-xs"
@@ -1200,14 +1200,14 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
         </div>
       </nav>
 
-      <section className="px-12 pt-32 pb-20 bg-google-blue">
+      <section className="px-6 md:px-12 pt-32 pb-20 bg-google-blue">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-black text-white tracking-tight mb-6">Privacy Policy</h1>
           <p className="text-white/70 text-lg font-medium">How we protect your data and respect your privacy.</p>
         </div>
       </section>
 
-      <section className="px-12 py-20">
+      <section className="px-6 md:px-12 py-20">
         <div className="max-w-4xl mx-auto prose prose-lg">
           <div className="space-y-12">
             <div>
@@ -1241,7 +1241,7 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
         </div>
       </section>
 
-      <footer className="px-12 py-10 border-t border-gray-100 bg-gray-50">
+      <footer className="px-6 md:px-12 py-10 border-t border-gray-100 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-400 text-sm font-medium">
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.
@@ -1256,7 +1256,7 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
   return (
     <main className="min-h-screen bg-white">
       <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-12 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
           <button 
             onClick={onBack}
             className="flex items-center gap-2 text-gray-400 hover:text-google-blue transition-colors font-bold uppercase tracking-widest text-xs"
@@ -1271,14 +1271,14 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
         </div>
       </nav>
 
-      <section className="px-12 pt-32 pb-20 bg-google-blue">
+      <section className="px-6 md:px-12 pt-32 pb-20 bg-google-blue">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-black text-white tracking-tight mb-6">Terms of Service</h1>
           <p className="text-white/70 text-lg font-medium">The rules and guidelines for using our valuation services.</p>
         </div>
       </section>
 
-      <section className="px-12 py-20">
+      <section className="px-6 md:px-12 py-20">
         <div className="max-w-4xl mx-auto prose prose-lg">
           <div className="space-y-12">
             <div>
@@ -1312,7 +1312,7 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
         </div>
       </section>
 
-      <footer className="px-12 py-10 border-t border-gray-100 bg-gray-50">
+      <footer className="px-6 md:px-12 py-10 border-t border-gray-100 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-400 text-sm font-medium">
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.
