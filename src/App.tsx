@@ -5,10 +5,33 @@
 
 import { motion, AnimatePresence } from "motion/react";
 import { Info, Share2, Shield, LayoutGrid, Play, Pause, Coins, FileText, TrendingUp, ArrowLeft, CheckCircle2, Scale, BarChart3, Lock, UserCheck, GraduationCap, Briefcase, History, Check, Calendar, Mail, Phone, User, ArrowRight, ChevronRight, ChevronLeft, Layers, Zap, Image, Gavel, Heart } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function App() {
-  const [view, setView] = useState<"home" | "compliance" | "about" | "quote" | "scope" | "legal" | "privacy" | "terms">("home");
+  const [viewState, setViewState] = useState<"home" | "compliance" | "about" | "quote" | "scope" | "legal" | "privacy" | "terms">("home");
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace('#', '');
+      const validViews = ["home", "compliance", "about", "quote", "scope", "legal", "privacy", "terms"];
+      if (validViews.includes(hash)) {
+        setViewState(hash as any);
+      } else {
+        setViewState("home");
+      }
+    };
+
+    window.addEventListener("hashchange", handleHashChange);
+    if (window.location.hash) {
+      handleHashChange();
+    }
+    
+    return () => window.removeEventListener("hashchange", handleHashChange);
+  }, []);
+
+  const setView = (v: string) => { window.location.hash = v; };
+  const view = viewState;
+
   if (typeof window !== "undefined") {
     (window as any).setView = setView;
   }
@@ -298,7 +321,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
   ];
 
   return (
-    <main className="min-h-screen bg-white">
+    <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       <header className="px-6 md:px-12 py-8 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-50">
         <button 
           onClick={onBack}
@@ -959,9 +982,18 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                 onChange={e => setFormData({...formData, contact: e.target.value})}
               />
             </div>
-            <p className="text-[10px] text-gray-500 font-bold leading-tight mt-2">
-              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'. Message frequency varies. Message & data rates may apply.
-            </p>
+            <div className="flex gap-3 items-start mt-4">
+              <input 
+                type="checkbox" 
+                id="sms-consent"
+                checked={smsConsent}
+                onChange={(e) => setSmsConsent(e.target.checked)}
+                className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer shrink-0"
+              />
+              <label htmlFor="sms-consent" className="text-[10px] text-gray-500 font-bold leading-tight cursor-pointer text-left">
+                By checking this box, I consent to receive automated promotional and personalized marketing text messages (e.g., valuation updates, lead follow-ups) from Qualified Digital Asset Valuations at the number provided. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Message frequency varies. Message & data rates may apply. View our <a href="https://qdav.mba/privacy" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="https://qdav.mba/terms" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
+              </label>
+            </div>
           </div>
         </div>
       )
@@ -1083,7 +1115,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
 
   const currentStep = steps[step - 1];
   const isLastStep = step === steps.length;
-  const canContinue = step === 1 ? (formData.name && formData.contact) : 
+  const canContinue = step === 1 ? (formData.name && formData.contact && smsConsent) : 
                       step === 2 ? formData.purpose :
                       step === 3 ? formData.assetType : true;
 
@@ -1145,26 +1177,12 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
 
             {/* Footer */}
             <div className="mt-12 flex flex-col gap-6">
-              {isLastStep && (
-                <div className="flex gap-3 items-start">
-                  <input 
-                    type="checkbox" 
-                    id="sms-consent"
-                    checked={smsConsent}
-                    onChange={(e) => setSmsConsent(e.target.checked)}
-                    className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer"
-                  />
-                  <label htmlFor="sms-consent" className="text-[11px] text-gray-600 font-semibold leading-relaxed cursor-pointer">
-                    By checking this box, I consent to receive automated promotional and personalized marketing text messages (e.g., valuation updates, lead follow-ups) from Qualified Digital Asset Valuations at the number provided. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Message frequency varies. Message & data rates may apply. View our <a href="https://qdav.mba/privacy" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="https://qdav.mba/terms" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
-                  </label>
-                </div>
-              )}
               <div className="flex gap-4">
                 <button 
                   onClick={isLastStep ? onBack : nextStep}
-                  disabled={!canContinue || (isLastStep && !smsConsent)}
+                  disabled={!canContinue}
                   className={`flex-1 py-5 rounded-3xl font-black text-lg shadow-xl transition-all flex items-center justify-center gap-2 ${
-                    (canContinue && (!isLastStep || smsConsent))
+                    canContinue
                     ? "bg-accent-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
                     : "bg-gray-100 text-gray-300 cursor-not-allowed"
                   }`}
@@ -1178,13 +1196,13 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
         </motion.div>
 
         <div className="text-center mt-8 space-y-1">
-          <p className="text-white text-sm font-black">
+          <p className="text-black text-sm font-black opacity-80">
             Your data is encrypted and protected by my Security Promise.
           </p>
-          <p className="text-white text-[10px] font-black uppercase tracking-widest">
+          <p className="text-black text-[10px] font-black uppercase tracking-widest opacity-60">
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC
           </p>
-          <p className="text-white text-[10px] font-black uppercase tracking-widest">
+          <p className="text-black text-[10px] font-black uppercase tracking-widest opacity-60">
             2711 Williamsburg Cir, Auburn Hills, Michigan 48326
           </p>
         </div>
@@ -1195,7 +1213,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
 
 function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
           <button 
@@ -1269,7 +1287,7 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
 
 function TermsOfServicePage({ onBack }: { onBack: () => void }) {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
           <button 
