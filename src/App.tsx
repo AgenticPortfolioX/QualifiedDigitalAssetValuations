@@ -82,25 +82,25 @@ export default function App() {
         </button>
       </nav>
 
-      <footer className="absolute bottom-6 md:bottom-8 left-6 md:left-12 z-20 flex flex-col items-start gap-4">
+      <footer className="absolute bottom-6 md:bottom-8 left-6 md:left-12 z-20 flex flex-col items-start gap-3">
         <div className="flex flex-col md:flex-row items-center gap-3">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg shrink-0">
               <TrendingUp className="text-accent-blue w-5 h-5" />
             </div>
-            <span className="text-white font-bold tracking-tight text-sm md:text-base">
+            <span className="text-white font-black tracking-tight text-sm md:text-base">
               Qualified Digital Asset Valuations
             </span>
           </div>
-          <div className="hidden md:block w-1.5 h-1.5 rounded-full bg-white/40" />
+          <div className="hidden md:block w-1.5 h-1.5 rounded-full bg-white" />
           <button 
             onClick={() => setView("privacy")}
-            className="text-white/80 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest underline decoration-white/20 underline-offset-4"
+            className="text-white hover:text-accent-yellow transition-colors text-xs font-black uppercase tracking-widest underline decoration-white decoration-2 underline-offset-4"
           >
             Privacy Policy
           </button>
         </div>
-        <div className="text-white/60 text-[10px] font-bold uppercase tracking-widest leading-tight">
+        <div className="text-white text-[10px] font-black uppercase tracking-widest leading-tight">
           2711 Williamsburg Cir <br />
           Auburn Hills, Michigan 48326
         </div>
@@ -248,13 +248,13 @@ export default function App() {
       />
 
       {/* Global Compliance Footer */}
-      <div className="absolute bottom-2 left-0 right-0 z-30 flex flex-col items-center gap-1 pointer-events-none">
-        <p className="text-[9px] text-white/30 font-medium uppercase tracking-[0.2em]">
+      <div className="absolute bottom-2 left-0 right-0 z-30 flex flex-col items-center gap-2 pointer-events-none">
+        <p className="text-[9px] text-white font-bold uppercase tracking-[0.2em] drop-shadow-sm">
           Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC
         </p>
         <div className="flex gap-4 pointer-events-auto">
-          <button onClick={() => setView("privacy")} className="text-[9px] text-white/30 hover:text-white transition-colors uppercase tracking-[0.1em]">Privacy Policy</button>
-          <button onClick={() => setView("terms")} className="text-[9px] text-white/30 hover:text-white transition-colors uppercase tracking-[0.1em]">Terms of Service</button>
+          <button onClick={() => setView("privacy")} className="text-[9px] text-white hover:text-accent-yellow transition-colors uppercase tracking-[0.1em] font-black underline decoration-white/40">Privacy Policy</button>
+          <button onClick={() => setView("terms")} className="text-[9px] text-white hover:text-accent-yellow transition-colors uppercase tracking-[0.1em] font-black underline decoration-white/40">Terms of Service</button>
         </div>
       </div>
     </main>
@@ -389,7 +389,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
         <p className="text-black text-sm font-black">
           &copy; {new Date().getFullYear()} Specialized Valuation Expertise. All rights reserved.
         </p>
-        <p className="text-black text-[10px] font-bold uppercase tracking-widest opacity-60">
+        <p className="text-black text-[10px] font-black uppercase tracking-widest">
           2711 Williamsburg Cir, Auburn Hills, Michigan 48326
         </p>
       </footer>
@@ -587,7 +587,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
             <h4 className="text-3xl font-black text-gray-900 tracking-tight">Expertise You Can Trust.</h4>
             <p className="text-gray-500 font-medium">Qualified appraisals for a complex digital world.</p>
             <p className="text-black text-sm font-black">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
-            <p className="text-black text-[10px] font-bold uppercase tracking-widest opacity-40 mt-1">2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
+            <p className="text-black text-[10px] font-black uppercase tracking-widest mt-1">2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
           </div>
           <button 
             onClick={onStart}
@@ -899,7 +899,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
             <h4 className="text-3xl font-black text-gray-900 tracking-tight">Protect Your Assets.</h4>
             <p className="text-gray-500 font-medium">Get a qualified appraisal that stands up to the IRS.</p>
             <p className="text-black text-sm font-black mt-2">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
-            <p className="text-black text-[10px] font-bold uppercase tracking-widest opacity-40 mt-1">2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
+            <p className="text-black text-[10px] font-black uppercase tracking-widest mt-1">2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
           </div>
           <button 
             onClick={onStart}
@@ -1178,13 +1178,13 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
         </motion.div>
 
         <div className="text-center mt-8 space-y-1">
-          <p className="text-white/60 text-sm font-medium">
+          <p className="text-white text-sm font-black">
             Your data is encrypted and protected by my Security Promise.
           </p>
-          <p className="text-white/40 text-[10px] font-medium uppercase tracking-widest">
+          <p className="text-white text-[10px] font-black uppercase tracking-widest">
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC
           </p>
-          <p className="text-white/20 text-[10px] font-medium uppercase tracking-widest">
+          <p className="text-white text-[10px] font-black uppercase tracking-widest">
             2711 Williamsburg Cir, Auburn Hills, Michigan 48326
           </p>
         </div>
