@@ -56,13 +56,13 @@ export default function App() {
   }
 
   return (
-    <main className="relative h-screen w-screen bg-google-blue overflow-hidden flex items-center justify-center">
+    <main className="relative h-screen w-screen bg-accent-blue overflow-hidden flex items-center justify-center">
       {/* Background Arc */}
       <motion.div 
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="absolute left-[-20%] md:left-[-10%] top-[-10%] w-[140%] md:w-[70%] h-[120%] bg-google-yellow rounded-full z-0"
+        className="absolute left-[-20%] md:left-[-10%] top-[-10%] w-[140%] md:w-[70%] h-[120%] bg-accent-yellow rounded-full z-0"
       />
 
       <nav className="absolute top-6 md:top-8 left-6 md:left-12 z-20">
@@ -85,7 +85,7 @@ export default function App() {
       {/* Bottom Navigation */}
       <footer className="absolute bottom-6 md:bottom-8 left-6 md:left-12 z-20 flex items-center gap-3">
         <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg shrink-0">
-          <TrendingUp className="text-google-blue w-5 h-5" />
+          <TrendingUp className="text-accent-blue w-5 h-5" />
         </div>
         <span className="text-white font-semibold tracking-tight text-sm md:text-base opacity-90 hidden sm:inline-block">
           Qualified Digital Asset Valuations
@@ -133,15 +133,15 @@ export default function App() {
             className="absolute left-0 w-64 h-96 bg-white rounded-3xl shadow-2xl p-6 flex flex-col gap-4 border border-gray-100 z-10 -rotate-6 transform translate-x-[-20%]"
           >
             <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full bg-google-red" />
-              <div className="w-3 h-3 rounded-full bg-google-yellow" />
-              <div className="w-3 h-3 rounded-full bg-google-green" />
+              <div className="w-3 h-3 rounded-full bg-accent-red" />
+              <div className="w-3 h-3 rounded-full bg-accent-yellow" />
+              <div className="w-3 h-3 rounded-full bg-accent-green" />
             </div>
             <div className="flex-1 flex flex-col justify-center items-center text-center gap-4">
-              <Coins className="w-20 h-20 text-google-blue" />
+              <Coins className="w-20 h-20 text-accent-blue" />
               <h2 className="text-2xl font-bold text-gray-800 leading-tight">
                 Digital Assets <br />
-                <span className="text-google-blue">Appraisal</span>
+                <span className="text-accent-blue">Appraisal</span>
               </h2>
               <p className="text-sm text-gray-500 font-medium">
                 Bitcoin, Self-Directed IRA's & Digital Assets
@@ -152,7 +152,7 @@ export default function App() {
                 <motion.div 
                   animate={{ width: ["0%", "80%", "80%"] }}
                   transition={{ duration: 2, repeat: Infinity }}
-                  className="h-full bg-google-blue"
+                  className="h-full bg-accent-blue"
                 />
               </div>
             </div>
@@ -169,10 +169,10 @@ export default function App() {
             className="absolute right-0 w-64 h-96 bg-white rounded-3xl shadow-2xl p-6 flex flex-col gap-4 border border-gray-100 z-20 rotate-6 transform translate-x-[20%] text-left hover:scale-105 transition-transform cursor-pointer group"
           >
             <div className="flex items-center justify-between">
-              <div className="px-3 py-1 bg-google-yellow/20 rounded-full">
-                <span className="text-[10px] font-bold text-google-yellow uppercase tracking-wider">IRS Form 8283</span>
+              <div className="px-3 py-1 bg-accent-yellow/20 rounded-full">
+                <span className="text-[10px] font-bold text-accent-yellow uppercase tracking-wider">IRS Form 8283</span>
               </div>
-              <FileText className="w-5 h-5 text-gray-400 group-hover:text-google-blue transition-colors" />
+              <FileText className="w-5 h-5 text-gray-400 group-hover:text-accent-blue transition-colors" />
             </div>
             <div className="flex-1 flex flex-col justify-center gap-4">
               <h3 className="text-3xl font-black text-gray-900 leading-[0.9]">
@@ -180,7 +180,7 @@ export default function App() {
                 Compliant <br />
                 Reports
               </h3>
-              <p className="text-[10px] text-google-blue font-bold uppercase tracking-widest animate-pulse">
+              <p className="text-[10px] text-accent-blue font-bold uppercase tracking-widest animate-pulse">
                 Click to Enter Hub →
               </p>
               <div className="space-y-2">
@@ -190,11 +190,11 @@ export default function App() {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-2">
-              <div className="h-16 bg-google-green/10 rounded-xl flex items-center justify-center">
-                <Shield className="text-google-green w-6 h-6" />
+              <div className="h-16 bg-accent-green/10 rounded-xl flex items-center justify-center">
+                <Shield className="text-accent-green w-6 h-6" />
               </div>
-              <div className="h-16 bg-google-blue/10 rounded-xl flex items-center justify-center">
-                <TrendingUp className="text-google-blue w-6 h-6" />
+              <div className="h-16 bg-accent-blue/10 rounded-xl flex items-center justify-center">
+                <TrendingUp className="text-accent-blue w-6 h-6" />
               </div>
             </div>
           </motion.button>
@@ -225,12 +225,12 @@ export default function App() {
       <motion.div 
         animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }}
         transition={{ duration: 4, repeat: Infinity }}
-        className="absolute top-1/4 left-1/4 w-12 h-12 bg-google-red rounded-lg rotate-12 opacity-20"
+        className="absolute top-1/4 left-1/4 w-12 h-12 bg-accent-red rounded-lg rotate-12 opacity-20"
       />
       <motion.div 
         animate={{ y: [0, 20, 0], rotate: [0, -10, 0] }}
         transition={{ duration: 5, repeat: Infinity }}
-        className="absolute bottom-1/4 right-1/4 w-16 h-16 bg-google-green rounded-full opacity-20"
+        className="absolute bottom-1/4 right-1/4 w-16 h-16 bg-accent-green rounded-full opacity-20"
       />
 
       {/* Global Compliance Footer */}
@@ -251,27 +251,27 @@ function LegalPage({ onBack }: { onBack: () => void }) {
   const disclaimers = [
     {
       title: "No Investment Advice",
-      icon: <TrendingUp className="w-6 h-6 text-google-red" />,
+      icon: <TrendingUp className="w-6 h-6 text-accent-red" />,
       content: "Valuations provided are for informational, tax, or estate planning purposes only. They do not constitute a recommendation to buy, sell, or hold any digital asset. Digital assets are highly speculative and volatile."
     },
     {
       title: "Tax & Legal Disclaimer",
-      icon: <Scale className="w-6 h-6 text-google-blue" />,
+      icon: <Scale className="w-6 h-6 text-accent-blue" />,
       content: "I am a Qualified Appraiser as defined by the IRS, but I am not a Certified Public Accountant (CPA) or a Tax Attorney. The information provided should not be construed as tax or legal advice. Always consult with a qualified tax professional regarding your specific situation."
     },
     {
       title: "Market Volatility & Data",
-      icon: <Zap className="w-6 h-6 text-google-yellow" />,
+      icon: <Zap className="w-6 h-6 text-accent-yellow" />,
       content: "Valuations are snapshots in time based on the specific date and time requested. Market conditions for digital assets can change rapidly. Valuations rely on data provided by the client and third-party market aggregators; accuracy is dependent on the integrity of these sources."
     },
     {
       title: "IRS Acceptance",
-      icon: <Shield className="w-6 h-6 text-google-green" />,
+      icon: <Shield className="w-6 h-6 text-accent-green" />,
       content: "While my reports are prepared in accordance with USPAP (Uniform Standards of Professional Appraisal Practice) and IRS guidelines for qualified appraisals, the Internal Revenue Service has final authority on the acceptance of any valuation for tax purposes."
     },
     {
       title: "Bookkeeping & Accounting",
-      icon: <FileText className="w-6 h-6 text-google-blue" />,
+      icon: <FileText className="w-6 h-6 text-accent-blue" />,
       content: "My services are limited to providing independent valuations of digital assets. I do not provide ongoing bookkeeping, accounting, or financial management services. Clients are responsible for maintaining their own transaction records and cost basis tracking."
     }
   ];
@@ -288,19 +288,19 @@ function LegalPage({ onBack }: { onBack: () => void }) {
       <header className="px-6 md:px-12 py-8 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-50">
         <button 
           onClick={onBack}
-          className="flex items-center gap-2 text-gray-400 hover:text-google-blue transition-colors font-black uppercase tracking-widest text-xs"
+          className="flex items-center gap-2 text-gray-400 hover:text-accent-blue transition-colors font-black uppercase tracking-widest text-xs"
         >
           <ArrowLeft className="w-4 h-4" />
           Back to Home
         </button>
         <div className="flex items-center gap-2">
-          <Scale className="text-google-blue w-6 h-6" />
+          <Scale className="text-accent-blue w-6 h-6" />
           <span className="font-black text-xl tracking-tighter">Legal & Disclaimers</span>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="px-6 md:px-12 pt-6 pb-5 bg-google-blue text-white relative">
+      <section className="px-6 md:px-12 pt-6 pb-5 bg-accent-blue text-white relative">
         <div className="relative z-10 max-w-4xl">
           <motion.h2 
             initial={{ y: 20, opacity: 0 }}
@@ -344,7 +344,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
             <div>
-              <div className="text-google-yellow font-black uppercase tracking-[0.3em] text-[10px] mb-4">Regulatory Resources</div>
+              <div className="text-accent-yellow font-black uppercase tracking-[0.3em] text-[10px] mb-4">Regulatory Resources</div>
               <h2 className="text-5xl font-black tracking-tighter">Compliance Links</h2>
             </div>
           </div>
@@ -359,7 +359,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
                 className="p-8 rounded-3xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group"
               >
                 <div className="flex items-center justify-between mb-6">
-                  <FileText className="w-8 h-8 text-google-yellow" />
+                  <FileText className="w-8 h-8 text-accent-yellow" />
                   <ArrowRight className="w-5 h-5 text-white/20 group-hover:text-white group-hover:translate-x-1 transition-all" />
                 </div>
                 <h4 className="text-lg font-bold mb-2">{resource.name}</h4>
@@ -387,13 +387,13 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-6 md:px-12 py-6 flex items-center justify-between">
         <button 
           onClick={onBack}
-          className="flex items-center gap-2 text-google-blue font-bold hover:opacity-70 transition-opacity"
+          className="flex items-center gap-2 text-accent-blue font-bold hover:opacity-70 transition-opacity"
         >
           <ArrowLeft className="w-5 h-5" />
           Back to Home
         </button>
         <div className="flex items-center gap-3">
-          <Lock className="text-google-blue w-6 h-6" />
+          <Lock className="text-accent-blue w-6 h-6" />
           <h1 className="text-xl font-black text-gray-900 tracking-tight uppercase">
             The "Security & Privacy" Promise
           </h1>
@@ -402,8 +402,8 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       </header>
 
       {/* Hero Section */}
-      <section className="px-6 md:px-12 pt-6 pb-5 bg-google-blue text-white relative">
-        <div className="absolute right-[-5%] top-[-10%] w-[40%] h-[120%] bg-google-yellow rounded-full opacity-20 z-0" />
+      <section className="px-6 md:px-12 pt-6 pb-5 bg-accent-blue text-white relative">
+        <div className="absolute right-[-5%] top-[-10%] w-[40%] h-[120%] bg-accent-yellow rounded-full opacity-20 z-0" />
         <div className="relative z-10 max-w-6xl">
           <motion.h2 
             initial={{ y: 20, opacity: 0 }}
@@ -424,8 +424,8 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       {/* Security & Privacy Section */}
       <section className="px-6 md:px-12 py-24 grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl mx-auto">
         <div className="flex flex-col gap-8">
-          <div className="w-16 h-16 bg-google-blue/10 rounded-2xl flex items-center justify-center">
-            <Shield className="text-google-blue w-8 h-8" />
+          <div className="w-16 h-16 bg-accent-blue/10 rounded-2xl flex items-center justify-center">
+            <Shield className="text-accent-blue w-8 h-8" />
           </div>
           <h3 className="text-4xl font-black text-gray-900 tracking-tighter">Data Handling Policy</h3>
           <div className="space-y-6">
@@ -445,8 +445,8 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
         </div>
 
         <div className="flex flex-col gap-8">
-          <div className="w-16 h-16 bg-google-green/10 rounded-2xl flex items-center justify-center">
-            <UserCheck className="text-google-green w-8 h-8" />
+          <div className="w-16 h-16 bg-accent-green/10 rounded-2xl flex items-center justify-center">
+            <UserCheck className="text-accent-green w-8 h-8" />
           </div>
           <h3 className="text-4xl font-black text-gray-900 tracking-tighter">Confidentiality</h3>
           <div className="space-y-6">
@@ -462,7 +462,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
                 "Encrypted data storage and secure deletion protocols"
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-gray-700 font-medium">
-                  <Check className="text-google-green w-5 h-5" />
+                  <Check className="text-accent-green w-5 h-5" />
                   {item}
                 </li>
               ))}
@@ -476,7 +476,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row gap-16 items-start">
             <div className="flex-1 space-y-8">
-              <div className="inline-block px-4 py-2 bg-google-yellow text-gray-900 font-black text-sm uppercase tracking-widest rounded-lg">
+              <div className="inline-block px-4 py-2 bg-accent-yellow text-gray-900 font-black text-sm uppercase tracking-widest rounded-lg">
                 Professional Pedigree
               </div>
               <h3 className="text-5xl font-black tracking-tighter leading-none">
@@ -490,28 +490,28 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-8">
                 <div className="flex gap-4">
-                  <GraduationCap className="text-google-yellow w-8 h-8 shrink-0" />
+                  <GraduationCap className="text-accent-yellow w-8 h-8 shrink-0" />
                   <div>
                     <h4 className="font-bold text-white">MBA</h4>
                     <p className="text-gray-400 text-sm">University of Michigan</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <Shield className="text-google-yellow w-8 h-8 shrink-0" />
+                  <Shield className="text-accent-yellow w-8 h-8 shrink-0" />
                   <div>
                     <h4 className="font-bold text-white">USPAP Qualified</h4>
                     <p className="text-gray-400 text-sm">IRS Standard Compliant</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <CheckCircle2 className="text-google-yellow w-8 h-8 shrink-0" />
+                  <CheckCircle2 className="text-accent-yellow w-8 h-8 shrink-0" />
                   <div>
                     <h4 className="font-bold text-white">CAMS Certified</h4>
                     <p className="text-gray-400 text-sm">Anti-Money Laundering Specialist</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <History className="text-google-yellow w-8 h-8 shrink-0" />
+                  <History className="text-accent-yellow w-8 h-8 shrink-0" />
                   <div>
                     <h4 className="font-bold text-white">13+ Years</h4>
                     <p className="text-gray-400 text-sm">Digital Asset Experience</p>
@@ -521,7 +521,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
             </div>
 
             <div className="flex-1 bg-white/5 border border-white/10 p-12 rounded-3xl backdrop-blur-sm">
-              <div className="w-12 h-12 bg-google-blue rounded-xl flex items-center justify-center mb-8">
+              <div className="w-12 h-12 bg-accent-blue rounded-xl flex items-center justify-center mb-8">
                 <Briefcase className="text-white w-6 h-6" />
               </div>
               <h4 className="text-2xl font-black mb-6">Bridging the Gap</h4>
@@ -544,19 +544,19 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
       {/* Contact & Support Section */}
       <section className="px-6 md:px-12 py-24 bg-white">
         <div className="max-w-3xl mx-auto text-center space-y-8">
-          <div className="w-20 h-20 bg-google-blue/10 rounded-full flex items-center justify-center mx-auto">
-            <Phone className="text-google-blue w-10 h-10" />
+          <div className="w-20 h-20 bg-accent-blue/10 rounded-full flex items-center justify-center mx-auto">
+            <Phone className="text-accent-blue w-10 h-10" />
           </div>
           <h3 className="text-4xl font-black text-gray-900 tracking-tighter">Contact & Support</h3>
           <div className="space-y-4">
-            <p className="text-2xl font-black text-google-blue">(248) 955-1491</p>
+            <p className="text-2xl font-black text-accent-blue">(248) 955-1491</p>
             <p className="text-gray-500 font-medium max-w-lg mx-auto">
               By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'. Message frequency varies.
             </p>
           </div>
           <button 
             onClick={onStart}
-            className="px-6 md:px-12 py-6 bg-google-blue text-white font-black rounded-3xl shadow-xl hover:scale-105 active:scale-95 transition-all"
+            className="px-6 md:px-12 py-6 bg-accent-blue text-white font-black rounded-3xl shadow-xl hover:scale-105 active:scale-95 transition-all"
           >
             Start Appraisal
           </button>
@@ -573,7 +573,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
           </div>
           <button 
             onClick={onStart}
-            className="bg-google-blue text-white px-8 py-4 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl"
+            className="bg-accent-blue text-white px-8 py-4 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl"
           >
             Start Your Valuation
           </button>
@@ -590,13 +590,13 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
       <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-6 md:px-12 py-6 flex items-center justify-between">
         <button 
           onClick={onBack}
-          className="flex items-center gap-2 text-google-blue font-bold hover:opacity-70 transition-opacity"
+          className="flex items-center gap-2 text-accent-blue font-bold hover:opacity-70 transition-opacity"
         >
           <ArrowLeft className="w-5 h-5" />
           Back to Home
         </button>
         <div className="flex items-center gap-3">
-          <LayoutGrid className="text-google-blue w-6 h-6" />
+          <LayoutGrid className="text-accent-blue w-6 h-6" />
           <h1 className="text-xl font-black text-gray-900 tracking-tight uppercase">
             Professional Scope & Services
           </h1>
@@ -605,7 +605,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
       </header>
 
       {/* Hero Section */}
-      <section className="px-6 md:px-12 py-5 bg-google-blue text-white relative">
+      <section className="px-6 md:px-12 py-5 bg-accent-blue text-white relative">
         <div className="relative z-10 max-w-4xl">
           <motion.h2 
             initial={{ y: 20, opacity: 0 }}
@@ -621,7 +621,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
             the specialized expertise required to value the most sophisticated digital assets.
           </p>
         </div>
-        <div className="absolute right-[-5%] top-[-10%] w-[40%] h-[120%] bg-google-yellow rounded-full opacity-20" />
+        <div className="absolute right-[-5%] top-[-10%] w-[40%] h-[120%] bg-accent-yellow rounded-full opacity-20" />
       </section>
 
       {/* Digital Asset Scope Section */}
@@ -636,26 +636,26 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
             {
               title: "Layer 1 & 2 Protocols",
               desc: "Institutional-grade valuations for primary networks including Bitcoin, Ethereum, Solana, and their scaling solutions.",
-              icon: <Layers className="text-google-blue w-6 h-6" />,
-              bg: "bg-google-blue/5"
+              icon: <Layers className="text-accent-blue w-6 h-6" />,
+              bg: "bg-accent-blue/5"
             },
             {
               title: "DeFi Positions",
               desc: "Complex analysis of Liquidity Provider (LP) tokens, staked assets, and yield-bearing instruments across major DEXs.",
-              icon: <Zap className="text-google-yellow w-6 h-6" />,
-              bg: "bg-google-yellow/5"
+              icon: <Zap className="text-accent-yellow w-6 h-6" />,
+              bg: "bg-accent-yellow/5"
             },
             {
               title: "NFTs & Collectibles",
               desc: "Sophisticated valuations based on floor price aggregation, rarity metrics, and verified historical sales data.",
-              icon: <Image className="text-google-red w-6 h-6" />,
-              bg: "bg-google-red/5"
+              icon: <Image className="text-accent-red w-6 h-6" />,
+              bg: "bg-accent-red/5"
             },
             {
               title: "Restricted Assets",
               desc: "Specialized handling of SAFTs, vesting tokens, and assets subject to contractual or regulatory lock-up periods.",
-              icon: <Lock className="text-google-green w-6 h-6" />,
-              bg: "bg-google-green/5"
+              icon: <Lock className="text-accent-green w-6 h-6" />,
+              bg: "bg-accent-green/5"
             }
           ].map((item, i) => (
             <motion.div 
@@ -689,25 +689,25 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
               {
                 title: "Self-Directed IRAs (SDIRA)",
                 desc: "Meeting the mandatory annual valuation requirements for alternative digital assets held within retirement accounts. I provide the necessary documentation for custodians and IRS reporting.",
-                icon: <History className="text-google-blue w-6 h-6" />,
+                icon: <History className="text-accent-blue w-6 h-6" />,
                 tag: "Annual Compliance"
               },
               {
                 title: "Estate & Date-of-Death Valuations",
                 desc: "Providing precise historical pricing for tax and inheritance purposes. I reconstruct market conditions for any specific historical timestamp to ensure accurate step-up in basis reporting.",
-                icon: <Calendar className="text-google-yellow w-6 h-6" />,
+                icon: <Calendar className="text-accent-yellow w-6 h-6" />,
                 tag: "Tax & Inheritance"
               },
               {
                 title: "Charitable Donations",
                 desc: "Delivering the required 'Qualified Appraisal' documentation for non-cash charitable contributions of digital assets exceeding $5,000 in value, as mandated by IRS Section 170.",
-                icon: <Heart className="text-google-red w-6 h-6" />,
+                icon: <Heart className="text-accent-red w-6 h-6" />,
                 tag: "IRS Section 170"
               },
               {
                 title: "Divorce & Litigation Support",
                 desc: "Forensic-level valuation and expert witness testimony for asset division. I provide defensible reports that withstand cross-examination in legal proceedings.",
-                icon: <Gavel className="text-google-green w-6 h-6" />,
+                icon: <Gavel className="text-accent-green w-6 h-6" />,
                 tag: "Legal Support"
               }
             ].map((item, i) => (
@@ -735,7 +735,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
       </section>
 
       <footer className="bg-white px-6 md:px-12 py-20">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 bg-google-blue p-16 rounded-[48px] text-white shadow-2xl relative">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 bg-accent-blue p-16 rounded-[48px] text-white shadow-2xl relative">
           <div className="relative z-10">
             <h4 className="text-4xl font-black tracking-tight mb-2">Ready to Proceed?</h4>
             <p className="text-white/70 font-medium text-lg">Select your service tier and start your qualified appraisal today.</p>
@@ -743,11 +743,11 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
           </div>
           <button 
             onClick={onStart}
-            className="relative z-10 bg-white text-google-blue px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl text-lg"
+            className="relative z-10 bg-white text-accent-blue px-10 py-5 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl text-lg"
           >
             Start Your Valuation
           </button>
-          <div className="absolute right-[-10%] bottom-[-20%] w-[40%] h-[150%] bg-google-yellow rounded-full opacity-20" />
+          <div className="absolute right-[-10%] bottom-[-20%] w-[40%] h-[150%] bg-accent-yellow rounded-full opacity-20" />
         </div>
       </footer>
     </main>
@@ -761,13 +761,13 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
       <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-200 px-6 md:px-12 py-6 flex items-center justify-between">
         <button 
           onClick={onBack}
-          className="flex items-center gap-2 text-google-blue font-bold hover:opacity-70 transition-opacity"
+          className="flex items-center gap-2 text-accent-blue font-bold hover:opacity-70 transition-opacity"
         >
           <ArrowLeft className="w-5 h-5" />
           Back to Home
         </button>
         <div className="flex items-center gap-3">
-          <Shield className="text-google-green w-6 h-6" />
+          <Shield className="text-accent-green w-6 h-6" />
           <h1 className="text-xl font-black text-gray-900 tracking-tight uppercase text-center">
             The "Qualified Appraiser" <br className="md:hidden" /> Compliance Hub
           </h1>
@@ -776,7 +776,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
       </header>
 
       {/* Hero Section */}
-      <section className="px-6 md:px-12 py-5 bg-google-blue text-white relative">
+      <section className="px-6 md:px-12 py-5 bg-accent-blue text-white relative">
         <div className="relative z-10 max-w-4xl">
           <motion.h2 
             initial={{ y: 20, opacity: 0 }}
@@ -792,7 +792,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
             ensuring your digital asset valuations stand up to the most rigorous IRS scrutiny.
           </p>
         </div>
-        <div className="absolute right-[-5%] top-[-10%] w-[40%] h-[120%] bg-google-yellow rounded-full opacity-20" />
+        <div className="absolute right-[-5%] top-[-10%] w-[40%] h-[120%] bg-accent-yellow rounded-full opacity-20" />
       </section>
 
       {/* Content Grid */}
@@ -805,8 +805,8 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
           viewport={{ once: true }}
           className="flex flex-col gap-6"
         >
-          <div className="w-16 h-16 bg-google-red/10 rounded-2xl flex items-center justify-center">
-            <Scale className="text-google-red w-8 h-8" />
+          <div className="w-16 h-16 bg-accent-red/10 rounded-2xl flex items-center justify-center">
+            <Scale className="text-accent-red w-8 h-8" />
           </div>
           <h3 className="text-2xl font-black text-gray-900 leading-tight">
             USPAP Compliance <br /> Statement
@@ -816,7 +816,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
             <span className="font-bold text-gray-900"> Uniform Standards of Professional Appraisal Practice (USPAP)</span>. 
             This ensures objectivity, impartiality, and the highest level of professional ethics in every valuation I produce.
           </p>
-          <div className="flex items-center gap-2 text-google-green font-bold text-sm">
+          <div className="flex items-center gap-2 text-accent-green font-bold text-sm">
             <CheckCircle2 className="w-4 h-4" />
             Certified Standards
           </div>
@@ -830,8 +830,8 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
           transition={{ delay: 0.1 }}
           className="flex flex-col gap-6"
         >
-          <div className="w-16 h-16 bg-google-yellow/10 rounded-2xl flex items-center justify-center">
-            <FileText className="text-google-yellow w-8 h-8" />
+          <div className="w-16 h-16 bg-accent-yellow/10 rounded-2xl flex items-center justify-center">
+            <FileText className="text-accent-yellow w-8 h-8" />
           </div>
           <h3 className="text-2xl font-black text-gray-900 leading-tight">
             IRS Section 170 <br /> Substantiation
@@ -841,7 +841,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
             under IRS guidelines for non-cash charitable contributions and IRA valuations. 
             I provide the necessary documentation to satisfy IRS Section 170 substantiation rules.
           </p>
-          <div className="flex items-center gap-2 text-google-green font-bold text-sm">
+          <div className="flex items-center gap-2 text-accent-green font-bold text-sm">
             <CheckCircle2 className="w-4 h-4" />
             Audit-Ready Documentation
           </div>
@@ -855,8 +855,8 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
           transition={{ delay: 0.2 }}
           className="flex flex-col gap-6"
         >
-          <div className="w-16 h-16 bg-google-blue/10 rounded-2xl flex items-center justify-center">
-            <BarChart3 className="text-google-blue w-8 h-8" />
+          <div className="w-16 h-16 bg-accent-blue/10 rounded-2xl flex items-center justify-center">
+            <BarChart3 className="text-accent-blue w-8 h-8" />
           </div>
           <h3 className="text-2xl font-black text-gray-900 leading-tight">
             Methodology <br /> Overview
@@ -866,7 +866,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
             liquidity analysis, and <span className="font-bold text-gray-900">"highest and best use"</span> principles. 
             My methodology accounts for market volatility and exchange-specific depth to ensure accuracy.
           </p>
-          <div className="flex items-center gap-2 text-google-green font-bold text-sm">
+          <div className="flex items-center gap-2 text-accent-green font-bold text-sm">
             <CheckCircle2 className="w-4 h-4" />
             Data-Driven Accuracy
           </div>
@@ -884,7 +884,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
           </div>
           <button 
             onClick={onStart}
-            className="bg-google-blue text-white px-8 py-4 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl"
+            className="bg-accent-blue text-white px-8 py-4 rounded-2xl font-bold hover:scale-105 transition-transform shadow-xl"
           >
             Start Your Valuation
           </button>
@@ -912,7 +912,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
     {
       title: "Contact Information",
       description: "How can I reach you?",
-      icon: <User className="w-8 h-8 text-google-blue" />,
+      icon: <User className="w-8 h-8 text-accent-blue" />,
       content: (
         <div className="space-y-6">
           <div className="space-y-2">
@@ -922,7 +922,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
               <input 
                 type="text" 
                 placeholder="John Doe"
-                className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 pl-12 pr-4 focus:outline-none focus:ring-2 focus:ring-google-blue/20 transition-all"
+                className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 pl-12 pr-4 focus:outline-none focus:ring-2 focus:ring-accent-blue/20 transition-all"
                 value={formData.name}
                 onChange={e => setFormData({...formData, name: e.target.value})}
               />
@@ -935,7 +935,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
               <input 
                 type="text" 
                 placeholder="john@example.com or (248) 955-1491"
-                className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 pl-12 pr-4 focus:outline-none focus:ring-2 focus:ring-google-blue/20 transition-all"
+                className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 pl-12 pr-4 focus:outline-none focus:ring-2 focus:ring-accent-blue/20 transition-all"
                 value={formData.contact}
                 onChange={e => setFormData({...formData, contact: e.target.value})}
               />
@@ -950,7 +950,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
     {
       title: "Purpose of Appraisal",
       description: "Why do you need this valuation?",
-      icon: <FileText className="w-8 h-8 text-google-yellow" />,
+      icon: <FileText className="w-8 h-8 text-accent-yellow" />,
       content: (
         <div className="grid grid-cols-2 gap-4">
           {["Tax", "IRA", "Legal", "Insurance"].map(purpose => (
@@ -959,12 +959,12 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
               onClick={() => setFormData({...formData, purpose})}
               className={`p-6 rounded-3xl border-2 transition-all text-left flex flex-col gap-2 ${
                 formData.purpose === purpose 
-                ? "border-google-blue bg-google-blue/5" 
+                ? "border-accent-blue bg-accent-blue/5" 
                 : "border-gray-50 bg-white hover:border-gray-200"
               }`}
             >
               <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${
-                formData.purpose === purpose ? "bg-google-blue text-white" : "bg-gray-50 text-gray-400"
+                formData.purpose === purpose ? "bg-accent-blue text-white" : "bg-gray-50 text-gray-400"
               }`}>
                 <FileText className="w-5 h-5" />
               </div>
@@ -977,7 +977,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
     {
       title: "Asset Type",
       description: "What am I valuing?",
-      icon: <Coins className="w-8 h-8 text-google-red" />,
+      icon: <Coins className="w-8 h-8 text-accent-red" />,
       content: (
         <div className="space-y-4">
           {[
@@ -990,12 +990,12 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
               onClick={() => setFormData({...formData, assetType: type.id})}
               className={`w-full p-6 rounded-3xl border-2 transition-all text-left flex items-center gap-4 ${
                 formData.assetType === type.id 
-                ? "border-google-blue bg-google-blue/5" 
+                ? "border-accent-blue bg-accent-blue/5" 
                 : "border-gray-50 bg-white hover:border-gray-200"
               }`}
             >
               <div className={`w-12 h-12 rounded-2xl flex items-center justify-center ${
-                formData.assetType === type.id ? "bg-google-blue text-white" : "bg-gray-50 text-gray-400"
+                formData.assetType === type.id ? "bg-accent-blue text-white" : "bg-gray-50 text-gray-400"
               }`}>
                 <Coins className="w-6 h-6" />
               </div>
@@ -1003,7 +1003,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                 <div className="font-bold text-gray-900">{type.label}</div>
                 <div className="text-xs text-gray-500">{type.desc}</div>
               </div>
-              {formData.assetType === type.id && <CheckCircle2 className="ml-auto text-google-blue w-6 h-6" />}
+              {formData.assetType === type.id && <CheckCircle2 className="ml-auto text-accent-blue w-6 h-6" />}
             </button>
           ))}
         </div>
@@ -1012,7 +1012,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
     {
       title: "Valuation Date",
       description: "When do you need the FMV for?",
-      icon: <Calendar className="w-8 h-8 text-google-green" />,
+      icon: <Calendar className="w-8 h-8 text-accent-green" />,
       content: (
         <div className="space-y-4">
           {[
@@ -1025,12 +1025,12 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
               onClick={() => setFormData({...formData, valuationDate: date.id})}
               className={`w-full p-6 rounded-3xl border-2 transition-all text-left flex items-center gap-4 ${
                 formData.valuationDate === date.id 
-                ? "border-google-blue bg-google-blue/5" 
+                ? "border-accent-blue bg-accent-blue/5" 
                 : "border-gray-50 bg-white hover:border-gray-200"
               }`}
             >
               <div className={`w-12 h-12 rounded-2xl flex items-center justify-center ${
-                formData.valuationDate === date.id ? "bg-google-blue text-white" : "bg-gray-50 text-gray-400"
+                formData.valuationDate === date.id ? "bg-accent-blue text-white" : "bg-gray-50 text-gray-400"
               }`}>
                 <Calendar className="w-6 h-6" />
               </div>
@@ -1038,7 +1038,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                 <div className="font-bold text-gray-900">{date.label}</div>
                 <div className="text-xs text-gray-500">{date.desc}</div>
               </div>
-              {formData.valuationDate === date.id && <CheckCircle2 className="ml-auto text-google-blue w-6 h-6" />}
+              {formData.valuationDate === date.id && <CheckCircle2 className="ml-auto text-accent-blue w-6 h-6" />}
             </button>
           ))}
           {(formData.valuationDate === "historical" || formData.valuationDate === "yearend") && (
@@ -1053,7 +1053,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
               <input 
                 type={formData.valuationDate === "yearend" ? "number" : "date"} 
                 placeholder={formData.valuationDate === "yearend" ? "e.g. 2023" : ""}
-                className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 px-6 focus:outline-none focus:ring-2 focus:ring-google-blue/20 transition-all"
+                className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 px-6 focus:outline-none focus:ring-2 focus:ring-accent-blue/20 transition-all"
               />
             </motion.div>
           )}
@@ -1071,8 +1071,8 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
   return (
     <main className="relative h-screen w-screen bg-gray-50 flex items-center justify-center overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute top-0 left-0 w-full h-1/2 bg-google-blue" />
-      <div className="absolute top-[40%] left-[-10%] w-[60%] h-[80%] bg-google-yellow rounded-full opacity-10 blur-3xl" />
+      <div className="absolute top-0 left-0 w-full h-1/2 bg-accent-blue" />
+      <div className="absolute top-[40%] left-[-10%] w-[60%] h-[80%] bg-accent-yellow rounded-full opacity-10 blur-3xl" />
       
       <div className="relative z-10 w-full max-w-2xl px-6">
         <motion.div 
@@ -1085,7 +1085,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
             {steps.map((_, i) => (
               <div 
                 key={i} 
-                className={`flex-1 transition-all duration-500 ${i < step ? "bg-google-blue" : "bg-transparent"}`}
+                className={`flex-1 transition-all duration-500 ${i < step ? "bg-accent-blue" : "bg-transparent"}`}
               />
             ))}
           </div>
@@ -1100,7 +1100,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                 <ChevronLeft className="w-6 h-6 text-gray-400" />
               </button>
               <div className="text-center">
-                <div className="text-[10px] font-black text-google-blue uppercase tracking-[0.2em] mb-1">Step {step} of {steps.length}</div>
+                <div className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] mb-1">Step {step} of {steps.length}</div>
                 <h2 className="text-2xl font-black text-gray-900 tracking-tight">{currentStep.title}</h2>
               </div>
               <div className="w-12" />
@@ -1133,10 +1133,10 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                     id="sms-consent"
                     checked={smsConsent}
                     onChange={(e) => setSmsConsent(e.target.checked)}
-                    className="mt-1 w-5 h-5 rounded border-gray-300 text-google-blue focus:ring-google-blue cursor-pointer"
+                    className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer"
                   />
                   <label htmlFor="sms-consent" className="text-[11px] text-gray-500 leading-relaxed cursor-pointer">
-                    By checking this box, I consent to receive automated promotional and personalized marketing text messages (e.g., valuation updates, lead follow-ups) from Qualified Digital Asset Valuations at the number provided. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Message frequency varies. Message & data rates may apply. View our <a href="https://qdav.mba/privacy" target="_blank" rel="noopener noreferrer" className="text-google-blue underline hover:opacity-80">Privacy Policy</a> and <a href="https://qdav.mba/terms" target="_blank" rel="noopener noreferrer" className="text-google-blue underline hover:opacity-80">Terms of Service</a>.
+                    By checking this box, I consent to receive automated promotional and personalized marketing text messages (e.g., valuation updates, lead follow-ups) from Qualified Digital Asset Valuations at the number provided. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Message frequency varies. Message & data rates may apply. View our <a href="https://qdav.mba/privacy" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="https://qdav.mba/terms" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
                   </label>
                 </div>
               )}
@@ -1146,7 +1146,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                   disabled={!canContinue || (isLastStep && !smsConsent)}
                   className={`flex-1 py-5 rounded-3xl font-black text-lg shadow-xl transition-all flex items-center justify-center gap-2 ${
                     (canContinue && (!isLastStep || smsConsent))
-                    ? "bg-google-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
+                    ? "bg-accent-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
                     : "bg-gray-100 text-gray-300 cursor-not-allowed"
                   }`}
                 >
@@ -1178,19 +1178,19 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
           <button 
             onClick={onBack}
-            className="flex items-center gap-2 text-gray-400 hover:text-google-blue transition-colors font-bold uppercase tracking-widest text-xs"
+            className="flex items-center gap-2 text-gray-400 hover:text-accent-blue transition-colors font-bold uppercase tracking-widest text-xs"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Home
           </button>
           <div className="flex items-center gap-3">
-            <Shield className="text-google-blue w-6 h-6" />
+            <Shield className="text-accent-blue w-6 h-6" />
             <span className="font-black text-gray-900 tracking-tight">Privacy Policy</span>
           </div>
         </div>
       </nav>
 
-      <section className="px-6 md:px-12 pt-32 pb-20 bg-google-blue">
+      <section className="px-6 md:px-12 pt-32 pb-20 bg-accent-blue">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-black text-white tracking-tight mb-6">Privacy Policy</h1>
           <p className="text-white/70 text-lg font-medium">How we protect your data and respect your privacy.</p>
@@ -1249,19 +1249,19 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
           <button 
             onClick={onBack}
-            className="flex items-center gap-2 text-gray-400 hover:text-google-blue transition-colors font-bold uppercase tracking-widest text-xs"
+            className="flex items-center gap-2 text-gray-400 hover:text-accent-blue transition-colors font-bold uppercase tracking-widest text-xs"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Home
           </button>
           <div className="flex items-center gap-3">
-            <FileText className="text-google-blue w-6 h-6" />
+            <FileText className="text-accent-blue w-6 h-6" />
             <span className="font-black text-gray-900 tracking-tight">Terms of Service</span>
           </div>
         </div>
       </nav>
 
-      <section className="px-6 md:px-12 pt-32 pb-20 bg-google-blue">
+      <section className="px-6 md:px-12 pt-32 pb-20 bg-accent-blue">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-black text-white tracking-tight mb-6">Terms of Service</h1>
           <p className="text-white/70 text-lg font-medium">The rules and guidelines for using our valuation services.</p>

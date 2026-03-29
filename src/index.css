@@ -2,10 +2,10 @@
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --color-google-blue: #1a73e8;
-  --color-google-yellow: #fbbc04;
-  --color-google-red: #ea4335;
-  --color-google-green: #34a853;
+  --color-accent-blue: #1a73e8;
+  --color-accent-yellow: #fbbc04;
+  --color-accent-red: #ea4335;
+  --color-accent-green: #34a853;
 }
 
 @layer base {
