@@ -108,7 +108,7 @@ export default function App() {
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="flex-1 text-center md:text-left mt-16 md:mt-0"
+          className="flex-1 text-center md:text-left mt-16 md:mt-0 relative top-12 md:top-0"
         >
           <h1 className="text-5xl md:text-6xl font-black text-white tracking-tighter leading-none">
             IRS <br />
@@ -206,7 +206,7 @@ export default function App() {
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="flex-1 text-center md:text-right group cursor-pointer mb-24 md:mb-0"
+          className="flex-1 text-center md:text-right group cursor-pointer mb-24 md:mb-0 relative bottom-12 md:bottom-0"
         >
           <h1 className="text-5xl md:text-6xl font-black text-gray-900 tracking-tighter leading-none group-hover:text-white transition-colors">
             Start <br />
