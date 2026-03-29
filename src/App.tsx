@@ -115,21 +115,6 @@ export default function App() {
               Qualified Digital Asset Valuations
             </span>
           </div>
-          <div className="hidden md:block w-1.5 h-1.5 rounded-full bg-white" />
-          <div className="flex gap-3">
-            <button 
-              onClick={() => setView("privacy")}
-              className="text-white hover:text-accent-yellow transition-colors text-xs font-black uppercase tracking-widest underline decoration-white decoration-2 underline-offset-4"
-            >
-              Privacy
-            </button>
-            <button 
-              onClick={() => setView("terms")}
-              className="text-white hover:text-accent-yellow transition-colors text-xs font-black uppercase tracking-widest underline decoration-white decoration-2 underline-offset-4"
-            >
-              Terms
-            </button>
-          </div>
         </div>
       </footer>
       <footer className="absolute bottom-6 md:bottom-8 right-6 md:right-12 z-20">
