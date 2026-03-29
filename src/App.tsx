@@ -116,16 +116,20 @@ export default function App() {
             </span>
           </div>
           <div className="hidden md:block w-1.5 h-1.5 rounded-full bg-white" />
-          <button 
-            onClick={() => setView("privacy")}
-            className="text-white hover:text-accent-yellow transition-colors text-xs font-black uppercase tracking-widest underline decoration-white decoration-2 underline-offset-4"
-          >
-            Privacy Policy
-          </button>
-        </div>
-        <div className="text-white text-[10px] font-black uppercase tracking-widest leading-tight">
-          2711 Williamsburg Cir <br />
-          Auburn Hills, Michigan 48326
+          <div className="flex gap-3">
+            <button 
+              onClick={() => setView("privacy")}
+              className="text-white hover:text-accent-yellow transition-colors text-xs font-black uppercase tracking-widest underline decoration-white decoration-2 underline-offset-4"
+            >
+              Privacy
+            </button>
+            <button 
+              onClick={() => setView("terms")}
+              className="text-white hover:text-accent-yellow transition-colors text-xs font-black uppercase tracking-widest underline decoration-white decoration-2 underline-offset-4"
+            >
+              Terms
+            </button>
+          </div>
         </div>
       </footer>
       <footer className="absolute bottom-6 md:bottom-8 right-6 md:right-12 z-20">
@@ -412,9 +416,14 @@ function LegalPage({ onBack }: { onBack: () => void }) {
         <p className="text-black text-sm font-black">
           &copy; {new Date().getFullYear()} Specialized Valuation Expertise. All rights reserved.
         </p>
+        <p className="text-black text-xs font-black">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
         <p className="text-black text-[10px] font-black uppercase tracking-widest">
           2711 Williamsburg Cir, Auburn Hills, Michigan 48326
         </p>
+        <div className="flex gap-4 justify-center mt-4">
+          <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
+          <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+        </div>
       </footer>
     </main>
   );
@@ -611,6 +620,10 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
             <p className="text-gray-500 font-medium">Qualified appraisals for a complex digital world.</p>
             <p className="text-black text-sm font-black">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
             <p className="text-black text-[10px] font-black uppercase tracking-widest mt-1">2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
+            <div className="flex gap-4 mt-4">
+              <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
+              <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+            </div>
           </div>
           <button 
             onClick={onStart}
@@ -780,7 +793,12 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
           <div className="relative z-10">
             <h4 className="text-4xl font-black tracking-tight mb-2">Ready to Proceed?</h4>
             <p className="text-white/70 font-medium text-lg">Select your service tier and start your qualified appraisal today.</p>
-            <p className="text-white/50 text-xs font-medium mt-4">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
+            <p className="text-white/70 text-sm font-bold mt-4">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
+            <p className="text-white/50 text-[10px] font-black uppercase tracking-widest mt-1">2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
+            <div className="flex gap-4 mt-6">
+              <button onClick={() => setView("privacy")} className="text-[10px] text-white/50 hover:text-white transition-colors uppercase font-black underline">Privacy Policy</button>
+              <button onClick={() => setView("terms")} className="text-[10px] text-white/50 hover:text-white transition-colors uppercase font-black underline">Terms of Service</button>
+            </div>
           </div>
           <button 
             onClick={onStart}
@@ -923,6 +941,10 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
             <p className="text-gray-500 font-medium">Get a qualified appraisal that stands up to the IRS.</p>
             <p className="text-black text-sm font-black mt-2">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
             <p className="text-black text-[10px] font-black uppercase tracking-widest mt-1">2711 Williamsburg Cir, Auburn Hills, Michigan 48326</p>
+            <div className="flex gap-4 mt-4">
+              <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
+              <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+            </div>
           </div>
           <button 
             onClick={onStart}
@@ -991,7 +1013,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                 className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer shrink-0"
               />
               <label htmlFor="sms-consent" className="text-[10px] text-gray-500 font-bold leading-tight cursor-pointer text-left">
-                By checking this box, I consent to receive automated promotional and personalized marketing text messages (e.g., valuation updates, lead follow-ups) from Qualified Digital Asset Valuations at the number provided. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Message frequency varies. Message & data rates may apply. View our <a href="https://qdav.mba/privacy" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="https://qdav.mba/terms" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
+                By providing your phone number, you agree to receive text messages from Qualified Digital Asset Valuations. Message and data rates may apply. Message frequency varies. Reply HELP for help or STOP to cancel. View our <a href="#privacy" onClick={(e) => { e.preventDefault(); setView("privacy"); }} className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="#terms" onClick={(e) => { e.preventDefault(); setView("terms"); }} className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
               </label>
             </div>
           </div>
@@ -1205,6 +1227,10 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
           <p className="text-black text-[10px] font-black uppercase tracking-widest opacity-60">
             2711 Williamsburg Cir, Auburn Hills, Michigan 48326
           </p>
+          <div className="flex gap-4 justify-center mt-4">
+            <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
+            <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+          </div>
         </div>
       </div>
     </main>
@@ -1243,7 +1269,10 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
             <div>
               <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Information Collection</h2>
               <p className="text-gray-600 leading-relaxed">
-                We collect information you provide directly to us when you request a valuation quote, contact us, or otherwise communicate with us. This may include your name, email address, phone number, and details about the digital assets you wish to have valued.
+                We collect information you provide directly to us when you request a valuation quote, contact us, or otherwise communicate with us. This may include your name, email address, phone number, and details about the digital assets you wish to have valued. 
+              </p>
+              <p className="text-gray-600 leading-relaxed mt-4">
+                We collect phone numbers specifically for the purpose of providing you with price estimates, project status updates, and leading follow-up communications regarding your requested valuation services.
               </p>
             </div>
 
@@ -1277,8 +1306,13 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.
           </p>
           <p className="text-black text-[10px] font-bold uppercase tracking-widest opacity-40">
-            2711 Williamsburg Cir, Auburn Hills, Michigan 48326
+            2711 Williamsburg Cir, Auburn Hills, Michigan 48326 <br />
+            Email: info@qdav.mba
           </p>
+          <div className="flex gap-4 justify-center mt-4">
+            <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
+            <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+          </div>
         </div>
       </footer>
     </main>
@@ -1353,6 +1387,10 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
           <p className="text-black text-[10px] font-bold uppercase tracking-widest opacity-40">
             2711 Williamsburg Cir, Auburn Hills, Michigan 48326
           </p>
+          <div className="flex gap-4 justify-center mt-4">
+            <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
+            <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+          </div>
         </div>
       </footer>
     </main>
