@@ -101,7 +101,7 @@ export default function App() {
       </footer>
 
       {/* Main Content Area */}
-      <div className="relative z-10 w-full max-w-7xl px-6 md:px-12 flex flex-col md:flex-row items-center justify-center md:justify-between pt-[30vh] pb-24 md:py-0 gap-12 md:gap-0 h-full md:h-auto overflow-y-auto md:overflow-visible">
+      <div className="relative z-10 w-full max-w-7xl px-6 md:px-12 flex flex-col md:flex-row items-center justify-center md:justify-between pt-[20vh] pb-24 md:py-0 gap-12 md:gap-0 h-full md:h-auto overflow-y-auto md:overflow-visible">
         
         {/* Left Text */}
         <motion.div 
