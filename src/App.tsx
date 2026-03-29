@@ -82,14 +82,22 @@ export default function App() {
         </button>
       </nav>
 
-      {/* Bottom Navigation */}
-      <footer className="absolute bottom-6 md:bottom-8 left-6 md:left-12 z-20 flex items-center gap-3">
-        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg shrink-0">
-          <TrendingUp className="text-accent-blue w-5 h-5" />
+      <footer className="absolute bottom-6 md:bottom-8 left-6 md:left-12 z-20 flex flex-col md:flex-row items-center gap-3">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg shrink-0">
+            <TrendingUp className="text-accent-blue w-5 h-5" />
+          </div>
+          <span className="text-white font-bold tracking-tight text-sm md:text-base">
+            Qualified Digital Asset Valuations
+          </span>
         </div>
-        <span className="text-white font-semibold tracking-tight text-sm md:text-base opacity-90 hidden sm:inline-block">
-          Qualified Digital Asset Valuations
-        </span>
+        <div className="hidden md:block w-1.5 h-1.5 rounded-full bg-white/40" />
+        <button 
+          onClick={() => setView("privacy")}
+          className="text-white/80 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest underline decoration-white/20 underline-offset-4"
+        >
+          Privacy Policy
+        </button>
       </footer>
       <footer className="absolute bottom-6 md:bottom-8 right-6 md:right-12 z-20">
         <button 
@@ -372,7 +380,7 @@ function LegalPage({ onBack }: { onBack: () => void }) {
 
       {/* Footer */}
       <footer className="px-6 md:px-12 py-12 border-t border-gray-100 text-center">
-        <p className="text-gray-400 text-sm font-medium">
+        <p className="text-black text-sm font-medium">
           &copy; {new Date().getFullYear()} Specialized Valuation Expertise. All rights reserved.
         </p>
       </footer>
@@ -569,7 +577,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
           <div>
             <h4 className="text-3xl font-black text-gray-900 tracking-tight">Expertise You Can Trust.</h4>
             <p className="text-gray-500 font-medium">Qualified appraisals for a complex digital world.</p>
-            <p className="text-gray-400 text-xs font-medium mt-2">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
+            <p className="text-black text-sm font-black">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
           </div>
           <button 
             onClick={onStart}
@@ -880,7 +888,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
           <div>
             <h4 className="text-3xl font-black text-gray-900 tracking-tight">Protect Your Assets.</h4>
             <p className="text-gray-500 font-medium">Get a qualified appraisal that stands up to the IRS.</p>
-            <p className="text-gray-400 text-xs font-medium mt-2">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
+            <p className="text-black text-sm font-black mt-2">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
           </div>
           <button 
             onClick={onStart}
@@ -940,8 +948,8 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                 onChange={e => setFormData({...formData, contact: e.target.value})}
               />
             </div>
-            <p className="text-[10px] text-gray-400 leading-tight mt-2">
-              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'. Message frequency varies.
+            <p className="text-[10px] text-gray-500 font-bold leading-tight mt-2">
+              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'. Message frequency varies. Message & data rates may apply.
             </p>
           </div>
         </div>
@@ -1135,7 +1143,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                     onChange={(e) => setSmsConsent(e.target.checked)}
                     className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer"
                   />
-                  <label htmlFor="sms-consent" className="text-[11px] text-gray-500 leading-relaxed cursor-pointer">
+                  <label htmlFor="sms-consent" className="text-[11px] text-gray-600 font-semibold leading-relaxed cursor-pointer">
                     By checking this box, I consent to receive automated promotional and personalized marketing text messages (e.g., valuation updates, lead follow-ups) from Qualified Digital Asset Valuations at the number provided. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Message frequency varies. Message & data rates may apply. View our <a href="https://qdav.mba/privacy" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="https://qdav.mba/terms" target="_blank" rel="noopener noreferrer" className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
                   </label>
                 </div>
@@ -1233,7 +1241,7 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
 
       <footer className="px-6 md:px-12 py-10 border-t border-gray-100 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gray-400 text-sm font-medium">
+          <p className="text-black text-sm font-medium">
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.
           </p>
         </div>
@@ -1304,7 +1312,7 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
 
       <footer className="px-6 md:px-12 py-10 border-t border-gray-100 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gray-400 text-sm font-medium">
+          <p className="text-black text-sm font-medium">
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.
           </p>
         </div>
