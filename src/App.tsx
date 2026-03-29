@@ -94,9 +94,9 @@ export default function App() {
       <footer className="absolute bottom-6 md:bottom-8 right-6 md:right-12 z-20">
         <button 
           onClick={() => setView("scope")}
-          className="text-white font-medium hover:opacity-80 transition-opacity cursor-pointer text-sm md:text-base"
+          className="text-white font-medium hover:opacity-80 transition-opacity cursor-pointer text-sm md:text-base text-right leading-tight"
         >
-          Scope & Services
+          Scope & <br /> Services
         </button>
       </footer>
 
