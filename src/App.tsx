@@ -551,7 +551,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
           <div className="space-y-4">
             <p className="text-2xl font-black text-google-blue">(248) 555-0199</p>
             <p className="text-gray-500 font-medium max-w-lg mx-auto">
-              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'.
+              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'. Message frequency varies.
             </p>
           </div>
           <button 
@@ -569,6 +569,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
           <div>
             <h4 className="text-3xl font-black text-gray-900 tracking-tight">Expertise You Can Trust.</h4>
             <p className="text-gray-500 font-medium">Qualified appraisals for a complex digital world.</p>
+            <p className="text-gray-400 text-xs font-medium mt-2">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
           </div>
           <button 
             onClick={onStart}
@@ -738,6 +739,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
           <div className="relative z-10">
             <h4 className="text-4xl font-black tracking-tight mb-2">Ready to Proceed?</h4>
             <p className="text-white/70 font-medium text-lg">Select your service tier and start your qualified appraisal today.</p>
+            <p className="text-white/50 text-xs font-medium mt-4">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
           </div>
           <button 
             onClick={onStart}
@@ -878,6 +880,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
           <div>
             <h4 className="text-3xl font-black text-gray-900 tracking-tight">Protect Your Assets.</h4>
             <p className="text-gray-500 font-medium">Get a qualified appraisal that stands up to the IRS.</p>
+            <p className="text-gray-400 text-xs font-medium mt-2">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
           </div>
           <button 
             onClick={onStart}
@@ -938,7 +941,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
               />
             </div>
             <p className="text-[10px] text-gray-400 leading-tight mt-2">
-              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'.
+              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'. Message frequency varies.
             </p>
           </div>
         </div>
@@ -1133,7 +1136,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                     className="mt-1 w-5 h-5 rounded border-gray-300 text-google-blue focus:ring-google-blue cursor-pointer"
                   />
                   <label htmlFor="sms-consent" className="text-[11px] text-gray-500 leading-relaxed cursor-pointer">
-                    By checking this box, I consent to receive automated promotional and personalized marketing text messages (e.g., valuation updates, lead follow-ups) from Qualified Digital Asset Valuations at the number provided. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. View our <button type="button" onClick={() => (window as any).setView("privacy")} className="text-google-blue underline hover:opacity-80">Privacy Policy</button> and <button type="button" onClick={() => (window as any).setView("terms")} className="text-google-blue underline hover:opacity-80">Terms of Service</button>.
+                    By checking this box, I consent to receive automated promotional and personalized marketing text messages (e.g., valuation updates, lead follow-ups) from Qualified Digital Asset Valuations at the number provided. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Message frequency varies. Message & data rates may apply. View our <a href="https://qdav.mba/privacy" target="_blank" rel="noopener noreferrer" className="text-google-blue underline hover:opacity-80">Privacy Policy</a> and <a href="https://qdav.mba/terms" target="_blank" rel="noopener noreferrer" className="text-google-blue underline hover:opacity-80">Terms of Service</a>.
                   </label>
                 </div>
               )}
@@ -1155,9 +1158,14 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
           </div>
         </motion.div>
 
-        <p className="text-center mt-8 text-white/60 text-sm font-medium">
-          Your data is encrypted and protected by my Security Promise.
-        </p>
+        <div className="text-center mt-8 space-y-1">
+          <p className="text-white/60 text-sm font-medium">
+            Your data is encrypted and protected by my Security Promise.
+          </p>
+          <p className="text-white/40 text-[10px] font-medium uppercase tracking-widest">
+            Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC
+          </p>
+        </div>
       </div>
     </main>
   );
