@@ -549,7 +549,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
           </div>
           <h3 className="text-4xl font-black text-gray-900 tracking-tighter">Contact & Support</h3>
           <div className="space-y-4">
-            <p className="text-2xl font-black text-google-blue">(248) 555-0199</p>
+            <p className="text-2xl font-black text-google-blue">(248) 955-1491</p>
             <p className="text-gray-500 font-medium max-w-lg mx-auto">
               By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'. Message frequency varies.
             </p>
@@ -934,7 +934,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
               <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-300" />
               <input 
                 type="text" 
-                placeholder="john@example.com or 555-0123"
+                placeholder="john@example.com or (248) 955-1491"
                 className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 pl-12 pr-4 focus:outline-none focus:ring-2 focus:ring-google-blue/20 transition-all"
                 value={formData.contact}
                 onChange={e => setFormData({...formData, contact: e.target.value})}
