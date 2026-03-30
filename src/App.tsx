@@ -1291,8 +1291,7 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.
           </p>
           <p className="text-black text-[10px] font-bold uppercase tracking-widest opacity-40">
-            2711 Williamsburg Cir, Auburn Hills, Michigan 48326 <br />
-            Email: info@qdav.mba
+            2711 Williamsburg Cir, Auburn Hills, Michigan 48326
           </p>
           <div className="flex gap-4 justify-center mt-4">
             <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
