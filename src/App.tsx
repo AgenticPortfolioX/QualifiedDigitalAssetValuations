@@ -1412,7 +1412,6 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
               </div>
             </div>
           </div>
-          </div>
         </div>
       </section>
 
