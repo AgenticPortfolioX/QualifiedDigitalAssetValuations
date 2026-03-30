@@ -1360,6 +1360,58 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
                 Our valuations are professional opinions based on available market data. We are not liable for any financial decisions made based on these valuations.
               </p>
             </div>
+
+            <div className="bg-gray-50 p-8 rounded-[32px] border border-gray-100">
+              <h2 className="text-2xl font-black text-gray-900 mb-6 uppercase tracking-tight underline">Mobile Messaging Program</h2>
+              
+              <div className="space-y-6 text-sm">
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-2">1. Program Description</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    By opting into our mobile messaging service, you agree to receive recurring automated and/or manual text messages (e.g., SMS and MMS) from Qualified Digital Asset Valuations. These messages include, but are not limited to, updates regarding your digital asset appraisals, appointment reminders, IRS-qualified valuation status, and service-related inquiries.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-2">2. Message Frequency and Rates</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Message frequency will vary depending on your interaction with our services and the complexity of the assets being valued. Message and data rates may apply. Please check your mobile service plan for details.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-2">3. Opt-Out and Help</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    <span className="font-bold">To Stop:</span> You may opt out of our mobile messaging at any time. Text STOP, END, CANCEL, UNSUBSCRIBE, or QUIT to our shortcode or long-code number. You will receive a one-time confirmation text acknowledging your request.
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mt-2">
+                    <span className="font-bold">To Get Help:</span> If you are experiencing issues with our messaging program, reply with the keyword HELP for more assistance, or contact our support team directly.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-2">4. Carrier Disclaimer</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Mobile carriers are not liable for delayed or undelivered messages. Delivery is subject to the effective transmission from your network provider.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-2">5. Interruption of Service</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    We reserve the right to alter or terminate the mobile messaging program at any time, with or without notice, including the right to terminate messaging for any reason, such as if we suspect a violation of these Terms.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-2">6. Data Sharing & Privacy</h3>
+                  <p className="text-gray-900 font-bold leading-relaxed italic">
+                    "No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
