@@ -998,7 +998,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
                 className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer shrink-0"
               />
               <label htmlFor="sms-consent" className="text-[10px] text-gray-500 font-bold leading-tight cursor-pointer text-left">
-                By providing your phone number, you agree to receive text messages from Qualified Digital Asset Valuations. Message and data rates may apply. Message frequency varies. Reply HELP for help or STOP to cancel. View our <a href="#privacy" onClick={(e) => { e.preventDefault(); setView("privacy"); }} className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="#terms" onClick={(e) => { e.preventDefault(); setView("terms"); }} className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
+                By providing your phone number, you agree to receive text messages from Qualified Digital Asset Valuations. Consent is not a condition of purchase or service. Message and data rates may apply. Message frequency varies. Reply HELP for help or STOP to cancel. View our <a href="#privacy" onClick={(e) => { e.preventDefault(); setView("privacy"); }} className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="#terms" onClick={(e) => { e.preventDefault(); setView("terms"); }} className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
               </label>
             </div>
           </div>
