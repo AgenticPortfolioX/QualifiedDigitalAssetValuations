@@ -1122,7 +1122,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
 
   const currentStep = steps[step - 1];
   const isLastStep = step === steps.length;
-  const canContinue = step === 1 ? (formData.name && formData.contact && smsConsent) : 
+  const canContinue = step === 1 ? (formData.name && formData.contact) : 
                       step === 2 ? formData.purpose :
                       step === 3 ? formData.assetType : true;
 
@@ -1264,7 +1264,7 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
             <div className="bg-gray-50 p-8 rounded-[32px] border border-gray-100">
               <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">SMS Disclosure</h2>
               <p className="text-gray-900 font-bold leading-relaxed">
-                Mobile information will not be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+                No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties for their own marketing or promotional purposes.
               </p>
             </div>
 
@@ -1381,10 +1381,10 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">3. Opt-Out and Help</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    <span className="font-bold">To Stop:</span> You may opt out of our mobile messaging at any time. Text STOP, END, CANCEL, UNSUBSCRIBE, or QUIT to our shortcode or long-code number. You will receive a one-time confirmation text acknowledging your request.
+                    <span className="font-bold">To Stop:</span> You may opt out of our mobile messaging at any time. Text <span className="font-bold">STOP, END, CANCEL, UNSUBSCRIBE, or QUIT</span> to our shortcode or long-code number. You will receive a one-time confirmation text acknowledging your request.
                   </p>
                   <p className="text-gray-600 leading-relaxed mt-2">
-                    <span className="font-bold">To Get Help:</span> If you are experiencing issues with our messaging program, reply with the keyword HELP for more assistance, or contact our support team directly.
+                    <span className="font-bold">To Get Help:</span> If you are experiencing issues with our messaging program, reply with the keyword <span className="font-bold">HELP</span> for more assistance, or contact our support team directly.
                   </p>
                 </div>
 
@@ -1406,6 +1406,13 @@ function TermsOfServicePage({ onBack }: { onBack: () => void }) {
                   <h3 className="font-bold text-gray-900 mb-2">6. Data Sharing & Privacy</h3>
                   <p className="text-gray-900 font-bold leading-relaxed italic">
                     "No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-2">7. Consent Not a Condition of Service</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Providing your phone number and consenting to receive mobile messages is not a condition of purchase or a requirement to receive digital asset valuation services. You may still request and receive appraisals by communicating via email or our website contact form without opting into SMS.
                   </p>
                 </div>
               </div>
