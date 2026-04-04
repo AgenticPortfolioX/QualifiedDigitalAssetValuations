@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Navigating SDIRA Crypto Compliance: A Sage's Guide to Secure Retirement Investing",
+      "datePublished": "2026-04-03",
+      "author": {
+        "@type": "Organization",
+        "name": "Sage Financial Team"
+      },
+      "description": "Learn how to safely invest in cryptocurrency within your Self-Directed IRA (SDIRA). Our expert guide covers custodians, prohibited transactions, and tax compliance.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sage Financial",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://example.com/logo.png"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the most important step for SDIRA crypto compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most critical step is partnering with a specialized qualified custodian. They ensure your assets are held legally, compliant with IRS guidelines, and that all reporting is accurate, which protects your retirement account's tax-advantaged status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I hold my retirement crypto in my own personal digital wallet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Holding the private keys to your retirement crypto assets in a personal wallet is considered a prohibited transaction under IRS rules and can result in the disqualification of your SDIRA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are UBTI and UDFI in the context of SDIRA investing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UBTI (Unrelated Business Taxable Income) and UDFI (Unrelated Debt-Financed Income) are taxes that can apply to retirement accounts if they engage in certain active business activities or use debt financing for investments. You should consult a tax professional before engaging in staking or yield-generating activities."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Sage Financial",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Wealth Lane",
+        "addressLocality": "Financial District",
+        "addressRegion": "ST",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "telephone": "555-0199",
+      "url": "https://example.com",
+      "priceRange": "$$$"
+    }
+  ]
+}

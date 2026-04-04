@@ -5,17 +5,41 @@
 
 import { motion, AnimatePresence } from "motion/react";
 import { Info, Share2, Shield, LayoutGrid, Play, Pause, Coins, FileText, TrendingUp, ArrowLeft, CheckCircle2, Scale, BarChart3, Lock, UserCheck, GraduationCap, Briefcase, History, Check, Calendar, Mail, Phone, User, ArrowRight, ChevronRight, ChevronLeft, Layers, Zap, Image, Gavel, Heart } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+import blogPostsRaw from "./data/blog-posts.json";
+
+interface BlogPost {
+  id: string;
+  title: string;
+  excerpt: string;
+  author: string;
+  date: string;
+  image: string | null;
+  path: string;
+  schema: string | null;
+}
+
+const blogPosts = blogPostsRaw as BlogPost[];
 
 export default function App() {
-  const [viewState, setViewState] = useState<"home" | "compliance" | "about" | "quote" | "scope" | "legal" | "privacy" | "terms">("home");
+  const [viewState, setViewState] = useState<"home" | "compliance" | "about" | "quote" | "scope" | "blog" | "blog-post" | "compliance-links" | "privacy" | "terms">("home");
+  const [selectedPostId, setSelectedPostId] = useState<string | null>(null);
 
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '');
-      const validViews = ["home", "compliance", "about", "quote", "scope", "legal", "privacy", "terms"];
-      if (validViews.includes(hash)) {
-        setViewState(hash as any);
+      const [viewName, postId] = hash.split('/');
+      
+      const validViews = ["home", "compliance", "about", "quote", "scope", "blog", "blog-post", "compliance-links", "privacy", "terms"];
+      
+      if (validViews.includes(viewName)) {
+        setViewState(viewName as any);
+        if (viewName === "blog-post" && postId) {
+          setSelectedPostId(postId);
+        }
+      } else if (hash === "legal") {
+        // Redirect old legal link to blog
+        window.location.hash = "blog";
       } else {
         setViewState("home");
       }
@@ -38,43 +62,64 @@ export default function App() {
 
   if (view === "privacy") {
     return (
-      <PrivacyPolicyPage onBack={() => setView("home")} />
+      <PrivacyPolicyPage onBack={() => setView("home")} setView={setView} />
     );
   }
 
   if (view === "terms") {
     return (
-      <TermsOfServicePage onBack={() => setView("home")} />
+      <TermsOfServicePage onBack={() => setView("home")} setView={setView} />
     );
   }
 
-  if (view === "legal") {
+  if (view === "blog") {
     return (
-      <LegalPage onBack={() => setView("home")} />
+      <BlogPage 
+        onBack={() => setView("home")} 
+        onSelectPost={(id) => setView(`blog-post/${id}`)}
+        setView={setView}
+      />
+    );
+  }
+
+  if (view === "blog-post") {
+    const post = blogPosts.find(p => p.id === selectedPostId);
+    return (
+      <BlogPostPage 
+        post={post || blogPosts[0]} 
+        onBack={() => setView("blog")} 
+        setView={setView}
+      />
+    );
+  }
+
+  if (view === "compliance-links") {
+    return (
+      <ComplianceLinksPage onBack={() => setView("home")} setView={setView} />
     );
   }
 
   if (view === "compliance") {
     return (
-      <ComplianceHub onBack={() => setView("home")} onStart={() => setView("quote")} />
+      <ComplianceHub onBack={() => setView("home")} onStart={() => setView("quote")} setView={setView} />
     );
   }
 
   if (view === "about") {
     return (
-      <AboutPage onBack={() => setView("home")} onStart={() => setView("quote")} />
+      <AboutPage onBack={() => setView("home")} onStart={() => setView("quote")} setView={setView} />
     );
   }
 
   if (view === "quote") {
     return (
-      <QuoteWorkflow onBack={() => setView("home")} />
+      <QuoteWorkflow onBack={() => setView("home")} setView={setView} />
     );
   }
 
   if (view === "scope") {
     return (
-      <ScopeServicesPage onBack={() => setView("home")} onStart={() => setView("quote")} />
+      <ScopeServicesPage onBack={() => setView("home")} onStart={() => setView("quote")} setView={setView} />
     );
   }
 
@@ -98,10 +143,11 @@ export default function App() {
       </nav>
       <nav className="absolute top-6 md:top-8 right-6 md:right-12 z-20">
         <button 
-          onClick={() => setView("legal")}
-          className="text-white font-medium hover:opacity-80 transition-opacity cursor-pointer"
+          onClick={() => setView("blog")}
+          className="text-white font-medium hover:opacity-80 transition-opacity cursor-pointer flex items-center gap-2"
         >
-          Legal
+          <Calendar className="w-4 h-4" />
+          Stay Current
         </button>
       </nav>
 
@@ -273,41 +319,9 @@ export default function App() {
   );
 }
 
-function LegalPage({ onBack }: { onBack: () => void }) {
-  const disclaimers = [
-    {
-      title: "No Investment Advice",
-      icon: <TrendingUp className="w-6 h-6 text-accent-red" />,
-      content: "Valuations provided are for informational, tax, or estate planning purposes only. They do not constitute a recommendation to buy, sell, or hold any digital asset. Digital assets are highly speculative and volatile."
-    },
-    {
-      title: "Tax & Legal Disclaimer",
-      icon: <Scale className="w-6 h-6 text-accent-blue" />,
-      content: "I am a Qualified Appraiser as defined by the IRS, but I am not a Certified Public Accountant (CPA) or a Tax Attorney. The information provided should not be construed as tax or legal advice. Always consult with a qualified tax professional regarding your specific situation."
-    },
-    {
-      title: "Market Volatility & Data",
-      icon: <Zap className="w-6 h-6 text-accent-yellow" />,
-      content: "Valuations are snapshots in time based on the specific date and time requested. Market conditions for digital assets can change rapidly. Valuations rely on data provided by the client and third-party market aggregators; accuracy is dependent on the integrity of these sources."
-    },
-    {
-      title: "IRS Acceptance",
-      icon: <Shield className="w-6 h-6 text-accent-green" />,
-      content: "While my reports are prepared in accordance with USPAP (Uniform Standards of Professional Appraisal Practice) and IRS guidelines for qualified appraisals, the Internal Revenue Service has final authority on the acceptance of any valuation for tax purposes."
-    },
-    {
-      title: "Bookkeeping & Accounting",
-      icon: <FileText className="w-6 h-6 text-accent-blue" />,
-      content: "My services are limited to providing independent valuations of digital assets. I do not provide ongoing bookkeeping, accounting, or financial management services. Clients are responsible for maintaining their own transaction records and cost basis tracking."
-    }
-  ];
-
-  const resources = [
-    { name: "IRS Publication 561", url: "https://www.irs.gov/publications/p561", desc: "Determining the Value of Donated Property" },
-    { name: "IRS Notice 2014-21", url: "https://www.irs.gov/pub/irs-drop/n-14-21.pdf", desc: "IRS Guidance on Virtual Currency" },
-    { name: "USPAP Standards", url: "https://www.appraisalfoundation.org/", desc: "Uniform Standards of Professional Appraisal Practice" },
-    { name: "Digital Asset Glossary", url: "#", desc: "Common terms used in valuation reports" }
-  ];
+function BlogPage({ onBack, onSelectPost, setView }: { onBack: () => void; onSelectPost: (id: string) => void; setView: (v: string) => void }) {
+  // Show 12 newest posts
+  const displayPosts = useMemo(() => blogPosts.slice(0, 12), []);
 
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
@@ -320,101 +334,255 @@ function LegalPage({ onBack }: { onBack: () => void }) {
           Back to Home
         </button>
         <div className="flex items-center gap-2">
-          <Scale className="text-accent-blue w-6 h-6" />
-          <span className="font-black text-xl tracking-tighter">Legal & Disclaimers</span>
+          <TrendingUp className="text-accent-blue w-6 h-6" />
+          <span className="font-black text-xl tracking-tighter">Stay Current</span>
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="px-6 md:px-12 pt-6 pb-5 bg-accent-blue text-white relative">
+      {/* Hero */}
+      <section className="px-6 md:px-12 pt-12 pb-16 bg-accent-blue text-white relative overflow-hidden">
+        <div className="absolute right-[-10%] top-[-10%] w-[50%] h-[120%] bg-accent-yellow rounded-full opacity-10" />
         <div className="relative z-10 max-w-4xl">
           <motion.h2 
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            className="text-4xl md:text-6xl font-black leading-[0.9] tracking-tighter mb-8"
+            className="text-5xl md:text-7xl font-black leading-[0.85] tracking-tighter mb-8"
           >
-            Transparency <br />
-            & Regulatory <br />
-            Clarity.
+            Insights <br />
+            For The Digital <br />
+            Asset Age.
           </motion.h2>
           <p className="text-xl text-white/80 max-w-2xl font-medium leading-relaxed">
-            Understanding the legal framework and limitations of digital asset valuations is essential for compliance and risk management.
+            Market analysis, regulatory updates, and the evolving methodology of Bitcoin and digital asset appraisal.
           </p>
         </div>
       </section>
 
-      {/* Disclaimers Grid */}
-      <section className="px-6 md:px-12 py-24 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {disclaimers.map((item, i) => (
-            <motion.div 
-              key={i}
+      {/* 4x3 Grid (up to 12 posts) */}
+      <section className="px-6 md:px-12 py-24 max-w-7xl mx-auto w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {displayPosts.map((post, i) => (
+            <motion.button 
+              key={post.id}
               initial={{ y: 20, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="p-10 rounded-[40px] bg-gray-50 border border-gray-100 hover:shadow-xl transition-all group"
+              transition={{ delay: i * 0.05 }}
+              onClick={() => onSelectPost(post.id)}
+              className="flex flex-col text-left group cursor-pointer"
             >
-              <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:scale-110 transition-transform">
-                {item.icon}
+              <div className="relative aspect-[4/3] rounded-[32px] overflow-hidden mb-6 bg-gray-100 border border-gray-100">
+                {post.image ? (
+                  <img 
+                    src={post.image} 
+                    alt={post.title} 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <Image className="text-gray-300 w-12 h-12" />
+                  </div>
+                )}
+                <div className="absolute top-4 left-4 px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-black uppercase tracking-widest text-accent-blue shadow-sm">
+                  {post.date}
+                </div>
               </div>
-              <h3 className="text-2xl font-black text-gray-900 mb-4 tracking-tight">{item.title}</h3>
-              <p className="text-gray-500 font-medium leading-relaxed">{item.content}</p>
-            </motion.div>
+              <h3 className="text-xl font-black text-gray-900 group-hover:text-accent-blue transition-colors mb-2 leading-tight tracking-tight">
+                {post.title}
+              </h3>
+              <p className="text-sm text-gray-500 font-medium line-clamp-2 leading-relaxed">
+                {post.excerpt}
+              </p>
+            </motion.button>
           ))}
         </div>
+
+        {displayPosts.length === 0 && (
+          <div className="text-center py-24">
+            <p className="text-gray-400 font-bold uppercase tracking-[0.3em]">More analysis coming soon...</p>
+          </div>
+        )}
       </section>
 
-      {/* Resources Section */}
-      <section className="px-6 md:px-12 py-24 bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
-            <div>
-              <div className="text-accent-yellow font-black uppercase tracking-[0.3em] text-[10px] mb-4">Regulatory Resources</div>
-              <h2 className="text-5xl font-black tracking-tighter">Compliance Links</h2>
+      {/* Global Regulatory Footer (Moved from Legal) */}
+      <section className="mt-auto bg-gray-900 px-6 md:px-12 py-16 border-t border-gray-800">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+          <div>
+            <h4 className="text-2xl font-black text-white tracking-tight">Regulatory Compliance</h4>
+            <p className="text-gray-400 font-medium mb-4">View our official resources and qualified appraisal guidelines.</p>
+            <button 
+              onClick={() => setView("compliance-links")}
+              className="px-6 py-3 bg-accent-yellow text-gray-900 font-black rounded-xl hover:scale-105 transition-transform text-sm uppercase tracking-widest"
+            >
+              Compliance Resources
+            </button>
+          </div>
+          <div className="flex flex-col items-end text-right">
+             <p className="text-white/40 text-[10px] font-black uppercase tracking-widest">
+              Digital assets are highly volatile. <br />
+              All valuations are professional opinions.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function BlogPostPage({ post, onBack, setView }: { post: BlogPost; onBack: () => void; setView: (v: string) => void }) {
+  const [content, setContent] = useState<string>("");
+
+  useEffect(() => {
+    // Scroll to top
+    const container = document.querySelector('main');
+    if (container) container.scrollTo(0, 0);
+
+    // Fetch and parse content
+    fetch(post.path)
+      .then(res => res.text())
+      .then(text => {
+        // Remove YAML frontmatter and trim
+        const cleanContent = text.replace(/^---\s*[\s\S]*?\s*---/, '').trim();
+        setContent(cleanContent);
+      })
+      .catch(() => setContent("Failed to load post content."));
+
+    // Inject Schema
+    let scriptElement: HTMLScriptElement | null = null;
+    if (post.schema) {
+      fetch(post.schema)
+        .then(res => res.json())
+        .then(schemaData => {
+          scriptElement = document.createElement('script');
+          scriptElement.id = `schema-${post.id}`;
+          scriptElement.type = 'application/ld+json';
+          scriptElement.text = JSON.stringify(schemaData);
+          document.head.appendChild(scriptElement);
+        })
+        .catch(err => console.error("Schema injection failed:", err));
+    }
+
+    return () => {
+      // Cleanup Schema on unmount
+      if (scriptElement && document.head.contains(scriptElement)) {
+        document.head.removeChild(scriptElement);
+      }
+      // Also check by ID just in case the ref lost track
+      const oldScript = document.getElementById(`schema-${post.id}`);
+      if (oldScript) oldScript.remove();
+    };
+  }, [post]);
+
+  return (
+    <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
+      <header className="px-6 md:px-12 py-6 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-50">
+        <button 
+          onClick={onBack}
+          className="flex items-center gap-2 text-gray-400 hover:text-accent-blue transition-colors font-black uppercase tracking-widest text-xs"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Blog
+        </button>
+      </header>
+
+      <article className="px-6 md:px-12 py-12 max-w-4xl mx-auto w-full">
+        <div className="mb-12">
+          <div className="text-accent-blue font-black uppercase tracking-[0.3em] text-[10px] mb-4">{post.date} • BY {post.author}</div>
+          <h1 className="text-5xl md:text-7xl font-black leading-[0.9] tracking-tighter mb-8 text-gray-900">
+            {post.title}
+          </h1>
+          {post.image && (
+            <div className="rounded-[40px] overflow-hidden aspect-video shadow-2xl border border-gray-100">
+              <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
             </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {resources.map((resource, i) => (
-              <a 
-                key={i}
-                href={resource.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-8 rounded-3xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all group"
-              >
-                <div className="flex items-center justify-between mb-6">
-                  <FileText className="w-8 h-8 text-accent-yellow" />
-                  <ArrowRight className="w-5 h-5 text-white/20 group-hover:text-white group-hover:translate-x-1 transition-all" />
-                </div>
-                <h4 className="text-lg font-bold mb-2">{resource.name}</h4>
-                <p className="text-sm text-white/40 font-medium">{resource.desc}</p>
-              </a>
-            ))}
-          </div>
+          )}
         </div>
-      </section>
 
-      {/* Footer */}
-      <footer className="px-6 md:px-12 py-12 border-t border-gray-100 text-center space-y-2">
-        <p className="text-black text-sm font-black">
-          &copy; {new Date().getFullYear()} Specialized Valuation Expertise. All rights reserved.
-        </p>
-        <p className="text-black text-xs font-black">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
-        <p className="text-black text-[10px] font-black uppercase tracking-widest">
-          2711 Williamsburg Cir, Auburn Hills, Michigan 48326
-        </p>
-        <div className="flex gap-4 justify-center mt-4">
-          <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
-          <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+        <div className="prose prose-xl max-w-none text-gray-700 font-medium leading-relaxed whitespace-pre-wrap">
+          {content}
         </div>
+
+        <div className="mt-24 pt-12 border-t border-gray-100 flex flex-col items-center gap-6">
+          <div className="w-16 h-16 bg-accent-blue/10 rounded-2xl flex items-center justify-center">
+            <TrendingUp className="text-accent-blue w-8 h-8" />
+          </div>
+          <p className="text-center text-gray-400 max-w-md">
+            Qualified Digital Asset Valuations provides IRS-compliant reports for Bitcoin, Ethereum, and digital positions.
+          </p>
+          <button 
+            onClick={() => setView("quote")}
+            className="px-8 py-4 bg-accent-blue text-white font-black rounded-2xl shadow-xl hover:scale-105 transition-all uppercase tracking-widest text-sm"
+          >
+            Start Your Appraisal
+          </button>
+        </div>
+      </article>
+
+      <footer className="mt-auto px-6 md:px-12 py-12 border-t border-gray-50 text-center">
+        <p className="text-gray-400 text-xs font-bold uppercase tracking-widest">&copy; {new Date().getFullYear()} QDAV Insights</p>
       </footer>
     </main>
   );
 }
 
-function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => void }) {
+function ComplianceLinksPage({ onBack, setView }: { onBack: () => void; setView: (v: string) => void }) {
+  const resources = [
+    { name: "IRS Publication 561", url: "https://www.irs.gov/publications/p561", desc: "Determining the Value of Donated Property" },
+    { name: "IRS Notice 2014-21", url: "https://www.irs.gov/pub/irs-drop/n-14-21.pdf", desc: "IRS Guidance on Virtual Currency" },
+    { name: "USPAP Standards", url: "https://www.appraisalfoundation.org/", desc: "Uniform Standards of Professional Appraisal Practice" },
+    { name: "Digital Asset Glossary", url: "#", desc: "Common terms used in valuation reports" }
+  ];
+
+  return (
+    <main className="relative h-screen w-screen bg-gray-50 overflow-y-auto flex flex-col">
+      <header className="px-6 md:px-12 py-8 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <button 
+          onClick={onBack}
+          className="flex items-center gap-2 text-gray-400 hover:text-accent-blue transition-colors font-black uppercase tracking-widest text-xs"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Home
+        </button>
+        <div className="flex items-center gap-2">
+          <Scale className="text-accent-blue w-6 h-6" />
+          <span className="font-black text-xl tracking-tighter uppercase">Compliance Resources</span>
+        </div>
+      </header>
+
+      <section className="px-6 md:px-12 py-24 max-w-7xl mx-auto w-full">
+         <div className="mb-16">
+          <div className="text-accent-blue font-black uppercase tracking-[0.3em] text-[10px] mb-4">Official Documentation</div>
+          <h2 className="text-5xl font-black tracking-tighter text-gray-900">Regulatory Clarity</h2>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {resources.map((resource, i) => (
+            <a 
+              key={i}
+              href={resource.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-8 rounded-3xl bg-white border border-gray-100 hover:border-accent-blue hover:shadow-xl transition-all group"
+            >
+              <div className="flex items-center justify-between mb-6">
+                <FileText className="w-8 h-8 text-accent-blue" />
+                <ArrowRight className="w-5 h-5 text-gray-200 group-hover:text-accent-blue group-hover:translate-x-1 transition-all" />
+              </div>
+              <h4 className="text-lg font-bold mb-2 text-gray-900">{resource.name}</h4>
+              <p className="text-sm text-gray-500 font-medium leading-relaxed">{resource.desc}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <footer className="mt-auto px-6 md:px-12 py-12 text-center text-gray-400 font-bold uppercase tracking-widest text-[10px]">
+        Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC
+      </footer>
+    </main>
+  );
+}
+
+function AboutPage({ onBack, onStart, setView }: { onBack: () => void; onStart: () => void; setView: (v: string) => void }) {
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       {/* Header */}
@@ -622,7 +790,7 @@ function AboutPage({ onBack, onStart }: { onBack: () => void; onStart: () => voi
   );
 }
 
-function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: () => void }) {
+function ScopeServicesPage({ onBack, onStart, setView }: { onBack: () => void; onStart: () => void; setView: (v: string) => void }) {
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       {/* Header */}
@@ -798,7 +966,7 @@ function ScopeServicesPage({ onBack, onStart }: { onBack: () => void; onStart: (
   );
 }
 
-function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () => void }) {
+function ComplianceHub({ onBack, onStart, setView }: { onBack: () => void; onStart: () => void; setView: (v: string) => void }) {
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       {/* Header */}
@@ -943,7 +1111,7 @@ function ComplianceHub({ onBack, onStart }: { onBack: () => void; onStart: () =>
   );
 }
 
-function QuoteWorkflow({ onBack }: { onBack: () => void }) {
+function QuoteWorkflow({ onBack, setView }: { onBack: () => void; setView: (v: string) => void }) {
   const [step, setStep] = useState(1);
   const [smsConsent, setSmsConsent] = useState(false);
   const [formData, setFormData] = useState({
@@ -1222,7 +1390,7 @@ function QuoteWorkflow({ onBack }: { onBack: () => void }) {
   );
 }
 
-function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
+function PrivacyPolicyPage({ onBack, setView }: { onBack: () => void; setView: (v: string) => void }) {
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
@@ -1303,7 +1471,7 @@ function PrivacyPolicyPage({ onBack }: { onBack: () => void }) {
   );
 }
 
-function TermsOfServicePage({ onBack }: { onBack: () => void }) {
+function TermsOfServicePage({ onBack, setView }: { onBack: () => void; setView: (v: string) => void }) {
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
       <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
