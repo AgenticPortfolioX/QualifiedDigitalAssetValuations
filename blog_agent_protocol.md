@@ -16,6 +16,6 @@ Provide this prompt to the AI or assistant responsible for uploading your blog c
 >
 > 3. **Upload Location**: Move this folder into the `/public/blog/` directory of the repository.
 >
-> 4. **GitHub Push**: Commit and push the new folder to the `main` branch. 
+> 4. **GitHub Push**: Commit and push the new folder to the `main` branch of the `AgenticPortfolioX/QualifiedDigitalAssetValuations` repository.
 > 
-> **Note**: Do not run any terminal commands or scripts. A GitHub Action is already configured to automatically detect your new folder and sync it to the website registry upon push."
+> **Note**: Do not run any terminal commands or scripts. A GitHub Action is already configured to automatically detect your new folder and sync it to the website registry upon push to `qdav.mba`."
