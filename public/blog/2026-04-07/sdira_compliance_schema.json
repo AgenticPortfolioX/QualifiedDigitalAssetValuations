@@ -1,0 +1,195 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/blog/irs-crypto-appraisal-self-directed-ira-guide#article",
+      "headline": "IRS Requirements for Crypto Appraisals in Self-Directed IRAs: 2026 Guide",
+      "description": "Understand the IRS appraisal requirements for cryptocurrency held in self-directed IRAs. Learn why a USPAP-compliant qualified appraisal protects your retirement portfolio from audit risk in 2026.",
+      "author": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba",
+        "telephone": "(248) 955-1491",
+        "email": "appraisal@qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://qdav.mba/logo.png"
+        }
+      },
+      "datePublished": "2026-04-07",
+      "dateModified": "2026-04-07",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/blog/irs-crypto-appraisal-self-directed-ira-guide"
+      },
+      "image": "https://qdav.mba/blog/irs-crypto-appraisal-self-directed-ira-guide/feature_image.png",
+      "keywords": ["IRS crypto appraisal", "self-directed IRA", "USPAP", "digital asset valuation", "cryptocurrency", "qualified appraisal", "Form 5498", "fair market value"],
+      "articleSection": "Regulatory Compliance"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/blog/irs-crypto-appraisal-self-directed-ira-guide#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal for small crypto holdings in my SDIRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRS does not publish a minimum threshold for SDIRA asset valuations. While the practical risk is lower with small holdings, the regulatory requirement under IRC §408(i) applies to all IRA assets regardless of value. For holdings exceeding $25,000, a formal appraisal is strongly recommended as an audit defense measure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the IRS audit my self-directed IRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. SDIRAs are subject to the same audit authority as any other retirement account. Because SDIRAs hold non-traditional assets that are harder to verify, they may actually attract more scrutiny. The IRS can examine custodian records, request documentation of asset valuations, and assess penalties for inaccurate reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a professional crypto appraisal cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Appraisal costs vary based on the complexity and number of assets. QDAV provides transparent pricing for each engagement. Contact (248) 955-1491 or appraisal@qdav.mba for a consultation and estimate. The cost is typically a small percentage of the value being protected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a crypto appraisal and a crypto tax report?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto appraisal determines the fair market value as of a specific date, prepared in accordance with USPAP by a qualified appraiser. A crypto tax report calculates gains and losses from transactions over a tax period. The former satisfies IRS valuation requirements for SDIRA reporting; the latter supports income tax filings. They are different documents serving different purposes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does QDAV serve clients outside Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While QDAV is based in Auburn Hills and serves the Metro Detroit area (Wayne, Oakland, and Genesee Counties), our appraisal services are conducted remotely. Clients in other states may engage QDAV for digital asset appraisal services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes an appraisal 'qualified' under IRS rules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraisal must be prepared by a qualified appraiser with verifiable credentials, follow USPAP standards, include specific content (property description, valuation date, methodology, appraiser qualifications, USPAP compliance statement), and be signed by the appraiser. Exchange prices or portfolio screenshots do not meet this standard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is fair market value determined for cryptocurrency in an IRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fair market value is determined through a structured valuation process including market data collection from multiple exchanges, analysis of trading conditions, comparable sales analysis (for NFTs), and application of appropriate valuation approaches (Market, Income, or Cost). The methodology must be documented and defensible per USPAP Standards Rule 1-4."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for incorrect crypto valuations in a SDIRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Penalties can include accuracy-related penalties under IRC §6662 (20% of understatement), amended filing requirements, and in worst-case scenarios, loss of IRA status entirely — triggering immediate taxation of all assets plus a 10% early withdrawal penalty if under age 59½."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.6875,
+        "longitude": -83.2341
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Wayne County, MI"
+        },
+        {
+          "@type": "Place",
+          "name": "Oakland County, MI"
+        },
+        {
+          "@type": "Place",
+          "name": "Genesee County, MI"
+        },
+        {
+          "@type": "Place",
+          "name": "Metro Detroit, MI"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [],
+      "knowsAbout": [
+        "Cryptocurrency Appraisal",
+        "Digital Asset Valuation",
+        "NFT Appraisal",
+        "USPAP Compliance",
+        "IRS Qualified Appraisal",
+        "Self-Directed IRA Valuation",
+        "Blockchain Valuation"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://qdav.mba#website",
+      "name": "QDAV - Qualified Digital Asset Valuations",
+      "url": "https://qdav.mba"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://qdav.mba/blog/irs-crypto-appraisal-self-directed-ira-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://qdav.mba"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://qdav.mba/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IRS Requirements for Crypto Appraisals in Self-Directed IRAs: 2026 Guide",
+          "item": "https://qdav.mba/blog/irs-crypto-appraisal-self-directed-ira-guide"
+        }
+      ]
+    }
+  ]
+}
