@@ -1,5 +1,19 @@
 [
   {
+    "id": "2026-04-07",
+    "title": "IRS Requirements for Crypto Appraisals in Self-Directed IRAs: 2026 Guide",
+    "excerpt": "Read more about this update...",
+    "author": "Qualified Digital Asset Valuations (QDAV)",
+    "date": "2026-04-07",
+    "category": "Regulatory Compliance",
+    "tags": "[\"IRS crypto appraisal\", \"self-directed IRA\", \"USPAP\", \"digital asset valuation\", \"cryptocurrency\", \"qualified appraisal\", \"Form 5498\", \"fair market value\"]",
+    "meta_description": "Understand the IRS appraisal requirements for cryptocurrency held in self-directed IRAs. Learn why a USPAP-compliant qualified appraisal protects your retirement portfolio from audit risk in 2026.",
+    "featured_image": "feature_image.png",
+    "image": "/blog/2026-04-07/feature_image.png",
+    "path": "/blog/2026-04-07/final.md",
+    "schema": "/blog/2026-04-07/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-03",
     "title": "Navigating SDIRA Crypto Compliance: A Sage's Guide to Secure Retirement Investing",
     "excerpt": "Learn how to safely invest in cryptocurrency within your Self-Directed IRA (SDIRA). Our expert guide covers custodians, prohibited transactions, and tax compliance.",
