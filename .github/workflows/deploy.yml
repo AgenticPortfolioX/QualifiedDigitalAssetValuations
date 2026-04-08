@@ -3,6 +3,10 @@ name: Deploy static content to Pages
 on:
   push:
     branches: ['main']
+  workflow_run:
+    workflows: ["Blog Registry Auto-Sync"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:

@@ -10,16 +10,37 @@ if (!fs.existsSync(dataDir)) {
 }
 
 function parseYAML(content: string) {
-  const match = content.match(/^---\s*([\s\S]*?)\s*---/);
+  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!match) return {};
   
   const yamlContent = match[1];
-  const result: Record<string, string> = {};
+  const result: Record<string, any> = {};
   
   yamlContent.split('\n').forEach(line => {
-    const [key, ...valueParts] = line.split(':');
-    if (key && valueParts.length > 0) {
-      result[key.trim()] = valueParts.join(':').trim().replace(/^["'](.*)["']$/, '$1');
+    const trimmedLine = line.trim();
+    if (!trimmedLine || trimmedLine.startsWith('#')) return;
+
+    const colonIndex = trimmedLine.indexOf(':');
+    if (colonIndex === -1) return;
+
+    const key = trimmedLine.substring(0, colonIndex).trim();
+    let value = trimmedLine.substring(colonIndex + 1).trim();
+
+    // Handle quoted values
+    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+      value = value.substring(1, value.length - 1);
+    }
+
+    // Handle array-like values (e.g., tags: ["a", "b"])
+    if (value.startsWith('[') && value.endsWith(']')) {
+      try {
+        // Attempt to parse as JSON array if it looks like one
+        result[key] = JSON.parse(value.replace(/'/g, '"'));
+      } catch {
+        result[key] = value;
+      }
+    } else {
+      result[key] = value;
     }
   });
   
@@ -57,7 +78,7 @@ async function syncBlog() {
       metadata = {
         ...metadata,
         ...frontmatter,
-        excerpt: frontmatter.description || metadata.excerpt
+        excerpt: frontmatter.meta_description || frontmatter.description || metadata.excerpt
       };
     }
 
