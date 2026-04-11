@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-04-11",
+    "title": "IRS Section 170 and Digital Asset Donations: Why Every Crypto Gift Over $5,000 Requires a Qualified Appraisal",
+    "excerpt": "The IRS requires a qualified appraisal for all cryptocurrency and NFT charitable donations exceeding $5,000. Learn what Section 170 demands, how to file Form 8283, and why exchange prices will not protect your deduction.",
+    "author": "Qualified Digital Asset Valuations (QDAV)",
+    "date": "2026-04-11",
+    "category": "Estate & Tax Planning",
+    "tags": [
+      "IRS Section 170",
+      "crypto donation",
+      "qualified appraisal",
+      "charitable contribution",
+      "digital asset",
+      "Form 8283",
+      "NFT donation",
+      "USPAP",
+      "fair market value",
+      "CCA 202302012"
+    ],
+    "meta_description": "The IRS requires a qualified appraisal for all cryptocurrency and NFT charitable donations exceeding $5,000. Learn what Section 170 demands, how to file Form 8283, and why exchange prices will not protect your deduction.",
+    "featured_image": "feature_image.png",
+    "image": "/blog/2026-04-11/feature_image.png",
+    "path": "/blog/2026-04-11/final.md",
+    "schema": "/blog/2026-04-11/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-07",
     "title": "IRS Requirements for Crypto Appraisals in Self-Directed IRAs: 2026 Guide",
     "excerpt": "Understand the IRS appraisal requirements for cryptocurrency held in self-directed IRAs. Learn why a USPAP-compliant qualified appraisal protects your retirement portfolio from audit risk in 2026.",
