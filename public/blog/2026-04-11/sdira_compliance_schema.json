@@ -1,0 +1,149 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/blog/2026-04-11-irs-section-170-crypto-charitable-donation-qualified-appraisal#article",
+      "headline": "IRS Section 170 and Digital Asset Donations: Why Every Crypto Gift Over $5,000 Requires a Qualified Appraisal",
+      "description": "The IRS requires a qualified appraisal for all cryptocurrency and NFT charitable donations exceeding $5,000. Learn what Section 170 demands, how to file Form 8283, and why exchange prices will not protect your deduction.",
+      "datePublished": "2026-04-11",
+      "dateModified": "2026-04-11",
+      "author": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba",
+        "telephone": "(248) 955-1491",
+        "email": "appraisal@udav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://qdav.mba/logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/blog/2026-04-11-irs-section-170-crypto-charitable-donation-qualified-appraisal"
+      },
+      "image": "https://qdav.mba/blog/2026-04-11-irs-section-170-crypto-charitable-donation-qualified-appraisal/feature_image.png",
+      "keywords": ["IRS Section 170", "crypto donation", "qualified appraisal", "charitable contribution", "digital asset", "Form 8283", "NFT donation", "USPAP", "fair market value", "CCA 202302012"],
+      "articleSection": "Estate & Tax Planning",
+      "about": [
+        {"@type": "Thing", "name": "Internal Revenue Code Section 170"},
+        {"@type": "Thing", "name": "USPAP"},
+        {"@type": "Thing", "name": "Digital Asset Appraisal"}
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#organization",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {"@type": "AdministrativeArea", "name": "Wayne County, MI"},
+        {"@type": "AdministrativeArea", "name": "Oakland County, MI"},
+        {"@type": "AdministrativeArea", "name": "Genesee County, MI"},
+        {"@type": "Country", "name": "United States"}
+      ],
+      "serviceType": "USPAP-Compliant Digital Asset Appraisal",
+      "priceRange": "$$"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service-charitable-appraisal",
+      "name": "IRS Section 170 Qualified Appraisal for Digital Asset Charitable Contributions",
+      "provider": {"@id": "https://qdav.mba/#organization"},
+      "serviceType": "Digital Asset Appraisal",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency and NFT charitable contributions exceeding $5,000, meeting IRS Section 170(f)(11)(C) requirements.",
+      "areaServed": "United States",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cryptocurrency Charitable Contribution Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT Charitable Contribution Appraisal"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/blog/2026-04-11-irs-section-170-crypto-charitable-donation-qualified-appraisal#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal for donating Bitcoin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if the claimed deduction exceeds $5,000. Despite Bitcoin trading on public exchanges, the IRS has determined that cryptocurrency does not qualify as a publicly traded security or readily valued property exempt from the appraisal requirement. A qualified appraisal is mandatory under Section 170(f)(11)(C)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use the exchange price as my valuation for a crypto donation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The IRS Chief Counsel Advice Memorandum 202302012 specifically addresses this question. Exchange-reported values do not constitute a qualified appraisal, and relying on them as a substitute will result in deduction denial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the charity need to get the appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The appraisal obligation falls on the donor, not the donee. The charity must sign Form 8283 to acknowledge receipt of the donation, but it is not responsible for obtaining or providing the valuation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I donate less than $5,000 worth of cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your total claimed deduction for all noncash charitable contributions in a tax year is $500 or less, you report the donation on Schedule A without Form 8283. Between $501 and $5,000, you must file Form 8283 Section A, but a qualified appraisal is not required. The qualified appraisal requirement applies only when the claimed deduction exceeds $5,000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes an appraiser qualified for digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraiser for digital assets must hold professional valuation credentials, demonstrate specific education and experience in valuing the type of digital asset being donated, and produce an appraisal that meets USPAP standards and IRS requirements under Regs. Sec. 1.170A-17."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I deduct an NFT donation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, subject to the same rules as any other noncash charitable contribution. NFT donations exceeding $5,000 require a qualified appraisal that addresses the specific characteristics of the NFT including rarity traits, provenance, creator reputation, comparable sales, and market conditions."
+          }
+        }
+      ]
+    }
+  ]
+}
