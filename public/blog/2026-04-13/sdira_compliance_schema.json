@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Charitable Contributions of Cryptocurrency: Why the IRS Requires a Qualified Appraisal Even When Exchange Prices Exist",
+      "datePublished": "2026-04-13",
+      "dateModified": "2026-04-13",
+      "author": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://qdav.mba/logo.png"
+        }
+      },
+      "description": "The IRS requires a qualified appraisal for cryptocurrency donations exceeding $5,000—even though crypto trades on exchanges with real-time prices. Here is what you need to know to protect your charitable deduction.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "articleSection": "Regulatory Compliance",
+      "keywords": ["crypto charitable donation appraisal", "qualified appraisal cryptocurrency IRS", "Section 170 crypto donation", "Form 8283 cryptocurrency", "digital asset valuation"]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need an appraisal to deduct a cryptocurrency donation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under IRS Memo 202302012, a qualified appraisal is required for crypto donations exceeding $5,000, even though crypto trades on exchanges with readily available prices. Cryptocurrency is not classified as 'readily valued property' under IRC §170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use the exchange price for a crypto charitable donation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The IRS has explicitly stated that cryptocurrency is not 'readily valued property' for purposes of §170. An exchange price does not substitute for a qualified appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What form do I file for crypto charitable donations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IRS Form 8283 (Noncash Charitable Contributions) must be attached to your tax return for donations exceeding $5,000. For donations of $500,000 or more, the full appraisal report must be attached."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I don't get a qualified appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRS will likely disallow the entire deduction. Gibson v. Commissioner (2026) resulted in a $188,563 deduction being fully denied due to substantiation failures."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "alternateName": "QDAV",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Wayne County",
+        "Oakland County",
+        "Genesee County"
+      ],
+      "serviceType": "Digital Asset Appraisal"
+    },
+    {
+      "@type": "Service",
+      "name": "Qualified Cryptocurrency Appraisal",
+      "serviceType": "Digital Asset Valuation",
+      "provider": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)"
+      },
+      "areaServed": ["Metro Detroit", "Wayne County", "Oakland County", "Genesee County"],
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency charitable contributions, satisfying IRC §170(f)(11)(C) requirements."
+    }
+  ]
+}
