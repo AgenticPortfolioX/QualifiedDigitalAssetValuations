@@ -6,6 +6,8 @@
 import { motion, AnimatePresence } from "motion/react";
 import { Info, Share2, Shield, LayoutGrid, Play, Pause, Coins, FileText, TrendingUp, ArrowLeft, CheckCircle2, Scale, BarChart3, Lock, UserCheck, GraduationCap, Briefcase, History, Check, Calendar, Mail, Phone, User, ArrowRight, ChevronRight, ChevronLeft, Layers, Zap, Image, Gavel, Heart } from "lucide-react";
 import { useState, useEffect, useMemo } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import blogPostsRaw from "./data/blog-posts.json";
 
 interface BlogPost {
@@ -498,8 +500,10 @@ function BlogPostPage({ post, onBack, setView }: { post: BlogPost; onBack: () =>
           )}
         </div>
 
-        <div className="prose prose-xl max-w-none text-gray-700 font-medium leading-relaxed whitespace-pre-wrap">
-          {content}
+        <div className="blog-content max-w-none">
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {content}
+          </ReactMarkdown>
         </div>
 
         <div className="mt-24 pt-12 border-t border-gray-100 flex flex-col items-center gap-6">
