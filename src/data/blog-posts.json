@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-04-13",
+    "title": "Charitable Contributions of Cryptocurrency: Why the IRS Requires a Qualified Appraisal Even When Exchange Prices Exist",
+    "excerpt": "The IRS requires a qualified appraisal for cryptocurrency donations exceeding $5,000—even though crypto trades on exchanges with real-time prices. Here is what you need to know to protect your charitable deduction.",
+    "author": "QDAV",
+    "date": "2026-04-13",
+    "description": "The IRS requires a qualified appraisal for cryptocurrency donations exceeding $5,000—even though crypto trades on exchanges with real-time prices. Here is what you need to know to protect your charitable deduction.",
+    "category": "Regulatory Compliance",
+    "image": "/blog/2026-04-13/feature_image.png",
+    "path": "/blog/2026-04-13/final.md",
+    "schema": "/blog/2026-04-13/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-11",
     "title": "IRS Section 170 and Digital Asset Donations: Why Every Crypto Gift Over $5,000 Requires a Qualified Appraisal",
     "excerpt": "The IRS requires a qualified appraisal for all cryptocurrency and NFT charitable donations exceeding $5,000. Learn what Section 170 demands, how to file Form 8283, and why exchange prices will not protect your deduction.",
