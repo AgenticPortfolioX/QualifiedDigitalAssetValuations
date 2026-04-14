@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-04-14",
+    "title": "Form 1099-DA and Self-Directed IRAs: Why Crypto Investors Need a Qualified Appraisal Before 2026 Tax Season",
+    "excerpt": "New IRS Form 1099-DA reporting rules take effect in 2026, creating unprecedented compliance demands for self-directed IRA holders with cryptocurrency. Learn why a USPAP-compliant qualified appraisal is now essential for SDIRA digital asset valuation.",
+    "author": "QDAV",
+    "date": "2026-04-14",
+    "description": "New IRS Form 1099-DA reporting rules take effect in 2026, creating unprecedented compliance demands for self-directed IRA holders with cryptocurrency. Learn why a USPAP-compliant qualified appraisal is now essential for SDIRA digital asset valuation.",
+    "category": "Agentic Workflows",
+    "image": "/blog/2026-04-14/feature_image.png",
+    "path": "/blog/2026-04-14/final.md",
+    "schema": "/blog/2026-04-14/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-13",
     "title": "Charitable Contributions of Cryptocurrency: Why the IRS Requires a Qualified Appraisal Even When Exchange Prices Exist",
     "excerpt": "The IRS requires a qualified appraisal for cryptocurrency donations exceeding $5,000—even though crypto trades on exchanges with real-time prices. Here is what you need to know to protect your charitable deduction.",
