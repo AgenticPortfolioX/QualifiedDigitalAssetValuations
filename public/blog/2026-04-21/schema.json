@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Crypto Estate Tax Valuation: Step-Up Basis, Form 706, and the Qualified Appraisal Requirement for Digital Assets",
+      "datePublished": "2026-04-21",
+      "dateModified": "2026-04-21",
+      "author": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations",
+        "alternateName": "QDAV",
+        "url": "https://qdav.mba",
+        "telephone": "(248) 955-1491",
+        "email": "appraisal@qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations",
+        "url": "https://qdav.mba"
+      },
+      "description": "Inheriting cryptocurrency triggers complex IRS valuation requirements — from step-up basis calculations under IRC §1014 to qualified appraisals for Form 706 reporting. This guide covers everything estate attorneys, CPAs, and beneficiaries need to know about digital asset estate tax compliance.",
+      "mainEntityOfPage": "https://qdav.mba/#blog",
+      "articleSection": "Estate & Tax Planning",
+      "keywords": [
+        "crypto estate tax valuation",
+        "step-up basis cryptocurrency",
+        "form 706 digital assets",
+        "qualified appraisal cryptocurrency",
+        "USPAP digital asset valuation",
+        "IRC §1014",
+        "digital asset estate planning",
+        "NFT estate valuation",
+        "self-directed IRA crypto",
+        "fair market value cryptocurrency"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When is a qualified appraisal needed for inherited cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While the explicit qualified appraisal mandate under IRC §170 applies to charitable contributions, the IRS strongly expects USPAP-compliant valuations for estate tax purposes — particularly for digital asset positions exceeding $10,000, illiquid assets like NFTs, or any holding that may face audit scrutiny. A qualified appraisal provides the 'reasonable cause' defense against accuracy-related penalties under IRC §6662."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is fair market value determined for inherited digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fair market value is determined as of the date of death (or alternate valuation date, if elected) using the Market Approach — typically volume-weighted average price (VWAP) from major exchanges for liquid cryptocurrency. For illiquid assets like NFTs and DeFi positions, comparable sales analysis, trait rarity assessment, and underlying asset valuation are required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the step-up in basis for cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under IRC §1014, the beneficiary's cost basis in inherited cryptocurrency is 'stepped up' to the fair market value at the date of the decedent's death. This eliminates unrealized capital gains accrued during the decedent's lifetime. For example, Bitcoin purchased at $1,000 and inherited at $87,000 receives a stepped-up basis of $87,000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you report cryptocurrency on IRS Form 706?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digital assets are reported on Form 706 using Schedule F (Other Miscellaneous Property) for directly held cryptocurrency, NFTs, and DeFi positions. Each asset must be listed with its fair market value, supported by exchange records, blockchain transaction history, and valuation methodology documentation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a digital asset valuation qualified under IRS rules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraisal must be performed by a qualified appraiser, comply with USPAP standards, include a detailed description of the asset, the valuation date, the valuation methodology, the appraiser's qualifications, and a certification of independence and compliance. The appraiser must have relevant education, experience, and professional credentials specific to digital asset valuation."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Qualified Digital Asset Valuations",
+      "alternateName": "QDAV",
+      "legalName": "Renowned Value Restoration LLC",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326"
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Wayne County",
+        "Oakland County",
+        "Genesee County"
+      ],
+      "serviceType": "USPAP-compliant digital asset valuation and appraisal"
+    },
+    {
+      "@type": "Service",
+      "name": "Crypto Estate Tax Valuation",
+      "serviceType": "Digital Asset Appraisal for Estate Tax",
+      "provider": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations"
+      },
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrency, NFTs, and DeFi positions for estate tax Form 706 reporting.",
+      "areaServed": ["Metro Detroit", "Wayne County", "Oakland County", "Genesee County"]
+    }
+  ]
+}
