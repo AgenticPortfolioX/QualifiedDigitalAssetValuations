@@ -757,7 +757,7 @@ function AboutPage({ onBack, onStart, setView }: { onBack: () => void; onStart: 
           <div className="space-y-4">
             <p className="text-2xl font-black text-accent-blue">(248) 955-1491</p>
             <p className="text-gray-500 font-medium max-w-lg mx-auto">
-              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations, a DBA of Renowned Value Restoration LLC. You can opt-out at any time by replying 'STOP'. Message frequency varies.
+              By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations. You can opt-out at any time by texting <span className="font-bold">STOP</span>. For help, text <span className="font-bold">HELP</span>. Message and data rates may apply. Message frequency varies. Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes.
             </p>
           </div>
           <button 
@@ -1170,7 +1170,7 @@ function QuoteWorkflow({ onBack, setView }: { onBack: () => void; setView: (v: s
                 className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer shrink-0"
               />
               <label htmlFor="sms-consent" className="text-[10px] text-gray-500 font-bold leading-tight cursor-pointer text-left">
-                By providing your phone number, you agree to receive text messages from Qualified Digital Asset Valuations. Consent is not a condition of purchase or service. Message and data rates may apply. Message frequency varies. Reply HELP for help or STOP to cancel. View our <a href="#privacy" onClick={(e) => { e.preventDefault(); setView("privacy"); }} className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="#terms" onClick={(e) => { e.preventDefault(); setView("terms"); }} className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
+                By providing your phone number, you agree to receive text messages from Qualified Digital Asset Valuations for the purpose of valuation services and project updates. Consent is not a condition of purchase or service. Message and data rates may apply. Message frequency varies. Reply <span className="font-bold">HELP</span> for help or <span className="font-bold">STOP</span> to cancel. View our <a href="#privacy" onClick={(e) => { e.preventDefault(); setView("privacy"); }} className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="#terms" onClick={(e) => { e.preventDefault(); setView("terms"); }} className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
               </label>
             </div>
           </div>
@@ -1432,18 +1432,17 @@ function PrivacyPolicyPage({ onBack, setView }: { onBack: () => void; setView: (
                 We collect phone numbers specifically for the purpose of providing you with price estimates, project status updates, and leading follow-up communications regarding your requested valuation services.
               </p>
             </div>
-
             <div className="bg-gray-50 p-8 rounded-[32px] border border-gray-100">
-              <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">SMS Disclosure</h2>
+              <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Mobile Messaging</h2>
               <p className="text-gray-900 font-bold leading-relaxed">
-                No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties for their own marketing or promotional purposes.
+                Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Use of Information</h2>
               <p className="text-gray-600 leading-relaxed">
-                We use the information we collect to provide, maintain, and improve our services, including to process your valuation requests and communicate with you about your appraisals.
+                We use the information we collect to provide, maintain, and improve our services, including to process your valuation requests and communicate with you about your appraisals. Phone numbers are used only for communication regarding the specific valuation services requested.
               </p>
             </div>
 
@@ -1451,6 +1450,189 @@ function PrivacyPolicyPage({ onBack, setView }: { onBack: () => void; setView: (
               <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Data Security</h2>
               <p className="text-gray-600 leading-relaxed">
                 We take reasonable measures to help protect information about you from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className="px-6 md:px-12 py-10 border-t border-gray-100 bg-gray-50">
+        <div className="max-w-4xl mx-auto text-center space-y-2">
+          <p className="text-black text-sm font-black">
+            Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.
+          </p>
+          <p className="text-black text-[10px] font-bold uppercase tracking-widest opacity-40">
+            2711 Williamsburg Cir, Auburn Hills, Michigan 48326
+          </p>
+          <div className="flex gap-4 justify-center mt-4">
+            <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
+            <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+          </div>
+        </div>
+      </footer>
+    </main>
+  );
+}
+
+function TermsOfServicePage({ onBack, setView }: { onBack: () => void; setView: (v: string) => void }) {
+  return (
+    <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
+      <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
+          <button 
+            onClick={onBack}
+          )}
+        </div>
+      )
+    }
+  ];
+
+  const currentStep = steps[step - 1];
+  const isLastStep = step === steps.length;
+  const canContinue = step === 1 ? (formData.name && formData.contact) : 
+                      step === 2 ? formData.purpose :
+                      step === 3 ? formData.assetType : true;
+
+  return (
+    <main className="relative h-screen w-screen bg-gray-50 flex items-center justify-center overflow-hidden">
+      {/* Background Elements */}
+      <div className="absolute top-0 left-0 w-full h-1/2 bg-accent-blue" />
+      <div className="absolute top-[40%] left-[-10%] w-[60%] h-[80%] bg-accent-yellow rounded-full opacity-10 blur-3xl" />
+      
+      <div className="relative z-10 w-full max-w-2xl px-6">
+        <motion.div 
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          className="bg-white rounded-[40px] shadow-2xl overflow-hidden"
+        >
+          {/* Progress Bar */}
+          <div className="h-2 w-full bg-gray-100 flex">
+            {steps.map((_, i) => (
+              <div 
+                key={i} 
+                className={`flex-1 transition-all duration-500 ${i < step ? "bg-accent-blue" : "bg-transparent"}`}
+              />
+            ))}
+          </div>
+
+          <div className="p-12">
+            {/* Header */}
+            <div className="flex items-center justify-between mb-12">
+              <button 
+                onClick={step === 1 ? onBack : prevStep}
+                className="w-12 h-12 rounded-full border border-gray-100 flex items-center justify-center hover:bg-gray-50 transition-colors"
+              >
+                <ChevronLeft className="w-6 h-6 text-gray-400" />
+              </button>
+              <div className="text-center">
+                <div className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] mb-1">Step {step} of {steps.length}</div>
+                <h2 className="text-2xl font-black text-gray-900 tracking-tight">{currentStep.title}</h2>
+              </div>
+              <div className="w-12" />
+            </div>
+
+            {/* Content */}
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={step}
+                initial={{ x: 20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: -20, opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="min-h-[300px]"
+              >
+                <div className="flex flex-col items-center text-center mb-10">
+                  <div className="mb-4">{currentStep.icon}</div>
+                  <p className="text-gray-500 font-medium">{currentStep.description}</p>
+                </div>
+                {currentStep.content}
+              </motion.div>
+            </AnimatePresence>
+
+            {/* Footer */}
+            <div className="mt-12 flex flex-col gap-6">
+              <div className="flex gap-4">
+                <button 
+                  onClick={isLastStep ? onBack : nextStep}
+                  disabled={!canContinue}
+                  className={`flex-1 py-5 rounded-3xl font-black text-lg shadow-xl transition-all flex items-center justify-center gap-2 ${
+                    canContinue
+                    ? "bg-accent-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
+                    : "bg-gray-100 text-gray-300 cursor-not-allowed"
+                  }`}
+                >
+                  {isLastStep ? "Submit Request" : "Continue"}
+                  {!isLastStep && <ChevronRight className="w-6 h-6" />}
+                </button>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        <div className="text-center mt-8 space-y-1">
+          <p className="text-black text-sm font-black opacity-80">
+            Your data is encrypted and protected by my Security Promise.
+          </p>
+          <p className="text-black text-[10px] font-black uppercase tracking-widest opacity-60">
+            Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC
+          </p>
+          <p className="text-black text-[10px] font-black uppercase tracking-widest opacity-60">
+            2711 Williamsburg Cir, Auburn Hills, Michigan 48326
+          </p>
+          <div className="flex gap-4 justify-center mt-4">
+            <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
+            <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
+
+function PrivacyPolicyPage({ onBack, setView }: { onBack: () => void; setView: (v: string) => void }) {
+  return (
+    <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
+      <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
+          <button 
+            onClick={onBack}
+            className="flex items-center gap-2 text-gray-400 hover:text-accent-blue transition-colors font-bold uppercase tracking-widest text-xs"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </button>
+          <div className="flex items-center gap-3">
+            <Shield className="text-accent-blue w-6 h-6" />
+            <span className="font-black text-gray-900 tracking-tight">Privacy Policy</span>
+          </div>
+        </div>
+      </nav>
+
+      <section className="px-6 md:px-12 pt-32 pb-20 bg-accent-blue">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-5xl font-black text-white tracking-tight mb-6">Privacy Policy</h1>
+          <p className="text-white/70 text-lg font-medium">How we protect your data and respect your privacy.</p>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-12 py-20">
+        <div className="max-w-4xl mx-auto prose prose-lg">
+          <div className="space-y-12">
+            <div className="bg-gray-50 p-8 rounded-[32px] border border-gray-100">
+              <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Mobile Messaging</h2>
+              <p className="text-gray-900 font-bold leading-relaxed">
+                Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Information Collection & Use</h2>
+              <p className="text-gray-600 leading-relaxed">
+                We collect and use phone numbers specifically for the purpose of providing valuation services, project status updates, and leading follow-up communications regarding your requested appraisals.
+              </p>
+              <h3 className="text-xl font-bold text-gray-900 mt-6 mb-2 uppercase tracking-tight">No Marketing</h3>
+              <p className="text-gray-600 leading-relaxed">
+                All mobile opt-in data is used exclusively for the specific valuation services requested by the user. We do not use mobile information for marketing or promotional purposes.
               </p>
             </div>
           </div>
@@ -1533,58 +1715,55 @@ function TermsOfServicePage({ onBack, setView }: { onBack: () => void; setView: 
             </div>
 
             <div className="bg-gray-50 p-8 rounded-[32px] border border-gray-100">
-              <h2 className="text-2xl font-black text-gray-900 mb-6 uppercase tracking-tight underline">Mobile Messaging Program</h2>
+              <h2 className="text-2xl font-black text-gray-900 mb-6 uppercase tracking-tight underline">SMS/MMS Mobile Messaging</h2>
               
               <div className="space-y-6 text-sm">
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-2">1. Program Description</h3>
+                  <h3 className="font-bold text-gray-900 mb-2">1. Program Name</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    By opting into our mobile messaging service, you agree to receive recurring automated and/or manual text messages (e.g., SMS and MMS) from Qualified Digital Asset Valuations. These messages include, but are not limited to, updates regarding your digital asset appraisals, appointment reminders, IRS-qualified valuation status, and service-related inquiries.
+                    QDAV Notifications
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-2">2. Message Frequency and Rates</h3>
+                  <h3 className="font-bold text-gray-900 mb-2">2. Program Description</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Message frequency will vary depending on your interaction with our services and the complexity of the assets being valued. Message and data rates may apply. Please check your mobile service plan for details.
+                    Messages include project updates, valuation delivery notifications, and scheduling alerts.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-2">3. Opt-Out and Help</h3>
+                  <h3 className="font-bold text-gray-900 mb-2">3. Message Frequency and Rates</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    <span className="font-bold">To Stop:</span> You may opt out of our mobile messaging at any time. Text <span className="font-bold">STOP, END, CANCEL, UNSUBSCRIBE, or QUIT</span> to our shortcode or long-code number. You will receive a one-time confirmation text acknowledging your request.
-                  </p>
-                  <p className="text-gray-600 leading-relaxed mt-2">
-                    <span className="font-bold">To Get Help:</span> If you are experiencing issues with our messaging program, reply with the keyword <span className="font-bold">HELP</span> for more assistance, or contact our support team directly.
+                    Message frequency varies. Message and data rates may apply.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-2">4. Carrier Disclaimer</h3>
+                  <h3 className="font-bold text-gray-900 mb-2">4. Support (HELP)</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Mobile carriers are not liable for delayed or undelivered messages. Delivery is subject to the effective transmission from your network provider.
+                    For support, text <span className="font-bold">HELP</span> to (248) 955-1491 or email support@qdav.mba.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-2">5. Interruption of Service</h3>
+                  <h3 className="font-bold text-gray-900 mb-2">5. Opt-Out (STOP)</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    We reserve the right to alter or terminate the mobile messaging program at any time, with or without notice, including the right to terminate messaging for any reason, such as if we suspect a violation of these Terms.
+                    You may opt-out at any time by texting <span className="font-bold">STOP</span> to (248) 955-1491.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-2">6. Data Sharing & Privacy</h3>
+                  <h3 className="font-bold text-gray-900 mb-2">6. Carrier Disclaimer</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Carriers are not liable for delayed or undelivered messages.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-2">7. Data Sharing & Privacy</h3>
                   <p className="text-gray-900 font-bold leading-relaxed italic">
-                    "No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="font-bold text-gray-900 mb-2">7. Consent Not a Condition of Service</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Providing your phone number and consenting to receive mobile messages is not a condition of purchase or a requirement to receive digital asset valuation services. You may still request and receive appraisals by communicating via email or our website contact form without opting into SMS.
+                    "Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
                   </p>
                 </div>
               </div>
@@ -1599,7 +1778,7 @@ function TermsOfServicePage({ onBack, setView }: { onBack: () => void; setView: 
             Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.
           </p>
           <p className="text-black text-[10px] font-bold uppercase tracking-widest opacity-40">
-            2711 Williamsburg Cir, Auburn Hills, Michigan 48326
+            2711 Williamsburg Circle, Auburn Hills, Michigan 48326
           </p>
           <div className="flex gap-4 justify-center mt-4">
             <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
@@ -1610,4 +1789,3 @@ function TermsOfServicePage({ onBack, setView }: { onBack: () => void; setView: 
     </main>
   );
 }
-
