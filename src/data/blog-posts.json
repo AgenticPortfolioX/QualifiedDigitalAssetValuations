@@ -93,5 +93,15 @@
     "image": "/blog/2026-04-03/feature_image.png",
     "path": "/blog/2026-04-03/final.md",
     "schema": "/blog/2026-04-03/sdira_compliance_schema.json"
+  },
+  {
+    "id": "2026-04-24-irs-crypto-appraisal-requirements-guide",
+    "title": "Blog Post 2026-04-24-irs-crypto-appraisal-requirements-guide",
+    "excerpt": "Read more about this update...",
+    "author": "QDAV Team",
+    "date": "2026-04-24-irs-crypto-appraisal-requirements-guide",
+    "image": "/blog/2026-04-24-irs-crypto-appraisal-requirements-guide/feature_image.png",
+    "path": "/blog/2026-04-24-irs-crypto-appraisal-requirements-guide/final.md",
+    "schema": "/blog/2026-04-24-irs-crypto-appraisal-requirements-guide/sdira_compliance_schema.json"
   }
 ]
