@@ -3,12 +3,14 @@ import { motion, AnimatePresence } from "motion/react";
 import { Info, Share2, Shield, LayoutGrid, Play, Pause, Coins, FileText, TrendingUp, ArrowLeft, CheckCircle2, Scale, BarChart3, Lock, UserCheck, GraduationCap, Briefcase, History, Check, Calendar, Mail, Phone, User, ArrowRight, ChevronRight, ChevronLeft, Layers, Zap, Image, Gavel, Heart } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { useForm } from '@formspree/react';
 import blogPostsRaw from "../data/blog-posts.json";
 import { BlogPost } from "../types";
 
 const blogPosts = blogPostsRaw as BlogPost[];
 
 export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void; setView: (v: string) => void }) {
+  const [state, handleSubmit] = useForm('xwvykawk');
   const [step, setStep] = useState(1);
   const [smsConsent, setSmsConsent] = useState(false);
   const [formData, setFormData] = useState({
@@ -79,6 +81,7 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
           {["Tax", "IRA", "Legal", "Insurance"].map(purpose => (
             <button
               key={purpose}
+              type="button"
               onClick={() => setFormData({...formData, purpose})}
               className={`p-6 rounded-3xl border-2 transition-all text-left flex flex-col gap-2 ${
                 formData.purpose === purpose 
@@ -110,6 +113,7 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
           ].map(type => (
             <button
               key={type.id}
+              type="button"
               onClick={() => setFormData({...formData, assetType: type.id})}
               className={`w-full p-6 rounded-3xl border-2 transition-all text-left flex items-center gap-4 ${
                 formData.assetType === type.id 
@@ -145,6 +149,7 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
           ].map(date => (
             <button
               key={date.id}
+              type="button"
               onClick={() => setFormData({...formData, valuationDate: date.id})}
               className={`w-full p-6 rounded-3xl border-2 transition-all text-left flex items-center gap-4 ${
                 formData.valuationDate === date.id 
@@ -177,6 +182,7 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
                 type={formData.valuationDate === "yearend" ? "number" : "date"} 
                 placeholder={formData.valuationDate === "yearend" ? "e.g. 2023" : ""}
                 className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 px-6 focus:outline-none focus:ring-2 focus:ring-accent-blue/20 transition-all"
+                onChange={e => setFormData({...formData, valuationDate: e.target.value})}
               />
             </motion.div>
           )}
@@ -213,58 +219,88 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
             ))}
           </div>
 
-          <div className="p-12">
-            {/* Header */}
-            <div className="flex items-center justify-between mb-12">
-              <button 
-                onClick={step === 1 ? onBack : prevStep}
-                className="w-12 h-12 rounded-full border border-gray-100 flex items-center justify-center hover:bg-gray-50 transition-colors"
-              >
-                <ChevronLeft className="w-6 h-6 text-gray-400" />
-              </button>
-              <div className="text-center">
-                <div className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] mb-1">Step {step} of {steps.length}</div>
-                <h2 className="text-2xl font-black text-gray-900 tracking-tight">{currentStep.title}</h2>
-              </div>
-              <div className="w-12" />
-            </div>
+          <form className="p-12" onSubmit={handleSubmit}>
+            <input type="hidden" name="name" value={formData.name} />
+            <input type="hidden" name="contact" value={formData.contact} />
+            <input type="hidden" name="purpose" value={formData.purpose} />
+            <input type="hidden" name="assetType" value={formData.assetType} />
+            <input type="hidden" name="valuationDate" value={formData.valuationDate} />
+            <input type="hidden" name="smsConsent" value={smsConsent ? "Yes" : "No"} />
 
-            {/* Content */}
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={step}
-                initial={{ x: 20, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                exit={{ x: -20, opacity: 0 }}
-                transition={{ duration: 0.3 }}
-                className="min-h-[300px]"
-              >
-                <div className="flex flex-col items-center text-center mb-10">
-                  <div className="mb-4">{currentStep.icon}</div>
-                  <p className="text-gray-500 font-medium">{currentStep.description}</p>
+            {state.succeeded ? (
+              <div className="flex flex-col items-center justify-center min-h-[300px] text-center">
+                <div className="w-20 h-20 bg-accent-green/10 rounded-full flex items-center justify-center mb-6">
+                  <CheckCircle2 className="w-10 h-10 text-accent-green" />
                 </div>
-                {currentStep.content}
-              </motion.div>
-            </AnimatePresence>
-
-            {/* Footer */}
-            <div className="mt-12 flex flex-col gap-6">
-              <div className="flex gap-4">
+                <h2 className="text-3xl font-black text-gray-900 mb-4">Request Sent!</h2>
+                <p className="text-gray-500 text-lg mb-8 max-w-md">
+                  Thank you for reaching out. A qualified appraiser will review your details and contact you shortly.
+                </p>
                 <button 
-                  onClick={isLastStep ? onBack : nextStep}
-                  disabled={!canContinue}
-                  className={`flex-1 py-5 rounded-3xl font-black text-lg shadow-xl transition-all flex items-center justify-center gap-2 ${
-                    canContinue
-                    ? "bg-accent-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
-                    : "bg-gray-100 text-gray-300 cursor-not-allowed"
-                  }`}
+                  type="button"
+                  onClick={onBack}
+                  className="px-8 py-4 bg-accent-blue text-white font-black rounded-2xl shadow-xl hover:scale-105 transition-all uppercase tracking-widest text-sm"
                 >
-                  {isLastStep ? "Submit Request" : "Continue"}
-                  {!isLastStep && <ChevronRight className="w-6 h-6" />}
+                  Return to Home
                 </button>
               </div>
-            </div>
-          </div>
+            ) : (
+              <>
+                {/* Header */}
+                <div className="flex items-center justify-between mb-12">
+                  <button 
+                    type="button"
+                    onClick={step === 1 ? onBack : prevStep}
+                    className="w-12 h-12 rounded-full border border-gray-100 flex items-center justify-center hover:bg-gray-50 transition-colors"
+                  >
+                    <ChevronLeft className="w-6 h-6 text-gray-400" />
+                  </button>
+                  <div className="text-center">
+                    <div className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] mb-1">Step {step} of {steps.length}</div>
+                    <h2 className="text-2xl font-black text-gray-900 tracking-tight">{currentStep.title}</h2>
+                  </div>
+                  <div className="w-12" />
+                </div>
+
+                {/* Content */}
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    key={step}
+                    initial={{ x: 20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    exit={{ x: -20, opacity: 0 }}
+                    transition={{ duration: 0.3 }}
+                    className="min-h-[300px]"
+                  >
+                    <div className="flex flex-col items-center text-center mb-10">
+                      <div className="mb-4">{currentStep.icon}</div>
+                      <p className="text-gray-500 font-medium">{currentStep.description}</p>
+                    </div>
+                    {currentStep.content}
+                  </motion.div>
+                </AnimatePresence>
+
+                {/* Footer */}
+                <div className="mt-12 flex flex-col gap-6">
+                  <div className="flex gap-4">
+                    <button 
+                      type={isLastStep ? "submit" : "button"}
+                      onClick={isLastStep ? undefined : nextStep}
+                      disabled={!canContinue || state.submitting}
+                      className={`flex-1 py-5 rounded-3xl font-black text-lg shadow-xl transition-all flex items-center justify-center gap-2 ${
+                        canContinue
+                        ? "bg-accent-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
+                        : "bg-gray-100 text-gray-300 cursor-not-allowed"
+                      }`}
+                    >
+                      {isLastStep ? (state.submitting ? "Sending..." : "Submit Request") : "Continue"}
+                      {!isLastStep && <ChevronRight className="w-6 h-6" />}
+                    </button>
+                  </div>
+                </div>
+              </>
+            )}
+          </form>
         </motion.div>
 
         <div className="text-center mt-8 space-y-1">
