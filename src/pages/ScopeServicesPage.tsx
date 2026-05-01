@@ -165,7 +165,7 @@ export default function ScopeServicesPage({ onBack, onStart, setView }: { onBack
             <h4 className="text-4xl font-black tracking-tight mb-2">Ready to Proceed?</h4>
             <p className="text-white/70 font-medium text-lg">Select your service tier and start your qualified appraisal today.</p>
             <p className="text-white/70 text-sm font-bold mt-4">Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC.</p>
-            <p className="text-white/50 text-[10px] font-black uppercase tracking-widest mt-1">2711 Williamsburg Cir, Auburn Hills, Michigan 48326<br/>Serving clients nationwide for digital asset appraisals | Property and business valuations available in Michigan only.</p>
+            
             <div className="flex gap-4 mt-6">
               <button onClick={() => setView("privacy")} className="text-[10px] text-white/50 hover:text-white transition-colors uppercase font-black underline">Privacy Policy</button>
               <button onClick={() => setView("terms")} className="text-[10px] text-white/50 hover:text-white transition-colors uppercase font-black underline">Terms of Service</button>

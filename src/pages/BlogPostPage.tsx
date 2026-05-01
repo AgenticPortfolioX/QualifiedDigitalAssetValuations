@@ -113,9 +113,7 @@ export default function BlogPostPage({ post, onBack, setView }: { post: BlogPost
 
       <footer className="mt-auto px-6 md:px-12 py-12 border-t border-gray-50 text-center">
         <p className="text-gray-400 text-xs font-bold uppercase tracking-widest mb-2">&copy; {new Date().getFullYear()} QDAV Insights</p>
-        <p className="text-gray-400 text-[10px] uppercase tracking-widest">
-          Serving clients nationwide for digital asset appraisals | Property and business valuations available in Michigan only.
-        </p>
+        
       </footer>
     </main>
   );

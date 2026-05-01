@@ -56,18 +56,6 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
                 onChange={e => setFormData({...formData, contact: e.target.value})}
               />
             </div>
-            <div className="flex gap-3 items-start mt-4">
-              <input 
-                type="checkbox" 
-                id="sms-consent"
-                checked={smsConsent}
-                onChange={(e) => setSmsConsent(e.target.checked)}
-                className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer shrink-0"
-              />
-              <label htmlFor="sms-consent" className="text-[10px] text-gray-500 font-bold leading-tight cursor-pointer text-left">
-                By providing your phone number, you agree to receive text messages from Qualified Digital Asset Valuations for the purpose of valuation services and project updates. Consent is not a condition of purchase or service. Message and data rates may apply. Message frequency varies. Reply <span className="font-bold">HELP</span> for help or <span className="font-bold">STOP</span> to cancel. View our <a href="#privacy" onClick={(e) => { e.preventDefault(); setView("privacy"); }} className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="#terms" onClick={(e) => { e.preventDefault(); setView("terms"); }} className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
-              </label>
-            </div>
           </div>
         </div>
       )
@@ -303,19 +291,25 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
           </form>
         </motion.div>
 
-        <div className="text-center mt-8 space-y-1">
+        <div className="text-center mt-8 space-y-4">
           <p className="text-black text-sm font-black opacity-80">
             Your data is encrypted and protected by my Security Promise.
           </p>
-          <p className="text-black text-[10px] font-black uppercase tracking-widest opacity-60">
-            Qualified Digital Asset Valuations is a DBA of Renowned Value Restoration LLC
-          </p>
-          <p className="text-black text-[10px] font-black uppercase tracking-widest opacity-60">
-            2711 Williamsburg Cir, Auburn Hills, Michigan 48326<br/>Serving clients nationwide for digital asset appraisals | Property and business valuations available in Michigan only.
-          </p>
-          <div className="flex gap-4 justify-center mt-4">
+          <div className="flex gap-4 justify-center">
             <button onClick={() => setView("privacy")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Privacy Policy</button>
             <button onClick={() => setView("terms")} className="text-[10px] text-gray-400 hover:text-accent-blue transition-colors uppercase font-black underline">Terms of Service</button>
+          </div>
+          <div className="flex gap-3 items-start max-w-lg mx-auto text-left">
+            <input 
+              type="checkbox" 
+              id="sms-consent"
+              checked={smsConsent}
+              onChange={(e) => setSmsConsent(e.target.checked)}
+              className="mt-1 w-5 h-5 rounded border-gray-300 text-accent-blue focus:ring-accent-blue cursor-pointer shrink-0"
+            />
+            <label htmlFor="sms-consent" className="text-[10px] text-gray-500 font-bold leading-tight cursor-pointer">
+              By providing your phone number, you agree to receive text messages from Qualified Digital Asset Valuations for the purpose of valuation services and project updates. Consent is not a condition of purchase or service. Message and data rates may apply. Message frequency varies. Reply <span className="font-bold">HELP</span> for help or <span className="font-bold">STOP</span> to cancel. View our <a href="#privacy" onClick={(e) => { e.preventDefault(); setView("privacy"); }} className="text-accent-blue underline hover:opacity-80">Privacy Policy</a> and <a href="#terms" onClick={(e) => { e.preventDefault(); setView("terms"); }} className="text-accent-blue underline hover:opacity-80">Terms of Service</a>.
+            </label>
           </div>
         </div>
       </div>

@@ -108,7 +108,7 @@ export default function BlogPage({ onBack, onSelectPost, setView }: { onBack: ()
           </div>
           <div className="flex flex-col items-end text-right">
              <p className="text-white/40 text-[10px] font-black uppercase tracking-widest">
-              Serving clients nationwide for digital asset appraisals | Property and business valuations available in Michigan only.<br /><br />
+              
               Digital assets are highly volatile. <br />
               All valuations are professional opinions.
             </p>
