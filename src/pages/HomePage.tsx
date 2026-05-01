@@ -186,10 +186,10 @@ export default function HomePage({ setView }: { setView: (v: string) => void }) 
       {/* Global Compliance Footer */}
       <div className="absolute bottom-2 left-0 right-0 z-30 flex flex-col items-center gap-2 pointer-events-none">
 
-        <div className="flex gap-4 pointer-events-auto text-[10px] text-white uppercase tracking-[0.1em] font-black">
+        <div className="flex gap-4 pointer-events-auto text-[15px] text-white uppercase tracking-[0.1em] font-black">
           <a href="tel:2489551491" className="hover:text-accent-yellow transition-colors">(248) 955-1491</a>
           <span className="opacity-50">|</span>
-          <a href="mailto:support@qdav.mba" className="hover:text-accent-yellow transition-colors">support@qdav.mba</a>
+          <a href="mailto:appraisal@qdav.mba" className="hover:text-accent-yellow transition-colors">appraisal@qdav.mba</a>
         </div>
       </div>
     </main>
