@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-05",
+    "title": "Blog Post 2026-05-05",
+    "excerpt": "Read more about this update...",
+    "author": "QDAV Team",
+    "date": "2026-05-05",
+    "image": "/blog/2026-05-05/feature_image.png",
+    "path": "/blog/2026-05-05/final.md",
+    "schema": "/blog/2026-05-05/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-04-21",
     "title": "Crypto Estate Tax Valuation: Step-Up Basis, Form 706, and the Qualified Appraisal Requirement for Digital Assets",
     "excerpt": "Inheriting cryptocurrency triggers complex IRS valuation requirements — from step-up basis calculations under IRC §1014 to qualified appraisals for Form 706 reporting. This guide covers everything estate attorneys, CPAs, and beneficiaries need to know about digital asset estate tax compliance.",
