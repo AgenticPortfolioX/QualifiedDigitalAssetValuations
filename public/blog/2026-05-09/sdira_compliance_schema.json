@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-05-09",
+      "headline": "Digital Asset Tax Compliance in 2026: Qualified Appraisals, Cost Basis Reporting, and the New IRS Form 1099-DA",
+      "description": "A comprehensive guide to digital asset tax compliance in 2026, covering Form 1099-DA, cost basis reporting changes, and the critical importance of IRS-qualified appraisals for cryptocurrency and NFT valuations exceeding $5,000.",
+      "datePublished": "2026-05-09",
+      "dateModified": "2026-05-09",
+      "author": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Digital Asset Tax Compliance",
+        "sameAs": "https://en.wikipedia.org/wiki/Cryptocurrency_tax"
+      },
+      "keywords": "Form 1099-DA, qualified appraisal, IRS Section 170, digital asset valuation, crypto tax compliance, USPAP, cost basis reporting, NFT appraisal, cryptocurrency tax"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-05-09",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Form 1099-DA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 1099-DA, Digital Asset Proceeds From Broker Transactions, is a new IRS information return that reports proceeds from sales, exchanges, or other dispositions of cryptocurrency and NFTs. Brokers began issuing this form for 2025 transactions in early 2026, marking the first time digital asset transactions are subject to standardized third-party reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal for cryptocurrency donations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if the claimed charitable contribution deduction exceeds $5,000, Internal Revenue Code Section 170(f)(11)(C) requires a qualified appraisal prepared by a qualified appraiser. The IRS has confirmed in Chief Counsel Advice 202302012 that cryptocurrency does not qualify for the publicly traded securities exemption, and exchange-reported values do not substitute for a qualified appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the IRS define digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 6045(g)(3)(D), digital assets are defined as 'any digital representation of value which is recorded on a cryptographically secured distributed ledger or any similar technology.' This includes cryptocurrencies (such as Bitcoin and Ethereum), stablecoins, and non-fungible tokens (NFTs)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I don't obtain a qualified appraisal for a crypto donation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The charitable contribution deduction will likely be denied. The Tax Court has consistently held that failure to obtain a qualified appraisal results in disallowance of the deduction, even if the donation was genuine and the value was accurately reported. Reliance on exchange-reported values does not excuse noncompliance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use cryptocurrency exchange prices instead of a qualified appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The IRS has explicitly rejected the argument that exchange-reported values substitute for a qualified appraisal. In CCA 202302012, the IRS concluded that cryptocurrency is not a security and therefore does not qualify for the publicly traded securities exemption. Exchange prices reflect marginal transaction values and do not constitute a USPAP-compliant fair market value determination."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#local-business",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#appraisal-service",
+      "name": "USPAP-Compliant Digital Asset Appraisal",
+      "description": "Professional, IRS-qualified appraisal services for cryptocurrencies, NFTs, and complex digital assets, prepared in accordance with USPAP standards.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#local-business"
+      },
+      "serviceType": "Qualified Appraisal",
+      "areaServed": "United States",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "High-net-worth individuals, estate attorneys, CPAs, SDIRA holders"
+      }
+    }
+  ]
+}
