@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-05-09",
+    "title": "Digital Asset Tax Compliance in 2026: Qualified Appraisals, Cost Basis Reporting, and the New IRS Form 1099-DA",
+    "excerpt": "A comprehensive guide to digital asset tax compliance in 2026, covering Form 1099-DA, cost basis reporting changes, and the critical importance of IRS-qualified appraisals for cryptocurrency and NFT valuations exceeding $5,000.",
+    "author": "QDAV",
+    "date": "2026-05-09",
+    "description": "A comprehensive guide to digital asset tax compliance in 2026, covering Form 1099-DA, cost basis reporting changes, and the critical importance of IRS-qualified appraisals for cryptocurrency and NFT valuations exceeding $5,000.",
+    "category": "QDAV",
+    "image": "/blog/2026-05-09/feature_image.png",
+    "path": "/blog/2026-05-09/final.md",
+    "schema": "/blog/2026-05-09/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-05-05",
     "title": "Blog Post 2026-05-05",
     "excerpt": "Read more about this update...",
