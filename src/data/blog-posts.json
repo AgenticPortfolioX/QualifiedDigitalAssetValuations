@@ -117,11 +117,11 @@
     "schema": "/blog/2026-04-03/sdira_compliance_schema.json"
   },
   {
-    "id": "2026-04-24-irs-crypto-appraisal-requirements-guide",
-    "title": "Blog Post 2026-04-24-irs-crypto-appraisal-requirements-guide",
-    "excerpt": "Read more about this update...",
+    "id": "2026-04-24",
+    "title": "IRS Crypto Appraisal Requirements: A Complete Guide to Form 8283 Compliance",
+    "excerpt": "Understand IRS requirements for cryptocurrency and NFT charitable donations. Learn when you need a qualified appraisal, how to comply with Form 8283, and why price trackers don't satisfy Treasury regulations.",
     "author": "QDAV Team",
-    "date": "2026-04-24-irs-crypto-appraisal-requirements-guide",
+    "date": "2026-04-24",
     "image": "/blog/2026-04-24-irs-crypto-appraisal-requirements-guide/feature_image.png",
     "path": "/blog/2026-04-24-irs-crypto-appraisal-requirements-guide/final.md",
     "schema": "/blog/2026-04-24-irs-crypto-appraisal-requirements-guide/sdira_compliance_schema.json"

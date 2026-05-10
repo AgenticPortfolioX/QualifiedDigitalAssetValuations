@@ -17,7 +17,9 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
     name: "",
     contact: "",
     purpose: "",
+    otherPurposeText: "",
     assetType: "",
+    otherAssetTypeText: "",
     valuationDate: "current"
   });
 
@@ -65,26 +67,44 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
       description: "Why do you need this valuation?",
       icon: <FileText className="w-8 h-8 text-accent-yellow" />,
       content: (
-        <div className="grid grid-cols-2 gap-4">
-          {["Tax", "IRA", "Legal", "Insurance"].map(purpose => (
-            <button
-              key={purpose}
-              type="button"
-              onClick={() => setFormData({...formData, purpose})}
-              className={`p-6 rounded-3xl border-2 transition-all text-left flex flex-col gap-2 ${
-                formData.purpose === purpose 
-                ? "border-accent-blue bg-accent-blue/5" 
-                : "border-gray-50 bg-white hover:border-gray-200"
-              }`}
+        <div className="space-y-4">
+          <div className="grid grid-cols-2 gap-4">
+            {["Tax", "IRA", "Legal", "Insurance", "Other"].map(purpose => (
+              <button
+                key={purpose}
+                type="button"
+                onClick={() => setFormData({...formData, purpose})}
+                className={`p-6 rounded-3xl border-2 transition-all text-left flex flex-col gap-2 ${
+                  formData.purpose === purpose 
+                  ? "border-accent-blue bg-accent-blue/5" 
+                  : "border-gray-50 bg-white hover:border-gray-200"
+                }`}
+              >
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${
+                  formData.purpose === purpose ? "bg-accent-blue text-white" : "bg-gray-50 text-gray-400"
+                }`}>
+                  <FileText className="w-5 h-5" />
+                </div>
+                <span className="font-bold text-gray-900">{purpose}</span>
+              </button>
+            ))}
+          </div>
+          {formData.purpose === "Other" && (
+            <motion.div 
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="pt-2"
             >
-              <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${
-                formData.purpose === purpose ? "bg-accent-blue text-white" : "bg-gray-50 text-gray-400"
-              }`}>
-                <FileText className="w-5 h-5" />
-              </div>
-              <span className="font-bold text-gray-900">{purpose}</span>
-            </button>
-          ))}
+              <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2 block">Please specify purpose</label>
+              <input 
+                type="text" 
+                placeholder="e.g. Divorce, Estate Planning, etc."
+                className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 px-6 focus:outline-none focus:ring-2 focus:ring-accent-blue/20 transition-all"
+                value={formData.otherPurposeText}
+                onChange={e => setFormData({...formData, otherPurposeText: e.target.value})}
+              />
+            </motion.div>
+          )}
         </div>
       )
     },
@@ -97,7 +117,8 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
           {[
             { id: "Standard Token", label: "Standard Token", desc: "BTC, ETH, ERC-20, etc." },
             { id: "NFT", label: "NFT", desc: "Digital Art, Collectibles, etc." },
-            { id: "Complex DeFi", label: "Complex DeFi", desc: "LP Tokens, Staking, Vaults, etc." }
+            { id: "Complex DeFi", label: "Complex DeFi", desc: "LP Tokens, Staking, Vaults, etc." },
+            { id: "Other", label: "Other", desc: "Specify custom asset type" }
           ].map(type => (
             <button
               key={type.id}
@@ -121,6 +142,22 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
               {formData.assetType === type.id && <CheckCircle2 className="ml-auto text-accent-blue w-6 h-6" />}
             </button>
           ))}
+          {formData.assetType === "Other" && (
+            <motion.div 
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="pt-2"
+            >
+              <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2 block">Please specify asset type</label>
+              <input 
+                type="text" 
+                placeholder="e.g. Private Keys, Nodes, etc."
+                className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 px-6 focus:outline-none focus:ring-2 focus:ring-accent-blue/20 transition-all"
+                value={formData.otherAssetTypeText}
+                onChange={e => setFormData({...formData, otherAssetTypeText: e.target.value})}
+              />
+            </motion.div>
+          )}
         </div>
       )
     },
@@ -182,8 +219,8 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
   const currentStep = steps[step - 1];
   const isLastStep = step === steps.length;
   const canContinue = step === 1 ? (formData.name && formData.contact) : 
-                      step === 2 ? formData.purpose :
-                      step === 3 ? formData.assetType : true;
+                      step === 2 ? (formData.purpose === "Other" ? formData.otherPurposeText : formData.purpose) :
+                      step === 3 ? (formData.assetType === "Other" ? formData.otherAssetTypeText : formData.assetType) : true;
 
   return (
     <main className="relative h-screen w-screen bg-gray-50 flex items-center justify-center overflow-hidden">
@@ -210,10 +247,12 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
           <form className="p-12" onSubmit={handleSubmit}>
             <input type="hidden" name="name" value={formData.name} />
             <input type="hidden" name="contact" value={formData.contact} />
-            <input type="hidden" name="purpose" value={formData.purpose} />
-            <input type="hidden" name="assetType" value={formData.assetType} />
+            <input type="hidden" name="purpose" value={formData.purpose === "Other" ? `Other: ${formData.otherPurposeText}` : formData.purpose} />
+            <input type="hidden" name="assetType" value={formData.assetType === "Other" ? `Other: ${formData.otherAssetTypeText}` : formData.assetType} />
             <input type="hidden" name="valuationDate" value={formData.valuationDate} />
             <input type="hidden" name="smsConsent" value={smsConsent ? "Yes" : "No"} />
+            <input type="text" name="_gotcha" style={{ display: 'none' }} />
+            <input type="hidden" name="_subject" value={`New Appraisal Request from ${formData.name}`} />
 
             {state.succeeded ? (
               <div className="flex flex-col items-center justify-center min-h-[300px] text-center">
