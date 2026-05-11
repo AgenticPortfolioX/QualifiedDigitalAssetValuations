@@ -9,8 +9,23 @@ import { BlogPost } from "../types";
 const blogPosts = blogPostsRaw as BlogPost[];
 
 export default function BlogPage({ onBack, onSelectPost, setView }: { onBack: () => void; onSelectPost: (id: string) => void; setView: (v: string) => void }) {
-  // Show 12 newest posts
-  const displayPosts = useMemo(() => blogPosts.slice(0, 12), []);
+  const [selectedCategory, setSelectedCategory] = useState<string>("All");
+
+  // Extract unique categories
+  const categories = useMemo(() => {
+    const cats = new Set<string>();
+    cats.add("All");
+    blogPosts.forEach(post => {
+      if (post.category) cats.add(post.category);
+    });
+    return Array.from(cats);
+  }, []);
+
+  // Filter posts
+  const filteredPosts = useMemo(() => {
+    if (selectedCategory === "All") return blogPosts;
+    return blogPosts.filter(post => post.category === selectedCategory);
+  }, [selectedCategory]);
 
   return (
     <main className="relative h-screen w-screen bg-white overflow-y-auto flex flex-col">
@@ -47,53 +62,78 @@ export default function BlogPage({ onBack, onSelectPost, setView }: { onBack: ()
         </div>
       </section>
 
-      {/* 4x3 Grid (up to 12 posts) */}
-      <section className="px-6 md:px-12 py-24 max-w-7xl mx-auto w-full">
+      {/* Filters */}
+      <section className="px-6 md:px-12 pt-12 flex flex-wrap gap-3">
+        {categories.map(cat => (
+          <button
+            key={cat}
+            onClick={() => setSelectedCategory(cat)}
+            className={`px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest transition-all ${
+              selectedCategory === cat 
+              ? "bg-accent-blue text-white shadow-lg scale-105" 
+              : "bg-gray-50 text-gray-400 hover:bg-gray-100"
+            }`}
+          >
+            {cat}
+          </button>
+        ))}
+      </section>
+
+      {/* 4x3 Grid */}
+      <section className="px-6 md:px-12 py-16 max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {displayPosts.map((post, i) => (
-            <motion.button 
-              key={post.id}
-              initial={{ y: 20, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.05 }}
-              onClick={() => onSelectPost(post.id)}
-              className="flex flex-col text-left group cursor-pointer"
-            >
-              <div className="relative aspect-[4/3] rounded-[32px] overflow-hidden mb-6 bg-gray-100 border border-gray-100">
-                {post.image ? (
-                  <img 
-                    src={post.image} 
-                    alt={post.title} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center">
-                    <Image className="text-gray-300 w-12 h-12" />
+          <AnimatePresence mode="popLayout">
+            {filteredPosts.map((post, i) => (
+              <motion.button 
+                key={post.id}
+                layout
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                exit={{ scale: 0.9, opacity: 0 }}
+                transition={{ delay: i * 0.05 }}
+                onClick={() => onSelectPost(post.id)}
+                className="flex flex-col text-left group cursor-pointer"
+              >
+                <div className="relative aspect-[4/3] rounded-[32px] overflow-hidden mb-6 bg-gray-100 border border-gray-100">
+                  {post.image ? (
+                    <img 
+                      src={post.image} 
+                      alt={post.title} 
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center">
+                      <Image className="text-gray-300 w-12 h-12" />
+                    </div>
+                  )}
+                  <div className="absolute top-4 left-4 px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-black uppercase tracking-widest text-accent-blue shadow-sm">
+                    {post.date}
                   </div>
-                )}
-                <div className="absolute top-4 left-4 px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-black uppercase tracking-widest text-accent-blue shadow-sm">
-                  {post.date}
+                  {post.category && (
+                    <div className="absolute bottom-4 left-4 px-3 py-1 bg-accent-yellow text-gray-900 rounded-full text-[8px] font-black uppercase tracking-widest shadow-lg">
+                      {post.category}
+                    </div>
+                  )}
                 </div>
-              </div>
-              <h3 className="text-xl font-black text-gray-900 group-hover:text-accent-blue transition-colors mb-2 leading-tight tracking-tight">
-                {post.title}
-              </h3>
-              <p className="text-sm text-gray-500 font-medium line-clamp-2 leading-relaxed">
-                {post.excerpt}
-              </p>
-            </motion.button>
-          ))}
+                <h3 className="text-xl font-black text-gray-900 group-hover:text-accent-blue transition-colors mb-2 leading-tight tracking-tight">
+                  {post.title}
+                </h3>
+                <p className="text-sm text-gray-500 font-medium line-clamp-2 leading-relaxed">
+                  {post.excerpt}
+                </p>
+              </motion.button>
+            ))}
+          </AnimatePresence>
         </div>
 
-        {displayPosts.length === 0 && (
+        {filteredPosts.length === 0 && (
           <div className="text-center py-24">
-            <p className="text-gray-400 font-bold uppercase tracking-[0.3em]">More analysis coming soon...</p>
+            <p className="text-gray-400 font-bold uppercase tracking-[0.3em]">No posts found in this category.</p>
           </div>
         )}
       </section>
 
-      {/* Global Regulatory Footer (Moved from Legal) */}
+      {/* Global Regulatory Footer */}
       <section className="mt-auto bg-gray-900 px-6 md:px-12 py-16 border-t border-gray-800">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div>

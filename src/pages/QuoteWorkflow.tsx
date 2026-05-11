@@ -1,13 +1,7 @@
-import React, { useState, useEffect, useMemo, Suspense } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Info, Share2, Shield, LayoutGrid, Play, Pause, Coins, FileText, TrendingUp, ArrowLeft, CheckCircle2, Scale, BarChart3, Lock, UserCheck, GraduationCap, Briefcase, History, Check, Calendar, Mail, Phone, User, ArrowRight, ChevronRight, ChevronLeft, Layers, Zap, Image, Gavel, Heart } from "lucide-react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import { User, Mail, FileText, Coins, Calendar, CheckCircle2, ChevronLeft, ChevronRight } from "lucide-react";
 import { useForm } from '@formspree/react';
-import blogPostsRaw from "../data/blog-posts.json";
-import { BlogPost } from "../types";
-
-const blogPosts = blogPostsRaw as BlogPost[];
 
 export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void; setView: (v: string) => void }) {
   const [state, handleSubmit] = useForm('xwvykawk');
@@ -20,11 +14,30 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
     otherPurposeText: "",
     assetType: "",
     otherAssetTypeText: "",
-    valuationDate: "current"
+    valuationDate: ""
   });
+  
+  const [isReadyForFinalSubmit, setIsReadyForFinalSubmit] = useState(false);
+
+  useEffect(() => {
+    if (step === 4) {
+      const timer = setTimeout(() => setIsReadyForFinalSubmit(true), 500);
+      return () => clearTimeout(timer);
+    } else {
+      setIsReadyForFinalSubmit(false);
+    }
+  }, [step]);
 
   const nextStep = () => setStep(s => s + 1);
   const prevStep = () => setStep(s => s - 1);
+
+  const canContinue = useMemo(() => {
+    if (step === 1) return formData.name.length > 0 && formData.contact.length > 0;
+    if (step === 2) return formData.purpose === "Other" ? formData.otherPurposeText.length > 0 : formData.purpose.length > 0;
+    if (step === 3) return formData.assetType === "Other" ? formData.otherAssetTypeText.length > 0 : formData.assetType.length > 0;
+    if (step === 4) return formData.valuationDate !== "" && formData.valuationDate !== "historical" && formData.valuationDate !== "yearend";
+    return true;
+  }, [step, formData]);
 
   const steps = [
     {
@@ -205,7 +218,6 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
               </label>
               <input 
                 type={formData.valuationDate === "yearend" ? "number" : "date"} 
-                placeholder={formData.valuationDate === "yearend" ? "e.g. 2023" : ""}
                 className="w-full bg-gray-50 border border-gray-100 rounded-2xl py-4 px-6 focus:outline-none focus:ring-2 focus:ring-accent-blue/20 transition-all"
                 onChange={e => setFormData({...formData, valuationDate: e.target.value})}
               />
@@ -216,15 +228,10 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
     }
   ];
 
-  const currentStep = steps[step - 1];
-  const isLastStep = step === steps.length;
-  const canContinue = step === 1 ? (formData.name && formData.contact) : 
-                      step === 2 ? (formData.purpose === "Other" ? formData.otherPurposeText : formData.purpose) :
-                      step === 3 ? (formData.assetType === "Other" ? formData.otherAssetTypeText : formData.assetType) : true;
+  const currentStepData = steps[step - 1];
 
   return (
     <main className="relative h-screen w-screen bg-gray-50 flex items-center justify-center overflow-hidden">
-      {/* Background Elements */}
       <div className="absolute top-0 left-0 w-full h-1/2 bg-accent-blue" />
       <div className="absolute top-[40%] left-[-10%] w-[60%] h-[80%] bg-accent-yellow rounded-full opacity-10 blur-3xl" />
       
@@ -234,12 +241,11 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
           animate={{ y: 0, opacity: 1 }}
           className="bg-white rounded-[40px] shadow-2xl overflow-hidden"
         >
-          {/* Progress Bar */}
           <div className="h-2 w-full bg-gray-100 flex">
-            {steps.map((_, i) => (
+            {[1, 2, 3, 4].map((s) => (
               <div 
-                key={i} 
-                className={`flex-1 transition-all duration-500 ${i < step ? "bg-accent-blue" : "bg-transparent"}`}
+                key={s} 
+                className={`flex-1 transition-all duration-500 ${s <= step ? "bg-accent-blue" : "bg-transparent"}`}
               />
             ))}
           </div>
@@ -251,7 +257,6 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
             <input type="hidden" name="assetType" value={formData.assetType === "Other" ? `Other: ${formData.otherAssetTypeText}` : formData.assetType} />
             <input type="hidden" name="valuationDate" value={formData.valuationDate} />
             <input type="hidden" name="smsConsent" value={smsConsent ? "Yes" : "No"} />
-            <input type="text" name="_gotcha" style={{ display: 'none' }} />
             <input type="hidden" name="_subject" value={`New Appraisal Request from ${formData.name}`} />
 
             {state.succeeded ? (
@@ -272,60 +277,73 @@ export default function QuoteWorkflow({ onBack, setView }: { onBack: () => void;
                 </button>
               </div>
             ) : (
-              <>
-                {/* Header */}
-                <div className="flex items-center justify-between mb-12">
-                  <button 
-                    type="button"
-                    onClick={step === 1 ? onBack : prevStep}
-                    className="w-12 h-12 rounded-full border border-gray-100 flex items-center justify-center hover:bg-gray-50 transition-colors"
-                  >
-                    <ChevronLeft className="w-6 h-6 text-gray-400" />
-                  </button>
-                  <div className="text-center">
-                    <div className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] mb-1">Step {step} of {steps.length}</div>
-                    <h2 className="text-2xl font-black text-gray-900 tracking-tight">{currentStep.title}</h2>
-                  </div>
-                  <div className="w-12" />
-                </div>
-
-                {/* Content */}
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={step}
-                    initial={{ x: 20, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    exit={{ x: -20, opacity: 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="min-h-[300px]"
-                  >
-                    <div className="flex flex-col items-center text-center mb-10">
-                      <div className="mb-4">{currentStep.icon}</div>
-                      <p className="text-gray-500 font-medium">{currentStep.description}</p>
-                    </div>
-                    {currentStep.content}
-                  </motion.div>
-                </AnimatePresence>
-
-                {/* Footer */}
-                <div className="mt-12 flex flex-col gap-6">
-                  <div className="flex gap-4">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={step}
+                  initial={{ x: 20, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  exit={{ x: -20, opacity: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="min-h-[450px] flex flex-col"
+                >
+                  <div className="flex items-center justify-between mb-12">
                     <button 
-                      type={isLastStep ? "submit" : "button"}
-                      onClick={isLastStep ? undefined : nextStep}
-                      disabled={!canContinue || state.submitting}
-                      className={`flex-1 py-5 rounded-3xl font-black text-lg shadow-xl transition-all flex items-center justify-center gap-2 ${
-                        canContinue
-                        ? "bg-accent-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
-                        : "bg-gray-100 text-gray-300 cursor-not-allowed"
-                      }`}
+                      type="button"
+                      onClick={step === 1 ? onBack : prevStep}
+                      className="w-12 h-12 rounded-full border border-gray-100 flex items-center justify-center hover:bg-gray-50 transition-colors"
                     >
-                      {isLastStep ? (state.submitting ? "Sending..." : "Submit Request") : "Continue"}
-                      {!isLastStep && <ChevronRight className="w-6 h-6" />}
+                      <ChevronLeft className="w-6 h-6 text-gray-400" />
                     </button>
+                    <div className="text-center">
+                      <div className="text-[10px] font-black text-accent-blue uppercase tracking-[0.2em] mb-1">Step {step} of 4</div>
+                      <h2 className="text-2xl font-black text-gray-900 tracking-tight">{currentStepData.title}</h2>
+                    </div>
+                    <div className="w-12" />
                   </div>
-                </div>
-              </>
+
+                  <div className="flex-1">
+                    <div className="flex flex-col items-center text-center mb-10">
+                      <div className="mb-4">{currentStepData.icon}</div>
+                      <p className="text-gray-500 font-medium">{currentStepData.description}</p>
+                    </div>
+                    {currentStepData.content}
+                  </div>
+
+                  <div className="mt-12">
+                    {step === 4 ? (
+                      <div key="final-submit">
+                        <button 
+                          type="submit"
+                          disabled={!canContinue || state.submitting || !isReadyForFinalSubmit}
+                          className={`w-full py-5 rounded-3xl font-black text-lg shadow-xl transition-all flex items-center justify-center gap-2 ${
+                            canContinue && isReadyForFinalSubmit
+                            ? "bg-accent-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
+                            : "bg-gray-100 text-gray-300 cursor-not-allowed"
+                          }`}
+                        >
+                          {state.submitting ? "Sending..." : "Submit Request"}
+                        </button>
+                      </div>
+                    ) : (
+                      <div key="next-step">
+                        <button 
+                          type="button"
+                          onClick={(e) => { e.preventDefault(); nextStep(); }}
+                          disabled={!canContinue}
+                          className={`w-full py-5 rounded-3xl font-black text-lg shadow-xl transition-all flex items-center justify-center gap-2 ${
+                            canContinue
+                            ? "bg-accent-blue text-white hover:scale-[1.02] active:scale-[0.98]" 
+                            : "bg-gray-100 text-gray-300 cursor-not-allowed"
+                          }`}
+                        >
+                          Continue
+                          <ChevronRight className="w-6 h-6" />
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                </motion.div>
+              </AnimatePresence>
             )}
           </form>
         </motion.div>

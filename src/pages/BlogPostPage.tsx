@@ -78,7 +78,14 @@ export default function BlogPostPage({ post, onBack, setView }: { post: BlogPost
 
       <article className="px-6 md:px-12 py-12 max-w-4xl mx-auto w-full">
         <div className="mb-12">
-          <div className="text-accent-blue font-black uppercase tracking-[0.3em] text-[10px] mb-4">{post.date} • BY {post.author}</div>
+          <div className="flex flex-wrap items-center gap-3 mb-4">
+            <div className="text-accent-blue font-black uppercase tracking-[0.3em] text-[10px]">{post.date} • BY {post.author}</div>
+            {post.category && (
+              <div className="px-3 py-1 bg-accent-yellow text-gray-900 rounded-full text-[8px] font-black uppercase tracking-widest shadow-sm">
+                {post.category}
+              </div>
+            )}
+          </div>
           <h1 className="text-5xl md:text-7xl font-black leading-[0.9] tracking-tighter mb-8 text-gray-900">
             {post.title}
           </h1>
