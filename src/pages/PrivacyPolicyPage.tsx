@@ -44,6 +44,26 @@ export default function PrivacyPolicyPage({ onBack, setView }: { onBack: () => v
               </p>
             </div>
 
+            <div className="bg-gray-50 p-8 rounded-[32px] border border-gray-100">
+              <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Social Media Data (Postiz Local)</h2>
+              <p className="text-gray-900 font-bold leading-relaxed">
+                This application (Postiz Local) accesses TikTok user data solely for the purpose of scheduling and publishing content as directed by the user. We do not sell, share, or store your personal data on external servers beyond what is required for the functional operation of the Postiz platform.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-[32px] border border-gray-100">
+              <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Snapchat Integration (Postiz)</h2>
+              <div className="text-gray-900 font-bold leading-relaxed space-y-4">
+                <p>This Privacy Policy describes how Postiz collects, uses, and protects your information.</p>
+                <p>We collect basic profile information (such as username, profile picture, and account ID) when you connect your social media accounts (Instagram, Snapchat, TikTok, YouTube, etc.) through OAuth. We also collect content and scheduling data you create on our platform.</p>
+                <p>We use this information solely to authenticate your accounts, schedule and publish posts on your behalf, provide support, and improve our service.</p>
+                <p>We share information with the respective social platforms only when you request us to post or manage content. We do not sell your data to third parties.</p>
+                <p>We take reasonable measures to protect your data, but no system is 100% secure.</p>
+                <p>You can disconnect any social account or request data deletion at any time.</p>
+                <p>We may update this policy occasionally. Significant changes will be posted here.</p>
+              </div>
+            </div>
+
             <div>
               <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Information Collection & Use</h2>
               <p className="text-gray-600 leading-relaxed">

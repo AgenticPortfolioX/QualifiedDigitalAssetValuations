@@ -65,6 +65,13 @@ export default function TermsOfServicePage({ onBack, setView }: { onBack: () => 
               </p>
             </div>
 
+            <div>
+              <h2 className="text-2xl font-black text-gray-900 mb-4 uppercase tracking-tight">Social Media Integration</h2>
+              <p className="text-gray-600 leading-relaxed font-bold">
+                By using this integration, you authorize this local instance of Postiz to post content to your TikTok account. You maintain full responsibility for the content published.
+              </p>
+            </div>
+
             <div className="bg-gray-50 p-8 rounded-[32px] border border-gray-100">
               <h2 className="text-2xl font-black text-gray-900 mb-6 uppercase tracking-tight underline">SMS/MMS Mobile Messaging</h2>
               
