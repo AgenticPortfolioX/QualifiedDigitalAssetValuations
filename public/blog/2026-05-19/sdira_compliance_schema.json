@@ -1,0 +1,147 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-estate-planning-digital-assets",
+      "headline": "Estate Planning for Digital Assets: Qualified Appraisals, Form 706, and Protecting Your Crypto Legacy",
+      "description": "A comprehensive guide to estate planning for cryptocurrency and NFT holders, covering Form 706 estate tax requirements, step-up in basis rules, digital executor roles, and the critical importance of USPAP-compliant qualified appraisals for IRS-defensible digital asset valuations.",
+      "datePublished": "2026-05-19",
+      "dateModified": "2026-05-19",
+      "author": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Qualified Digital Asset Valuations",
+        "url": "https://qdav.mba"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Digital Asset Estate Planning",
+        "description": "Estate tax planning for cryptocurrency, NFTs, and digital assets including Form 706 compliance, step-up in basis, and qualified appraisals."
+      },
+      "keywords": "cryptocurrency estate planning, Form 706, digital assets inheritance, qualified appraisal, USPAP, step-up in basis, crypto estate tax, digital executor, NFT valuation, IRS crypto audit"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-estate-planning-digital-assets",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does cryptocurrency get a step-up in basis upon death?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under IRC §1014, cryptocurrency is classified as property by the IRS (IRS Notice 2014-21), making it eligible for a step-up in basis to the fair market value on the date of death. This allows beneficiaries to sell inherited crypto with little to no capital gains tax. However, a USPAP-compliant qualified appraisal is required to document the date-of-death FMV and substantiate the stepped-up basis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is a qualified appraisal required for Form 706?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraisal is required for any estate that must file Form 706, the federal estate tax return, when the estate includes digital assets such as cryptocurrency or NFTs. Treasury Regulation §20.2031-6(b) requires that an appraisal by a qualified expert, executed under oath, be filed with the return for property requiring expert valuation. Digital assets fall squarely within this requirement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if an estate doesn't get a qualified appraisal for crypto assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Failing to obtain a qualified appraisal for digital assets in an estate can lead to: (1) IRS audit scrutiny and potential undervaluation penalties under IRC §6662, (2) executor personal liability for tax deficiencies, (3) beneficiary overpayment of capital gains tax due to undocumented basis, and (4) family disputes over asset valuation and distribution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do executors value NFTs for estate tax purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Executors should engage a USPAP-compliant qualified appraiser with experience in digital asset valuation. NFT valuation for estate tax purposes requires: comparable sales analysis of similar tokens with comparable traits, floor price assessment, market condition adjustments, blockchain verification of ownership, and application of the market approach under USPAP Standard 7. Simple floor price or last-sale data alone does not constitute a qualified appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraiser for digital assets in my estate plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if the digital assets in your estate have a value exceeding $5,000 and will be reported on an estate tax return. The Pension Protection Act of 2006 requires that qualified appraisals be performed by qualified appraisers — individuals with recognized professional credentials, at least two years of experience in the property type, and no disqualifying conflicts of interest."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#organization",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "legalName": "Renowned Value Restoration LLC",
+      "telephone": "(248) 955-1449",
+      "email": "appraisal@qdav.mba",
+      "url": "https://qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "State",
+          "name": "Michigan"
+        }
+      ],
+      "priceRange": "$$$",
+      "openingHours": "Mo-Fr 09:00-17:00"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service-estate-appraisal",
+      "name": "Estate Tax Digital Asset Appraisal",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency and NFT assets in estate tax administration, including Form 706 support, date-of-death FMV determination, and step-up in basis documentation.",
+      "provider": {
+        "@id": "https://qdav.mba/#organization"
+      },
+      "serviceType": "Digital Asset Appraisal",
+      "areaServed": "United States",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Estate Executors, Estate Attorneys, CPAs, Trust Administrators"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Estate Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 706 Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Date-of-Death FMV Determination"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Step-Up in Basis Documentation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
