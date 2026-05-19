@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-05-19",
+    "title": "Estate Planning for Digital Assets: Qualified Appraisals, Form 706, and Protecting Your Crypto Legacy",
+    "excerpt": "A comprehensive guide to estate planning for cryptocurrency and NFT holders, covering Form 706 estate tax requirements, step-up in basis rules, digital executor roles, and the critical importance of USPAP-compliant qualified appraisals for IRS-defensible digital asset valuations.",
+    "author": "QDAV",
+    "date": "2026-05-19",
+    "description": "A comprehensive guide to estate planning for cryptocurrency and NFT holders, covering Form 706 estate tax requirements, step-up in basis rules, digital executor roles, and the critical importance of USPAP-compliant qualified appraisals for IRS-defensible digital asset valuations.",
+    "category": "Agentic Workflows",
+    "image": "/blog/2026-05-19/feature_image.png",
+    "path": "/blog/2026-05-19/final.md",
+    "schema": "/blog/2026-05-19/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-05-09",
     "title": "Digital Asset Tax Compliance in 2026: Qualified Appraisals, Cost Basis Reporting, and the New IRS Form 1099-DA",
     "excerpt": "A comprehensive guide to digital asset tax compliance in 2026, covering Form 1099-DA, cost basis reporting changes, and the critical importance of IRS-qualified appraisals for cryptocurrency and NFT valuations exceeding $5,000.",
