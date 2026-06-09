@@ -1,0 +1,202 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-06-09",
+      "headline": "USPAP Advisory Opinion 41 and Digital Asset Appraisals: What the New Technology Guidance Means for Crypto and NFT Valuation Professionals",
+      "description": "The Appraisal Standards Board adopted Advisory Opinion 41 on April 23, 2026, replacing AO-18 and AO-37 with modernized guidance on technology use in appraisals. This guide examines AO-41's implications for digital asset and cryptocurrency valuation — covering appraiser responsibility, AI and blockchain tool competency, confidentiality in cloud-based systems, and workfile documentation requirements.",
+      "datePublished": "2026-06-09",
+      "dateModified": "2026-06-09",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-06-09-uspap-ao-41-digital-asset-appraisal-technology-guidance/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "USPAP Advisory Opinion 41",
+        "description": "Guidance on the use of technology, including AI, in appraisal and appraisal review assignments, adopted April 23, 2026 by the Appraisal Standards Board."
+      },
+      "keywords": ["USPAP Advisory Opinion 41", "AO-41", "digital asset appraisal", "cryptocurrency valuation", "NFT appraisal", "qualified appraisal", "USPAP technology guidance", "blockchain valuation", "appraisal standards", "technology in appraisal"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-06-09",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does AO-41 create new USPAP requirements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. AO-41 does not create new standards or reinterpret existing ones. It illustrates how existing USPAP obligations — including the ETHICS RULE, COMPETENCY RULE, SCOPE OF WORK RULE, and RECORD KEEPING RULE — apply when appraisers use technology in their practice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does AO-41 apply to digital asset appraisals specifically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While AO-41 is written generically to apply across all appraisal disciplines, its provisions are directly relevant to digital asset appraisals given the inherently technological nature of blockchain-based valuation. The advisory's guidance on confidentiality, documentation, and competency has particular force in this context."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to disclose every tool used in my digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Under AO-41, disclosure is required only when omission would make the report misleading. Tools used for formatting, grammar, or non-analytical purposes do not require disclosure. Tools that materially contribute to the analysis or conclusions — such as AI models or proprietary algorithms — may warrant disclosure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the IRS challenge a digital asset appraisal because of technology use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not on the basis of technology use alone. AO-41 explicitly affirms that appraisers may use technology tools. The question for IRS purposes is whether the appraisal is a qualified appraisal under Section 170 of the Internal Revenue Code, performed by a qualified appraiser, and supported by competent evidence — regardless of which tools were used in its preparation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if a client restricts my use of certain valuation tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under AO-41, clients may prohibit or require specific tools, but they cannot restrict the scope of work to a degree that prevents credible assignment results. If a restriction would prevent the appraiser from forming a reliable opinion of value, the appraiser must decline or modify the assignment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should digital asset appraisers document their use of AI tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under AO-41, if AI output is relied upon, the workfile should include the tool's output, the prompts or instructions provided, and the appraiser's analysis explaining how the output was incorporated into the assignment results. If AI is reviewed but not relied upon, documentation requirements depend on the scope of work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When did AO-41 take effect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AO-41 was adopted by the Appraisal Standards Board on April 23, 2026, and is effective immediately. It replaces Advisory Opinion 18 (Automated Valuation Models) and Advisory Opinion 37 (Computer-Assisted Valuation Tools)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does AO-41 protect client confidentiality in cloud-based systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AO-41 requires appraisers to take reasonable steps to ensure that entering confidential information into any tool — especially AI or cloud-based platforms — does not improperly disclose confidential information or violate client confidentiality requirements. This includes reviewing the tool's privacy policy and data handling practices."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for IRS tax reporting, estate planning, and charitable contribution purposes.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Estate Attorneys", "CPAs", "Tax Professionals", "HNW Individuals", "SDIRA Holders"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cryptocurrency Portfolio Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Contribution Appraisal (Form 8283)"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
