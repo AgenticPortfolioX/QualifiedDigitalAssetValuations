@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-06-12",
+      "headline": "Crypto in Trusts: Qualified Appraisal Requirements for Digital Assets Held in Revocable and Irrevocable Trusts",
+      "description": "A comprehensive guide to IRS-qualified appraisal requirements for cryptocurrency and digital assets held in trust structures — covering trust funding, gift tax filings, estate tax planning, step-up in basis, and fiduciary duties of trustees under USPAP Standards 7 and 9.",
+      "datePublished": "2026-06-12",
+      "dateModified": "2026-06-12",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-06-12-crypto-trusts-digital-asset-qualified-appraisals-estate-planning/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Digital Asset Trust Appraisals",
+        "description": "USPAP-compliant qualified appraisal requirements for cryptocurrency and NFT assets held in revocable and irrevocable trust structures for estate and gift tax purposes."
+      },
+      "keywords": ["crypto trust valuation", "qualified appraisal trust digital assets", "Form 709 cryptocurrency gift", "irrevocable trust crypto appraisal", "step-up basis inherited crypto trust", "USPAP trust appraisal", "digital asset estate planning", "IDGT cryptocurrency appraisal", "SLAT digital asset valuation", "GRAT crypto contribution"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-06-12",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal to fund a trust with cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under IRC §170(f)(11)(E) and Treasury Regulation §1.170A-17, any non-cash gift exceeding $5,000 requires a qualified appraisal by a qualified appraiser. Funding a trust with cryptocurrency is a gift for tax purposes, triggering Form 709 filing requirements and the qualified appraisal mandate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does inherited crypto held in trust receive a step-up in basis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under current law, non-IRA cryptocurrency inherited at death receives a step-up in basis to fair market value on the date of death. However, cryptocurrency gifted during lifetime to a trust carries over the donor's basis. Crypto held in a traditional IRA at death does not receive a step-up in basis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a qualified appraisal for digital assets in a trust?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraisal for digital assets in a trust is a USPAP-compliant valuation performed by a qualified appraiser meeting IRS requirements under IRC §170(f)(11)(E). It must follow USPAP Standards 7 or 9, document fair market value determination methodology, and be signed by the appraiser. The appraisal is required for gift tax returns (Form 709), estate tax returns (Form 706), trust funding documentation, and beneficiary distribution planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is cryptocurrency held in a trust valued for IRS purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cryptocurrency held in a trust is valued at fair market value (FMV) as of the specific valuation date (date of gift, date of death, or date of distribution). Under USPAP Standards 7 and 9, the appraiser must select and apply the appropriate valuation approach — market, income, or cost — based on the type of digital asset and available market data. Exchange spot prices alone do not constitute a qualified appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of trusts need digital asset appraisals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most trust structures holding digital assets require appraisals at specific points. Intentionally Defective Grantor Trusts (IDGTs), Spousal Lifetime Access Trusts (SLATs), and Grantor Retained Annuity Trusts (GRATs) require appraisals at funding and during administration. Credit Shelter Trusts require date-of-death appraisals. All revocable trusts need appraisals at the grantor's death for estate tax purposes. Charitable trusts require appraisals for trust funding and Form 8283 reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my CPA provide the qualified appraisal for trust funding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Under IRC §170(f)(11)(E), a qualified appraiser must be independent — not the taxpayer, the donee, or any party to the transaction. While your CPA can prepare the tax return, they cannot issue the qualified appraisal itself. Only a USPAP-certified appraiser with demonstrated competency in digital asset valuation can satisfy the qualified appraisal requirement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the IRS challenges my reported crypto-to-trust value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Without a qualified appraisal, the IRS may assess additional gift tax plus interest, impose accuracy-related penalties under IRC §6662 of up to 20% (or 40% for gross valuation misstatements), and extend the statute of limitations indefinitely if adequate disclosure was not made. A properly prepared qualified appraisal provides robust audit defense."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does H.R. 9173 eliminate the need for trust-related crypto appraisals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. H.R. 9173 (introduced June 9, 2026) specifically addresses charitable donations of digital assets — not trust funding, gift tax, or estate tax valuations. Even if enacted, the qualified appraisal requirement remains for all non-charitable transfers of digital assets exceeding $5,000, including trust funding and estate tax filings."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Trust Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for digital assets held in trust structures — serving estate attorneys, trustees, CPAs, and HNW individuals requiring IRS-defensible valuations for trust funding, gift tax reporting, estate tax filing, and annual trust administration.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Trust and Estate Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["Estate Attorneys", "Trustees", "CPAs", "HNW Individuals", "SDIRA Custodians", "Trust Officers"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Trust Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Trust Funding Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IDGT and SLAT Trust Funding Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "GRAT Contribution and Distribution Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Trust Beneficiary Distribution Appraisal"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
