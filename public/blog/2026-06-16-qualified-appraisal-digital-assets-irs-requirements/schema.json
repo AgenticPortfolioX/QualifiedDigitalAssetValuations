@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-06-16",
+      "headline": "What Constitutes a Qualified Appraisal for Digital Assets Under IRS Rules: Statutory Requirements, USPAP Standards, and Why Crypto Tax Software Reports Don't Meet the Threshold",
+      "description": "A definitive guide to the IRS qualified appraisal requirements for digital assets under IRC Section 170(f)(11) — covering who qualifies as a qualified appraiser, what USPAP standards apply, the critical distinction between crypto tax software reports and defensible appraisals, and the penalty framework for noncompliance.",
+      "datePublished": "2026-06-16",
+      "dateModified": "2026-06-16",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-06-16-qualified-appraisal-digital-assets-irs-requirements/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "IRS Qualified Appraisal Digital Assets",
+        "description": "Statutory requirements under IRC Section 170(f)(11) for qualified appraisals of cryptocurrency, NFTs, and digital assets — covering qualified appraiser criteria, USPAP standards, and audit defense."
+      },
+      "keywords": ["IRS qualified appraisal digital assets", "qualified appraiser crypto requirements", "USPAP crypto valuation", "Form 8283 cryptocurrency appraisal", "crypto tax software vs qualified appraisal", "IRC Section 170 digital assets", "crypto audit defense appraisal", "qualified appraisal threshold $5000", "Circular 230 appraiser crypto", "digital asset FMV determination"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-06-16",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a qualified appraisal for digital assets under IRS rules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraisal is a formal valuation of digital assets conducted by a qualified appraiser in accordance with generally accepted appraisal standards (USPAP), as defined by IRC §170(f)(11)(E)(i). It requires a detailed property description, FMV determination with documented methodology, appraiser certification and qualification disclosure, and independence from the taxpayer and transaction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does crypto tax software produce a qualified appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Crypto tax software platforms (CoinTracker, CoinLedger, Koinly, TaxBit) produce tax preparation reports for cost basis and gain/loss calculations, but they do not produce qualified appraisals. An algorithm cannot satisfy the qualified appraiser requirements of IRC §170(f)(11)(E), and automated price feeds do not constitute USPAP-compliant valuation methodology."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What qualifications must a digital asset appraiser have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under IRC §170(f)(11)(E)(ii)-(iii), a qualified appraiser must: (1) hold a professional designation from a recognized appraisal organization or meet minimum education and experience requirements; (2) regularly perform appraisals for compensation; (3) demonstrate verifiable education and experience in valuing the specific type of property (digital assets); and (4) not have been prohibited from IRS practice under Circular 230 within the prior three years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the $5,000 threshold for qualified appraisals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IRC §170(f)(11)(C) requires a qualified appraisal for any property contribution for which a deduction exceeding $5,000 is claimed. Under aggregation rules (§170(f)(11)(F)), similar items of property donated to one or more donees are treated as a single property — meaning multiple digital asset donations in a tax year are aggregated for threshold purposes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What penalties apply for not obtaining a qualified appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Without a qualified appraisal, the taxpayer risks: (1) denial of the charitable deduction; (2) accuracy-related penalties of 20% under IRC §6662 for negligence or substantial valuation misstatement; (3) penalties of 40% for gross valuation misstatements (claimed value >200% of correct value); (4) indefinite statute of limitations for gift tax purposes under Treas. Reg. §301.6501(c)-1(f); and (5) interest on all underpayments from the original due date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use an exchange price as my crypto valuation for IRS purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For routine cost basis and gain/loss reporting on Form 1099-DA, exchange transaction prices are generally acceptable. However, for any purpose requiring substantiation of FMV — charitable donations, gift tax reporting, estate tax filings, trust funding, IRA valuations — an exchange price alone does not constitute a qualified appraisal. The IRS has explicitly stated in CCA 202302012 that exchange-reported values do not substitute for qualified appraisals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is USPAP and why does it matter for crypto appraisals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "USPAP (Uniform Standards of Professional Appraisal Practice) is the generally accepted appraisal standards recognized by the Treasury Department under IRC §170(f)(11)(E)(i)(II). For digital assets, USPAP Standard 7 governs the development of personal property appraisals and Standard 8 governs their reporting. The Appraisal Foundation, the certifying organization, mandates that appraisers complete annual USPAP continuing education to maintain their credentials."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a qualified appraisal and a crypto tax report?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto tax report calculates cost basis and capital gains/losses for income tax purposes, using transaction-level data and historical pricing. A qualified appraisal provides a professional opinion of fair market value for substantiation purposes, following USPAP methodology, signed by a qualified appraiser under IRC §170(f)(11)(E). They serve complementary but distinct functions: the tax report supports income tax compliance; the qualified appraisal supports FMV substantiation for deductions, gifts, and estate reporting."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, SDIRA custodians, and tax professionals requiring IRS-defensible valuations for charitable donations, gift tax reporting, estate tax filing, trust funding, and audit defense.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["HNW Individuals", "Estate Attorneys", "CPAs", "SDIRA Custodians", "Trust Officers", "Tax Professionals", "Crypto Donors"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal for Charitable Crypto Donations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Trust Funding Digital Asset Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IRS Audit Defense Appraisal Documentation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
