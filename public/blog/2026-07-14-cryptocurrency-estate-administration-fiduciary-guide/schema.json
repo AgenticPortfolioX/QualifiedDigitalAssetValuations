@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-07-14",
+      "headline": "Estate Administration for Digital Assets: A Fiduciary's Guide to Cryptocurrency Asset Discovery, Valuation, and IRS-Compliant Appraisal Requirements",
+      "description": "A comprehensive guide for estate executors, trustees, and fiduciaries navigating digital asset estate administration — covering asset discovery, wallet access, date-of-death fair market value determination, USPAP-compliant qualified appraisals, and IRS Form 706 reporting requirements for cryptocurrency and NFT holdings.",
+      "datePublished": "2026-07-14",
+      "dateModified": "2026-07-14",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-07-14-cryptocurrency-estate-administration-fiduciary-guide/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Digital Asset Estate Administration",
+        "description": "Estate administration for cryptocurrency and digital assets — covering fiduciary duties, asset discovery, wallet recovery, date-of-death fair market value determination under USPAP standards, IRS Form 706 qualified appraisal requirements, step-up in basis documentation, and estate tax penalty framework for digital asset estates."
+      },
+      "keywords": ["cryptocurrency estate administration", "qualified appraisal estate tax crypto", "Form 706 digital assets", "date of death crypto valuation", "USPAP digital asset estate appraisal", "digital asset executor duties", "step up basis cryptocurrency death", "crypto inheritance tax 2026", "RUFADAA fiduciary digital assets", "estate planning cryptocurrency executor"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-07-14",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a qualified appraisal for digital assets in an estate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraisal is a USPAP-compliant valuation performed by a qualified appraiser meeting Treasury Circular 230 standards. For digital assets, this means a signed appraisal report analyzing fair market value using appropriate methodology — typically the market approach for liquid cryptocurrency, supplemented by the income approach for yield-bearing positions and the cost approach where applicable, with full workfile documentation and appraiser certification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal for cryptocurrency on Form 706?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If digital assets represent a material component of the gross estate requiring Form 706 filing, a qualified appraisal is strongly recommended. The IRS has heightened scrutiny on digital asset valuations in estate tax returns, and a USPAP-compliant appraisal provides defensible documentation to withstand audit, penalties under IRC Section 6662, and fiduciary breach claims from beneficiaries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do executors find and access cryptocurrency after death?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Executors should begin by searching financial records for exchange transfers, hardware wallet purchases, and tax software invoices. Physical searches should target wallets, seed phrases, and password records. For suspected but undocumented holdings, blockchain forensic analysis can trace transactions from known addresses and identify associated wallet clusters. Accessing found assets requires private keys or recovery phrases for self-custody assets, or estate documentation processed through the exchange's estate claim procedure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is date-of-death fair market value determined for crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For liquid cryptocurrencies like Bitcoin or Ethereum, date-of-death FMV is determined using volume-weighted average prices from established exchanges on the date of death. For illiquid assets like NFTs, rare tokens, or large block positions, the analysis incorporates comparable sales, trait rarity analysis, market depth assessment, and applicable liquidity or control discounts. All valuations must comply with USPAP Standards 7 and 9 with full documentation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the estate tax treatment of cryptocurrency in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cryptocurrency is treated as property for federal tax purposes under IRS Notice 2014-21. Digital assets are included in the gross estate at date-of-death fair market value under IRC Section 2031. The 2026 federal estate tax exemption is $15 million per individual ($30 million for married couples) under OBBBA, with a top rate of 40 percent. Beneficiaries receive a step-up in basis to date-of-death FMV under IRC Section 1014."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does cryptocurrency get a step-up in basis upon death?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under IRC Section 1014 and consistent with IRS Notice 2014-21's classification of cryptocurrency as property, digital assets held personally receive a step-up in basis to date-of-death FMV. The exception is cryptocurrency held within retirement accounts (self-directed IRAs, Solo 401(k)s), which follow retirement account distribution rules rather than capital gains treatment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if an executor cannot access a hardware wallet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the recovery phrase, PIN, and password for a hardware wallet are all unknown, the assets may be permanently inaccessible. Forensic recovery specialists may reconstruct partial recovery phrases using BIP-39 entropy analysis or extract data from damaged devices, but success is not guaranteed. This outcome should be documented in the estate's fiduciary accounting records to protect the executor from beneficiary claims."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What IRS penalties apply for undervaluing digital assets in an estate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The accuracy-related penalty under IRC Section 6662 imposes a 20 percent penalty on underpayments attributable to valuation understatements (claimed value is 50 percent or less of correct value). For gross valuation misstatements (25 percent or less of correct value), the penalty doubles to 40 percent. On a $1 million undervaluation at a 40 percent estate tax rate, potential penalty exposure ranges from $80,000 to $160,000."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, SDIRA custodians, and tax professionals requiring IRS-defensible valuations for charitable donations, gift tax reporting, estate tax filing, trust funding, and audit defense.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["HNW Individuals", "Estate Attorneys", "CPAs", "SDIRA Custodians", "Trust Officers", "Tax Professionals", "Crypto Donors", "Estate Executors"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal for Charitable Crypto Donations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Trust Funding Digital Asset Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IRS Audit Defense Appraisal Documentation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
