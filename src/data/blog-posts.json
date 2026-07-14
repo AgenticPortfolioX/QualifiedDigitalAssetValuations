@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-07-14-cryptocurrency-estate-administration-fiduciary-guide",
+    "title": "Estate Administration for Digital Assets: A Fiduciary's Guide to Cryptocurrency Asset Discovery, Valuation, and IRS-Compliant Appraisal Requirements",
+    "excerpt": "A comprehensive guide for estate executors, trustees, and fiduciaries navigating digital asset estate administration — covering asset discovery, wallet access, date-of-death fair market value determination, USPAP-compliant qualified appraisals, and IRS Form 706 reporting requirements for cryptocurrency and NFT holdings.",
+    "author": "QDAV",
+    "date": "2026-07-14",
+    "description": "A comprehensive guide for estate executors, trustees, and fiduciaries navigating digital asset estate administration — covering asset discovery, wallet access, date-of-death fair market value determination, USPAP-compliant qualified appraisals, and IRS Form 706 reporting requirements for cryptocurrency and NFT holdings.",
+    "category": "QDAV",
+    "image": "/blog/2026-07-14-cryptocurrency-estate-administration-fiduciary-guide/feature_image.png",
+    "path": "/blog/2026-07-14-cryptocurrency-estate-administration-fiduciary-guide/final.md",
+    "schema": null
+  },
+  {
     "id": "2026-06-19-income-approach-digital-asset-valuation-uspap-methodology",
     "title": "The Income Approach to Digital Asset Valuation: Applying USPAP Income Capitalization Methodology to Staking Yields, DeFi Returns, and Protocol Revenue in Qualified Appraisals",
     "excerpt": "A definitive guide to applying USPAP's income capitalization approach for digital asset valuation — covering when staking yields, DeFi protocol revenue, and discounted cash flow analysis serve as credible evidence for IRS-qualified appraisals of cryptocurrency and token assets.",
