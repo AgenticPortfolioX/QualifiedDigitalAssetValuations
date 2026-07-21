@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-07-21",
+      "headline": "The Market Approach to Digital Asset Appraisals: Comparable Sales, Trading Volume Adjustments, and USPAP Standards 7 & 9 for IRS-Compliant Cryptocurrency and NFT Valuation",
+      "description": "A comprehensive guide to applying the market approach for digital asset valuation under USPAP Standards 7 & 9 — covering comparable sales identification, trading volume adjustments, DLOM methodology, NFT trait analysis, and the critical distinction between exchange spot prices and IRS-qualified fair market value for cryptocurrency and digital asset appraisals.",
+      "datePublished": "2026-07-21",
+      "dateModified": "2026-07-21",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-07-21-market-approach-digital-asset-valuation-uspap/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Market Approach Digital Asset Valuation USPAP",
+        "description": "The market approach to digital asset valuation under USPAP Standards 7 & 9 — covering comparable sales identification, trading volume analysis, NFT trait rarity adjustments, Discount for Lack of Marketability (DLOM) methodology, and the distinction between exchange spot prices and IRS-qualified fair market value for cryptocurrency, NFT, and digital asset appraisals for tax, estate, and SDIRA compliance purposes."
+      },
+      "keywords": ["market approach digital asset valuation", "USPAP market approach crypto", "comparable sales analysis cryptocurrency", "NFT comparable sales valuation", "DLOM cryptocurrency", "fair market value determination digital assets", "USPAP Standard 7 digital assets", "crypto appraisal methodology", "IRS qualified appraisal market approach", "SDIRA crypto valuation methodology"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-07-21",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the market approach to digital asset valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market approach is a USPAP-recognized valuation methodology that derives fair market value from the prices paid in recent, arm's-length transactions of comparable digital assets. For cryptocurrency, this involves analyzing exchange transaction data to establish a volume-weighted average price. For NFTs, it requires identifying sales of tokens with similar characteristics, adjusting for differences in trait rarity, trading volume, and market conditions, and reconciling the adjusted comparables into a supported value opinion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the market approach differ from using an exchange spot price for IRS purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An exchange spot price is a single data point — the most recent transaction price at a specific moment on a specific platform. The market approach is a systematic analytical process that considers data from multiple exchanges, verifies transactions on-chain, applies adjustments for liquidity and timing differences, screens for wash trading, and produces a value opinion supported by professional methodology. The IRS considers exchange spot prices alone insufficient to constitute a qualified appraisal for purposes of IRC Section 170(f)(11) and related provisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What comparable sales data is used in cryptocurrency appraisals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cryptocurrency appraisals draw comparable transaction data from multiple sources: centralized exchange order books (Coinbase, Kraken, Gemini for U.S.-based taxpayers), decentralized exchange pools (Uniswap, Curve for long-tail assets), on-chain analytics platforms (Dune Analytics, Nansen for verified transaction data), and OTC trading desks for large-block transactions. The appraiser selects sources based on where the taxpayer could realistically transact and establishes a volume-weighted average price across the selected exchange set."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do appraisers adjust NFT comparable sales for trait rarity differences?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Appraisers calculate the subject NFT's rarity score using the collection's standard methodology (statistical rarity ranking, trait-counting, or trait-normalized scoring), identify comparables with similar rarity profiles, and apply premium or discount adjustments for specific trait differences. For example, a comparable NFT with a common fur type (12% occurrence) might be adjusted upward by 15 to 25 percent to match a subject NFT with a rare fur type (1% occurrence). These adjustment percentages must be supported by transaction-level data within the specific collection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a discount for lack of marketability (DLOM) in digital asset valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A DLOM is a percentage reduction applied to the market approach value to reflect the reduced price a buyer would pay for an asset that cannot be immediately sold in an active, liquid market. For digital assets, DLOM applies to locked tokens, pre-launch tokens, governance tokens with trading restrictions, frozen assets, and thinly traded NFT collections. DLOMs for digital assets typically range from 5% for unrestricted OTC-traded assets to 50% or more for long-term vesting lockups."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does trading volume affect the reliability of the market approach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trading volume directly affects the reliability of the market approach because higher volume provides more transaction data points, narrower bid-ask spreads, and greater confidence that observed prices reflect market-clearing value. Low-volume assets require the appraiser to widen the comparable search window, rely on fewer data points, and apply larger adjustments — each of which increases the uncertainty of the final value opinion. Appraisers should disclose trading volume conditions and their impact on valuation reliability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the market approach be applied to illiquid tokens and frozen digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but with significant limitations. For illiquid tokens, the market approach should be attempted using the best available data (private secondary market transactions, OTC desk quotes, or comparable token analysis), and then supplemented with income or cost approach analysis where applicable. For frozen or impounded assets, the market approach provides a baseline unrestricted value that is then reduced by a DLOM reflecting the legal or technical restriction. The weight assigned to the market approach indication should reflect the depth and reliability of the available comparable data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the market approach support SDIRA annual crypto valuations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Self-directed IRA custodians require annual qualified appraisals of digital asset holdings. The market approach provides the primary methodology: for liquid exchange-traded crypto assets, FMV is established as the VWAP over a defined time window; for illiquid or NFT assets, the appraiser identifies comparable sales, adjusts for trait and liquidity differences, and reconciles the adjusted set into a value range. For staked or locked SDIRA assets, the market approach values the underlying asset and applies an appropriate DLOM reflecting the lockup period."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, SDIRA custodians, and tax professionals requiring IRS-defensible valuations for charitable donations, gift tax reporting, estate tax filing, trust funding, and audit defense.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["HNW Individuals", "Estate Attorneys", "CPAs", "SDIRA Custodians", "Trust Officers", "Tax Professionals", "Crypto Donors", "Estate Executors"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal for Charitable Crypto Donations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Trust Funding Digital Asset Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Market Approach Digital Asset Appraisal"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
