@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-07-24",
+      "headline": "IRS Form 709 and Digital Asset Gift Tax Valuation: How to Report Cryptocurrency Transfers, Annual Exclusion Gifts, and Fair Market Value Determination Under IRC Chapter 12",
+      "description": "A comprehensive guide for estate attorneys, CPAs, and high-net-worth individuals on IRS Form 709 gift tax reporting for cryptocurrency and NFT transfers — covering fair market value determination, annual exclusion limits, qualified appraisal requirements, and audit defense strategies for digital asset gifts.",
+      "datePublished": "2026-07-24",
+      "dateModified": "2026-07-24",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-07-24-irs-form-709-gift-tax-digital-assets-crypto-valuation/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "IRS Form 709 Digital Asset Gift Tax",
+        "description": "IRS Form 709 gift tax reporting for cryptocurrency, NFT, and digital asset transfers — covering fair market value determination at date of gift, annual exclusion limits ($19,000 per donee), present vs. future interest rules, gift splitting, the lifetime exemption, qualified appraisal requirements, basis carryover rules, Form 709 Line 21 compliance, and audit defense strategies under IRC Chapter 12."
+      },
+      "keywords": ["IRS Form 709 digital assets", "crypto gift tax reporting", "Form 709 Line 21", "digital asset gift valuation", "cryptocurrency annual exclusion", "qualified appraisal crypto gift", "FMV digital asset gift tax", "gift tax return crypto 2026", "cryptocurrency gift basis", "IRS Section 2503(b) digital assets"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-07-24",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need to file Form 709 for a crypto gift under $19,000?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no, provided the gift is a present interest — meaning the recipient has the immediate right to use or enjoy the cryptocurrency. However, gifts of future interests (such as transfers to trusts where the beneficiary cannot access the assets until a future date) require Form 709 filing regardless of the amount. The $19,000 annual exclusion per donee for 2025 and 2026 applies only to present interest gifts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I determine the fair market value of gifted cryptocurrency for Form 709?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under IRS FAQ Q12, the fair market value of a digital asset is determined at the date and time the transaction is recorded on the distributed ledger. For liquid cryptocurrencies traded on centralized exchanges, FMV may be established using blockchain explorers or exchange indices that analyze transaction data. For illiquid assets such as NFTs or thinly traded tokens, a professionally prepared valuation using USPAP-compliant methodology — including comparable sales analysis, volume-weighted average pricing, and adjustments for liquidity — is strongly recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the annual gift tax exclusion for 2025 and 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The annual gift tax exclusion is $19,000 per donee per year for both 2025 and 2026. Married couples may elect gift splitting under IRC Section 2513, enabling them to give up to $38,000 per donee per year — $19,000 from each spouse — without filing a gift tax return, provided each gift qualifies as a present interest. The lifetime exemption is $13,990,000 for 2025 and $15,000,000 for 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the basis of cryptocurrency I receive as a gift?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under IRS FAQ Q76 (added December 15, 2025), the donee's basis in gifted digital assets follows the dual-basis rule. For determining gain, the basis is the donor's carryover basis. For determining loss, the basis is the lesser of the donor's basis or the fair market value at the date and time of the gift. The donee's holding period includes the donor's holding period (FAQ Q77), so gifted assets that were held long-term by the donor retain long-term status in the donee's hands."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal to report a crypto gift on Form 709?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 709 does not require a qualified appraisal to be attached, unlike Form 8283 for charitable contributions over $5,000. However, without adequate disclosure supported by competent valuation documentation, the statute of limitations never starts — meaning the IRS could challenge the value of a 2026 gift in 2036 or later. For gifts of liquid cryptocurrency exceeding the annual exclusion, and for any gift of illiquid digital assets (NFTs, thinly traded tokens), a USPAP-compliant qualified appraisal is strongly recommended for audit defense."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Form 709 Line 21 and why does it matter for crypto gifts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 709 Line 21 is the digital asset question that asks whether the taxpayer engaged in any digital asset transaction during the tax year. The IRS added this question to the gift tax return to mirror the Form 1040 digital asset question. Taxpayers who made gifts of digital assets must answer 'Yes' on Line 21, even if the gift is fully covered by the annual exclusion and no tax is due. Answering 'No' when a digital asset gift occurred is a factually incorrect return and may trigger IRS scrutiny."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I don't file Form 709 for a crypto gift?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The penalty for failing to file Form 709 is 5% of the tax due per month, up to 25%. However, because most donors whose gifts fall within the lifetime exemption ($13.99M for 2025, $15M for 2026) owe no gift tax, the monetary penalty may be zero. The greater risk is that the statute of limitations never begins without adequate disclosure, leaving the donor exposed to an IRS challenge years later. For substantial gifts, the IRS may also assert accuracy-related penalties for valuation understatements under IRC Section 6662."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can married couples gift split to give more crypto without filing Form 709?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, under IRC Section 2513, married couples may elect gift splitting, which treats gifts made by one spouse as made one-half by each spouse. This allows a married couple to give up to $38,000 per donee per year ($19,000 from each spouse) without filing a gift tax return, provided each gift qualifies as a present interest. Gift splitting must be elected on a timely filed Form 709, and both spouses must consent. In community property states, gifts from community property are automatically treated as made one-half by each spouse."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, SDIRA custodians, and tax professionals requiring IRS-defensible valuations for gift tax (Form 709) reporting, charitable donations, estate tax filing, trust funding, and audit defense.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["HNW Individuals", "Estate Attorneys", "CPAs", "SDIRA Custodians", "Trust Officers", "Tax Professionals", "Crypto Donors", "Estate Executors"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal for Charitable Crypto Donations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Trust Funding Digital Asset Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Market Approach Digital Asset Appraisal"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
