@@ -1,0 +1,255 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-07-28",
+      "headline": "IRS Cost Basis Reporting for Digital Assets Under the New 2026 Rules: Wallet-by-Wallet Tracking, Specific Identification, and When a Qualified Appraisal Remains Essential for Compliance",
+      "description": "An authoritative guide for estate attorneys, CPAs, and high-net-worth digital asset holders on the new IRS cost basis reporting rules effective January 1, 2026 — covering wallet-by-wallet tracking, specific identification methodology, Form 1099-DA reconciliation, Revenue Procedure 2024-28 transition rules, and when USPAP-compliant qualified appraisals remain critical for audit defense.",
+      "datePublished": "2026-07-28",
+      "dateModified": "2026-07-28",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-07-28-irs-cost-basis-reporting-digital-assets-wallet-tracking-qualified-appraisal/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "IRS Cost Basis Reporting for Digital Assets",
+        "description": "The new IRS cost basis reporting rules for digital assets effective January 1, 2026 — covering wallet-by-wallet tracking, elimination of universal wallets, specific identification methodology, covered vs. noncovered asset classification, Form 1099-DA reconciliation challenges, Revenue Procedure 2024-28 transition rules, backup withholding requirements, and when USPAP-compliant qualified appraisals remain essential for charitable contributions, estate tax filing, gift tax reporting, SDIRA annual valuation, and audit defense under the enhanced information reporting environment."
+      },
+      "keywords": [
+        "IRS cost basis reporting digital assets 2026",
+        "wallet-by-wallet crypto tracking",
+        "digital asset specific identification",
+        "Form 1099-DA cost basis",
+        "crypto cost basis reporting rules",
+        "qualified appraisal digital assets 2026",
+        "IRS Revenue Procedure 2024-28",
+        "digital asset broker reporting",
+        "USPAP crypto appraisal",
+        "crypto estate tax valuation",
+        "digital asset covered security rules",
+        "crypto backup withholding",
+        "CLARITY Act digital asset regulation",
+        "PARITY Act crypto tax",
+        "wallet-by-wallet accounting IRS"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-07-28",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the new IRS cost basis reporting requirement for digital assets in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRS now requires brokers to report both gross proceeds and adjusted cost basis for 'covered' digital assets — those acquired and held within the same broker account on or after January 1, 2026. This reporting is made on Form 1099-DA and brings digital asset reporting closer to the standards applied to traditional securities. For 2025 transactions (forms issued in 2026), brokers were required to report gross proceeds only."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does wallet-by-wallet tracking mean for my crypto taxes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRS has eliminated 'universal wallet' accounting. You must track cost basis, holding periods, and gain or loss separately for each wallet or account. When selling digital assets, you must physically trace to a particular wallet the source of the cryptocurrency being sold. Assets cannot be pooled across wallets for tax computation purposes. This requirement was established by the final regulations (TD 9995) and eliminates the previously common practice of aggregating holdings across multiple platforms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I still need a qualified appraisal if my broker reports my cost basis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Broker-reported cost basis covers routine sales of covered assets within the same account but does not eliminate the need for qualified appraisals. You still need a qualified appraisal for: charitable donations exceeding $5,000 (IRC Section 170(f)(11)(C)), estate tax filings (Form 706 under IRC Section 2031), gift tax reporting (Form 709), SDIRA annual valuation attestations, noncovered assets where the broker does not report basis, and audit defense for any transaction where the IRS challenges your reported value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between covered and noncovered digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Covered digital assets are those acquired and held within the same broker account on or after January 1, 2026. Brokers must report both gross proceeds and adjusted cost basis for covered assets. Noncovered digital assets were acquired before January 1, 2026, or transferred into the broker account from another wallet or exchange. Brokers may report cost basis for noncovered assets but are not required to do so. Taxpayers remain responsible for tracking cost basis for all assets regardless of classification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my Form 1099-DA shows incorrect or missing cost basis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You remain responsible for tracking and reporting accurate cost basis regardless of what your broker reports. Keep detailed records of acquisition dates, amounts, wallet sources, and transaction hashes for each digital asset. The IRS has acknowledged that corrected Form 1099-DA forms are likely as brokers refine their reporting systems in the early years of implementation. Do not assume a blank cost basis field means the basis is zero — it simply means the broker was not required to report it for that transaction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Revenue Procedure 2024-28?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Revenue Procedure 2024-28 is the IRS's transitional guidance that allows taxpayers to allocate unused basis to remaining digital asset units held in each wallet or account as of January 1, 2025. It provides a workable transition to the new wallet-by-wallet cost basis methodology. The allocation must be made on a wallet-by-wallet basis and cannot be aggregated across wallets. Taxpayers who properly documented their wallet holdings as of January 1, 2025, have a clean starting point for the new tracking regime."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the CLARITY Act affect digital asset taxation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Digital Asset Market Clarity (CLARITY) Act (H.R. 3633) primarily addresses regulatory jurisdiction between the SEC and CFTC rather than tax rules. The bill passed the House in July 2025 and cleared the Senate Banking Committee in May 2026. Its classification of digital assets as commodities under CFTC jurisdiction could influence their future tax treatment. The PARITY Act (H.R. 8899) would more directly affect digital asset tax rules, including mark-to-market elections under IRC Section 475, wash sale treatment, and securities-lending rules under IRC Section 1058."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is backup withholding for digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your broker lacks a valid Taxpayer Identification Number (TIN) for you, IRS rules require 24% backup withholding on digital asset sale proceeds. Unlike cash transactions, brokers may need to liquidate a portion of your digital assets to satisfy the withholding requirement, meaning the broker must have contractual authorization from you to sell or convert part of the asset into U.S. dollars. Ensure your broker has accurate, up-to-date W-9 information on file to avoid disruptions to your account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should I track my crypto cost basis across multiple wallets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maintain a wallet-by-wallet tax lot ledger documenting every acquisition, transfer, and disposition. For each tax lot, record the wallet address, acquisition date, amount (in units), cost basis (in USD), and the blockchain transaction hash. When executing a sale, record which wallet and which specific tax lot within that wallet are being disposed of. The IRS permits specific identification (choosing which units to sell), FIFO (default), or other reasonable methods, but the identification must be made at the time of sale and supported by contemporaneous records."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for incorrectly reporting digital asset cost basis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Penalties include the 20% accuracy-related penalty under IRC Section 6662 for underpayment of tax attributable to valuation misstatements or negligence. This increases to 40% for gross valuation misstatements (where the reported value is 200% or more of the correct value). Additional penalties apply for failure to file information returns. The IRS's enhanced data matching capabilities through Form 1099-DA make incorrect reporting significantly more likely to be detected than in prior years."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, SDIRA custodians, and tax professionals requiring IRS-defensible valuations for cost basis documentation, estate tax filing, charitable contribution substantiation, gift tax reporting, trust funding, and audit defense under the enhanced 2026 cost basis reporting rules.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["HNW Individuals", "Estate Attorneys", "CPAs", "SDIRA Custodians", "Trust Officers", "Tax Professionals", "Crypto Donors", "Estate Executors"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cost Basis Documentation Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Crypto Donation Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Market Approach Digital Asset Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Wallet-by-Wallet Portfolio Valuation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
