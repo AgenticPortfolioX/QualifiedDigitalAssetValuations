@@ -1,0 +1,246 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-07-31",
+      "headline": "The Cost Approach to Digital Asset Valuation: When Reproduction Cost, Development Expenditures, and Asset Replacement Matter in USPAP-Compliant Appraisals",
+      "description": "A practitioner-level analysis of the cost approach to digital asset valuation — when reproduction cost, replacement cost, and development expenditures provide credible evidence of fair market value, how USPAP Standards Rules 7 and 9 govern its use, and why it completes the three-approach framework alongside the market and income approaches for IRS-compliant appraisals.",
+      "datePublished": "2026-07-31",
+      "dateModified": "2026-07-31",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-07-31-cost-approach-digital-asset-valuation-uspap/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Cost Approach to Digital Asset Valuation",
+        "description": "The cost approach to digital asset valuation under USPAP — reproduction cost versus replacement cost, development expenditures as evidence of fair market value, the principle of substitution, cost basis versus fair market value, depreciation and obsolescence in digital asset terms, USPAP Standards Rules 7 and 9 requirements, reconciliation with the market and income approaches, and when a qualified appraisal incorporating cost evidence is required for Form 706 estate tax, Form 709 gift tax, IRS Section 170 charitable contributions, SDIRA annual valuations, and audit defense."
+      },
+      "keywords": [
+        "cost approach digital asset valuation",
+        "cost approach crypto appraisal USPAP",
+        "reproduction cost digital assets",
+        "replacement cost NFT valuation",
+        "token valuation cost approach early-stage",
+        "fair market value digital assets IRS",
+        "USPAP Standards Rule 7 cost approach",
+        "USPAP Standards Rule 9 cost approach",
+        "development cost token valuation",
+        "mining operation valuation estate tax",
+        "cost basis vs fair market value crypto",
+        "principle of substitution digital assets",
+        "qualified appraisal crypto methodology",
+        "digital asset appraisal three approaches",
+        "pre-market token valuation IRS"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-07-31",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When is the cost approach used to value digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost approach is used when market evidence is unavailable or unreliable and the income approach does not apply — most commonly for pre-market tokens, seed-round positions, thinly traded or delisted assets, mining operations, and unique commissioned digital works. For actively traded assets, the market approach controls."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between reproduction cost and replacement cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reproduction cost is the cost to create an exact replica of the asset using identical materials, methods, and specifications. Replacement cost is the cost to create an asset with equivalent utility using current materials and standards. For digital assets, the two can diverge significantly — replicating an outdated codebase may cost more than building equivalent functionality today."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the cost approach accepted by the IRS for digital asset appraisals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRS does not prescribe a single approach; it requires that fair market value be determined under the willing buyer–willing seller standard, supported by credible evidence. The cost approach is an accepted professional methodology under USPAP, and when it is the most reliable evidence available — as with pre-market tokens — it is a defensible component of a qualified appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between cost basis and fair market value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cost basis is a tax recordkeeping concept — generally what you paid to acquire an asset, used to compute gain or loss. Fair market value is the price a willing buyer and willing seller would agree upon today. The two can be identical, but they frequently diverge, and treating cost as value is one of the most common valuation errors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the cost approach value an NFT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with important limits. For unique, commissioned, or 1-of-1 NFTs with thin sales data, documented production costs provide credible corroborating evidence. For NFTs in collections with active markets, the market approach controls, and cost evidence plays a minor role."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the cost approach apply to mined cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The coins themselves are valued by the market approach using quoted exchange prices. The mining operation — hardware, infrastructure, power arrangements — is valued by the cost approach: replacement cost less physical, functional, and technological depreciation. Estate administration of a mining operation requires both analyses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the principle of substitution?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The principle of substitution holds that a rational buyer will not pay more for an asset than the cost of acquiring an equivalent substitute. It is the economic foundation of the cost approach — and the reason cost evidence matters when a substitute cannot be readily acquired."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is a qualified appraisal required for digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraisal is required for charitable contributions exceeding $5,000 under IRS Section 170(f)(11)(C), and it is the professional standard for estate (Form 706), gift (Form 709), trust, and SDIRA valuation purposes where defensibility matters. Any valuation exposed to IRS scrutiny benefits from a USPAP-compliant report."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, SDIRA custodians, and tax professionals requiring IRS-defensible valuations. The cost approach is applied where cost evidence is the most credible indicator of fair market value: pre-market and seed-round token positions, thinly traded assets, mining operations, unique commissioned digital works, and early-stage protocol tokens for estate, gift, and retirement account purposes.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": ["HNW Individuals", "Estate Attorneys", "CPAs", "SDIRA Custodians", "Trust Officers", "Tax Professionals", "Crypto Donors", "Estate Executors", "Founders", "Venture Funds"]
+      },
+      "areaServed": ["Metro Detroit", "Michigan", "United States"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cost Approach Digital Asset Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pre-Market Token Valuation (Seed Round)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mining Operation Valuation (Estate)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Crypto Donation Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Market Approach Digital Asset Appraisal"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
