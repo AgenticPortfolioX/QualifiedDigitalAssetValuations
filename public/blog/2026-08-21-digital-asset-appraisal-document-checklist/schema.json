@@ -1,0 +1,267 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-08-21",
+      "headline": "How to Gather the Right Documents for a Digital Asset Appraisal: A Checklist for Attorneys, CPAs, and Their Clients",
+      "description": "A practical checklist of the documents, wallet data, and records attorneys, CPAs, and their clients need to prepare a USPAP-compliant, IRS-qualified digital asset appraisal — with asset-type-specific guidance, evidence standards, and common mistakes to avoid.",
+      "datePublished": "2026-08-21",
+      "dateModified": "2026-08-21",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-08-21-digital-asset-appraisal-document-checklist/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Digital Asset Appraisal Document Checklist",
+        "description": "A professional guide for attorneys, CPAs, and their clients on gathering the documents required for a USPAP-compliant qualified appraisal of digital assets — the complete document inventory, asset-type-specific evidence (Bitcoin, Ethereum, NFTs, DeFi positions, stablecoins, wrapped assets, airdrops, mining, pre-market tokens), the primary-versus-secondary evidence hierarchy, the USPAP Record Keeping Rule workfile requirements, checklists by engagement type (Form 706 estate, Form 709 gift, IRS Section 170 charitable contributions and Form 8283, SDIRA annual attestation, IRS audit defense), common mistakes that delay or invalidate appraisals, and a practical intake workflow for estate attorneys and CPAs."
+      },
+      "keywords": [
+        "digital asset appraisal documents",
+        "crypto appraisal checklist",
+        "work with a qualified appraiser",
+        "appraisal for estate attorney",
+        "CPA digital asset valuation",
+        "documents needed for crypto appraisal",
+        "digital asset valuation evidence",
+        "USPAP workfile",
+        "USPAP Record Keeping Rule",
+        "Form 8283 crypto appraisal documents",
+        "crypto estate inventory documents",
+        "NFT valuation documentation",
+        "qualified appraiser engagement",
+        "cost basis documentation crypto",
+        "SDIRA appraisal documents"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-08-21",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What documents do I need for a digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At minimum: wallet addresses and ownership attestation, exchange and custodial account statements, acquisition records and cost basis documentation, complete transaction logs, and transfer records. The precise list depends on the asset types and the engagement purpose — estates, gifts, donations, and SDIRA attestations each have additional requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a qualified appraisal and an exchange statement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An exchange statement is a record of transactions and balances at one platform. A qualified appraisal is a professional opinion of fair market value, prepared by a qualified appraiser in accordance with USPAP, supported by documented methodology and evidence, and signed with professional certification. The IRS requires the latter for substantiation in charitable contributions over $5,000, estates, gifts, and other contexts where a defensible valuation is required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long must appraisal records be kept under USPAP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The USPAP Record Keeping Rule requires the appraiser's workfile to be retained for a minimum of five years after preparation. In practice, records should be kept longer: IRS examinations, estate administration, and litigation can extend far beyond five years, and the documents supporting a valuation should be preserved for as long as the tax position is open."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the IRS require a qualified appraisal for crypto donations over $5,000?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under IRS Section 170(f)(11), a charitable contribution deduction exceeding $5,000 for property — including cryptocurrency — requires a qualified appraisal by a qualified appraiser, with Form 8283 attached to the return. The IRS confirmed in CCA 202302012 that exchange-reported value does not substitute for a qualified appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents does an appraiser need to value an NFT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mint records, purchase confirmations, the NFT's contract address and token ID, collection and trait data with dates, historical sales records for comparable items, and provenance documentation. For 1-of-1 works, the appraiser will also consider the artist, the market context, and any prior sales or offers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can screenshots of exchange prices support an appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not on their own. Screenshots have no verifiable metadata chain, no authoritative timestamp, and no proof of ownership. They can serve as clues, but the appraiser must verify the underlying facts through primary evidence: exchange statements, on-chain data tied to verified wallet addresses, and custody records."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my client cannot provide cost basis records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The appraiser can work with secondary evidence and documented reconstruction, but the report will disclose the limitation, and the client's tax exposure may increase. Where possible, primary evidence should be reconstructed first: exchange statements, trade fills, and on-chain data tied to verified wallets. Clients should be advised to preserve records from the moment of first acquisition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should an attorney or CPA gather before referring a client for a digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confirm the engagement purpose and valuation date, inventory all wallets and accounts, request the full document package with primary evidence, verify completeness, and engage the qualified appraiser early — before filing deadlines. Preserve all records and reconcile the appraisal with the appropriate tax return."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, SDIRA custodians, and tax professionals requiring IRS-defensible valuations. QDAV provides document-package guidance, evidence verification, and qualified appraisal reports built on defensible data for estates, gifts, charitable contributions, SDIRA annual attestations, and IRS audit defense.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "HNW Individuals",
+          "Estate Attorneys",
+          "CPAs",
+          "SDIRA Custodians",
+          "Trust Officers",
+          "Tax Professionals",
+          "Crypto Donors",
+          "Estate Executors",
+          "Founders",
+          "Venture Funds"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Crypto Donation Appraisal (Form 8283)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IRS Audit Defense Appraisal Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Market Approach Digital Asset Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Appraisal Document Consultation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
