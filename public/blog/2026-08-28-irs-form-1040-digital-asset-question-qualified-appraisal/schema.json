@@ -1,0 +1,267 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-08-28",
+      "headline": "The IRS Digital Asset Question on Form 1040: What It Asks, Who Must Answer, and When a Qualified Appraisal Becomes Necessary",
+      "description": "A compliance guide to the mandatory digital asset question on Form 1040 — the exact IRS wording, who must answer, the Yes/No decision rules, downstream reporting on Forms 8949, 709, 8283, and 706, recordkeeping standards, and the five situations where checking 'Yes' turns a checkbox into a Fair Market Value determination that requires a USPAP-compliant qualified appraisal.",
+      "datePublished": "2026-08-28",
+      "dateModified": "2026-08-28",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-08-28-irs-form-1040-digital-asset-question-qualified-appraisal/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "IRS Digital Asset Question on Form 1040",
+        "description": "A compliance guide to the mandatory IRS digital asset question on Form 1040 (and 1040-SR, 1040-NR, 1041, 1065, 1120, 1120-S, and Form 709): the exact statutory wording, the definition of digital asset under IRC Section 6045(g)(3), the Yes/No decision rules with IRS-sourced examples, downstream reporting obligations on Forms 8949, Schedule C, 709, 8283, 706, and 1041, recordkeeping standards, the 2026 enforcement context (T.D. 10000 broker rules, Form 1099-DA, real estate closing reporting, the Digital Assets Compliance Portal scam), the penalty structure under IRC Section 6662, and the five situations — gifts above the annual exclusion, charitable contributions over $5,000, estates requiring date-of-death value, lost-basis reconstruction, and 1099-DA mismatch defense — where a Yes answer creates a Fair Market Value determination that requires a USPAP-compliant qualified appraisal."
+      },
+      "keywords": [
+        "IRS digital asset question",
+        "Form 1040 digital asset question",
+        "crypto tax question 1040",
+        "digital asset reporting IRS",
+        "when to check yes digital asset question",
+        "IRS digital asset definition",
+        "Form 1099-DA 2026",
+        "qualified appraisal digital assets",
+        "fair market value crypto gift tax",
+        "crypto estate valuation",
+        "digital asset recordkeeping IRS",
+        "CP2000 crypto audit",
+        "IRC 6045(g)(3)",
+        "IRC 170(f)(11)",
+        "Form 8283 crypto donation"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-08-28",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the digital asset question on Form 1040?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a mandatory question at the top of Form 1040 (and 1040-SR, 1040-NR, 1041, 1065, 1120, 1120-S, and a version on Form 709) asking whether the taxpayer received or disposed of a digital asset or a financial interest in a digital asset during the tax year. Every taxpayer must check Yes or No, under penalties of perjury."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who has to answer the digital asset question?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Everyone who files a covered return, whether or not they own or transacted in digital assets. A taxpayer with no digital asset activity checks No. The question is mandatory for all filers, not just those with digital asset transactions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I check Yes on the digital asset question?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check Yes if you sold, exchanged, or otherwise disposed of a digital asset; received digital assets as payment, reward, award, or from mining, staking, or a hard-fork airdrop; paid for goods or services with digital assets; paid a transaction fee with digital assets; gifted or donated digital assets; disposed of a digital-asset ETF; or engaged in stablecoin transactions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When can I check No on the digital asset question?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check No if you did not own any digital assets, only held digital assets in a wallet or account without transacting, purchased digital assets with U.S. or other real currency without selling, or transferred digital assets between wallets or accounts you own or control — provided you did not pay a transaction fee with digital assets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I answer the digital asset question incorrectly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The return is signed under penalties of perjury, so a wrong answer is an affirmative misstatement. Inaccurate reporting can trigger accuracy-related penalties under IRC Section 6662 (20 percent for substantial valuation misstatements, 40 percent for gross), interest, civil fraud penalties in deliberate cases, and criminal referral in serious ones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an appraisal to answer the digital asset question?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The checkbox itself requires no valuation. An appraisal becomes necessary when the activity behind a Yes answer creates a valuation obligation: gifts above the annual exclusion, charitable contributions over $5,000, estates requiring date-of-death value, lost-basis reconstruction, and audit defense against challenged figures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the digital asset question relate to Form 1099-DA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 1099-DA is the broker information return reporting gross proceeds and basis for digital asset transactions. The digital asset question on the tax return must be consistent with the activity reported on Forms 1099-DA. Mismatches between the return and broker data can trigger CP2000 notices and examination."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do gifts of crypto require a qualified appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always, but the valuation must be supportable. Gifts above the $19,000 annual exclusion require a Form 709 filing reporting the date-of-gift fair market value. For assets with thin markets, a qualified appraisal provides the defensible value and also documents the donor's basis for the recipient — important because a recipient without basis documentation is treated as having zero basis."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, SDIRA custodians, and tax professionals requiring IRS-defensible valuations. QDAV provides qualified appraiser services built on verifiable education and experience in the digital asset category, with reports that satisfy IRC Section 170(f)(11)(E) and 26 CFR 1.170A-17 — including appraiser qualifications, USPAP-compliant methodology, and defensible data for estates, gifts, charitable contributions, SDIRA annual attestations, and IRS audit defense.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "HNW Individuals",
+          "Estate Attorneys",
+          "CPAs",
+          "SDIRA Custodians",
+          "Trust Officers",
+          "Tax Professionals",
+          "Crypto Donors",
+          "Estate Executors",
+          "Founders",
+          "Venture Funds"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Crypto Donation Appraisal (Form 8283)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IRS Audit Defense Appraisal Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Cost Basis Reconstruction Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Recordkeeping Consultation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
