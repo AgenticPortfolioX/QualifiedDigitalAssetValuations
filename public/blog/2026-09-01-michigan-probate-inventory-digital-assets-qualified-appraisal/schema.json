@@ -1,0 +1,274 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-09-01",
+      "headline": "The Michigan Probate Inventory and Digital Assets: MCL 700.3706 Filing Duties, PC 577 Valuation Standards, and When a Qualified Appraisal Becomes Fiduciary Duty",
+      "description": "A statutory guide for Michigan estate attorneys and personal representatives: what the probate inventory requires under MCL 700.3706, how cryptocurrency and NFTs are valued at fair market value as of the date of death, when MCL 700.3707 obligates the appointment of a qualified and disinterested appraiser, supplemental inventory duties under MCL 700.3708, fiduciary surcharge exposure for inaccurate inventories, the Michigan Fiduciary Access to Digital Assets Act, and the 2026 federal estate tax context including the $15 million exemption and the IRC Section 1014 step-up in basis.",
+      "datePublished": "2026-09-01",
+      "dateModified": "2026-09-01",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-09-01-michigan-probate-inventory-digital-assets-qualified-appraisal/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Michigan Probate Inventory for Digital Assets",
+        "description": "A statutory guide to the Michigan probate inventory for estates holding digital assets: the personal representative's 91-day duty under MCL 700.3706(1) to prepare an inventory listing property with reasonable detail at fair market value as of the date of death; the requirement to serve presumptive distributees and interested persons under MCL 700.3706(2); SCAO form PC 577 mechanics for describing cryptocurrency and NFT positions; MCL 700.3707's authorization of a qualified and disinterested appraiser for property whose value is subject to reasonable doubt; the meaning of qualified (including IRC §170(f)(11)(E) and 26 CFR §1.170A-17 requirements and USPAP compliance) and disinterested (fixed-fee, no contingent interest); MCL 700.3708 supplemental inventory duties when new wallets are discovered; probate inventory fee computation under MCR 5.307(A); fiduciary surcharge exposure under MCL 700.3703(5); the Michigan Fiduciary Access to Digital Assets Act (MCL 700.1001–700.1018); the 2026 federal estate tax context (permanent $15,000,000 exemption under the One Big Beautiful Bill Act, no Michigan state estate tax, IRC §1014 step-up in basis for inherited digital assets); and a fiduciary's checklist for engaging a qualified digital asset appraiser."
+      },
+      "keywords": [
+        "Michigan probate inventory digital assets",
+        "probate inventory crypto valuation",
+        "PC 577 inventory decedent estate",
+        "MCL 700.3707 appraiser estate inventory",
+        "estate inventory fair market value date of death",
+        "executor crypto inventory Michigan",
+        "probate court digital asset valuation",
+        "qualified appraiser probate Michigan",
+        "NFT estate inventory valuation",
+        "fiduciary duty digital asset valuation Michigan",
+        "91 day inventory deadline Michigan probate",
+        "probate inventory fee Michigan",
+        "MCL 700.3708 supplemental inventory",
+        "step-up in basis crypto Michigan",
+        "UFADAA Michigan digital assets"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-09-01",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Michigan probate inventory, and who must file it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The statutory list of all property the decedent owned at death, with fair market values as of the date of death, prepared on SCAO form PC 577 by the personal representative under MCL 700.3706, served on interested persons and supporting the probate inventory fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the Michigan probate inventory due?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Within 91 days of the personal representative's appointment (Letters of Authority), unless the court orders otherwise — MCL 700.3706(1); MCR 5.307(A)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do digital assets have to be listed on the Michigan probate inventory?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Digital assets are personal property under EPIC's broad definition of property (MCL 700.1106(x)), and the inventory must list all property owned at death with reasonable detail. Cryptocurrency, NFTs, tokenized assets, and DeFi positions held by the decedent belong on the inventory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are cryptocurrencies valued for a Michigan probate inventory?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At fair market value as of the date of death. For liquid assets, this means an authoritative reference rate for the specific date; for illiquid assets, NFTs, and large positions, it requires professional analysis — comparable sales, liquidity and size adjustments, and documented methodology — which is why MCL 700.3707 authorizes a qualified and disinterested appraiser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does MCL 700.3707 require a qualified appraiser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The statute authorizes a qualified and disinterested appraiser for property the value of which may be subject to reasonable doubt. Digital assets — especially NFTs, thinly traded tokens, DeFi positions, and large holdings — almost always meet that test, and the fiduciary duty of care under MCL 700.3703 makes the appraisal the prudent course."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does qualified and disinterested appraiser mean under Michigan law?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Qualified means verifiable competence in valuing the specific property — for digital assets, demonstrated blockchain and valuation expertise, and IRS-qualified status where federal filings are involved. Disinterested means no financial or personal interest in the outcome and no contingent fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if new crypto wallets are discovered after the inventory is filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MCL 700.3708 requires a supplementary inventory or appraisal showing the date-of-death market value of the newly discovered item or corrected value, with the appraiser or data relied upon, served on interested persons and filed with the court."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a personal representative be personally liable for an inaccurate inventory?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under MCL 700.3703(5), a personal representative is liable to interested persons for damage or loss from breach of fiduciary duty to the same extent as a trustee of an express trust. Omitted digital assets, indefensible valuations, and imprudent delay can support surcharge."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, and tax professionals requiring IRS-defensible valuations. QDAV provides qualified appraiser services built on verifiable education and experience in the digital asset category, with reports that satisfy IRC Section 170(f)(11)(E) and 26 CFR 1.170A-17 — including appraiser qualifications, USPAP-compliant methodology, and defensible data for Michigan probate inventories (MCL 700.3706–700.3708), estates, gifts, charitable contributions, SDIRA annual attestations, and IRS audit defense.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "HNW Individuals",
+          "Estate Attorneys",
+          "Personal Representatives",
+          "CPAs",
+          "SDIRA Custodians",
+          "Trust Officers",
+          "Tax Professionals",
+          "Crypto Donors",
+          "Estate Executors",
+          "Probate Courts"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Michigan Probate Inventory Digital Asset Valuation (MCL 700.3706–700.3708)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Crypto Donation Appraisal (Form 8283)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Crypto Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IRS Audit Defense Appraisal Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Cost Basis Reconstruction Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Recordkeeping Consultation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
