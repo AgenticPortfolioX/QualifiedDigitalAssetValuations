@@ -1,0 +1,273 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-09-08",
+      "headline": "IRS Section 6662 Valuation Misstatement Penalties and Digital Assets: Substantial and Gross Overstatement Thresholds, the Reasonable Cause Standard Under Section 6664, and the Qualified Appraisal Defense",
+      "description": "When the IRS rejects a digital asset valuation, the Section 6662 valuation misstatement penalty follows arithmetic, not intent: 20 percent once the claimed value hits 150 percent of the correct value, 40 percent at 200 percent. This practitioner-level guide explains the statutory thresholds, the Section 6664 reasonable cause standard — including the charitable-property trap most taxpayers misunderstand — and how a USPAP-compliant qualified appraisal built on defensible data is the pre-emptive defense.",
+      "datePublished": "2026-09-08",
+      "dateModified": "2026-09-08",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-09-08-irs-6662-valuation-misstatement-digital-assets-defense/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "IRS Section 6662 Valuation Misstatement Penalties for Digital Assets",
+        "description": "A practitioner-level guide to the IRS accuracy-related penalty for digital asset valuation misstatements: Section 6662(a) 20 percent penalty mechanics, Section 6662(e)(1)(A) 150 percent substantial valuation misstatement threshold, Section 6662(h) 200 percent gross valuation misstatement threshold at 40 percent, the Section 6662(e)(2) $5,000 underpayment floor, the estate and gift analog under Section 6662(g) (65 percent substantial / 40 percent gross), the reasonable cause exception under Section 6664(c)(1), the charitable deduction property trap under Section 6664(c)(3) that eliminates reasonable cause for gross overstatements and requires a qualified appraisal plus good-faith investigation for substantial ones, appraiser-side penalties under Section 6695A (lesser of 10 percent of the attributable underpayment or $1,000, or 125 percent of appraisal fees), CCA 202302012's qualified appraisal requirement for cryptocurrency contributions, the Cartwright fair market value standard, worked penalty calculations for charitable NFT overvaluations, cost basis overstatements, and estate undervaluations, what IRS examiners request when they challenge a digital asset value, and the six-component pre-filing defense file for attorneys, CPAs, and high-net-worth digital asset holders."
+      },
+      "keywords": [
+        "IRS valuation misstatement penalty digital assets",
+        "Section 6662 crypto appraisal penalty",
+        "substantial valuation misstatement 150 percent",
+        "gross valuation misstatement 200 percent",
+        "IRS qualified appraisal cryptocurrency defense",
+        "reasonable cause Section 6664 crypto valuation",
+        "Section 6664(c)(3) charitable deduction property",
+        "Section 6695A appraiser penalty digital assets",
+        "NFT donation overvaluation penalty",
+        "IRS estate tax crypto undervaluation Form 706",
+        "gift tax digital asset understatement Form 709",
+        "CCA 202302012 crypto donation appraisal",
+        "USPAP digital asset appraisal IRS defense",
+        "digital asset audit defense qualified appraiser",
+        "Form 8283 crypto donation appraisal"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-09-08",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the penalty for overstating the value of crypto or an NFT on a tax return?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under IRC Section 6662, the penalty is 20 percent of the underpayment attributable to a substantial valuation misstatement — a claimed value 150 percent or more of the correct value. At 200 percent or more — a gross valuation misstatement — the penalty rises to 40 percent under Section 6662(h). Interest accrues from the return due date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does an overstated valuation become a gross valuation misstatement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A gross valuation misstatement exists when the claimed value or basis is 200 percent or more of the correct amount. An NFT claimed at $900,000 with a correct Fair Market Value of $300,000 is a 300 percent overstatement — gross — carrying the 40 percent penalty rate on the tax underpayment attributable to the misstatement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I avoid the penalty if I made an honest mistake about the value of my digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most income tax positions, yes — Section 6664(c)(1) waives the penalty on a showing of reasonable cause and good faith, which requires an honest investigation of value and, for material claims, a qualified appraisal. For charitable donations of digital assets, the rules are stricter: under Section 6664(c)(3), a substantial overstatement can be rescued only by a qualified appraisal plus a good-faith investigation, and a gross overstatement of charitable deduction property cannot be rescued at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the reasonable cause exception under Section 6664, and when does it apply to digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 6664(c)(1) waives the Section 6662 penalty where the taxpayer shows reasonable cause and good faith, measured by ordinary business care and prudence — including reliance on qualified professional advice and a genuine investigation of the claimed value. The exception covers non-charitable misstatements (basis errors, SDIRA values, estate and gift positions) but is restricted or eliminated for charitable deduction property under Section 6664(c)(3)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my appraiser be penalized if the IRS rejects the appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 6695A penalizes an appraiser whose appraisal results in a substantial or gross valuation misstatement, when the appraiser knew or should have known the appraisal would be used on a return. The penalty is the lesser of 10 percent of the attributable underpayment (but at least $1,000) or 125 percent of the appraisal fee, and it is avoided only if the appraiser shows the value was more likely than not correct. This is why appraiser independence and documented methodology protect both parties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the IRS require a qualified appraisal for charitable crypto donations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under Section 170(f)(11) and IRS Chief Counsel Advice 202302012, a donor claiming a charitable contribution deduction of more than $5,000 for cryptocurrency must obtain a qualified appraisal by a qualified appraiser and complete Form 8283. Contributions exceeding $500,000 require the appraisal to be attached to the return. Without the qualified appraisal, the deduction can be disallowed and valuation misstatement penalties under Section 6662 can attach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I undervalue digital assets on an estate or gift tax return?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 6662(g), a substantial estate or gift tax valuation understatement exists when the claimed value is 65 percent or less of the correct value — a 20 percent penalty on the tax underpayment attributable. At 40 percent or less of correct, the misstatement is gross and the penalty doubles to 40 percent. Date-of-death and date-of-gift valuations of digital assets should therefore rest on a contemporaneous qualified appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if I receive an IRS notice challenging my digital asset valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First, calendar every deadline, including the response date and the 90-day window for a Tax Court petition. Second, assemble the complete defense file: the appraisal, transaction records, market data, and Form 8283. Third, respond to the substance with the methodology and evidence. Fourth, evaluate the reasonable cause position separately from the value position — it is possible to concede value and still defeat the penalty where the taxpayer relied in good faith on a qualified appraisal."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV provides qualified appraiser services built on verifiable education and experience in the digital asset category, with reports that support IRS audit defense under IRC Section 6662 (valuation misstatement penalty thresholds at 150 percent and 200 percent), the reasonable cause standard of Section 6664, appraiser documentation standards under Section 6695A, charitable contribution substantiation under IRC Section 170(f)(11)(E) and CCA 202302012, estate tax (Form 706) and gift tax (Form 709) date-of-death and date-of-gift valuations under the Section 6662(g) 65 percent standard, USPAP-compliant methodology, and defensible data for estates, gifts, charitable contributions, SDIRA attestations, and IRS examination defense.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "HNW Individuals",
+          "Estate Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Personal Representatives",
+          "Trust Officers",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Crypto Donors"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IRS Audit Defense Appraisal Support (Section 6662 / Section 6695A)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Crypto Donation Appraisal (Form 8283)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Date-of-Death Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Cost Basis Reconstruction Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Failed or Worthless Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Crypto Roth Conversion and In-Kind Distribution Valuation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
