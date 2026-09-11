@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-09-11-digital-asset-types-tax-treatment-valuation-guide",
+    "title": "Digital Asset Types and Their Tax Treatment: How Bitcoin, Stablecoins, NFTs, and DeFi Tokens Differ in Valuation, Cost Basis, and IRS Reporting",
+    "excerpt": "Digital assets are property, but a Bitcoin, a stablecoin, an NFT, and a locked DeFi governance token are four different appraisal problems. This practitioner-level guide explains how asset type governs character, valuation method, cost basis, discount support, and documentation standards under Notice 2014-21, Rev. Rul. 2023-14, Notice 2023-27, Rev. Proc. 2024-28, and the 2026 Form 1099-DA regime — and when an exchange price screen stops being defensible data.",
+    "author": "QDAV",
+    "date": "2026-09-11",
+    "description": "Digital assets are property, but a Bitcoin, a stablecoin, an NFT, and a locked DeFi governance token are four different appraisal problems. This practitioner-level guide explains how asset type governs character, valuation method, cost basis, discount support, and documentation standards under Notice 2014-21, Rev. Rul. 2023-14, Notice 2023-27, Rev. Proc. 2024-28, and the 2026 Form 1099-DA regime — and when an exchange price screen stops being defensible data.",
+    "category": "QDAV",
+    "image": "/blog/2026-09-11-digital-asset-types-tax-treatment-valuation-guide/feature_image.png",
+    "path": "/blog/2026-09-11-digital-asset-types-tax-treatment-valuation-guide/final.md",
+    "schema": null
+  },
+  {
     "id": "2026-09-08-irs-6662-valuation-misstatement-digital-assets-defense",
     "title": "IRS Section 6662 Valuation Misstatement Penalties and Digital Assets: Substantial and Gross Overstatement Thresholds, the Reasonable Cause Standard Under Section 6664, and the Qualified Appraisal Defense",
     "excerpt": "When the IRS rejects a digital asset valuation, the Section 6662 valuation misstatement penalty follows arithmetic, not intent: 20 percent once the claimed value hits 150 percent of the correct value, 40 percent at 200 percent. This practitioner-level guide explains the statutory thresholds, the Section 6664 reasonable cause standard — including the charitable-property trap most taxpayers misunderstand — and how a USPAP-compliant qualified appraisal built on defensible data is the pre-emptive defense.",
