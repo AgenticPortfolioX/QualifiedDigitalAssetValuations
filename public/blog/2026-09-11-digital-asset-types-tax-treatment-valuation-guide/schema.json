@@ -1,0 +1,304 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-09-11",
+      "headline": "Digital Asset Types and Their Tax Treatment: How Bitcoin, Stablecoins, NFTs, and DeFi Tokens Differ in Valuation, Cost Basis, and IRS Reporting",
+      "description": "Digital assets are property, but a Bitcoin, a stablecoin, an NFT, and a locked DeFi governance token are four different appraisal problems. This practitioner-level guide explains how asset type governs character, valuation method, cost basis, discount support, and documentation standards under Notice 2014-21, Rev. Rul. 2023-14, Notice 2023-27, Rev. Proc. 2024-28, and the 2026 Form 1099-DA regime — and when an exchange price screen stops being defensible data.",
+      "datePublished": "2026-09-11",
+      "dateModified": "2026-09-11",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-09-11-digital-asset-types-tax-treatment-valuation-guide/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Digital Asset Types and Tax Treatment",
+        "description": "A practitioner-level, asset-by-asset guide to digital asset valuation and IRS tax treatment. Covers the property classification of digital assets under Notice 2014-21; the distinction between ordinary income events (mining, staking under Rev. Rul. 2023-14, airdrops and hard forks under Rev. Rul. 2019-24, DeFi yield) and capital events under Section 1001; fair market value determination for convertible virtual currencies such as Bitcoin and Ether, stablecoins, non-fungible tokens, and DeFi and governance tokens; the NFT collectibles look-through analysis under Notice 2023-27 and the 28 percent maximum rate on net long-term collectibles gain under IRC Section 1(h); per-wallet and per-account cost basis allocation and cost-flow methods under Rev. Proc. 2024-28 following the end of universal-wallet basis pooling; the 2026 Form 1099-DA broker reporting regime including mandatory gross-proceeds reporting for all digital assets and covered-security basis reporting; discounts for lack of marketability (DLOM), blockage discounts, and rarity and provenance adjustments; when a USPAP-compliant qualified appraisal is required for IRS Section 170 charitable contributions, Form 706 estate tax, Form 709 gift tax, SDIRA attestation, and audit defense; documentation standards by asset class; wrapped, bridged, and tokenized real-world assets; and the five most common asset-type misclassifications that create IRS valuation exposure."
+      },
+      "keywords": [
+        "digital asset types and tax treatment",
+        "digital asset valuation by asset type",
+        "how are different crypto assets taxed",
+        "crypto appraisal asset types",
+        "qualified appraisal digital assets",
+        "stablecoin tax treatment 2026",
+        "staking rewards ordinary income Rev. Rul. 2023-14",
+        "airdrop cost basis ordinary income",
+        "NFT collectibles 28 percent rate Notice 2023-27",
+        "DeFi token valuation discount lack of marketability",
+        "Rev. Proc. 2024-28 wallet by wallet basis",
+        "Form 1099-DA covered security cost basis",
+        "when does a crypto valuation need an appraisal",
+        "USPAP digital asset appraisal",
+        "fair market value digital asset IRS",
+        "bitcoin vs NFT valuation method",
+        "digital asset appraisal Metro Detroit"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-09-11",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are staking rewards taxed when received or when sold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Staking rewards are taxed when received. Under Rev. Rul. 2023-14, they are gross income in the year the taxpayer gains dominion and control, at Fair Market Value on the receipt date. That value becomes the taxpayer's basis, and a separate capital gain or loss arises on later sale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost basis of a crypto airdrop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Rev. Rul. 2019-24, an airdrop received with a hard fork is gross income at Fair Market Value when the taxpayer gains dominion and control. That same value becomes the cost basis in the airdropped units, so the amount reported as income is the amount used to compute later gain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are NFTs taxed at 28 percent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not automatically. Under Notice 2023-27, the IRS applies a look-through analysis based on the NFT's associated right or asset. Where the NFT is a collectible, net long-term capital gain on its sale is subject to a maximum 28 percent rate under section 1(h)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a stablecoin treated as cash or as property for tax purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stablecoins are digital assets treated as property under Notice 2014-21, not as currency. Because regulated stablecoins are designed to trade at par, many dispositions produce little or no gain — but the classification matters where value deviated from par or the arrangement is not a straightforward redemption. Draft proposals such as the PARITY Act would change parts of this treatment; they are proposals, not law."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal for my crypto tax return?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not for every position. A qualified appraisal is generally required for charitable contributions of digital assets claimed above the applicable threshold — cryptocurrency is not a publicly traded security, so IRS Section 170 appraisal requirements apply — and is strongly indicated for estate and gift reporting, non-fungible or thin-market positions, claimed discounts, and reconstructed basis. A custodial position with broker-certified basis usually does not require one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you value a digital asset that does not trade on an exchange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Where no orderly market exists, the valuation must be developed rather than looked up. Practice applies the market approach with adjusted comparables where any exist, the income approach where the asset generates identifiable cash flows or protocol economics, and the cost approach as a reasonableness check. For locked or vested positions, a supported discount for lack of marketability is applied to the freely traded equivalent value. This is a qualified appraisal engagement, not a price lookup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does an exchange price screenshot satisfy the IRS documentation standard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no, where documentation is tested. An exchange screenshot records a price at a moment in time; it does not establish the appraisal date, the unit count, market comparability, per-wallet basis, or a professional valuation conclusion. For charitable contributions, estate and gift reporting, and audit defense, the standard is a qualified appraisal supported by defensible data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changed for digital asset cost basis in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two changes matter. Revenue Procedure 2024-28 eliminated universal-wallet basis pooling for taxable years beginning after December 31, 2024, requiring basis to be allocated and cost-flow methods applied per wallet or account. Separately, under the current Form 1099-DA regime, brokers must report gross proceeds for all digital assets from 2026 and basis for covered securities — generally assets acquired on or after January 1, 2026 through a custodial broker account — with basis reporting for noncovered securities voluntary. Undocumented basis positions are now more visible to the Service."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation across asset classes — serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV applies asset-appropriate appraisal methodology by asset type: market approach for deep-market fungible assets such as Bitcoin and Ether, redemption and market-value analysis for stablecoins, comparables and trait-rarity adjustment for non-fungible tokens, and income and cost approach analysis with supported discounts for lack of marketability on locked, vested, or thinly traded DeFi and governance tokens. Reports support IRS audit defense under IRC Section 6662 valuation misstatement thresholds, the reasonable cause standard of Section 6664, appraiser documentation standards under Section 6695A, charitable contribution substantiation under IRC Section 170(f)(11)(E) and CCA 202302012, estate tax (Form 706) and gift tax (Form 709) date-of-death and date-of-gift valuations, NFT collectible analysis under Notice 2023-27, per-wallet basis reconstruction under Rev. Proc. 2024-28, and SDIRA annual value attestation.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "HNW Individuals",
+          "Estate Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Personal Representatives",
+          "Trust Officers",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Crypto Donors"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bitcoin and Ether Fair Market Value Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Stablecoin Valuation and Peg-Deviation Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT Appraisal and Collectible Classification Analysis (Notice 2023-27)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "DeFi and Governance Token Valuation with Discount for Lack of Marketability Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Staking and Airdrop Income Valuation (Rev. Rul. 2023-14 / Rev. Rul. 2019-24)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IRS Audit Defense Appraisal Support (Section 6662 / Section 6695A)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Crypto Donation Appraisal (Form 8283)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Date-of-Death Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Cost Basis Reconstruction Valuation (Rev. Proc. 2024-28)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Failed or Worthless Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Crypto Roth Conversion and In-Kind Distribution Valuation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
