@@ -22,9 +22,9 @@
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://qdav.mba/#blog"
+        "@id": "https://qdav.mba/#blog-post/2026-09-15-alternate-valuation-date-digital-assets-irc-2032"
       },
-      "image": "https://qdav.mba/assets/images/2026-09-15-alternate-valuation-date-digital-assets-irc-2032/feature_image.png",
+      "image": "https://qdav.mba/blog/2026-09-15-alternate-valuation-date-digital-assets-irc-2032/feature_image.png",
       "about": {
         "@type": "Thing",
         "name": "IRC Section 2032 Alternate Valuation Date for Digital Assets",
@@ -127,7 +127,7 @@
       "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
       "url": "https://qdav.mba",
       "telephone": "(248) 955-1491",
-      "email": "appraisal@udav.mba",
+      "email": "appraisal@qdav.mba",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2711 Williamsburg Cir.",
