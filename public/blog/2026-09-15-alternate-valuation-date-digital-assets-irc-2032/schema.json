@@ -1,0 +1,297 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-09-15",
+      "headline": "The Alternate Valuation Date for Digital Assets: IRC Section 2032, Dual-Date Appraisal Requirements, and Why Crypto Volatility Changes the Estate Tax Analysis",
+      "description": "The Section 2032 alternate valuation date election is the only federal lever an executor has when a digital asset portfolio falls after death. This practitioner-level analysis covers the statute, the included-versus-excluded property distinction for staking rewards and airdrops, the marital and charitable deduction adjustment that quietly erodes the benefit, dual-date appraisal scope, and the procedural deadlines that govern a missed election.",
+      "datePublished": "2026-09-15",
+      "dateModified": "2026-09-15",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog"
+      },
+      "image": "https://qdav.mba/assets/images/2026-09-15-alternate-valuation-date-digital-assets-irc-2032/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "IRC Section 2032 Alternate Valuation Date for Digital Assets",
+        "description": "The alternate valuation election under IRC Section 2032 applied to cryptocurrency, NFT, and other digital asset holdings in a decedent's gross estate. Covers the three valuation dates of Section 2032(a), the all-or-nothing rule of Treasury Regulation 20.2032-1(b)(1), the double-decrease test of Section 2032(c), the election and revocation mechanics of Section 2032(d), the one-year filing limitation, the last-day-of-the-sixth-month rule of Rev. Rul. 74-260, the included property versus excluded property distinction of Regulation 20.2032-1(d) as applied to staking rewards, DeFi yield, airdrops, and hard fork proceeds under Rev. Rul. 2023-14 and Rev. Rul. 2019-24, the treatment of sales, token migrations, and in-kind distributions inside the six-month window under Regulation 20.2032-1(c), the adjustment of the Section 2056 marital deduction and Section 2055 charitable deduction under Regulation 20.2032-1(g), the basis consequence under Section 1014(a) and the consistency reporting framework of Section 1014(f) and Section 6035, penalty exposure under Section 6662 and the appraiser penalty under Section 6695A, dual-date USPAP Standards 7 and 9 appraisal scope, Form 706 Part III line 1 election mechanics, Schedule F reporting of digital assets, protective elections under Regulation 20.2032-1(b)(2), and Section 301.9100 relief for a missed election as granted in PLR 202513003, PLR 202410006, PLR 202425012, and PLR-108574-11."
+      },
+      "keywords": [
+        "alternate valuation date crypto",
+        "IRC Section 2032 digital assets",
+        "crypto estate tax valuation six months after death",
+        "Form 706 alternate valuation election",
+        "cryptocurrency date of death appraisal",
+        "dual date appraisal digital assets",
+        "Section 2032(c) decrease gross estate and estate tax",
+        "crypto step-up in basis alternate valuation date",
+        "Form 706 Schedule F digital assets",
+        "staking rewards excluded property estate tax",
+        "marital deduction adjustment alternate valuation",
+        "USPAP digital asset appraisal",
+        "qualified appraisal digital assets estate tax",
+        "fair market value cryptocurrency date of death",
+        "defensible data digital asset valuation",
+        "Metro Detroit digital asset appraisal"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-09-15",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the alternate valuation date for digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the date six months after death, or the date an asset was distributed, sold, exchanged, or otherwise disposed of if that occurred earlier. Under IRC Section 2032 it applies to the entire gross estate, not to digital assets alone. Where no numerically corresponding date exists in the sixth month, the last day of that month governs under Rev. Rul. 74-260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does electing the alternate valuation date reduce the heirs' step-up in basis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under Section 1014(a), elective alternate valuation makes the applicable valuation date the beneficiary's basis, so a lower alternate value produces a lower step-up and a larger gain on a later sale. Where the estate tax savings are modest relative to the basis reduction, the election can be net-negative."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are staking rewards and airdrops received during the six-month window treated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As excluded property under Treasury Regulation 20.2032-1(d). They are earned or accrued after death, so they are not added to the alternate-date gross estate. They are income when received, generally at fair market value on the receipt date under the principles of Rev. Rul. 2023-14 and Rev. Rul. 2019-24, and that value becomes basis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the executor sells crypto within six months of death?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The disposed-of asset is valued as of the disposition date under Section 2032(a)(1), not the six-month date. A conversion, a distribution to a beneficiary, or a sale to fund administration expenses therefore fixes the valuation date for that asset and can lock in a low value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you need two appraisals to support a Form 706 alternate valuation election?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need valuation conclusions at both dates. That means date-of-death fair market value for every asset, which is required in any event to test Section 2032(c) and to preserve the fallback position described in C.C.A. 201926013, plus alternate-date value or value at the disposition date for the assets actually reported at the alternate date. A single dual-date engagement is the efficient way to produce both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the alternate valuation election be made after Form 706 has been filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The election must be made by the executor on the return, but Section 2032(d)(2) permits it on a return filed up to one year after the due date including extensions, and the Service has granted Section 301.9100 relief where the return was filed without the election and an amended or supplemental return followed within that period. Treasury Regulation 20.2032-1(b)(3) forecloses relief beyond that limit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who decides whether to make the alternate valuation election, the executor or the IRS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The executor decides, on the return. The IRS determines on examination whether the statutory conditions were in fact met, and under C.C.A. 201926013 the date-of-death values must be used if adjustments show the election did not decrease both the gross estate and the combined estate and GST tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a qualified appraisal required for estate tax purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The qualified appraisal requirement of IRS Section 170(f)(11) governs charitable contribution substantiation rather than Form 706 as such. Estate valuation is nonetheless tested against Section 6662 valuation misstatement thresholds, and appraisers face separate exposure under Section 6695A, so a USPAP-compliant appraisal supported by defensible data is the professional standard for any concentrated digital position, and is mandatory in substance where the estate also claims a charitable deduction for digital assets."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@udav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV produces dual-date appraisal engagements for estate tax purposes: fair market value as of the date of death and as of the IRC Section 2032 alternate valuation date, or as of the date of distribution, sale, exchange, or other disposition where property left the estate inside the six-month window. Reports support the Section 2032(c) double-decrease analysis, the included property and excluded property reconciliation required by Treasury Regulation 20.2032-1(d) for staking rewards, DeFi yield, airdrops, and hard fork proceeds, the marital and charitable deduction adjustment under Regulation 20.2032-1(g), basis reporting under Section 1014(a) and the consistency framework of Section 1014(f) and Section 6035, Form 706 Part III line 1 election documentation and Schedule F reporting, protective elections under Regulation 20.2032-1(b)(2), Section 301.9100 relief support for a missed election, audit defense under IRC Section 6662 valuation misstatement thresholds, and appraiser documentation standards under Section 6695A.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Personal Representatives",
+          "Executors",
+          "Trust Officers",
+          "HNW Individuals",
+          "Beneficiaries",
+          "SDIRA Holders",
+          "SDIRA Custodians"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dual-Date Digital Asset Appraisal for Estate Tax (Date of Death and IRC Section 2032 Alternate Valuation Date)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Date-of-Disposition Valuation for Assets Sold, Exchanged, or Distributed Inside the Six-Month Window"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Included Property and Excluded Property Reconciliation for Staking, DeFi Yield, Airdrops, and Hard Forks"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Section 2032(c) Double-Decrease Analysis Support and Protective Election Documentation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal with Schedule F Reporting Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Marital and Charitable Deduction Valuation Adjustment Analysis (Sections 2056 and 2055)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cost Basis and Step-Up Basis Documentation (Section 1014(a))"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Executor Decision Memo Support and Fiduciary Valuation Documentation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IRS Audit Defense Appraisal Support (Section 6662 / Section 6695A)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Crypto Donation Appraisal (Form 8283)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
