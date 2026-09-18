@@ -1,0 +1,288 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-09-18",
+      "headline": "Digital Assets in Donor-Advised Funds and Charitable Remainder Trusts: Valuation at Contribution, Form 8283 Substantiation, Form 8282 Disposition Reporting, and the Section 6664(c)(3) Reasonable-Cause Rule",
+      "description": "A practitioner-level analysis of how the charitable vehicle — direct gift, donor-advised fund, or charitable remainder trust — changes the donee, the AGI ceiling, the annual valuation burden, and the disposition-reporting chain, and why none of it changes the qualified appraisal requirement under IRS Section 170. Covers the One Big Beautiful Bill Act deduction framework effective 2026, the Section 170(f)(11) threshold ladder, sponsor-as-donee mechanics and Form 8283 Section B signature requirements, the charitable remainder unitrust annual revaluation obligation under Section 664(d)(2), the Section 6664(c)(3) carve-out from the reasonable-cause exception to the Section 6662 accuracy penalty, and the Form 8282 three-year disposition lookback.",
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-09-18",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-09-18-digital-assets-donor-advised-funds-charitable-remainder-trusts-qualified-appraisal"
+      },
+      "image": "https://qdav.mba/blog/2026-09-18-digital-assets-donor-advised-funds-charitable-remainder-trusts-qualified-appraisal/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Digital Assets in Donor-Advised Funds and Charitable Remainder Trusts",
+        "description": "The charitable vehicle layer of digital asset giving. Covers the One Big Beautiful Bill Act deduction framework effective 1 January 2026 including the IRC Section 170(b)(1)(I) 0.5 percent of adjusted gross income floor for itemizers, the permanent 60 percent cash ceiling, the 30 percent ceiling for appreciated long-term capital gain property contributed to public charities and donor-advised fund sponsors, the 20 percent ceiling for private foundations, five-year carryover, the Section 170(p) non-itemizer deduction and the 50 percent penalty under Section 6662(b)(9) and Section 6662(l); the Section 170(f)(8) contemporaneous written acknowledgment requirement, the Section 170(f)(11)(B) Form 8283 threshold, the Section 170(f)(11)(C) 5,000 dollar qualified appraisal threshold, the Section 170(f)(11)(D) 500,000 dollar attached-appraisal tier and the Section 170(f)(11)(F) similar items aggregation rule; CCA 202302012 and the conclusion that cryptocurrency is not a publicly traded security; Treasury Regulation 1.170A-17 content, timing, independence and qualified appraiser requirements; Pankratz v. Commissioner, T.C. Memo. 2021-26; donor-advised fund mechanics under Section 4966(d)(2) including sponsor as legal owner and donee, Form 8283 Section B Part V signature, sponsor acceptance policy and prompt liquidation practice, Section 4966(a)(1) 20 percent excise tax on taxable distributions and Section 4967(a)(1) 125 percent excise tax on prohibited benefits; charitable remainder trust mechanics under Section 664(d)(1) and Section 664(d)(2), the 10 percent minimum remainder test, the Section 7520 rate, the Regulation 1.664-3(a)(1)(i)(a) annual unitrust valuation obligation, Section 664(c)(1) exemption and Section 664(c)(2) 100 percent excise tax on unrelated business taxable income, Section 4947(a)(2) and Section 4941 self-dealing rules, and prearranged sale risk; the Section 6662(b)(3) 20 percent accuracy-related penalty, Section 6662(e)(1)(A) 150 percent substantial valuation misstatement threshold, Section 6662(h) 200 percent gross valuation misstatement threshold and 40 percent penalty, the Section 6662(e)(2) 5,000 dollar limitation, the Section 6664(c)(1) reasonable-cause exception and the Section 6664(c)(3) special rule for charitable deduction property requiring a qualified appraisal by a qualified appraiser plus a good-faith investigation of value, Section 6664(c)(4)(A) exclusion of readily quoted securities, and Section 6695A appraiser penalties; and Form 8282 donee information return reporting of dispositions within three years, the 125-day filing deadline, the copy furnished to the donor, and the $50 per form failure-to-file penalty."
+      },
+      "keywords": [
+        "digital assets donor-advised fund appraisal",
+        "crypto charitable remainder trust",
+        "CRUT cryptocurrency valuation",
+        "DAF crypto qualified appraisal",
+        "Form 8282 digital assets",
+        "IRC 6664(c)(3) charitable deduction property",
+        "OBBBA 2026 charitable deduction 0.5% AGI floor",
+        "30% AGI limit appreciated crypto",
+        "170(f)(11)(D) 500,000 noncash contribution appraisal",
+        "self-dealing CRUT crypto",
+        "UBTI charitable remainder trust crypto",
+        "sponsor signature Form 8283 Section B",
+        "qualified appraisal cryptocurrency",
+        "fair market value digital assets contribution date",
+        "USPAP digital asset appraisal",
+        "defensible data digital asset valuation",
+        "Metro Detroit digital asset appraisal",
+        "Auburn Hills appraisal firm",
+        "charitable contribution substantiation attorney CPA"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-09-18",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you need a Qualified Appraisal to donate crypto to a donor-advised fund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, where the claimed deduction exceeds $5,000. The requirement under IRC Section 170(f)(11)(C) attaches to the contribution of property other than cash or publicly traded securities. Cryptocurrency is not a publicly traded security, as the Office of Chief Counsel concluded in CCA 202302012, so it applies whether the recipient is an operating charity, a donor-advised fund sponsor, or a charitable remainder trust."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who signs Form 8283 Section B when the gift goes to a donor-advised fund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The sponsor signs. A donor-advised fund sponsor is the legal owner of the fund and the donee of the contribution, so the sponsor provides the Part V acknowledgment. The donor retains advisory privileges over grants but is not the party acknowledging receipt for substantiation purposes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a charitable remainder trust hold cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Digital assets may fund either a charitable remainder annuity trust under Section 664(d)(1) or a charitable remainder unitrust under Section 664(d)(2). The practical constraints are the trustee's administrative capability, the liquidity needed to satisfy the payment obligation, exposure to the 100% excise tax on unrelated business taxable income under Section 664(c)(2), and the Section 4941 self-dealing rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is IRC Section 6664(c)(3) and why does it matter to digital asset donors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It provides that the reasonable-cause exception in Section 6664(c)(1) does not apply to an underpayment attributable to a substantial or gross valuation overstatement with respect to charitable deduction property, unless the claimed value was based on a Qualified Appraisal made by a qualified appraiser and the taxpayer made a good-faith investigation of the value of the contributed property. For a donor claiming a deduction above $5,000, the Qualified Appraisal is therefore the statutory condition on which penalty relief depends."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Form 8282 and what happens when a charity sells donated crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 8282 is the donee information return. A donee that disposes of charitable deduction property within three years of receiving it must report the disposition, including the amount received, within 125 days, and must send a copy to the donor. Because DAF sponsors liquidate digital assets promptly and unitrust trustees realize assets to fund payments, the form is commonly generated in the contribution year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What AGI limit applies to a donation of appreciated cryptocurrency in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Appreciated long-term capital gain property contributed to a public charity or donor-advised fund sponsor is deductible up to 30% of adjusted gross income, with a five-year carryover for unused amounts; the same property contributed to a private foundation is subject to a 20% ceiling. For 2026 the Section 170(b)(1)(I) floor also applies: an itemizer may deduct contributions only to the extent they exceed 0.5% of adjusted gross income, and the floor applies to cash and non-cash contributions alike."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does the appraisal date have to fall relative to the contribution date?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Treasury Regulation Section 1.170A-17(a)(4), the Qualified Appraisal must be signed and dated no earlier than 60 days before the date of the contribution and no later than the due date of the return, including extensions, on which the deduction is first claimed. Where the deduction is first claimed on an amended return, the appraisal must be received before the amended return is filed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the valuation date the contribution date or the date the charity liquidates the asset?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The valuation date is the contribution date. The deduction is measured by the Fair Market Value of the contributed property as of the effective date of the completed contribution, which the appraisal must state under Treasury Regulation Section 1.170A-17(a)(3). A subsequent liquidation is reported separately on Form 8282, and any variance between the claimed value and realized proceeds is reconciled through the methodology stated in the appraisal rather than by re-dating the valuation."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes charitable engagements by the obligation the report must support: contribution-date appraisals for direct gifts and donor-advised fund contributions, prepared to the content and timing requirements of Treasury Regulation 1.170A-17 and supporting Form 8283 Section B, the claimed deduction, and the good-faith investigation of value required by IRC Section 6664(c)(3); contribution-date appraisals with remainder analysis for charitable remainder trusts, driving the deduction measure and the 10 percent minimum remainder test; recurring annual trust valuations supporting the unitrust amount computation under IRC Section 664(d)(2) and Regulation 1.664-3(a)(1)(i)(a); reconciliation analysis where Form 8282 reported proceeds differ from the claimed Fair Market Value; and audit support where a claimed value has been questioned, including re-presentation of methodology in an examiner-ready format and analysis of the Section 6662(e)(1)(A) and Section 6662(h) valuation misstatement thresholds.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Donors",
+          "Philanthropic Advisors",
+          "Trust Officers",
+          "Trustees",
+          "Personal Representatives",
+          "Executors",
+          "HNW Individuals",
+          "SDIRA Holders",
+          "SDIRA Custodians"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Donor-Advised Fund Cryptocurrency Contribution Appraisal with Liquidation Reconciliation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Remainder Trust Funding Appraisal and Remainder Interest Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Annual Charitable Remainder Unitrust Valuation for the Unitrust Amount Computation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 8282 Proceeds Variance Analysis and Documentation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Deduction Audit Defense Support (Section 6662 / Section 6664(c)(3) / Section 6695A)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT and Illiquid Digital Asset Charitable Contribution Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal with Dual-Date Scope"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
