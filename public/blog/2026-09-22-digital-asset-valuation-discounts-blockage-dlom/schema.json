@@ -1,0 +1,284 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-09-22",
+      "headline": "Valuation Discounts for Digital Assets: Blockage, the Discount for Lack of Marketability, and Restricted Token Positions Under USPAP and the Treasury Regulations",
+      "description": "A practitioner-level analysis of the two deductions that reduce an otherwise supportable digital asset value — the blockage discount and the discount for lack of marketability — the authorities that permit or prohibit each, the models used to quantify them for locked, vesting, and concentrated positions, and the documentation that makes the conclusion survive examination.",
+      "datePublished": "2026-09-22",
+      "dateModified": "2026-09-22",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-09-22-digital-asset-valuation-discounts-blockage-dlom"
+      },
+      "image": "https://qdav.mba/blog/2026-09-22-digital-asset-valuation-discounts-blockage-dlom/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Valuation Discounts for Digital Assets: Blockage and Lack of Marketability",
+        "description": "The discount layer of digital asset valuation. Covers the separate doctrines of the blockage discount and the discount for lack of marketability; the express blockage authority in Treasury Regulation 20.2031-2(e) and 25.2512-2(e) and its limitation to stocks and bonds; the absence of any digital-asset-specific blockage rule; the contrast with ASC 820-10-35-36B, which prohibits blockage factors and position-size discounts in financial reporting; the asset-characteristic versus holder-characteristic restriction distinction; market-impact quantification using average daily volume, average daily traded value, participation rate and liquidation horizon; option-pricing models including Chaffe, Longstaff, Finnerty and Ghaidarov for restricted and vesting tokens; discount sequencing and the rule against double-counting; the adequate-disclosure requirement of Treasury Regulation 301.6501(c)-1(f)(2)(iv) for claimed discounts on Form 709; and the documentation standards that support a defensible conclusion on Form 706, Form 709, Form 8283 Section B, and examination."
+      },
+      "keywords": [
+        "digital asset valuation discounts",
+        "blockage discount cryptocurrency",
+        "discount for lack of marketability crypto",
+        "restricted token appraisal",
+        "locked token valuation",
+        "vesting token fair market value",
+        "illiquid digital asset valuation",
+        "USPAP DLOM",
+        "Form 709 adequate disclosure discounts",
+        "qualified appraisal digital assets",
+        "crypto blockage discount",
+        "Treasury Regulation 20.2031-2(e)",
+        "ASC 820-10-35-36B digital assets",
+        "Ghaidarov average-strike put model",
+        "Metro Detroit digital asset appraisal"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-09-22",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you claim a blockage discount for cryptocurrency or tokens?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not under an express rule. Treasury Regulation 20.2031-2(e) and 25.2512-2(e) authorize a blockage discount for stocks and bonds, and no digital-asset-specific provision exists. A token position can still support a size-related adjustment under the general Fair Market Value standard, but the taxpayer bears the burden of proving both the existence and the amount of the concession, and the conclusion must be built from the token's own market depth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a blockage discount and a discount for lack of marketability?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A blockage discount measures the price concession required because a position is too large for the market to absorb at the quoted price. A discount for lack of marketability measures the value effect of a restriction that prevents or delays sale, such as a lockup, vesting schedule, or transfer covenant. They arise from different facts, use different evidence, and require an overlap test before both are applied to the same position."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you discount a large crypto position for estate or gift tax purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possibly, if the facts support it. The analysis begins with the position as a percentage of freely tradable supply, the asset's average daily traded value and order-book depth, the participation rate a seller could represent without moving price, and the resulting liquidation horizon. Where a hypothetical buyer would demand a concession for size, it belongs in the valuation, but it must be demonstrated and, for a gift, measured with reference to each separate gift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is a discount for lack of marketability quantified for locked or vesting tokens?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Through benchmark studies or option pricing models. Restricted stock and pre-IPO transaction studies provide a reasonableness range but transfer imperfectly to tokens that trade continuously on public venues. Option pricing models price the protection the holder lacks: Chaffe (a lower bound), Longstaff (an upper bound), Finnerty (average-strike put) and Ghaidarov (average-strike protective put, which behaves better at the high volatility typical of digital assets). Inputs must come from the token's own realized volatility and restriction terms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a discount for lack of marketability allowed under ASC 820 for digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only when it reflects a characteristic of the asset. ASC 820-10-35-36B prohibits blockage factors and other discounts that reflect the size of the reporting entity's holding rather than a characteristic of the asset or liability, and Level 1 measurement uses quoted price multiplied by quantity. A lockup on the token itself can affect Level 2 or Level 3 inputs; position size and the holder's own selling constraints cannot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do claimed valuation discounts have to be disclosed on a gift tax return?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if adequate disclosure is to be effective. Treasury Regulation 301.6501(c)-1(f)(2)(iv) requires a detailed description of the method used to determine Fair Market Value, including the financial data used, the restrictions considered, and any blockage, minority-interest, or lack-of-marketability discounts claimed. Without adequate disclosure the limitations period does not begin to run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documentation supports a digital asset valuation discount?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contemporaneous, date-stamped market data; the position measured against freely tradable supply; a stated participation rate and liquidation horizon; copies of every restriction instrument relied upon; the volatility computation; the model selection rationale; the overlap test proving no economic disadvantage was counted twice; and an appraiser's signature and date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the IRS disallows a valuation discount on digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The adjustment increases the reported value, which raises the tax due and can trigger accuracy-related penalties under IRC Section 6662 where the misstatement reaches the substantial or gross thresholds. The defense is the file behind the conclusion: valuation-date market evidence, documented contemporaneously and explained in writing."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support: concentration and liquidity analysis for positions large relative to a token's freely tradable supply, including participation-rate and liquidation-horizon modeling and the comparable effect of an off-market or block sale; restriction analysis for locked, vesting, pre-token-generation-event, and contractually restricted digital assets, with marketability discounts supported by benchmark studies or average-strike put option models and documented inputs for volatility, time to liquidity, and restriction period; entity-interest analysis where digital assets are held through an LLC, family partnership, or trust, including sequencing of any entity-level discount; and adequate-disclosure support for claimed discounts under Treasury Regulation 301.6501(c)-1(f)(2)(iv) on Form 709, gross-estate valuation support on Form 706, contribution-date appraisals supporting Form 8283 Section B under IRC Section 170, and audit support where a claimed value or discount has been questioned.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Donors",
+          "Philanthropic Advisors",
+          "Trust Officers",
+          "Trustees",
+          "Personal Representatives",
+          "Executors",
+          "HNW Individuals",
+          "SDIRA Holders",
+          "SDIRA Custodians"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Donor-Advised Fund Cryptocurrency Contribution Appraisal with Liquidation Reconciliation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Remainder Trust Funding Appraisal and Remainder Interest Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Annual Charitable Remainder Unitrust Valuation for the Unitrust Amount Computation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 8282 Proceeds Variance Analysis and Documentation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Deduction Audit Defense Support (Section 6662 / Section 6664(c)(3) / Section 6695A)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "NFT and Illiquid Digital Asset Charitable Contribution Appraisal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal with Dual-Date Scope"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
