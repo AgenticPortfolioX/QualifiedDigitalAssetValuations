@@ -1,0 +1,295 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-09-25",
+      "headline": "Retaining a Digital Asset Appraiser: Engagement Letters, Scope of Work, Independence, and Privilege for Attorneys and CPAs",
+      "description": "A practitioner-level guide to the retention decision that determines whether a digital asset appraisal survives examination — how to structure the engagement letter and scope of work, who the client and intended users are under USPAP, the prohibited-fee rule that disqualifies an appraiser, the qualification and independence screen, the Circular 230 diligence chain, and what is and is not protected by privilege when the report supports a return.",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-09-25-retaining-digital-asset-appraiser-engagement-letters-privilege"
+      },
+      "image": "https://qdav.mba/blog/2026-09-25-retaining-digital-asset-appraiser-engagement-letters-privilege/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Retaining a Digital Asset Appraiser: Engagement Design, Independence, and Privilege",
+        "description": "The retention layer of digital asset appraisal practice. Covers client and intended-user identification under USPAP and the three retention models; the engagement-letter clause map for digital asset assignments including assignment identification, intended use, intended users, definition of value, valuation effective date, scope of work, data and written representations, digital asset access protocol without private keys, assumptions and limiting conditions, reporting format, fee structure, reliance and re-use, confidentiality, and certification; the valuation effective date rules of Treasury Regulation 1.170A-17(a)(4) and (a)(5); the prohibited appraisal fee rule of Treasury Regulation 1.170A-17(a)(9) and its disqualification effect under 1.170A-17(b)(5)(i); the USPAP Ethics Rule prohibition on compensation contingent on a predetermined result, the amount of a value opinion, or the attainment of a stipulated result; the qualification screen under Treasury Regulation 1.170A-17(b)(1) through (b)(5) including the three-year barred-practice lookback; the Circular 230 section 10.22 diligence standard for reliance on client and third-party information; IRC Section 6695A appraiser penalties, IRC Section 6701 aiding and abetting, and IRC Sections 6662 and 6664; the attorney-client privilege architecture for valuation experts under United States v. Kovel and the four-part showing in Cavallaro v. United States; the limits of the IRC Section 7525 tax practitioner privilege; why a qualified appraisal filed with a return is designed to be produced; the work-product and Federal Rule of Civil Procedure 26(a)(2)(B) boundary for testifying and non-testifying experts; the USPAP Record Keeping Rule retention periods for the workfile; operational coordination for holdings verification, contemporaneous market evidence, and the documentation package required for Form 8283 Section B, Form 706, Form 709, Form 1040, Form 1099-DA reconciliation, and SDIRA annual attestations."
+      },
+      "keywords": [
+        "retaining a digital asset appraiser",
+        "crypto appraisal engagement letter",
+        "digital asset appraiser scope of work",
+        "qualified appraisal requirements attorney CPA",
+        "USPAP intended user intended use",
+        "prohibited appraisal fee Treasury Regulation 1.170A-17",
+        "Section 6695A appraiser penalty",
+        "Circular 230 10.22 reliance third party",
+        "Kovel doctrine valuation consultant",
+        "Section 7525 tax practitioner privilege",
+        "Form 8283 Section B appraiser declaration",
+        "valuation effective date digital assets",
+        "USPAP Record Keeping Rule workfile retention",
+        "qualified appraisal digital assets",
+        "Metro Detroit digital asset appraisal"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-09-25",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is the client of a digital asset appraisal when an attorney retains the appraiser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The client is the party who engages the appraiser. Where counsel retains the appraiser to assist in providing legal advice, the client of record should be identified in the engagement letter, and the appraiser must still identify the intended users separately. USPAP treats the client and the intended users as distinct concepts, and the distinction controls scope, reporting, and confidentiality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should be listed as intended users of a digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The parties for whom the assignment results are intended — typically the client, named advisors, and any filing recipient such as a taxing authority. Naming intended users matters because the appraiser's scope of work must be sufficient to produce a credible result for their use. An appraisal prepared without naming the intended user may be scoped to the wrong purpose entirely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What must a digital asset appraisal engagement letter contain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Parties and capacity; the specific assets and holdings to be valued; the intended use; the intended users; the definition of value; the valuation effective date; the scope of work and any disclosed exclusions; data responsibilities and written representations; the access protocol for verifying holdings; assumptions and limiting conditions; the reporting format; the fee structure; reliance and re-use terms; confidentiality terms; and confirmation that the appraiser will sign, date, and certify the report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an appraiser's fee be based on a percentage of the appraised value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not in an appraisal supporting a charitable deduction. Treasury Regulation 1.170A-17(a)(9) provides that the fee for a qualified appraisal cannot be based to any extent on the appraised value of the property, including a fee that depends on the amount of the appraised value the IRS allows after an examination, and Treasury Regulation 1.170A-17(b)(5)(i) makes an individual who receives a prohibited fee not a qualified appraiser for that property. The USPAP Ethics Rule independently bars compensation contingent on a predetermined result, a direction in value favoring the client's cause, the amount of a value opinion, or the attainment of a stipulated result."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the prohibited fee rule affect non-charitable digital asset appraisals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The express federal prohibition is tied to qualified appraisals supporting a charitable contribution deduction. The USPAP Ethics Rule applies to appraisal practice generally and independently bars contingent compensation of the prohibited kinds. For estate, gift, and litigation work, practitioners should apply the same fee structure as a matter of course, because a compensation arrangement built on the value conclusion undermines the credibility of the opinion even where no regulation speaks directly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a digital asset appraisal protected by attorney-client privilege?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally not, where the appraisal supports a tax return. A qualified appraisal must contain the appraiser's name, address, and taxpayer identification number, must include the appraiser's signature and declaration, and must be retained for as long as it may be relevant in the administration of any internal revenue law — a document with those features is designed to be produced. Communications between counsel and an appraiser retained to assist in providing legal advice may be protected under the Kovel doctrine, but only where the engagement is structured for that purpose and the four-part showing can be made. There is no accountant-client privilege, and the IRC Section 7525 tax practitioner privilege is limited to noncriminal tax matters and excludes tax shelters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a CPA rely on a digital asset appraiser's valuation without additional work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Circular 230 section 10.22 permits reliance on information furnished by a client or another person only where the practitioner does not know, and has no reason to know, that the information is incorrect, and reliance is not reasonable where the provider is not competent or lacks the qualifications necessary for the task or has a conflict of interest. Reasonable reliance therefore requires the same qualification and independence screen that sound engagement practice requires, documented in the file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long must an appraiser retain the workfile for a digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the USPAP Record Keeping Rule, the appraiser must retain the workfile for at least five years after preparation, or at least two years after final disposition of any judicial proceeding in which the appraiser provided testimony related to the assignment, whichever period expires last. The workfile must remain retrievable throughout the retention period and must be produced when required by due process of law. Separately, the donor must retain the qualified appraisal for as long as it may be relevant in the administration of any internal revenue law."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most common mistake practitioners make when retaining a digital asset appraiser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Leaving the scope of work and the valuation effective date to a conversation rather than a document. Every downstream defect — a report that cannot support the filing obligation, a valuation date that cannot be reconciled with the contribution, a disqualification question that should have been screened, an assumption nobody wrote down — traces back to an engagement that was never specified in writing."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation — serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support and documents the assignment in the engagement letter: the client of record, the intended users, the definition of value, the valuation effective date, and the scope of work. Engagements include qualification and independence screening against the Treasury Regulation 1.170A-17(b)(5) disqualification standards, fee structures that comply with the prohibited-fee rule, holdings verification without custody of private keys, contemporaneous market evidence retention, and reporting packages prepared for Form 8283 Section B, Form 706, Form 709, Form 1040 and Form 1099-DA reconciliation, SDIRA annual value attestation, fiduciary inventory, audit support, and litigation support. Litigation and expert-witness engagements are structured to preserve the distinction between consulting and testifying roles.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Donors",
+          "Philanthropic Advisors",
+          "Trust Officers",
+          "Trustees",
+          "Personal Representatives",
+          "Executors",
+          "Fiduciary Officers",
+          "HNW Individuals",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Appraisal Engagement Scoping and Scope-of-Work Design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraiser Qualification and Independence Screening (Treasury Regulation 1.170A-17(b))"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Prohibited-Fee Compliance Review for Appraisal Engagements"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal with Dual-Date Scope"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fiduciary Inventory and Estate Administration Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Litigation and Expert Witness Digital Asset Valuation Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
