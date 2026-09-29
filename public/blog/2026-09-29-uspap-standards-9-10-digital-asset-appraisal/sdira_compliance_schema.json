@@ -1,0 +1,288 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-09-29",
+      "headline": "USPAP Standards 9 and 10: How the Business and Intangible Asset Standards Govern a Digital Asset Appraisal",
+      "description": "A practitioner-level analysis of the two USPAP standards that govern every qualified digital asset appraisal. Digital assets are intangible assets, which places them under Standards 9 and 10 rather than the real property or personal property standards. The article explains why the classification is the first question a reviewer must ask; what Standards Rules 9-1 through 9-4 require in development, including problem identification, the characteristics of the interest valued, liquidation analysis, and the required analysis of restrictions, control, and marketability; what Standards Rules 10-1 through 10-3 require in reporting, including the Appraisal Report and Restricted Appraisal Report options and the signed certification; why a Restricted Appraisal Report is unavailable for any report supporting a filing obligation; and how the Treasury Regulation that defines a qualified appraisal incorporates USPAP by reference, together with the proposed Circular 230 appraisal rule and the technology guidance of Advisory Opinion 41.",
+      "datePublished": "2026-09-29",
+      "dateModified": "2026-09-29",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-09-29-uspap-standards-9-10-digital-asset-appraisal"
+      },
+      "image": "https://qdav.mba/blog/2026-09-29-uspap-standards-9-10-digital-asset-appraisal/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "USPAP Standards 9 and 10 and Digital Asset Appraisals",
+        "description": "The business and intangible asset appraisal standards applied to digital assets. Covers the architecture of USPAP — the Preamble, Definitions, the five Rules (Ethics, Record Keeping, Competency, Scope of Work, and Jurisdictional Exception), and the ten Standards — and why real property is governed by Standards 1 and 2, appraisal review by Standards 3 and 4, mass appraisal by Standards 5 and 6, personal property by Standards 7 and 8, and business or intangible asset appraisals by Standards 9 and 10. Explains why cryptocurrencies, NFTs, DeFi tokens, stablecoins, and entity-held digital asset interests are intangible assets and therefore fall under Standards 9 and 10; the threshold distinction between an appraisal and a calculation engagement under USPAP; Standards Rule 9-1 on employed methods, substantial error, and negligence; Standards Rule 9-2 on problem identification and the characteristics of the interest, including rights and benefits of ownership, buy-sell and option agreements, restrictions, the extent of control, and the extent of marketability and liquidity; Standards Rule 9-3 on liquidation; Standards Rule 9-4 on methods, data collection, and the required analysis of restrictions, control, and marketability; Standards Rule 10-1 on clear and non-misleading reporting; Standards Rule 10-2(a) on the Appraisal Report and Standards Rule 10-2(b) on the Restricted Appraisal Report, which is available only where the client is the sole intended user; Standards Rule 10-3 on the signed certification; the Record Keeping Rule retention periods; Treasury Regulation 1.170A-17(a)(2) defining generally accepted appraisal standards as the substance and principles of USPAP; Treasury Regulation 1.170A-17(a)(3) on the contents of a qualified appraisal and 1.170A-17(b)(5) on appraiser disqualifications including the three-year barred-practice lookback; the proposed Circular 230 subpart D and section 10.61 published December 26, 2024; IRC Section 170(f)(11)(C) and Chief Counsel Advice 202302012; IRC Section 6662 and Section 6664; Revenue Ruling 59-60; and Advisory Opinion 41, Use of Technology in an Appraisal or Appraisal Review Assignment, adopted April 23, 2026, with its four-step framework and its confirmation that tool output is not an assignment result and that technology does not transfer the appraiser's responsibility.",
+        "keywords": "USPAP Standards 9 and 10, business valuation USPAP, intangible asset appraisal, digital asset appraisal standards, qualified appraisal, Treasury Regulation 1.170A-17, generally accepted appraisal standards, Restricted Appraisal Report, Appraisal Report, Standards Rule 9-1, Standards Rule 9-2, Standards Rule 9-3, Standards Rule 9-4, Standards Rule 10-2, Standards Rule 10-3, Competency Rule, Scope of Work Rule, Record Keeping Rule, Advisory Opinion 41, Revenue Ruling 59-60, Circular 230 subpart D"
+      },
+      "keywords": [
+        "USPAP Standards 9 and 10",
+        "USPAP business valuation",
+        "intangible asset appraisal standards",
+        "digital asset appraisal standards",
+        "appraisal report vs restricted appraisal report",
+        "qualified appraisal requirements",
+        "Treasury Regulation 1.170A-17",
+        "generally accepted appraisal standards",
+        "USPAP competency rule",
+        "Revenue Ruling 59-60",
+        "Advisory Opinion 41 technology",
+        "Circular 230 appraisal standards",
+        "USPAP compliant digital asset appraisal",
+        "crypto appraisal qualified appraiser",
+        "Metro Detroit digital asset appraisal"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-09-29",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which USPAP standards apply to a digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standards 9 and 10. They establish the requirements for developing and reporting business or intangible asset appraisals, and digital assets are intangible assets. Real property appraisals are governed by Standards 1 and 2, and tangible personal property appraisals by Standards 7 and 8. Digital assets fall in neither category."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are digital assets treated as intangible assets rather than personal property?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because they have no physical form. What exists is a set of rights recorded on a distributed ledger and defined by protocol and contract — governance rights, transfer rights, and claims on value. USPAP's personal property standards address tangible movable property such as art, equipment, and collectibles. Intangible rights, and entity interests that hold them, are appraised under Standards 9 and 10."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Standard 9 require in developing a digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It requires the appraiser to employ recognized methods and techniques, to avoid substantial errors and careless practice, to identify the characteristics of the interest being valued — including the rights of ownership, any agreements and restrictions, the extent of control, and the extent of marketability — and to consider all appropriate valuation methods while analyzing the effect of restrictions and liquidity on value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between an Appraisal Report and a Restricted Appraisal Report?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Appraisal Report under Standards Rule 10-2(a) presents the full analysis, identifies the client and all intended users, and may be relied upon by parties other than the client. A Restricted Appraisal Report under Standards Rule 10-2(b) may be used only where the client is the sole intended user and omits supporting detail from the report, retaining it in the workfile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a crypto appraisal be delivered as a Restricted Appraisal Report?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not where the appraisal supports a tax filing or any other obligation that brings in additional intended users. A return filed with the Service, a Form 8283 Section B appraisal, an estate or gift filing, and an SDIRA attestation relied upon by a custodian each involve intended users beyond the client. In those settings the report must be a full Appraisal Report, and the restricted form is not available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does USPAP relate to the IRS qualified appraisal requirement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Directly. Treasury Regulation 1.170A-17(a)(2) defines generally accepted appraisal standards — the standard a qualified appraisal must follow — as the substance and principles of USPAP. For a digital asset, that means the substance and principles of Standards 9 and 10. The qualified-appraisal requirement and the appraisal standards are one system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does USPAP compliance guarantee that the Service will accept the value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. USPAP compliance goes to the process — the credibility of how the value was developed and reported — not to the precision of the conclusion. A compliant appraisal can still be examined and challenged on its inputs. What compliance establishes is that the valuation was performed the way the profession recognizes, which is what the reasonable-cause and good-faith analysis under IRC Section 6664 turns on."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Advisory Opinion 41 change?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nothing in the requirements, and everything in the record. Advisory Opinion 41, adopted April 23, 2026, confirms that using technology — spreadsheets, automated valuation models, machine learning, or generative tools — does not reduce the appraiser's responsibility. The appraiser must evaluate the tool and its data, perform the analysis independently, and assess the credibility of the output. Disclosure is required where omission would mislead, and the workfile must document the output relied upon."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10 — the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support and delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client. Engagements apply the three recognized approaches, analyze restrictions, control, and marketability under Standards Rule 9-4, verify holdings without custody of private keys, retain contemporaneous market and on-chain evidence in the workfile, and carry a signed certification under Standards Rule 10-3. Reporting packages are prepared for Form 8283 Section B, Form 706, Form 709, Form 1040 and Form 1099-DA reconciliation, SDIRA annual value attestation, fiduciary inventory, audit support, and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Donors",
+          "Philanthropic Advisors",
+          "Trust Officers",
+          "Trustees",
+          "Personal Representatives",
+          "Executors",
+          "Fiduciary Officers",
+          "HNW Individuals",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Standards 9 and 10 Appraisal Development and Reporting Compliance Review"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal with Dual-Date Scope"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fiduciary Inventory and Estate Administration Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Entity-Held and Restricted Digital Asset Interest Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Appraisal Review under USPAP Standards 3 and 4"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Litigation and Expert Witness Digital Asset Valuation Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
