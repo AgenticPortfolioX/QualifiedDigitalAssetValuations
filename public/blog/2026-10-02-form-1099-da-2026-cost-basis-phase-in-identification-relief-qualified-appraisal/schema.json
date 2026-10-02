@@ -1,0 +1,288 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-02",
+      "headline": "Form 1099-DA and the 2026 Cost-Basis Phase-In: What Brokers Now Report, the Notice 2026-20 Identification Relief, the Self-Custody Gap, and Where a Qualified Appraisal Becomes the Taxpayer's Own Record",
+      "description": "A practitioner's analysis of the 2026 digital asset reporting regime. Beginning with sales effected after 2025, brokers must report basis on Form 1099-DA but only for covered securities — digital assets acquired after 2025 in a broker's custodial account and held until disposition. The article explains the covered/noncovered line, the proposal-by-number of gross proceeds versus basis reporting, the Notice 2026-20 one-year extension of the digital asset identification relief first granted by Notice 2025-7, the mismatch the extension notice admits between broker-reported basis and the taxpayer's books and records, the unhosted-wallet specific-identification standard, the Notice 2024-57 deferred transactions, the exclusion of non-custodial brokers from the final regulations, and the filing contexts in which a USPAP-compliant qualified appraisal — not a broker statement — establishes fair market value.",
+      "datePublished": "2026-10-02",
+      "dateModified": "2026-10-02",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-02-form-1099-da-2026-cost-basis-phase-in-identification-relief-qualified-appraisal"
+      },
+      "image": "https://qdav.mba/blog/2026-10-02-form-1099-da-2026-cost-basis-phase-in-identification-relief-qualified-appraisal/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Form 1099-DA and the 2026 cost-basis phase-in",
+        "description": "The 2026 phase-in of digital asset cost-basis reporting on Form 1099-DA and what it leaves to the taxpayer. Covers the IRC §6045 broker-reporting regime and the final regulations of T.D. 10000 (89 FR 56480, July 9, 2024); the phase from mandatory gross-proceeds reporting for sales effected on or after January 1, 2025 to mandatory basis reporting for covered securities for sales effected after 2025; the definition of a covered security as a digital asset acquired after 2025 in an account for which the broker provided custodial services and held in that account until disposition; the noncovered categories (assets acquired before 2026, assets acquired outside broker custody, transferred-in assets, exempt-recipient assets, and certain foreign-intermediary cases); broker identity including custodial platforms, hosted wallet providers, kiosks, processors of digital asset payments, and real estate reporting persons; optional aggregate reporting and the de minimis thresholds for qualifying stablecoins, specified NFTs, and processor sales; Notice 2024-56 transition relief; Notice 2024-57 deferred transactions (wrapping and unwrapping, liquidity-provider, staking, lending, short sales, and notional principal contracts); the exclusion of decentralized and non-custodial brokers from the final regulations; Treas. Reg. §1.1012-1(j)(3)(ii) and the adequate-identification rule; Notice 2025-7 and its 2025 relief period; Notice 2026-20, which extends the section 4.02 relief an additional year and states that for 2026 transactions the acquisition date and basis a broker reports may not match the taxpayer's books and records; the unhosted-wallet specific-identification standard added to the IRS FAQs on December 15, 2025; Rev. Proc. 2024-28 and unattached-basis allocation; the §6001 recordkeeping obligation and the rule that taxpayers report regardless of whether a payee statement is received; and the filing contexts requiring a qualified appraisal — IRC §170(f)(11)(C) charitable contributions over $5,000, Form 706 estate valuation, Form 709 gift valuation, and SDIRA annual attestation — with Treasury Regulation §1.170A-17(a)(2) defining generally accepted appraisal standards as the substance and principles of USPAP.",
+        "keywords": "Form 1099-DA 2026, IRS digital asset cost basis reporting, Notice 2026-20, Notice 2025-7, digital asset identification relief, covered security, noncovered security, adequate identification, Treas. Reg. 1.1012-1(j)(3)(ii), Notice 2024-57 deferred transactions, non-custodial broker reporting, basis reconciliation, Form 8949, qualified appraisal, IRS Section 170, fair market value, USPAP"
+      },
+      "keywords": [
+        "Form 1099-DA 2026",
+        "IRS digital asset cost basis reporting",
+        "Notice 2026-20 digital asset identification relief",
+        "Notice 2025-7",
+        "covered vs noncovered digital assets",
+        "adequate identification 1.1012-1(j)(3)(ii)",
+        "Notice 2024-57 deferred transactions",
+        "non-custodial broker reporting",
+        "digital asset basis reconciliation",
+        "Form 8949 digital assets",
+        "qualified appraisal digital assets",
+        "IRS Section 170",
+        "fair market value digital assets",
+        "USPAP compliant appraisal",
+        "Metro Detroit digital asset appraisal"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-02",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Form 1099-DA report my cost basis for the 2026 tax year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only for covered securities. Beginning with sales effected after 2025, brokers must report basis for digital assets that are covered securities — those acquired after 2025 in the broker's custodial account and held there until disposition. For noncovered securities, basis reporting is voluntary, and the form includes box 9 to flag a noncovered sale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a digital asset a covered security for Form 1099-DA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A digital asset is a covered security only if it was acquired after 2025, for value, in an account for which the broker provided custodial services, and was held in that account until the broker effects the disposition. Anything acquired before 2026, acquired outside broker custody, or transferred in to the broker is a noncovered security."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why might the basis on my Form 1099-DA differ from my own records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because the identification relief severs the taxpayer's lot selection from the broker's reporting. Notice 2026-20 states that for 2026 transactions the acquisition date and basis a broker reports to a taxpayer may not match the lot identification and basis on the taxpayer's books and records. The remedy is reconciliation, documented in the workfile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Notice 2026-20?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notice 2026-20, published in Internal Revenue Bulletin 2026-15, extends for an additional year the temporary relief first granted by Notice 2025-7. It allows eligible taxpayers to make an adequate identification of digital asset units held in a broker's custody by identifying the units on their own books and records or by recording a standing order, without communicating the identification to the broker."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I owe tax on a digital asset transaction if I receive no Form 1099-DA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A taxpayer must report income, gain, or loss from all digital asset transactions on the return for the year of the transaction, regardless of the amount and regardless of whether a payee statement or information return is received. No form is not no tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are self-custody and decentralized exchange transactions reported on Form 1099-DA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally not. The final regulations under section 6045 do not include reporting requirements for decentralized or non-custodial brokers that do not take possession of the digital assets, and the identification relief does not apply to units outside a broker's custody. For those dispositions, the taxpayer's own books and records, maintained under the section 6001 recordkeeping standard, are the record."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When do I need a qualified appraisal instead of a broker statement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When the law requires fair market value rather than basis. The clearest trigger is a charitable contribution of digital assets over $5,000, which requires a qualified appraisal under the IRS Section 170 rules at IRC section 170(f)(11)(C). Estate valuations on Form 706, gift valuations on Form 709, and SDIRA annual value attestations likewise turn on a defensible fair market value that an exchange price alone does not establish."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does an exchange price establish fair market value for a charitable deduction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. IRS Chief Counsel Advice 202302012 concludes that cryptocurrency is not a publicly traded security for purposes of section 170(f)(11)(C), so the exception that allows reliance on a published market quotation is unavailable, and exchange-reported values do not substitute for a qualified appraisal. The qualified appraisal, developed under the substance and principles of USPAP as incorporated by Treasury Regulation 1.170A-17(a)(2), is the defensible record."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10 — the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, personal representatives, trust officers, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client, applies the three recognized approaches, analyzes restrictions, control, and marketability under Standards Rule 9-4, verifies holdings without custody of private keys, retains contemporaneous market and on-chain evidence in the workfile, and carries a signed certification under Standards Rule 10-3. Reporting packages are prepared for Form 1099-DA basis reconciliation, Form 8949 support, Form 8283 Section B, Form 706, Form 709, Form 1040, SDIRA annual value attestation, fiduciary inventory, audit support, and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Donors",
+          "Philanthropic Advisors",
+          "Trust Officers",
+          "Trustees",
+          "Personal Representatives",
+          "Executors",
+          "Fiduciary Officers",
+          "HNW Individuals",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 1099-DA Basis Reporting and Cost Basis Reconciliation Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Standards 9 and 10 Appraisal Development and Reporting Compliance Review"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal with Dual-Date Scope"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fiduciary Inventory and Estate Administration Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Entity-Held and Restricted Digital Asset Interest Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Appraisal Review under USPAP Standards 3 and 4"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
