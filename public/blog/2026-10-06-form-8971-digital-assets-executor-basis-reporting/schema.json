@@ -1,0 +1,282 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-06",
+      "headline": "Form 8971 and Schedule A for Digital Assets: The Executor's Basis-Reporting Duty Under IRC Section 6035, the Consistent-Basis Rule of Section 1014(f), the Section 6662 Penalties That Reach Heirs, and Where a Qualified Appraisal Becomes the Value Everyone Must Use",
+      "description": "A fiduciary compliance analysis of Form 8971 and Schedule A for digital assets. The executor of any estate required to file Form 706 under IRC section 6018 must report the value of inherited property to the IRS and to each beneficiary on Form 8971 and Schedule A. The article explains who must file, the earlier-of 30-day deadline, the Florence KY filing address and per-beneficiary Schedule A rule, why cryptocurrency, NFTs, and DeFi positions are included property that is not excepted property under Treas. Reg. section 1.6035-1(f)(2), how the IRC section 1014(f) consistent-basis rule caps the heir's step-up at the reported estate tax value, the liquidation trap under Reg. section 1.6035-1(f)(2)(x), the estate tax value and final value definitions, the section 6721 and 6722 information-return penalties (base $250, 2026 tiers of $60, $130, and $340 under Rev. Proc. 2024-40, with reasonable-cause and $100 de minimis safe harbors), the section 6662 20% and section 6662(h) 40% penalties that reach heirs who report a basis inconsistent with Schedule A, the duty to supplement (January 31 for late-acquired property, 30 days for a change in information), the final regulations under T.D. 9991 (Sept. 17, 2024) that eliminated the zero-basis rule, the 2026 $15,000,000 basic exclusion under the One Big Beautiful Bill Act, and the contexts in which only a USPAP-compliant qualified appraisal establishes a defensible fair market value.",
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-06-form-8971-digital-assets-executor-basis-reporting"
+      },
+      "image": "https://qdav.mba/blog/2026-10-06-form-8971-digital-assets-executor-basis-reporting/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Form 8971 and Schedule A for digital assets",
+        "description": "The executor's basis-reporting duty for inherited digital assets under IRC section 6035 and Schedule A to Form 8971, and the consistent-basis rule of IRC section 1014(f). Covers the section 6018 filing threshold and the 2026 $15,000,000 basic exclusion amount set by the One Big Beautiful Bill Act; the earlier-of 30-day filing deadline and the January 31 deadline for property acquired after the estate tax return due date; the definitions of included property, excepted property (Treas. Reg. section 1.6035-1(f)(2)), estate tax value, and final value; why cryptocurrency, NFTs, stablecoins, and DeFi positions are not excepted property; the liquidation trap under Treas. Reg. section 1.6035-1(f)(2)(x); the IRC section 1014(f) ceiling on a beneficiary's initial basis; the section 6721 and 6722 information-return penalties and their reasonable-cause and de minimis ($100) exceptions; the section 6662 and section 6662(h) penalties for inconsistent basis reporting by heirs; the duty to supplement; the final regulations under T.D. 9991 that eliminated the proposed zero-basis rule; and the role of a USPAP-compliant qualified appraisal in establishing a defensible date-of-death fair market value.",
+        "keywords": "Form 8971 digital assets, Form 8971 crypto, Schedule A Form 8971 basis, IRC 6035 basis reporting, IRC 1014(f) consistent basis, step-up in basis cryptocurrency, executor duty value digital assets, inherited crypto basis, Form 706 Schedule F digital assets, final value estate tax, section 6721 6722 penalty Form 8971, 6662 basis inconsistency penalty, qualified appraisal estate tax, USPAP digital asset appraisal, Metro Detroit digital asset appraiser"
+      },
+      "keywords": [
+        "Form 8971 digital assets",
+        "Form 8971 crypto",
+        "Schedule A Form 8971 basis",
+        "IRC section 6035 basis reporting",
+        "IRC 1014(f) consistent basis rule",
+        "step-up in basis cryptocurrency",
+        "executor duty to value digital assets",
+        "inherited crypto tax basis",
+        "Form 706 Schedule F digital assets",
+        "final value estate tax",
+        "section 6721 6722 Form 8971 penalty",
+        "section 6662 basis inconsistency penalty",
+        "qualified appraisal estate tax",
+        "USPAP compliant digital asset appraisal",
+        "Metro Detroit digital asset appraiser"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-06",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Form 8971 apply to cryptocurrency and other digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, provided the estate is required to file a Form 706. Cryptocurrency, NFTs, and DeFi positions are included property — part of the gross estate — and they are not among the excepted-property categories in Treasury Regulation section 1.6035-1(f)(2). If the estate distributes them in kind, they must be valued and reported on each beneficiary's Schedule A; if the executor sells them before distribution, they become excepted property."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What value does the executor report for digital assets on Schedule A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The estate tax value — the value as reported on the Form 706 until the property's final value is determined, and the final value after it is determined. For digital assets that value must be a defensible fair market value determined by a qualified appraisal at the applicable valuation date, not an exchange account balance or a portfolio screenshot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an executor have to file Form 8971?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No later than 30 days after the earlier of (i) the date the Form 706 is required to be filed, including extensions, or (ii) the date the Form 706 is actually filed. Filing the return early shortens the window; if the due date falls on a weekend or holiday, the next business day is permitted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to an heir's basis if the estate under-reports the value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The heir's basis is capped at the value the estate reported on Schedule A. Section 1014(f) prevents the beneficiary from using a basis higher than the reported estate tax value, so an understated value hands the heir a lower step-up and a larger capital gain on a later sale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for reporting a basis inconsistent with Schedule A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A beneficiary who reports a basis inconsistent with the Schedule A may be liable for a 20 percent accuracy-related penalty under section 6662. If the reported basis is 200 percent or more of the correct amount, the 40 percent gross-valuation-misstatement penalty under section 6662(h) may apply instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the zero basis rule for inherited property still a concern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not for estates whose returns are filed after September 17, 2024. The final regulations under T.D. 9991 eliminated the zero-basis rule that appeared in the proposed regulations and removed the subsequent-transfer reporting requirement for all beneficiaries other than trustees. The live exposures are the section 6721 and 6722 penalties and the section 1014(f) ceiling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need Form 8971 if my estate is under the estate tax exclusion?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Form 8971 is required only when the estate must file a Form 706. An estate below the $15,000,000 basic exclusion for 2026 — or one filing only to elect portability or for protection — has no section 6035 duty and no section 1014(f) ceiling. Its heirs still receive a stepped-up basis but must substantiate it from their own records, which is why a contemporaneous qualified appraisal remains valuable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an exchange statement or price tracker enough to value inherited crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. An exchange statement or price screen is not a qualified appraisal. It carries no appraiser signature, no methodology, and no reconciliation across wallets, venues, and positions. Where the standard is fair market value — on a section 6035 filing, on a Form 706, and in any audit of the heir's basis — the defensible record is a USPAP-compliant qualified appraisal."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10 — the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client, applies the three recognized approaches, analyzes restrictions, control, and marketability under Standards Rule 9-4, verifies holdings without custody of private keys, retains contemporaneous market and on-chain evidence in the workfile, and carries a signed certification under Standards Rule 10-3. Reporting packages are prepared for Form 706 estate tax filings (including the Schedule F estate tax value carried to Form 8971 Schedule A), fiduciary inventory, Form 8971 and Schedule A basis reporting under IRC section 6035, Form 1099-DA basis reconciliation, Form 8949 support, Form 8283 Section B, Form 709, Form 1040, SDIRA annual value attestation, and audit and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "Personal Representatives",
+          "Executors",
+          "Trust Officers",
+          "Trustees",
+          "Fiduciary Officers",
+          "Heirs and Beneficiaries",
+          "Donors",
+          "Philanthropic Advisors",
+          "HNW Individuals",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fiduciary Basis-Reporting Digital Asset Valuation for Form 8971 and Schedule A"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal, Including Schedule F Valuation and Consistent-Basis Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fiduciary Inventory and Estate Administration Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation for In-Kind Distribution versus Liquidation Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 1099-DA Basis Reporting and Cost Basis Reconciliation Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
