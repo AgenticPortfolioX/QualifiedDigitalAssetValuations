@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-10-06-form-8971-digital-assets-executor-basis-reporting",
+    "title": "Form 8971 and Schedule A for Digital Assets: The Executor's Basis-Reporting Duty Under IRC Section 6035, the Consistent-Basis Rule of Section 1014(f), the Section 6662 Penalties That Reach Heirs, and Where a Qualified Appraisal Becomes the Value Everyone Must Use",
+    "excerpt": "A fiduciary compliance analysis of Form 8971 and Schedule A for digital assets: who must report inherited cryptocurrency, NFTs, and DeFi positions to the IRS and to each beneficiary, how the IRC section 1014(f) consistent-basis rule caps the heir's step-up at the reported estate tax value, the section 6721, 6722, and 6662 penalty exposures, and why only a USPAP-compliant qualified appraisal establishes a defensible fair market value.",
+    "author": "QDAV",
+    "date": "2026-10-06",
+    "description": "A fiduciary compliance analysis of Form 8971 and Schedule A for digital assets: who must report inherited cryptocurrency, NFTs, and DeFi positions to the IRS and to each beneficiary, how the IRC section 1014(f) consistent-basis rule caps the heir's step-up at the reported estate tax value, the section 6721, 6722, and 6662 penalty exposures, and why only a USPAP-compliant qualified appraisal establishes a defensible fair market value.",
+    "category": "QDAV",
+    "image": "/blog/2026-10-06-form-8971-digital-assets-executor-basis-reporting/feature_image.png",
+    "path": "/blog/2026-10-06-form-8971-digital-assets-executor-basis-reporting/final.md",
+    "schema": "/blog/2026-10-06-form-8971-digital-assets-executor-basis-reporting/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-02-form-1099-da-2026-cost-basis-phase-in-identification-relief-qualified-appraisal",
     "title": "Form 1099-DA and the 2026 Cost-Basis Phase-In: What Brokers Now Report, the Notice 2026-20 Identification Relief, the Self-Custody Gap, and Where a Qualified Appraisal Becomes the Taxpayer's Own Record",
     "excerpt": "For the 2026 tax year, brokers must report cost basis on Form 1099-DA for covered securities, and Notice 2026-20 extends the digital asset identification relief an additional year. A practitioner's analysis of what the form now shows, why the broker's basis may not match the taxpayer's books, the transactions the IRS has deferred from reporting, the non-custodial gap, and the filing contexts where a USPAP-compliant qualified appraisal — not a broker statement — establishes fair market value.",
