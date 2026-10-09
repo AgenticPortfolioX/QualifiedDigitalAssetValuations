@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-10-09-prohibited-transactions-self-directed-ira-digital-assets",
+    "title": "Prohibited Transactions in a Digital Asset Self-Directed IRA: IRC Section 4975 Disqualified Persons and Excise Taxes, the Section 408(e)(2) Disqualification Trap, Unrelated Business Taxable Income from Staking and Lending, and the Fair Market Value Evidence That Protects the Account",
+    "excerpt": "A compliance analysis of the two regimes that most often catch a digital asset self-directed IRA: the prohibited transaction rules of IRC section 4975, with their 15 percent and 100 percent excise taxes, and the section 408(e)(2) rule that can disqualify the entire account, plus the unrelated business taxable income rules that reach staking and lending. It explains disqualified persons, the crypto-specific traps, Form 5498 fair market value reporting, Form 990-T, RMD calculation, and where a USPAP-compliant qualified appraisal becomes the defensible value.",
+    "author": "QDAV",
+    "date": "2026-10-09",
+    "description": "A compliance analysis of the two regimes that most often catch a digital asset self-directed IRA: the prohibited transaction rules of IRC section 4975, with their 15 percent and 100 percent excise taxes, and the section 408(e)(2) rule that can disqualify the entire account, plus the unrelated business taxable income rules that reach staking and lending. It explains disqualified persons, the crypto-specific traps, Form 5498 fair market value reporting, Form 990-T, RMD calculation, and where a USPAP-compliant qualified appraisal becomes the defensible value.",
+    "category": "QDAV",
+    "image": "/blog/2026-10-09-prohibited-transactions-self-directed-ira-digital-assets/feature_image.png",
+    "path": "/blog/2026-10-09-prohibited-transactions-self-directed-ira-digital-assets/final.md",
+    "schema": "/blog/2026-10-09-prohibited-transactions-self-directed-ira-digital-assets/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-06-form-8971-digital-assets-executor-basis-reporting",
     "title": "Form 8971 and Schedule A for Digital Assets: The Executor's Basis-Reporting Duty Under IRC Section 6035, the Consistent-Basis Rule of Section 1014(f), the Section 6662 Penalties That Reach Heirs, and Where a Qualified Appraisal Becomes the Value Everyone Must Use",
     "excerpt": "A fiduciary compliance analysis of Form 8971 and Schedule A for digital assets: who must report inherited cryptocurrency, NFTs, and DeFi positions to the IRS and to each beneficiary, how the IRC section 1014(f) consistent-basis rule caps the heir's step-up at the reported estate tax value, the section 6721, 6722, and 6662 penalty exposures, and why only a USPAP-compliant qualified appraisal establishes a defensible fair market value.",
