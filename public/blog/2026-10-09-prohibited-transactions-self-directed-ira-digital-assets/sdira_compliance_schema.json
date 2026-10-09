@@ -1,0 +1,286 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-09",
+      "headline": "Prohibited Transactions in a Digital Asset Self-Directed IRA: IRC Section 4975 Disqualified Persons and Excise Taxes, the Section 408(e)(2) Disqualification Trap, Unrelated Business Taxable Income from Staking and Lending, and the Fair Market Value Evidence That Protects the Account",
+      "description": "A compliance analysis of the two regimes that most often catch a digital asset self-directed IRA: the prohibited transaction rules of IRC section 4975, with their 15 percent initial excise tax and 100 percent additional tax, and the section 408(e)(2) rule that can cause the account to cease to be an IRA and be deemed distributed. The article explains the disqualified-person definition, the section 4975(c)(1) catalogue of prohibited transactions, the crypto-specific traps of personal private-key control, self-dealing sales, pledging account assets, and checkbook IRA structures, the unrelated business taxable income rules of sections 511 through 514 and the Form 990-T filing threshold, the section 512(a)(6) silo rule, unrelated debt-financed income, the unsettled treatment of staking rewards, the Form 5498 Box 5 and Boxes 15a/15b fair market value reporting, required minimum distribution computation, Form 5330 excise-tax reporting, the correction path under section 4975(f)(5) and EPCRS, and the role of an independent, USPAP-compliant qualified appraisal in establishing the defensible fair market value.",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-10-09",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-09-prohibited-transactions-self-directed-ira-digital-assets"
+      },
+      "image": "https://qdav.mba/blog/2026-10-09-prohibited-transactions-self-directed-ira-digital-assets/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Prohibited transactions and UBTI in a digital asset self-directed IRA",
+        "description": "The prohibited transaction regime of IRC section 4975 as applied to self-directed IRAs holding cryptocurrency, NFTs, and other digital assets, and the unrelated business taxable income regime of IRC sections 511 through 514. Covers the 15 percent initial excise tax under section 4975(a) on the amount involved and the 100 percent additional tax under section 4975(b) for failure to correct; the definition of a disqualified person under section 4975(e)(2); the section 4975(c)(1) catalogue of prohibited transactions; the section 408(e)(2) rule that causes the account to cease to be an IRA and be deemed distributed as of the first day of the year of the transaction; the crypto-specific traps of personal private-key control, sales and exchanges between the IRA and the owner, pledging account assets for personal loans, paying personal expenses from account funds, and checkbook IRA-LLC structures; the unrelated business taxable income framework, the $1,000 Form 990-T filing threshold, the 21 percent rate, the section 512(a)(6) silo rule, unrelated debt-financed income under section 514, and the unsettled treatment of staking rewards; Form 5498 Box 5 and Boxes 15a/15b fair market value reporting as of December 31; the six points at which fair market value is load-bearing; required minimum distribution computation from the prior year-end value; Form 5330 filing; correction under section 4975(f)(5) and EPCRS with Revenue Procedure 2002-32; and the role of an independent, USPAP-compliant qualified appraisal.",
+        "keywords": "self-directed IRA prohibited transaction, crypto IRA prohibited transaction, IRC 4975 excise tax IRA, SDIRA disqualified person, crypto IRA UBTI, self-directed IRA staking UBTI, IRA fair market value, Form 5498 fair market value, section 408(e)(2) IRA disqualification, deemed distribution IRA, amount involved prohibited transaction, checkbook IRA crypto, IRA private keys prohibited, Form 990-T IRA, UDFI crypto IRA, SDIRA annual valuation, qualified appraisal digital asset, USPAP digital asset appraisal, Metro Detroit digital asset appraiser"
+      },
+      "keywords": [
+        "self-directed IRA prohibited transaction",
+        "crypto IRA prohibited transaction",
+        "IRC 4975 excise tax IRA",
+        "SDIRA disqualified person",
+        "crypto IRA UBTI",
+        "self-directed IRA staking UBTI",
+        "IRA fair market value",
+        "Form 5498 fair market value",
+        "section 408(e)(2) IRA disqualification",
+        "deemed distribution IRA",
+        "amount involved prohibited transaction",
+        "checkbook IRA crypto",
+        "IRA private keys prohibited",
+        "Form 990-T IRA",
+        "UDFI crypto IRA",
+        "SDIRA annual valuation",
+        "qualified appraisal digital asset",
+        "USPAP compliant digital asset appraisal",
+        "Metro Detroit digital asset appraiser"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-09",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a prohibited transaction in a self-directed IRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A prohibited transaction is any of the dealings between a retirement account and a disqualified person that section 4975(c)(1) forbids — a sale, exchange, or lease of property; a loan or extension of credit; the furnishing of goods, services, or facilities; a transfer to or use for the benefit of a disqualified person of the account's income or assets; a fiduciary's dealing with plan assets in his own interest; or a fiduciary's receipt of consideration from a party dealing with the account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my self-directed IRA hold cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A self-directed IRA may hold cryptocurrency, NFTs, and other digital assets, provided the custody and transaction rules are respected. The assets must be held by a qualified custodian, the owner must not personally hold the private keys, and the account must not deal with disqualified persons. Cryptocurrency held in a retirement account is treated as an investment, not as a currency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I hold the private keys to crypto owned by my IRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Personal possession of the private keys to IRA-owned digital assets is widely treated as a use of plan assets by or for the benefit of a disqualified person under section 4975(c)(1)(D). Custody must sit with a qualified custodian. Direct key control crosses the line that distinguishes a compliant self-directed account from a disqualified one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for a prohibited transaction in an IRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A disqualified person pays an initial excise tax of 15 percent of the amount involved for each year, or part of a year, in the taxable period, and an additional tax of 100 percent of the amount involved if the transaction is not corrected within that period. The tax is reported on Form 5330. For an IRA, the excise tax is often the smaller consequence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a prohibited transaction disqualify my whole IRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can. Under section 408(e)(2), if the owner or beneficiary engages in a prohibited transaction, the account ceases to be an IRA as of the first day of the taxable year in which the transaction occurred, and the entire account is deemed distributed and included in income at ordinary rates. Correcting the transaction can eliminate the additional excise tax, but it generally does not reverse the disqualification for an IRA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is staking income in an IRA subject to UBTI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends, and the question is unsettled. If staking is characterized as a trade or business regularly carried on by the account, the rewards can be unrelated business taxable income, and the account may have to file Form 990-T once gross income from the activity reaches $1,000. Some practitioners argue delegated staking is passive investment income instead. Because guidance is not definitive, the correct approach is to analyze the facts, document the characterization, and file where the position requires it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What value must I report to my SDIRA custodian each year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The fair market value of the account's assets as of December 31. The custodian reports the account value on Form 5498, Box 5, and itemizes specified alternative assets on Boxes 15a and 15b with a type code. The custodian files the form but relies on the owner to supply the number, and the value feeds the required minimum distribution for the following year, so an inaccurate figure carries forward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal for a self-directed IRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For complex or non-marketable digital assets, yes. A neutral, independent valuation is expected, and a USPAP-compliant qualified appraisal is the work product that satisfies it. The owner generally may not simply assign a value to an asset the value of which affects the owner's own tax outcome, and the custodian has no independent way to price it. A defensible appraisal also supports the amount involved in any prohibited-transaction analysis, the deemed-distribution value on disqualification, and the value used for a Roth conversion or in-kind distribution."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10 — the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client, applies the three recognized approaches, analyzes restrictions, control, and marketability under Standards Rule 9-4, verifies holdings without custody of private keys, retains contemporaneous market and on-chain evidence in the workfile, and carries a signed certification under Standards Rule 10-3. Reporting packages are prepared for SDIRA annual value attestation and Form 5498 fair market value support, prohibited transaction amount-involved analysis, deemed-distribution and disqualification documentation, Roth conversion and in-kind distribution valuation, required minimum distribution support, Form 706 estate tax filings (including the Schedule F estate tax value carried to Form 8971 Schedule A), fiduciary inventory, Form 8971 and Schedule A basis reporting under IRC section 6035, Form 1099-DA basis reconciliation, Form 8949 support, Form 8283 Section B, Form 709, Form 1040, and audit and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Self-Directed IRA Investors",
+          "Retirement Account Owners",
+          "Estate Attorneys",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Trust Officers",
+          "Trustees",
+          "Personal Representatives",
+          "Heirs and Beneficiaries",
+          "Donors",
+          "Philanthropic Advisors",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Prohibited Transaction Amount-Involved Valuation for IRC Section 4975 Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Deemed-Distribution and Section 408(e)(2) Disqualification Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Roth Conversion and In-Kind Distribution Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation for UBTI and Form 990-T Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal, Including Schedule F Valuation and Consistent-Basis Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
