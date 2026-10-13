@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-10-13-irs-examination-digital-asset-valuation-idr-burden-of-proof-appeals",
+    "title": "Inside an IRS Examination of a Digital Asset Valuation: Information Document Requests, the Burden of Proof Under IRC Section 7491, the Thirty-Day Letter, and How a Defensible Appraisal Performs at Appeals",
+    "excerpt": "A procedural and statutory analysis of what happens when the Service examines a digital asset valuation: how the case is selected, what a Form 4564 information document request demands and the SB/SE historical platform form now reaches, when the burden of proof shifts under IRC section 7491 and why section 7491(c) puts the burden of production on the government for penalties, the regulatory window that makes an appraisal timely, the thirty-day letter and protest to the Independent Office of Appeals, the Tax Court expert-report standard of Rule 143(f), and the section 6501 periods that govern how long the valuation stays exposed.",
+    "author": "QDAV",
+    "date": "2026-10-13",
+    "description": "A procedural and statutory analysis of what happens when the Service examines a digital asset valuation: how the case is selected, what a Form 4564 information document request demands and the SB/SE historical platform form now reaches, when the burden of proof shifts under IRC section 7491 and why section 7491(c) puts the burden of production on the government for penalties, the regulatory window that makes an appraisal timely, the thirty-day letter and protest to the Independent Office of Appeals, the Tax Court expert-report standard of Rule 143(f), and the section 6501 periods that govern how long the valuation stays exposed.",
+    "category": "QDAV",
+    "image": "/blog/2026-10-13-irs-examination-digital-asset-valuation-idr-burden-of-proof-appeals/feature_image.png",
+    "path": "/blog/2026-10-13-irs-examination-digital-asset-valuation-idr-burden-of-proof-appeals/final.md",
+    "schema": "/blog/2026-10-13-irs-examination-digital-asset-valuation-idr-burden-of-proof-appeals/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-09-prohibited-transactions-self-directed-ira-digital-assets",
     "title": "Prohibited Transactions in a Digital Asset Self-Directed IRA: IRC Section 4975 Disqualified Persons and Excise Taxes, the Section 408(e)(2) Disqualification Trap, Unrelated Business Taxable Income from Staking and Lending, and the Fair Market Value Evidence That Protects the Account",
     "excerpt": "A compliance analysis of the two regimes that most often catch a digital asset self-directed IRA: the prohibited transaction rules of IRC section 4975, with their 15 percent and 100 percent excise taxes, and the section 408(e)(2) rule that can disqualify the entire account, plus the unrelated business taxable income rules that reach staking and lending. It explains disqualified persons, the crypto-specific traps, Form 5498 fair market value reporting, Form 990-T, RMD calculation, and where a USPAP-compliant qualified appraisal becomes the defensible value.",
