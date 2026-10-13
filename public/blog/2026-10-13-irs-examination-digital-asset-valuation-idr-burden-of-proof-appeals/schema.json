@@ -1,0 +1,294 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-13",
+      "headline": "Inside an IRS Examination of a Digital Asset Valuation: Information Document Requests, the Burden of Proof Under IRC Section 7491, the Thirty-Day Letter, and How a Defensible Appraisal Performs at Appeals",
+      "description": "A procedural and statutory analysis of what happens when the Service examines a digital asset valuation: how the case is selected, what a Form 4564 information document request demands and the SB/SE historical platform form now reaches, when the burden of proof shifts under IRC section 7491 and why section 7491(c) puts the burden of production on the government for penalties, the regulatory window that makes an appraisal timely, the thirty-day letter and protest to the Independent Office of Appeals, the Tax Court expert-report standard of Rule 143(f), and the section 6501 periods that govern how long the valuation stays exposed.",
+      "datePublished": "2026-10-13",
+      "dateModified": "2026-10-13",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-13-irs-examination-digital-asset-valuation-idr-burden-of-proof-appeals"
+      },
+      "image": "https://qdav.mba/blog/2026-10-13-irs-examination-digital-asset-valuation-idr-burden-of-proof-appeals/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "IRS examination of a digital asset valuation",
+        "description": "The procedural and evidentiary sequence of an IRS examination of a digital asset valuation, and the role a USPAP-compliant qualified appraisal plays at each stage. Covers the four selection pathways for digital asset examinations including Forms 1099-DA information-report matching, the digital asset question on Form 1040, estate and gift value examinations, and targeted campaigns; correspondence, office, and field examinations; the Form 4564 Information Document Request and the SB/SE examination attachment titled List of Digital Asset Platforms, Wallets, Services, and Products Used (Individual Taxpayers) with its historical look-back period; the completeness-before-accuracy progression of modern digital asset examinations; technical referral and the Service's in-house and outside appraisal capability, including the litigating value of the appraisal; the default taxpayer burden and the IRC section 7491(a) shift with its substantiation, record-maintenance, and cooperation conditions; IRC section 7491(b) statistical reconstruction; IRC section 7491(c) burden of production as to penalties for individuals and its interaction with IRC sections 6662, 6664(c), and 6751; the timeliness rules of Treas. Reg. sections 1.170A-17(a)(4) and (a)(8) and the distinction between a contemporaneous qualified appraisal and litigation support; Whitehouse Hotel LP v. Commissioner, 131 T.C. No. 10 (2008), on USPAP compliance as bearing on weight rather than admissibility; Utilicorp United, Inc. v. Commissioner, 104 T.C. 32 (1995); the thirty-day letter and formal protest requirements under IRS Publication 5; the IRS Independent Office of Appeals and the hazards of litigation, including the National Taxpayer Advocate's recommendation that Appeals engage external valuation experts; IRC section 6213(a) notices of deficiency; T.C. Rule 143(f) expert witness reports, Federal Rule of Evidence 702, Daubert v. Merrell Dow Pharmaceuticals, Inc., and Kumho Tire Co. v. Carmichael; and the assessment periods of IRC sections 6501(a), 6501(c)(1), 6501(c)(3), 6501(c)(4), 6501(c)(9), 6501(e)(1), and 6501(e)(2), including the adequate-disclosure requirements of Treas. Reg. section 301.6501(c)-1(f)(2)(iv) for discounts such as blockage and lack of marketability.",
+        "keywords": "IRS examination digital asset valuation, IRS audit crypto, information document request digital assets, Form 4564, crypto appraisal audit defense, IRC 7491 burden of proof, 7491(c) burden of production penalties, section 7491 credible evidence, thirty-day letter IRS protest, IRS Independent Office of Appeals valuation, hazards of litigation digital asset appraisal, notice of deficiency 6213, Tax Court Rule 143(f) expert report, Daubert appraiser reliability, Whitehouse Hotel USPAP, statute of limitations digital asset valuation, 6501(c)(9) adequate disclosure gift tax, contemporaneous qualified appraisal, litigation support appraisal, SB/SE digital asset platform form, Form 872 consent extend statute, qualified appraisal digital asset, USPAP compliant digital asset appraisal, Metro Detroit digital asset appraiser"
+      },
+      "keywords": [
+        "IRS examination digital asset valuation",
+        "IRS audit crypto",
+        "information document request digital assets",
+        "Form 4564",
+        "crypto appraisal audit defense",
+        "IRC 7491 burden of proof",
+        "7491(c) burden of production penalties",
+        "thirty-day letter IRS protest",
+        "IRS Independent Office of Appeals digital assets",
+        "hazards of litigation valuation",
+        "notice of deficiency 6213",
+        "Tax Court Rule 143(f) expert report",
+        "Daubert appraiser reliability",
+        "Whitehouse Hotel USPAP",
+        "statute of limitations 6501 digital assets",
+        "6501(c)(9) adequate disclosure gift tax",
+        "contemporaneous qualified appraisal",
+        "litigation support appraisal digital assets",
+        "qualified appraisal digital asset",
+        "USPAP compliant digital asset appraisal",
+        "Metro Detroit digital asset appraiser"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-13",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an information document request, and must I respond to it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Information Document Request is the Service's standard mechanism for asking an examined taxpayer to produce records, issued on Form 4564. Each request identifies the items sought, sets a response date, names the requesting representative, and specifies the delivery method. The Service follows structured IDR procedures, and a failure to respond can be met with an administrative summons. Respond on time, in an indexed and complete form, with professional guidance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the IRS ask for in a digital asset valuation examination?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ordinarily: the full appraisal report with exhibits; the appraiser's qualifications in that asset class; the engagement letter and scope of work; the workfile, including comparable data and on-chain evidence; wallet and exchange records establishing ownership and completeness of inventory; the valuation effective date and the reason for it; records of any restrictions or discounts applied; and the report's certifications and statements of independence. Examiners have also used an examination attachment requesting a historical list of every platform, wallet, and service the taxpayer used."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who has the burden of proof in a digital asset valuation dispute?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The taxpayer ordinarily bears the burden of proving the Commissioner's determination incorrect in Tax Court. Under IRC section 7491(a) the burden shifts to the Secretary on any factual issue for which the taxpayer introduces credible evidence — but only if the taxpayer has complied with the substantiation requirements and has maintained all required records and cooperated with reasonable requests for witnesses, information, documents, meetings, and interviews. That cooperation condition is where the shift most often fails."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the significance of IRC section 7491(c) for digital asset penalties?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 7491(c) provides that for an individual, the Secretary bears the burden of production in any court proceeding with respect to liability for any penalty, addition to tax, or additional amount imposed by the Code. It requires the government to come forward with evidence supporting the penalty, independently of the burden on the underlying value. A taxpayer who cannot earn the 7491(a) shift may still defeat a penalty on 7491(c) grounds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I obtain a qualified appraisal after the audit has already begun?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can, and the analysis may be sound, but the report occupies a different category. For a charitable contribution, a Qualified Appraisal must be signed and dated no earlier than sixty days before the contribution and no later than the due date, including extensions, of the return, and must be received by the donor before that date. A valuation prepared once the examination is underway is litigation support: admissible as expert opinion, perhaps, but not the contemporaneous Qualified Appraisal the substantiation regime contemplates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens after the thirty-day letter if the taxpayer and the IRS cannot agree?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The taxpayer may request a conference with the examiner's supervisor, request review by the Independent Office of Appeals, or take no action and await a notice of deficiency. A protest must state the proposed changes, the facts, the law and authority, the argument, and the relief sought, signed under penalties of perjury. Because Appeals generally will not develop a valuation argument never presented to the examining function, the appraisal and its supporting data should be in the record before the case leaves examination."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What must an appraiser's report contain to be usable in Tax Court?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under T.C. Rule 143(f), a written report must set forth the witness's qualifications, the opinion, the data on which the opinion is based, and the detailed reasons for the conclusions. It is generally received as the expert's direct testimony, so it must satisfy the admissibility standards of the Federal Rules of Evidence, including Rule 702's reliability requirements, reflect the expert's own work, and be supported by a signing expert who will testify."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long can the IRS challenge a digital asset valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally three years from the filing of the return under section 6501(a). The period extends to six years where omissions exceed twenty-five percent of the gross income, gross estate, or total gifts stated in the return, under sections 6501(e)(1) and 6501(e)(2). It is unlimited for a false or fraudulent return, a failure to file, or — under section 6501(c)(9) — a gift of property required to be shown on a gift tax return that is not shown, unless the item is adequately disclosed. Adequate disclosure requires a description of the valuation method, the data relied upon, the restrictions considered, and any discounts claimed."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10 — the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client, applies the three recognized approaches, analyzes restrictions, control, and marketability under Standards Rule 9-4, verifies holdings without custody of private keys, retains contemporaneous market and on-chain evidence in the workfile, and carries a signed certification under Standards Rule 10-3. Reporting packages are prepared for examination response and audit defense, including Form 4564 Information Document Request responses, completeness and wallet-by-wallet inventory reconciliation, valuation-method and discount disclosure support, and expert-report preparation under T.C. Rule 143(f), as well as Form 706 and Form 8971 Schedule A estate valuation, Form 709 gift tax valuation, Form 8283 Section B contribution appraisal, SDIRA annual value attestation and Form 5498 fair market value support, prohibited transaction amount-involved analysis, Form 1099-DA basis reconciliation, Form 8949 support, Form 1040, and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Tax Controversy Counsel",
+          "Estate Attorneys",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Personal Representatives",
+          "Executors",
+          "Trust Officers",
+          "Trustees",
+          "Heirs and Beneficiaries",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Donors",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 4564 Information Document Request Response Support for Digital Asset Valuations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Inventory Completeness and Wallet-by-Wallet Reconciliation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Appeals Protest and Hazards-of-Litigation Valuation Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tax Court Expert Witness Report Preparation Under T.C. Rule 143(f)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Valuation Method and Discount Disclosure Support for Section 6501(c)(9) Adequate Disclosure"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal, Including Schedule F Valuation and Consistent-Basis Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax (Form 709) Digital Asset Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
