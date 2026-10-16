@@ -1,0 +1,305 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-16",
+      "headline": "Airdrops, Staking Rewards, Hard Forks, and Mining Income: How the IRS Values Digital Assets You Never Bought",
+      "description": "An analysis of the digital asset receipt event: how IRC section 61, the Glenshaw Glass accession-to-wealth standard, and the dominion-and-control test of Rev. Rul. 2023-14 and Rev. Rul. 2019-24 fix both the year and the dollar amount of income from assets received without a purchase, how Notice 2014-21 governs the method of determining fair market value and the treatment of mining, how sections 451, 1011, and 1012 make that value the cost basis, what four Chief Counsel memoranda decide about exchange-support dates, protocol upgrades, frozen platforms, and assets that lost their value, and when a USPAP-compliant appraisal under Standards 9 and 10 becomes the only defensible record of fair market value.",
+      "datePublished": "2026-10-16",
+      "dateModified": "2026-10-16",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-16-airdrop-staking-rewards-hard-fork-mining-income-valuation"
+      },
+      "image": "https://qdav.mba/blog/2026-10-16-airdrop-staking-rewards-hard-fork-mining-income-valuation/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Valuation of digital asset receipt events (airdrops, staking rewards, hard forks, and mining income)",
+        "description": "The tax and valuation analysis of digital assets received without a purchase. Covers the four receipt families and the timing and evidence question each presents; IRC section 61(a) and section 61(a)(3); Commissioner v. Glenshaw Glass Co., 348 U.S. 426 (1955), and the accession-to-wealth standard; Treas. Reg. sections 1.61-1(a), 1.61-2(d)(1), and 1.61-2(d)(2)(i); section 451(a) and Treas. Reg. sections 1.451-1(a) and 1.451-2(a) on actual and constructive receipt; sections 1011 and 1012 and the rule that basis of property not purchased equals the amount included in gross income; Rev. Rul. 2019-24 on hard forks and airdrops, including its $50 basis holding; Rev. Rul. 2023-14 and the Date 1 to Date 3 dominion-and-control sequence for validation rewards received directly or through an exchange; the Service's on-chain receipt convention in its virtual currency FAQs; Chief Counsel Advice 202114020 on the Bitcoin Cash hard fork and the exchange-support date as the receipt date; CCA 202316008 on a proof-of-work to proof-of-stake protocol upgrade as neither a section 1001 realization event nor a section 61 accession to wealth, applying Cottage Savings Assn. v. Commissioner, 499 U.S. 554 (1991); CCA 202444009 on rewards credited and transferable before a platform freeze as income in the year of receipt, and rewards accrued but not credited as not received; CCA 202302011 on the absence of a section 165 loss where cryptocurrency declined in value but was still tradable and remained under the taxpayer's dominion and control; CCA 202302012 on cryptocurrency as not a publicly traded security under section 165(g)(2), the qualified appraisal requirement under section 170(f)(11)(C) for contributions over $5,000, and Pankratz v. Commissioner, T.C. Memo. 2021-26, on reasonable cause; Notice 2014-21 Q&A 3, 4, 5, 8, and 9 on FMV determination, mining income, and self-employment tax; the schedule 1, Part I, line 8z versus Schedule C reporting split; section 6045 and Treas. Reg. section 1.6045-1 broker reporting and the absence of any information return for reward receipts; the digital asset question's receipt prong; section 7491 burden allocation; sections 1401 and 1402 and the trade-or-business analysis under section 162 and Treas. Reg. section 1.183-2; sections 170(e)(1)(A) and the holding-period limitation on charitable deductions for tokens received as ordinary income; Revenue Procedure 2024-28 wallet-level basis allocation as of January 1, 2025; liquid staking and restaking receipt tokens as candidate section 1001 exchanges and the discount to underlying; and the appraisal methodology for absent markets, illiquid trading windows, and restricted or vested positions under USPAP Standards 9 and 10.",
+        "keywords": "digital asset receipt valuation, airdrop tax, staking rewards tax, hard fork taxable, crypto mining income tax, dominion and control digital assets, Rev. Rul. 2023-14, Rev. Rul. 2019-24, Notice 2014-21, fair market value at receipt crypto, cost basis digital assets, Schedule 1 line 8z crypto, CCA 202444009 frozen rewards, CCA 202114020 Bitcoin Cash, CCA 202316008 protocol upgrade, CCA 202302012 qualified appraisal, qualified appraisal digital asset, USPAP compliant digital asset appraisal, defensible data, Metro Detroit digital asset appraiser"
+      },
+      "keywords": [
+        "digital asset receipt valuation",
+        "airdrop tax",
+        "staking rewards tax",
+        "hard fork tax treatment",
+        "crypto mining income tax",
+        "dominion and control digital assets",
+        "Rev. Rul. 2023-14",
+        "Rev. Rul. 2019-24",
+        "Notice 2014-21",
+        "fair market value at receipt crypto",
+        "digital asset cost basis",
+        "Schedule 1 line 8z crypto staking",
+        "crypto staking self-employment tax",
+        "CCA 202444009 frozen rewards",
+        "CCA 202114020 Bitcoin Cash hard fork",
+        "CCA 202316008 protocol upgrade",
+        "CCA 202302012 crypto qualified appraisal",
+        "IRC 170(e)(1) charitable deduction basis",
+        "section 165 digital asset loss",
+        "Revenue Procedure 2024-28 wallet basis",
+        "qualified appraisal digital asset",
+        "USPAP compliant digital asset appraisal",
+        "Metro Detroit digital asset appraiser"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-16",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I owe tax on an airdrop I never claimed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on whether you obtained dominion and control over the tokens, meaning whether you could sell, exchange, or otherwise dispose of them. Under Rev. Rul. 2019-24, an airdrop that could be disposed of immediately is ordinary income at fair market value when received. Where an eligible claim was never exercised, the analysis turns on what you could actually do and when, and it should be documented before the return is filed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What date do I use for staking rewards?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The date and time you gained dominion and control, not the date the reward was earned or the block validated. Rev. Rul. 2023-14 measures fair market value as of that moment. Where rewards are credited subject to a lockup, the receipt date is the date the restriction ends."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my staking income subject to self-employment tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if the staking activity is a trade or business carried on by you other than as an employee. Rev. Rul. 2023-14 does not decide that question; it addresses when the rewards are included in gross income and how they are measured. Notice 2014-21, Q&A 9, supplies the framework for mining, and section 162 and the factors at Treasury Regulation section 1.183-2 supply it for staking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "The token crashed after I received it. Can I reduce the income I reported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Fair market value is measured at the receipt date and time and does not follow later declines. The loss is a separate question governed by section 165, which requires a loss evidenced by closed and completed transactions and fixed by identifiable events. In Chief Counsel Advice 202302011, a cryptocurrency trading below one cent while the taxpayer could still dispose of it produced no deductible loss on worthlessness or abandonment grounds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I received a hard-fork coin years ago and my exchange only supported it later. What is my income year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The year in which you could first dispose of it. In Chief Counsel Advice 202114020, a taxpayer whose exchange did not support Bitcoin Cash until January 1, 2018 had 2018 income, not 2017 income, measured by the price at the moment support began. The taxpayer must have been able to sell, exchange, or transfer the new asset for dominion and control to arise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My exchange froze my account and filed for bankruptcy after crediting staking rewards. Do I still have income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the rewards were credited and transferable before the freeze, yes. Chief Counsel Advice 202444009 holds that the fair market value at the date and time of receipt is included in gross income in the year of receipt even though the account remained frozen on December 31. Rewards that had accrued but were never credited, for example during a lockup, were not actually or constructively received and are not included in that year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a price screenshot from my exchange enough to support my numbers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the purpose. For an income or basis determination, a contemporaneous, sourced, and consistently applied market measure is required under Notice 2014-21, Q&A 5, and a screenshot is usually too thin a record. For a charitable contribution over $5,000, Chief Counsel Advice 202302012 holds that cryptocurrency is not a publicly traded security and that an exchange price does not substitute for a qualified appraisal or excuse its absence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an appraisal lower my income from a receipt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An appraisal does not change the law, and it cannot make property worth less than it was. It establishes the fair market value the law already requires the taxpayer to determine. Where there is no listed market, where the market at the timestamp was thin, or where the position received was restricted or subject to vesting, an appraisal is not a way to reduce the number; it is the only supportable way to determine it."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10 — the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, founders and token holders, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client, applies the three recognized approaches, analyzes restrictions, control, and marketability under Standards Rule 9-4, verifies holdings without custody of private keys, retains contemporaneous market and on-chain evidence in the workfile, and carries a signed certification under Standards Rule 10-3. Reporting packages cover receipt-event fair market value determinations for airdrops, staking and validation rewards, hard-fork distributions, and mining income, including receipt-date value and cost basis support, dominion-and-control timing analysis, reward aggregation methods for high-volume receipt streams, discount analysis for locked, vested, and restricted positions, liquid staking and restaking position valuation, Form 8949 basis reconciliation, Form 1040 Schedule 1 and Schedule C reporting support, Form 706 and Form 8971 Schedule A estate valuation, Form 709 gift tax valuation, Form 8283 Section B contribution appraisal, SDIRA annual value attestation and Form 5498 fair market value support, and examination and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Tax Controversy Counsel",
+          "Estate Attorneys",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Digital Asset Founders and Token Holders",
+          "Validators and Staking Operators",
+          "Personal Representatives",
+          "Executors",
+          "Trust Officers",
+          "Trustees",
+          "Heirs and Beneficiaries",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Donors",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Receipt-Event Fair Market Value Determination for Airdrops, Staking Rewards, Hard Forks, and Mining Income"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Cost Basis Determination at Receipt, Including Support for Form 8949 and Revenue Procedure 2024-28 Wallet-Level Basis Allocation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dominion-and-Control Timing Analysis and Receipt-Date Documentation Review"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reward-Stream Aggregation Methodology for High-Volume Staking and Validator Receipts"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Discount for Lack of Marketability and Blockage Analysis for Locked, Vested, and Restricted Digital Assets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Liquid Staking and Restaking Receipt-Token Valuation, Including Discount-to-Underlying Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Inventory Completeness and Wallet-by-Wallet Reconciliation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax (Form 706) Crypto and NFT Appraisal, Including Schedule F Valuation and Consistent-Basis Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Digital Asset Appraisal for Charitable Deduction (Form 8283 Section B)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
