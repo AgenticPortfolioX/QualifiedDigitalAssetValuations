@@ -1,0 +1,309 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-20",
+      "headline": "The Marital Deduction and Digital Assets: QTIP Elections, Portability, and the Valuation Discipline Section 2056 Demands",
+      "description": "An analysis of the federal estate tax marital deduction as applied to digital assets: how IRC Section 2056(a) measures the deduction by value and caps it by inclusion, why the terminable-interest limitation of Section 2056(b)(1) makes the QTIP election under Section 2056(b)(7) the default structure for cryptocurrency held for a surviving spouse, how the qualifying income interest for life under Section 2056(b)(7)(B)(ii)(I) behaves when the trust holds a non-income-producing asset such as bitcoin, how the no-power-to-appoint rule of Section 2056(b)(7)(B)(ii)(II) and Regulation Section 20.2056(b)-7(d)(1) treat a trustee's income-and-principal adjustment power, how partial elections must be fractional or percentage shares under Regulation Section 20.2056(b)-7(b)(2)(i) and protective elections work under Regulation Section 20.2056(b)-7(c), why Section 2032's dual-decrease requirement makes the alternate valuation date unavailable when the marital deduction already reduces the tax to zero, why a pecuniary marital bequest funded with appreciated crypto is a realization event under Kenan v. Commissioner while a fractional-share formula is not, how portability and the deceased spousal unused exclusion operate at the $15,000,000 basic exclusion amount set by Public Law 119-21, what Regulation Section 20.2010-2(a)(7)(ii) and Rev. Proc. 2022-32 require of a portability-only filer, how Section 2044, Section 2207A, Section 2519, Section 1014(f) and Section 6035 coordinate the second death, and what a USPAP-compliant appraisal under Standards 9 and 10 must establish for the deduction to survive examination.",
+      "datePublished": "2026-10-20",
+      "dateModified": "2026-10-20",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-20-marital-deduction-qtip-election-digital-assets-valuation"
+      },
+      "image": "https://qdav.mba/blog/2026-10-20-marital-deduction-qtip-election-digital-assets-valuation/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "The marital deduction and QTIP elections for digital assets under IRC Section 2056",
+        "description": "The estate tax treatment of cryptocurrency, NFTs, and other digital assets passing to a surviving spouse. Covers IRC Section 2056(a) and the rule that the deduction equals the value of the interest passing, limited to the extent included in the gross estate; Section 2056(b)(1) and the terminable-interest limitation; Section 2056(b)(4)(A) and (B) on valuing the interest passing, the effect of death taxes, and the treatment of encumbrances and obligations imposed by the decedent; Section 2056(b)(7)(A) through (C) and the three-element definition of qualified terminable interest property at Section 2056(b)(7)(B)(i); the qualifying income interest for life under Section 2056(b)(7)(B)(ii)(I), including the usufruct alternative and the requirement that income be payable annually or at more frequent intervals; the prohibition on powers of appointment under Section 2056(b)(7)(B)(ii)(II) and its express exclusion of powers exercisable only at or after the surviving spouse's death; Section 2056(b)(7)(B)(v) and the executor's irrevocable election; Treas. Reg. Section 20.2056(b)-7(b)(2)(i) on fractional and percentage partial elections and formula-defined fractions; Regulation Section 20.2056(b)-7(b)(4) on the manner and time of the election; Regulation Section 20.2056(b)-7(c)(1) and (c)(2) on protective elections and their irrevocability; Regulation Section 20.2056(b)-7(d)(1) placing the surviving spouse within the prohibited class and carving out trustee powers to adjust between income and principal that satisfy Regulation Section 1.643(b)-1; Regulation Section 20.2056(b)-7(d)(2) applying the all-income principles of Regulation Section 20.2056(b)-5(f); the unproductive-property problem for trusts funded with bitcoin and other non-income-producing tokens and the spousal power to compel productivity as the drafting remedy; staking, lending, and tokenized fund distributions as income and the allocation question under Michigan's Uniform Principal and Income Act, MCL 555.501 et seq.; IRC Sections 2031 and 2032 and the dual-decrease requirement that bars the alternate valuation election where the marital deduction reduces the tax to zero; Kenan v. Commissioner, 114 F.2d 217 (2d Cir. 1940), on satisfaction of a pecuniary bequest with appreciated property as a realization event, and Rev. Proc. 64-19 on formula marital bequests; the fractional-share alternative; IRC Section 2044 and the inclusion of QTIP property in the surviving spouse's gross estate; IRC Section 2207A and the right of recovery for estate tax attributable to QTIP; IRC Section 2519 on lifetime disposition of a qualifying income interest; IRC Section 1014 and Section 1014(f) consistent basis with Section 6035 and Form 8971; IRC Section 2010(c)(3), (c)(4), and (c)(5) and the deceased spousal unused exclusion amount; Public Law 119-21, the One Big Beautiful Bill Act, and the $15,000,000 basic exclusion amount for decedents dying after December 31, 2025, with inflation indexing and a 40 percent top rate; Treas. Reg. Section 20.2010-2(a)(7)(ii) and the estimated-value rule for portability-only returns; Rev. Proc. 2022-32 and the five-year simplified extension for a late portability election under Regulation Section 301.9100-3; Form 706 Schedules M and F, Schedule M line 14, and Part V item 21; IRC Section 6662 accuracy-related penalties and the reasonable-cause defense; and the appraisal methodology and reporting requirements of USPAP Standards 9 and 10 for a digital asset interest appraised at a date of death.",
+        "keywords": "marital deduction digital assets, QTIP election cryptocurrency, IRC Section 2056, qualified terminable interest property digital assets, Form 706 Schedule M, Form 706 Schedule F digital assets, qualifying income interest for life, unproductive property QTIP, bitcoin QTIP trust, portability election 2026, deceased spousal unused exclusion, Rev. Proc. 2022-32, alternate valuation date Section 2032, pecuniary versus fractional marital bequest, Kenan v. Commissioner, Section 2207A right of recovery, Section 2044 QTIP inclusion, Section 1014(f) consistent basis, Form 8971, crypto estate tax appraisal, qualified appraisal digital asset, USPAP Standards 9 and 10, defensible data, $15,000,000 estate tax exclusion 2026, Metro Detroit digital asset appraiser"
+      },
+      "keywords": [
+        "marital deduction digital assets",
+        "QTIP election cryptocurrency",
+        "IRC Section 2056",
+        "qualified terminable interest property digital assets",
+        "Form 706 Schedule M QTIP",
+        "Form 706 Schedule F digital assets",
+        "qualifying income interest for life",
+        "unproductive property QTIP trust",
+        "bitcoin QTIP trust",
+        "partial QTIP election fractional share",
+        "protective QTIP election",
+        "portability election 2026",
+        "deceased spousal unused exclusion amount",
+        "Rev. Proc. 2022-32 late portability",
+        "alternate valuation date Section 2032",
+        "pecuniary versus fractional marital bequest",
+        "Kenan v. Commissioner appreciated property",
+        "Section 2207A right of recovery",
+        "Section 2044 QTIP inclusion",
+        "Section 1014(f) consistent basis",
+        "Form 8971 Schedule A",
+        "crypto estate tax appraisal",
+        "qualified appraisal digital asset",
+        "USPAP Standards 9 and 10",
+        "defensible data",
+        "$15,000,000 estate tax exclusion 2026",
+        "Michigan Uniform Principal and Income Act digital assets",
+        "Metro Detroit digital asset appraiser"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-20",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can cryptocurrency be held in a QTIP trust?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, provided the trust satisfies Section 2056(b)(7)(B)(ii): the surviving spouse must be entitled to all income from the property, payable annually or at more frequent intervals, and no person may hold a power to appoint any part of the property to anyone other than the spouse during the spouse's life. The asset class is not disqualified. The instrument has to do the work, which for most digital assets means an express power allowing the spouse to compel the trustee to make the property productive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does bitcoin produce income for QTIP purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Bitcoin held passively generates no dividend, interest, or distribution, so a trust funded entirely with non-income-producing property delivers a right to receive nothing each year. Because Regulation Section 20.2056(b)-7(d)(2) tests the income interest under the principles of Regulation Section 20.2056(b)-5(f), the instrument should give the spouse a power to require the trustee to convert unproductive property into income-producing property."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a qualified appraisal to make a QTIP election?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 2056 does not use the phrase qualified appraisal, but Section 2056(b)(4) requires the value of the interest passing to the surviving spouse to be determined, and the deduction is examined against that determination. An appraisal developed and reported under USPAP Standards 9 and 10 is the form of evidence the Service expects. An exchange statement or a portfolio screenshot is not, however accurate the arithmetic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a pecuniary and a fractional marital bequest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pecuniary bequest fixes a dollar amount and is funded by satisfying an obligation. A fractional-share bequest allocates a stated fraction of the residue. Under Kenan v. Commissioner, 114 F.2d 217 (2d Cir. 1940), satisfying a pecuniary bequest with appreciated property is a realization event measured from the property's basis, which is why fractional-share formulas are preferred where the residue holds volatile digital assets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the estate elect the alternate valuation date if the marital deduction eliminates the tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no. Section 2032 permits the alternate valuation election only where it decreases both the value of the gross estate and the amount of tax imposed by Section 2001. Where a full marital deduction under Section 2056 already reduces the estate tax to zero, the dual-decrease requirement is not satisfied even if the asset fell sharply during the six-month period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does portability still matter with a $15,000,000 exclusion?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Sections 2010(c)(4) and 2010(c)(5)(A) allow a surviving spouse to use the deceased spouse's unused exclusion only if the executor elects portability on a timely filed estate tax return. Combined with a QTIP election, portability preserves the first spouse's own exclusion for use at the survivor's death, when the QTIP property is included in that estate under Section 2044."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to QTIP property when the surviving spouse dies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 2044 includes the elected property in the surviving spouse's gross estate at its value on the survivor's death, which means the digital asset position is appraised a second time. Section 2207A gives the estate a right of recovery against the persons receiving the property for the estate tax attributable to the inclusion, unless the governing instrument directs otherwise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What must a digital asset appraisal contain to support a marital deduction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The valuation date and time, the interest appraised, the evidence of custody and control, the unit of account, the market selected and the reason for the selection, any restrictions, vesting, or encumbrances, whether the position produces income, the methodology and the approaches considered and rejected, and a signed certification with the appraiser's qualifications and independence. Each element maps to a specific requirement of Section 2056 or of USPAP Standards 9 and 10."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, founders and token holders, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client, applies the three recognized approaches, analyzes restrictions, control, and marketability under Standards Rule 9-4, verifies holdings without custody of private keys, retains contemporaneous market and on-chain evidence in the workfile, and carries a signed certification under Standards Rule 10-3. Reporting packages cover estate tax valuation for the marital deduction and QTIP elections, including Section 2056 net-value computations, fractional and percentage interest valuation for partial elections, date-of-death and alternate valuation date appraisals under Sections 2031 and 2032, second-death appraisal support for Section 2044 inclusion, Form 706 Schedule F reporting, Form 706 Schedule M support, and Form 8971 Schedule A consistent-basis support; gift tax valuation under Section 2512 and Form 709; charitable contribution appraisal under Section 170 and Form 8283 Section B; SDIRA annual value attestation and Form 5498 fair market value support; and examination and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Personal Representatives",
+          "Executors",
+          "Trust Officers",
+          "Trustees",
+          "Heirs and Beneficiaries",
+          "Wealth Managers",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Donors",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax Appraisal for the Marital Deduction and QTIP Election Under IRC Section 2056"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Section 2056(b)(4) Net-Value Computation, Including Death Tax Burden and Encumbrance Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fractional and Percentage Interest Valuation for Partial QTIP Elections Under Regulation Section 20.2056(b)-7(b)(2)(i)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Date-of-Death and Alternate Valuation Date Appraisal Under IRC Sections 2031 and 2032"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Second-Death Appraisal for QTIP Property Included Under IRC Section 2044 and Recovery Computation Under Section 2207A"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 706 Schedule F Digital Asset Valuation and Schedule M Marital Deduction Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 8971 Schedule A Consistent-Basis Support Under IRC Sections 1014(f) and 6035"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 709 Gift Tax Appraisal for Digital Asset Transfers Under IRC Section 2512"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Contribution Appraisal for Digital Assets Under IRS Section 170 and Form 8283 Section B"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
