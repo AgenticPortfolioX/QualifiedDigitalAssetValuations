@@ -1,0 +1,308 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-23",
+      "headline": "Charitable Lead Trusts and Digital Assets: Why the Section 170(e)(1)(A) Basis Limitation Does Not Reach a Charitable Lead Interest, Where the One-Year Holding Period Still Bites, and How Section 7520 Makes the Appraisal the Whole Deduction",
+      "description": "An analysis of charitable lead trusts funded with cryptocurrency, NFTs, and other digital assets. Explains how IRC Section 170(e)(1)(A) reduces a property contribution by the gain that would not have been long-term capital gain; why 26 CFR Section 1.170A-4(a) confines that reduction to interests described in Section 1.170A-6(b) and Section 1.170A-7(b); why Section 1.170A-4(b)(1) expressly excludes an income interest allowed under Section 170(f)(2)(B) from the definition of ordinary income property; how Section 170(f)(2)(B) makes a guaranteed annuity or fixed-percentage unitrust interest a condition of deductibility; how grantor and non-grantor status divides the Section 170 deduction from the Section 642(c) trust deduction; how Section 7520(a) builds the rate from 120 percent of the applicable federal midterm rate, why the October 2026 rate is 5.6 percent under Rev. Rul. 2026-19, and why a higher rate lowers the present value of a fixed annuity; the three dates that must align between the contribution, the Section 7520 valuation date, and the appraisal's date of value; why a charitable lead unitrust requires annual revaluation of corpus while a charitable lead annuity trust does not; where the one-year holding period still determines character at the trust level on sale and on in-kind annuity satisfaction; the qualified appraisal requirements of Section 170(f)(11)(C) and 26 CFR Section 1.170A-17(a) and the sixty-day timing window; the Form 8283 Section B Line 2 digital assets category; and the penalty architecture of Section 6662(e), Section 6662(h), Section 6695A, and the Section 6664(c)(3) reasonable cause condition.",
+      "datePublished": "2026-10-23",
+      "dateModified": "2026-10-23",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-23-charitable-lead-trust-digital-assets-170e1a-holding-period-7520-rate"
+      },
+      "image": "https://qdav.mba/blog/2026-10-23-charitable-lead-trust-digital-assets-170e1a-holding-period-7520-rate/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Charitable lead trusts funded with digital assets and the Section 170(e)(1)(A) ordinary income property reduction",
+        "description": "The income, gift, and estate tax treatment of cryptocurrency, NFTs, and other digital assets contributed to a charitable lead trust. Covers IRC Section 170(f)(2)(B) and the requirement that a charitable lead interest take the form of a guaranteed annuity or a fixed percentage of trust value; IRC Section 170(e)(1)(A) and the reduction measured by the gain that would not have been long-term capital gain on a sale at fair market value; IRC Section 170(e)(1)(B) as the separate rule for unrelated-use tangible personal property, private foundation gifts, and intellectual property; 26 CFR Section 1.170A-4(a) and its confinement of the reduction to interests described in Section 1.170A-6(b) and Section 1.170A-7(b); 26 CFR Section 1.170A-4(b)(1) and the express exclusion of an income interest allowed under Section 170(f)(2)(B) and Section 1.170A-6(c) from the definition of ordinary income property; 26 CFR Section 1.170A-4(c) and the allocation of basis under Section 170(e)(2) for gifts of less than an entire interest; IRC Sections 671 through 679 and grantor trust status; IRC Section 642(c) and the non-grantor trust deduction for amounts paid to charity from gross income; Rev. Proc. 2007-45 and the recapture of a grantor charitable lead trust deduction; IRC Section 7520(a), the 120 percent of applicable federal midterm rate formula, the two-tenths rounding rule, and the election for either of the two preceding months; Rev. Rul. 2026-19 and the October 2026 rate of 5.6 percent; Rev. Rul. 2026-17 and the September 2026 rate of 5.4 percent; Rev. Rul. 2026-2 and the January 2026 rate of 4.6 percent; the inverse relationship between the Section 7520 rate and the present value of a fixed annuity; zeroed-out charitable lead annuity trust calibration; the near-independence of a term-of-years unitrust remainder factor from the Section 7520 rate; IRC Section 2055(e)(2)(B) and the estate tax charitable deduction; IRC Section 2522(c)(2)(B) and the gift tax charitable deduction; IRC Section 1223(1) and holding period tacking; the receipt-date holding period for airdropped and hard-forked tokens; IRC Section 170(f)(11)(C) and the five thousand dollar qualified appraisal threshold; IRS Notice 2014-21 and the treatment of digital assets as property; the exclusion of cryptocurrency from the publicly traded securities exception; Form 8283 Section B Line 2 and its digital assets category; 26 CFR Section 1.170A-17(a) and the required contents of a qualified appraisal; the sixty-day and return-due-date timing window of Section 1.170A-17(a)(4); IRC Section 170(f)(11)(E)(ii) and the qualified appraiser definition; USPAP Standards 9 and 10 as the governing appraisal standards; IRC Section 6662(e) and the 150 percent substantial valuation misstatement threshold; IRC Section 6662(h) and the 200 percent gross misstatement threshold; IRC Section 6695A and appraiser penalties; IRC Section 6664(c)(3) and the qualified appraisal condition on reasonable cause for charitable deduction property; and IRC Section 170(f)(8) and the two hundred fifty dollar contemporaneous written acknowledgment threshold.",
+        "keywords": "charitable lead trust digital assets, charitable lead trust cryptocurrency, section 170(e)(1)(A) ordinary income property, section 7520 rate charitable lead annuity trust, qualified appraisal crypto donation, grantor charitable lead trust deduction, CLAT versus CLUT digital assets, CLUT annual valuation cryptocurrency, charitable lead interest income interest Section 170(f)(2)(B), ordinary income property carve-out 1.170A-4(b)(1), Rev. Rul. 2026-19, Rev. Rul. 2026-17, section 7520 prior month election, zeroed out CLAT, valuation date alignment digital assets, Form 8283 Section B digital assets, qualified appraisal requirements 1.170A-17, sixty day appraisal window, section 6662(e) substantial valuation misstatement, section 6664(c)(3) reasonable cause, section 6695A appraiser penalty, holding period tacking section 1223, airdrop holding period, in kind annuity satisfaction, USPAP Standards 9 and 10, defensible data, Metro Detroit digital asset appraiser"
+      },
+      "keywords": [
+        "charitable lead trust digital assets",
+        "charitable lead trust cryptocurrency",
+        "section 170(e)(1)(A) ordinary income property",
+        "section 7520 rate charitable lead annuity trust",
+        "qualified appraisal crypto donation",
+        "grantor charitable lead trust deduction",
+        "charitable lead annuity trust vs unitrust",
+        "CLUT annual valuation cryptocurrency",
+        "Section 170(f)(2)(B) income interest",
+        "ordinary income property carve-out",
+        "Section 1.170A-4(b)(1)",
+        "Rev. Rul. 2026-19",
+        "Rev. Rul. 2026-17",
+        "section 7520 prior month election",
+        "zeroed-out CLAT",
+        "valuation date alignment digital assets",
+        "Form 8283 Section B digital assets",
+        "qualified appraisal contents 1.170A-17",
+        "sixty day appraisal window",
+        "section 6662(e) substantial valuation misstatement",
+        "section 6664(c)(3) reasonable cause",
+        "section 6695A appraiser penalty",
+        "Section 1223(1) holding period tacking",
+        "airdrop holding period digital assets",
+        "in-kind annuity satisfaction",
+        "USPAP Standards 9 and 10",
+        "defensible data",
+        "Metro Detroit digital asset appraiser"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-23",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does the short-term capital gain rule apply to a charitable lead trust?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ordinarily no, and the reason is textual. Section 170(e)(1)(A) reduces a contribution of property whose sale would produce gain that is not long-term. But a lead trust contributes an income interest, not the underlying token, and 26 CFR Section 1.170A-4(b)(1) provides that ordinary income property does not include an income interest for which a deduction is allowed under Section 170(f)(2)(B) and Section 1.170A-6(c). Section 1.170A-4(a) likewise limits the reduction to interests described in Section 1.170A-6(b) and Section 1.170A-7(b). The deduction is the Section 7520 present value of the lead interest, computed on fair market value. Confirm the scope with counsel against the specific instrument."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the Section 7520 rate change a charitable lead trust deduction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the discount rate applied to the charity's interest. For a charitable lead annuity trust the interest is a stream of fixed dollars, so a higher rate produces a lower present value, a smaller deduction for a grantor trust, and a larger annuity required to zero out the taxable gift. For a term-of-years charitable lead unitrust the remainder factor depends on the payout rate and the term, so the effect is small and arrives only through the payment-timing adjustment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Section 7520 rate applies for an October 2026 funding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The October 2026 Section 7520 rate is 5.6 percent, published in Rev. Rul. 2026-19. Under Section 7520(a) the taxpayer may elect the rate for either of the two months preceding the month in which the valuation date falls, which for an October valuation means September's 5.4 percent under Rev. Rul. 2026-17 or August's 5.2 percent. The election changes the discount rate; it does not change the date as of which the asset is valued."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a CLUT holding Bitcoin need an annual appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A charitable lead unitrust pays a fixed percentage of trust value, so the corpus must be revalued every year in order to compute the unitrust amount. That annual figure drives the charity's distribution, the trust's Section 642(c) deduction, and the eventual remainder to the family. A ten-year CLUT funded with digital assets is a recurring appraisal engagement, not a one-time report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a charitable lead trust pay its annuity in cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The governing instrument controls, within the requirement that a charitable lead annuity trust pay a guaranteed annuity and a charitable lead unitrust pay a fixed percentage of value. In a non-grantor trust, satisfying the annuity by distributing tokens rather than selling them is a disposition for trust-level gain purposes, so the holding period and adjusted basis of the distributed position determine the character of that gain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does cryptocurrency qualify for the publicly traded securities exception to the qualified appraisal requirement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Digital assets are treated as property under IRS Notice 2014-21, and the practitioner consensus is that exchange-quoted coins do not receive the publicly traded securities shortcut. Above the five thousand dollar threshold in Section 170(f)(11)(C), a qualified appraisal and Form 8283, Section B are required, and the form instructions now list digital assets as a named Section B, Line 2 property category."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the appraisal's valuation date does not match the contribution date?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The opinion speaks to the wrong moment. For a volatile asset that is a substantive defect rather than a clerical one. It can support a valuation misstatement penalty under Section 6662(e) while simultaneously undermining the Section 6664(c)(3) reasonable cause defense, which depends on the taxpayer having obtained a qualified appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the one-year holding period matter at all in a charitable lead trust?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, at the trust level. In a non-grantor CLT a sale within a year of acquisition produces ordinary-rate gain inside the trust; in a grantor CLT that gain flows to the grantor at ordinary rates. The holding period also determines the character of an in-kind distribution made to satisfy the annuity. What it does not do is cap the charitable deduction at adjusted basis, because Section 1.170A-4(b)(1) excludes the lead interest from ordinary income property."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, founders and token holders, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client, applies the three recognized approaches, analyzes restrictions, control, and marketability under Standards Rule 9-4, verifies holdings without custody of private keys, retains contemporaneous market and on-chain evidence in the workfile, and carries a signed certification under Standards Rule 10-3. Reporting packages cover charitable contribution appraisal under IRS Section 170 and Form 8283 Section B, including split-interest funding of charitable lead annuity trusts and charitable lead unitrusts, Section 7520 present value coordination, contribution-date fair market value opinions, recurring annual corpus valuation for charitable lead unitrusts, holding period and adjusted basis evidence, and in-kind distribution support; estate tax valuation for the marital deduction and QTIP elections under Section 2056; date-of-death and alternate valuation date appraisals under Sections 2031 and 2032; gift tax valuation under Section 2512 and Form 709; SDIRA annual value attestation and Form 5498 fair market value support; and examination and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Donors",
+          "Trustees",
+          "Trust Officers",
+          "Personal Representatives",
+          "Executors",
+          "Wealth Managers",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Lead Trust Funding Appraisal for Digital Assets Under IRS Section 170"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Fair Market Value Opinion Coordinated with the Section 7520 Valuation Date"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Recurring Annual Corpus Valuation for Charitable Lead Unitrusts"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Holding Period and Adjusted Basis Evidence for Section 170(e)(1)(A) and Section 170(e)(2) Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 8283 Section B Line 2 Digital Asset Reporting Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal Preparation Under 26 CFR Section 1.170A-17(a)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax Appraisal for the Marital Deduction and QTIP Election Under IRC Section 2056"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Date-of-Death and Alternate Valuation Date Appraisal Under IRC Sections 2031 and 2032"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 709 Gift Tax Appraisal for Digital Asset Transfers Under IRC Section 2512"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
