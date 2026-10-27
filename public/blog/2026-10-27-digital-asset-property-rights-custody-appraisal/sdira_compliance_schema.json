@@ -1,0 +1,312 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-27",
+      "headline": "What Are You Actually Appraising? Property Rights, Custody Structures, and the Subject-Property Identification That Determines a Digital Asset Valuation",
+      "description": "An analysis of subject-property identification in digital asset appraisals. Explains why two identical token balances can be two different interests — a property interest held directly, a property interest held through a custodian, an unsecured contractual claim, a staking receipt token, a license-bearing NFT, a contract right to tokens not yet issued, an encumbered equity interest, or a membership interest in a holding entity. Covers USPAP Standards Rule 9-2 problem identification and the requirement to identify the interest, its attributes of ownership, any agreements or restrictions affecting it, the extent of control, and the extent of marketability; the USPAP definitions of intangible property and personal property, the latter expressly reaching intangible property created and stored electronically including designs for digital tokens; Standards Rule 9-4 and approach selection as a function of the interest; Standards Rule 10-2 reporting; the Record Keeping Rule and workfile retention; In re Celsius Network LLC, 647 B.R. 631 (Bankr. S.D.N.Y. 2023) and the line between property of the estate under 11 U.S.C. Section 541 and general unsecured contractual claims, including the contrasting treatment of Custody Accounts; the SEC Division of Corporation Finance staff statement on certain liquid staking activities dated August 5, 2025 and the characterization of staking receipt tokens as receipts for deposited assets redeemable subject to an unbonding period; wrapped and bridged asset structures and the custodian, reserve, rehypothecation, and redemption questions they introduce; the Yuga Labs Bored Ape Yacht Club license, the separation of copyright from the material object, the absence of an executed copyright assignment, and the scope of the personal and commercial licenses; IRS Notice 2023-27 and the look-through approach to nonfungible tokens as Section 408(m) collectibles, together with the collectibles rate and the prohibition on IRA acquisition; simple agreements for future tokens, warrants, and unvested grants as contract rights valued through probability-weighted delivery discounted for time and counterparty credit; pledged positions, lien adjustments, multi-signature control, and UCC Article 12 controllable electronic records; self-directed IRA custodial structures and beneficial ownership; fractionalized interests and vault shares; entity-held positions and the limits of look-through; the downstream consequences of misidentification under IRS Section 170 and Form 8283 Section B Line 2, Form 706 inclusion, Section 408(m) and Section 4975 eligibility, and the Section 6662 valuation misstatement penalty architecture; and the use of hypothetical conditions where a right cannot be verified.",
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-27-digital-asset-property-rights-custody-appraisal"
+      },
+      "image": "https://qdav.mba/blog/2026-10-27-digital-asset-property-rights-custody-appraisal/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Subject-property identification and property rights in digital asset appraisal",
+        "description": "The identification of the interest appraised in digital asset valuation work: what rights the holder actually owns, how custody and contractual structure change the subject property, and the documentation a qualified appraisal must carry to support the conclusion. Addresses USPAP Standards Rule 9-2 and Standards Rule 10-2; property interests versus contractual claims against a platform; the Celsius Earn and Custody account distinction under 11 U.S.C. Section 541; staking receipt tokens as receipts under the SEC Division of Corporation Finance August 5, 2025 staff statement, including unbonding periods and slashing exposure; wrapped bitcoin custody and redemption mechanics; bridge-wrapped tokens and operator solvency; NFT licenses under the Bored Ape Yacht Club terms, the separation of copyright from the material object, and the absence of a written assignment; IRS Notice 2023-27 look-through treatment of NFTs as Section 408(m) collectibles; SAFTs, token warrants, and vesting schedules as contract rights; pledged collateral, lien adjustments, and multi-signature control; UCC Article 12 controllable electronic records and control as functional possession; beneficial ownership through an SDIRA custodian; fractionalized vault shares and thin-market pricing; entity-held positions and operating agreement restrictions; hypothetical conditions under USPAP where rights cannot be verified; and the reporting consequences under IRS Section 170, Form 8283 Section B, Form 706, Section 408(m), Section 4975, and Section 6662.",
+        "keywords": "digital asset appraisal property rights, subject property identification digital assets, what is appraised in a crypto appraisal, crypto custody valuation, exchange balance contractual claim, In re Celsius Network LLC 647 B.R. 631, liquid staking receipt token appraisal, SEC liquid staking staff statement August 2025, unbonding period valuation, wrapped bitcoin custodian claim, bridged token valuation, NFT license valuation, Bored Ape Yacht Club license terms, NFT copyright versus token ownership, Notice 2023-27 NFT collectibles, section 408(m) collectible IRA, SAFT valuation, token warrant valuation, vesting schedule appraisal, pledged crypto collateral appraisal, multi-signature custody valuation, UCC Article 12 controllable electronic records, SDIRA custodian beneficial ownership, fractionalized NFT vault shares, entity-held digital assets, USPAP Standards Rule 9-2, USPAP Standards Rule 9-4, USPAP Record Keeping Rule, hypothetical condition appraisal, Form 8283 Section B Line 2, section 6662 valuation misstatement, Defensible Data, Metro Detroit digital asset appraiser"
+      },
+      "keywords": [
+        "digital asset appraisal property rights",
+        "subject property identification digital assets",
+        "what is appraised in a crypto appraisal",
+        "crypto custody valuation",
+        "exchange balance contractual claim",
+        "In re Celsius Network LLC 647 B.R. 631",
+        "liquid staking receipt token appraisal",
+        "staking receipt token unbonding period",
+        "wrapped bitcoin custodian claim",
+        "bridged token valuation",
+        "NFT license valuation",
+        "Bored Ape Yacht Club license",
+        "NFT copyright versus token ownership",
+        "Notice 2023-27 NFT collectibles",
+        "section 408(m) collectible IRA",
+        "SAFT valuation",
+        "token warrant valuation",
+        "vesting schedule appraisal",
+        "pledged crypto collateral appraisal",
+        "multi-signature custody valuation",
+        "UCC Article 12 controllable electronic records",
+        "SDIRA custodian beneficial ownership",
+        "fractionalized NFT vault shares",
+        "entity-held digital assets",
+        "USPAP Standards Rule 9-2",
+        "USPAP Standards Rule 9-4",
+        "USPAP Record Keeping Rule",
+        "hypothetical condition appraisal",
+        "Form 8283 Section B Line 2",
+        "section 6662 valuation misstatement",
+        "Defensible Data",
+        "Metro Detroit digital asset appraiser"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-27",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a balance on an exchange the same as owning bitcoin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not in the sense that matters. Where the platform's terms transfer title and permit the platform to use the assets, the customer holds a contractual claim rather than a property interest in specific coins, which is what the bankruptcy court held as to the Celsius Earn program in 647 B.R. 631. Where title is retained and assets are segregated, the customer holds the asset through a custodian. The terms of service decide which, so they belong in the engagement file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does buying an NFT give me the copyright?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no. Copyright and the material object are separate interests, and a token transfer is not a written assignment of copyright. The Bored Ape terms grant a broad license, including unlimited commercial use for derivative works, while Yuga Labs remains the copyright owner. Collections differ substantially, so the terms of the specific project define the interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a staked token worth the same as an unstaked one?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not automatically, and the difference is usually small but real. A staked position accrues rewards and carries slashing exposure; a liquid staking receipt adds a redemption queue and an unbonding period, and may trade at a discount to the underlying. Each of those is a valuation input that has to be examined rather than assumed away."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a hypothetical condition, and why is it in my report?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is an assumption stated as fact for purposes of the assignment where the fact is contrary to what exists or cannot be verified, for example that a custodian holds the assets it reports. It appears when verification is impossible or impractical, and it is disclosed because the opinion depends on it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can custody change value if the coins are worth the same?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because the coins may not be what is owned. A claim against a solvent platform redeeming at par may be worth the underlying value; the same claim against an insolvent one is worth a recovery percentage. The appraisal follows the interest, and the interest changed with the structure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a wrapped or bridged token valued at the underlying price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That is the starting point and rarely the conclusion. A wrapper introduces a custodian, reserve treatment, redemption access, and venue risk, and a bridge adds the operator's solvency. Where those are sound, the wrapper should trade near the underlying. Where they are questioned, the discount is a market fact the appraisal must reflect."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who decides what the interest is, counsel or the appraiser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Counsel determines the legal character of the interest and the documents that govern it. The appraiser identifies the characteristics relevant to value and reaches the value conclusion. The file fails when either party assumes the other has answered the identification question."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this change the scope and cost of an appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can. A self-custodied position with clean records is a narrower engagement than a pledged position in an entity holding bridged assets with a foreign custodian. Scope follows the structure, which is why the identification work belongs in the engagement letter and not in the report's introduction."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, founders and token holders, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, beginning with subject-property identification under Standards Rule 9-2: the interest appraised, its attributes of ownership, the custodial or contractual structure through which it is held, restrictions and encumbrances, elements of control, and marketability. Holds property interests, custodian-held positions, platform claims, staking receipt tokens, wrapped and bridged assets, license-bearing NFTs, contract rights to unissued tokens, pledged positions, and entity interests as distinct subject properties requiring distinct analysis. Delivers full Appraisal Reports under Standards Rule 10-2(a) wherever a filing obligation introduces intended users beyond the client, applies the three recognized approaches with approach selection documented under Standards Rule 9-4, verifies holdings without custody of private keys, retains contemporaneous market and on-chain evidence in the workfile under the Record Keeping Rule, and carries a signed certification under Standards Rule 10-3. Reporting packages cover charitable contribution appraisal under IRS Section 170 and Form 8283 Section B, including split-interest funding and contribution-date fair market value opinions; estate tax valuation under Section 2031 and alternate valuation under Section 2032, including executor identification of digital asset interests for Form 706 and basis reporting under Section 6035; gift tax valuation under Section 2512 and Form 709; SDIRA annual value attestation and Form 5498 support, including Section 408(m) collectible classification review; and examination and litigation support.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Donors",
+          "Trustees",
+          "Trust Officers",
+          "Personal Representatives",
+          "Executors",
+          "Wealth Managers",
+          "SDIRA Holders",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Lead Trust Funding Appraisal for Digital Assets Under IRS Section 170"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Fair Market Value Opinion Coordinated with the Section 7520 Valuation Date"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Recurring Annual Corpus Valuation for Charitable Lead Unitrusts"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Holding Period and Adjusted Basis Evidence for Section 170(e)(1)(A) and Section 170(e)(2) Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 8283 Section B Line 2 Digital Asset Reporting Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal Preparation Under 26 CFR Section 1.170A-17(a)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax Appraisal for the Marital Deduction and QTIP Election Under IRC Section 2056"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Date-of-Death and Alternate Valuation Date Appraisal Under IRC Sections 2031 and 2032"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 709 Gift Tax Appraisal for Digital Asset Transfers Under IRC Section 2512"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
