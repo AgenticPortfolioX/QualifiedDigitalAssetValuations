@@ -1,0 +1,282 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-10-30",
+      "headline": "Donating Digital Assets to a Private Foundation: The Section 170(e)(1)(B)(ii) Basis Reduction That Erases the Fair Market Value Deduction, the Twenty-Percent Ceiling, the 2026 Floor and 2/37 Haircut, and the Single Appraisal That Sections 4942 and 4943 Both Depend On",
+      "description": "An analysis of digital asset gifts to private foundations. Explains why IRC Section 170(e)(1)(B)(ii) reduces the charitable contribution of appreciated property to a private non-operating foundation by the long-term gain that would have been recognized on sale, leaving a deduction equal to adjusted basis, and why cryptocurrency cannot qualify for the fair market value route through the qualified appreciated stock exception in Section 170(e)(5), which requires stock of a corporation with historical trading prices readily available on an established securities market. Covers the Section 170(b)(1)(F) exceptions for private operating foundations, flow-through foundations, and pooled common funds; the 20 percent of contribution base ceiling under Section 170(b)(1)(C) for capital gain property to a private foundation and the 30 percent ceiling for cash; the five-year carryforward under Section 170(d)(1); the 2026 changes enacted by the One Big Beautiful Bill Act, including the 0.5 percent of contribution base floor under Section 170(b)(1)(I), the ordering rules and the Section 170(d)(1)(C) condition that preserves the floor amount only where the taxpayer's contributions exceed the applicable percentage ceiling, and the 2/37 reduction of itemized deductions under Section 68 that caps the benefit at 35 percent; the basis reconstruction problem in digital assets including lot identification, income-received units, and the 2026 broker reporting identification relief; the three valuations a foundation gift requires and the distinct consumers of each; Section 4942(e) minimum investment return, the 5 percent distributable amount, monthly versus annual valuation of digital assets, and the 10 percent cap on blockage and marketability reductions under Section 4942(e)(2)(B); Section 4943 excess business holdings, the Section 4943(c)(3) substitution of beneficial and profits interests for voting stock in unincorporated enterprises, the 20 percent, 35 percent, and 2 percent permitted holdings tests, the passive-income exclusion under Section 4943(d)(3), the five-year disposition window under Section 4943(c)(6), the 90-day window under Treasury Regulation 53.4943-2(a)(1), and the discretionary extension under Section 4943(c)(7); Section 4941 self-dealing exposure at the custody layer including key control, sale-back transactions, pledges, use of foundation assets, and management fee arrangements; Section 4944 jeopardizing investments with the 10 percent and 25 percent taxes and manager caps; Section 4940 excise tax at 1.39 percent on net investment income including carryover-basis gain and staking or lending yield; the documentation chain through Form 8283 Section B, the Section 170(f)(8) contemporaneous written acknowledgment, Form 8282 under Section 6050L, and Form 990-PF; the qualified appraisal requirements under Section 170(f)(11)(C) and (D), Section 170(f)(11)(E) qualified appraiser standards, the 60-day window under Treasury Regulation 1.170A-13(c)(3)(i), and USPAP compliance; and a decision framework comparing private foundation, donor-advised fund, and public charity recipients for high-basis and low-basis digital asset positions.",
+      "datePublished": "2026-10-30",
+      "dateModified": "2026-10-30",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-10-30-private-foundation-crypto-donation-basis-reduction-4942-4943-appraisal"
+      },
+      "image": "https://qdav.mba/blog/2026-10-30-private-foundation-crypto-donation-basis-reduction-4942-4943-appraisal/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Charitable contribution of digital assets to a private foundation and the resulting appraisal obligations",
+        "description": "The tax measure, ceiling, and substantiation of a digital asset gift to a private foundation, and the excise tax architecture that governs the foundation's holding of the asset. Addresses IRC Section 170(e)(1)(B)(ii) basis reduction; the Section 170(e)(5) qualified appreciated stock exception and its inapplicability to cryptocurrency as property rather than stock; the Section 170(b)(1)(F) exceptions; 20 percent and 30 percent contribution base ceilings; the 2026 Section 170(b)(1)(I) floor and Section 68 two-thirty-sevenths limitation; adjusted basis reconstruction for digital assets; Section 4942 minimum investment return and the 10 percent blockage cap; Section 4943 excess business holdings applied to governance tokens, fund interests, and entity interests; Section 4941 self-dealing at the custody layer; Section 4944 jeopardizing investments; Section 4940 excise tax on net investment income; Form 8283 Section B, Form 8282, Form 990-PF; and the qualified appraisal requirements under Section 170(f)(11) and Treasury Regulation 1.170A-13(c)(3).",
+        "keywords": "donate crypto to private foundation, private foundation cryptocurrency, crypto charitable deduction, section 170(e)(1)(B)(ii) basis reduction, qualified appreciated stock cryptocurrency, 170(e)(5) qualified appreciated stock, private foundation deduction limited to basis, 20 percent AGI limit private foundation, 0.5 percent AGI floor charitable deduction 2026, 2/37 itemized deduction limitation, section 68 charitable deduction haircut, section 4942 minimum investment return cryptocurrency, section 4942(e)(2)(B) 10 percent blockage cap, section 4943 excess business holdings digital assets, governance token excess business holdings, limited partnership interest crypto fund 4943, section 4941 self-dealing crypto custody, section 4944 jeopardizing investments digital assets, section 4940 1.39 percent excise tax, carryover basis digital asset foundation, Form 8283 Section B cryptocurrency, Form 8282 digital asset disposition, qualified appraisal private foundation gift, 60 day appraisal window, USPAP compliant digital asset appraisal, Defensible Data, Metro Detroit digital asset appraiser"
+      },
+      "keywords": [
+        "donate crypto to private foundation",
+        "private foundation cryptocurrency",
+        "crypto charitable deduction",
+        "section 170(e)(1)(B)(ii) basis reduction",
+        "qualified appreciated stock cryptocurrency",
+        "170(e)(5) qualified appreciated stock",
+        "private foundation deduction limited to basis",
+        "20 percent AGI limit private foundation",
+        "0.5 percent AGI floor charitable deduction 2026",
+        "2/37 itemized deduction limitation",
+        "section 68 charitable deduction haircut",
+        "section 4942 minimum investment return cryptocurrency",
+        "section 4942(e)(2)(B) 10 percent blockage cap",
+        "section 4943 excess business holdings digital assets",
+        "governance token excess business holdings",
+        "limited partnership interest crypto fund 4943",
+        "section 4941 self-dealing crypto custody",
+        "section 4944 jeopardizing investments digital assets",
+        "section 4940 1.39 percent excise tax",
+        "carryover basis digital asset foundation",
+        "Form 8283 Section B cryptocurrency",
+        "Form 8282 digital asset disposition",
+        "qualified appraisal private foundation gift",
+        "60 day appraisal window",
+        "USPAP compliant digital asset appraisal",
+        "Defensible Data",
+        "Metro Detroit digital asset appraiser"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-10-30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I deduct the fair market value of crypto donated to my own private foundation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no. Section 170(e)(1)(B)(ii) reduces the contribution by the long-term gain that would have been recognized on a sale, which leaves a deduction equal to cost basis for property held more than one year. Private operating foundations, flow-through foundations, and pooled common funds described in Section 170(b)(1)(F) are excepted, but a standard family foundation is not."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is cryptocurrency qualified appreciated stock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Section 170(e)(5) limits the exception to stock of a corporation for which historical trading prices are readily available on an established securities market. Cryptocurrency is property rather than stock under IRS Notice 2014-21, and an exchange quotation is not a quotation on an established securities market. Both requirements must be satisfied, so a digital asset cannot use the exception as currently written."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What appraisal does a private foundation gift of digital assets require?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A qualified appraisal under Section 170(f)(11)(C) is required for property valued over $5,000, and the publicly traded securities exception does not reach digital assets. The appraisal must be made no earlier than 60 days before the contribution and received by the due date of the return including extensions, must be prepared and signed by a qualified appraiser, and must accompany Form 8283 Section B. Where the claimed value exceeds $500,000, Section 170(f)(11)(D) requires the appraisal itself to be attached to the return."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a foundation value crypto for the five percent payout?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 4942(e)(1) sets the minimum investment return at 5 percent of the excess of asset fair market value over acquisition indebtedness. Section 4942(e)(2)(A) requires securities with readily available market quotations to be valued monthly and other assets at the times the regulations prescribe, which for a volatile property asset is usually an annual date. Many practitioners value digital assets monthly and disclose the method, because annual valuation produces a distribution obligation driven by a single day's price."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a governance token an excess business holding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can be. Section 4943(c)(3) substitutes beneficial interest for voting stock in an unincorporated enterprise, so a governance position capable of directing treasury decisions is a plausible business holding, as is a limited partnership interest in a crypto fund, where profits interest is substituted. Permitted holdings are 20 percent, or 35 percent where non-disqualified persons have effective control, with a 2 percent de minimis allowance, and Section 4943(c)(6) gives five years to dispose of holdings acquired by gift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the foundation's crypto stay in the family's wallet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That is where self-dealing exposure usually begins. Foundation assets held under keys a disqualified person controls, sold back to the donor, pledged for his obligations, or used by him are transactions between the foundation and a disqualified person under Section 4941, and the prohibition applies even where the terms favor the foundation. Independent custody or a multi-signature arrangement without disqualified-person control is the practical answer."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, personal representatives, executors, trust officers, trustees, donors, private foundation managers and directors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support, beginning with subject-property identification under Standards Rule 9-2: the interest appraised, its attributes of ownership, the custodial or contractual structure through which it is held, restrictions and encumbrances, elements of control, and marketability. Reporting packages include charitable contribution appraisal under IRS Section 170 and Form 8283 Section B, including private foundation funding where the contribution is measured against adjusted basis under Section 170(e)(1)(B)(ii) and recorded on Form 990-PF; split-interest funding and contribution-date fair market value opinions; estate tax valuation under Section 2031 and alternate valuation under Section 2032, including basis reporting under Section 6035; gift tax valuation under Section 2512 and Form 709; SDIRA annual value attestation; and appraisal and examination support for IRS inquiries and Section 6662 valuation misstatement exposure.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Donors",
+          "Private Foundation Managers",
+          "Private Foundation Directors",
+          "Trustees",
+          "Wealth Managers",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Contribution Appraisal for a Digital Asset Gift to a Private Foundation Under IRC Section 170"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Adjusted Basis Evidence and Reconciliation for Section 170(e)(1)(B)(ii) Reduction Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Contribution-Date Fair Market Value Opinion for Form 8283 Section B Reporting"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Section 4942 Minimum Investment Return Asset Valuation and Section 4942(e)(2)(B) Blockage Reconciliation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Section 4943 Excess Business Holdings Interest Analysis for Governance Tokens and Fund Interests"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal Preparation Under IRC Section 170(f)(11) and Treasury Regulation 1.170A-13(c)(3)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Estate Tax Appraisal Under IRC Sections 2031 and 2032 with Form 8971 Basis Reporting Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax Appraisal for Digital Asset Transfers Under IRC Section 2512"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
