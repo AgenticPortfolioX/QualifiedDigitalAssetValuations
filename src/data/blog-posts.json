@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-10-30-private-foundation-crypto-donation-basis-reduction-4942-4943-appraisal",
+    "title": "Donating Digital Assets to a Private Foundation: The Section 170(e)(1)(B)(ii) Basis Reduction That Erases the Fair Market Value Deduction, the Twenty-Percent Ceiling, the 2026 Floor and 2/37 Haircut, and the Single Appraisal That Sections 4942 and 4943 Both Depend On",
+    "excerpt": "A digital asset gift to a private foundation generally produces a deduction equal to cost basis rather than fair market value, because cryptocurrency cannot be qualified appreciated stock under Section 170(e)(5). This analysis works the arithmetic through the 2026 floor and the 2/37 limitation, then explains the three separate valuations a foundation gift requires and how Sections 4940, 4941, 4942, 4943, and 4944 constrain each one.",
+    "author": "QDAV",
+    "date": "2026-10-30",
+    "description": "A digital asset gift to a private foundation generally produces a deduction equal to cost basis rather than fair market value, because cryptocurrency cannot be qualified appreciated stock under Section 170(e)(5). This analysis works the arithmetic through the 2026 floor and the 2/37 limitation, then explains the three separate valuations a foundation gift requires and how Sections 4940, 4941, 4942, 4943, and 4944 constrain each one.",
+    "category": "QDAV",
+    "image": "/blog/2026-10-30-private-foundation-crypto-donation-basis-reduction-4942-4943-appraisal/feature_image.png",
+    "path": "/blog/2026-10-30-private-foundation-crypto-donation-basis-reduction-4942-4943-appraisal/final.md",
+    "schema": "/blog/2026-10-30-private-foundation-crypto-donation-basis-reduction-4942-4943-appraisal/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-27-digital-asset-property-rights-custody-appraisal",
     "title": "What Are You Actually Appraising? Property Rights, Custody Structures, and the Subject-Property Identification That Determines a Digital Asset Valuation",
     "excerpt": "Two identical balances of bitcoin can be two different assets: an interest in property, a receipt token, an unsecured claim, or an NFT carrying a license that is not a copyright assignment. The number is downstream of the noun, and the noun is the appraiser's first obligation.",
