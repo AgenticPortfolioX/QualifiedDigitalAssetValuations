@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-11-03-digital-asset-appraisal-intake-file-attorneys-cpas",
+    "title": "The Appraisal Intake File: What Attorneys and CPAs Must Assemble Before a Digital Asset Appraisal Can Be Signed, the Three Fixed Valuation Dates That Decide Which Records Matter, and the Ten Gaps That Sink an Otherwise Sound Valuation",
+    "excerpt": "A qualified appraisal of cryptocurrency or an NFT is only as defensible as the record set it was built from, and Treasury Regulation Section 1.170A-17(a)(6) makes the client's own disclosure a component of that validity. This is the intake file organized by valuation date — contribution date, date of death, and December 31 — with the documents required for Form 8283 Section B, Form 706, Form 709, and the annual IRA attestation, and the ten gaps that force a second appraisal.",
+    "author": "QDAV",
+    "date": "2026-11-03",
+    "description": "A qualified appraisal of cryptocurrency or an NFT is only as defensible as the record set it was built from, and Treasury Regulation Section 1.170A-17(a)(6) makes the client's own disclosure a component of that validity. This is the intake file organized by valuation date — contribution date, date of death, and December 31 — with the documents required for Form 8283 Section B, Form 706, Form 709, and the annual IRA attestation, and the ten gaps that force a second appraisal.",
+    "category": "QDAV",
+    "image": "/blog/2026-11-03-digital-asset-appraisal-intake-file-attorneys-cpas/feature_image.png",
+    "path": "/blog/2026-11-03-digital-asset-appraisal-intake-file-attorneys-cpas/final.md",
+    "schema": "/blog/2026-11-03-digital-asset-appraisal-intake-file-attorneys-cpas/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-10-30-private-foundation-crypto-donation-basis-reduction-4942-4943-appraisal",
     "title": "Donating Digital Assets to a Private Foundation: The Section 170(e)(1)(B)(ii) Basis Reduction That Erases the Fair Market Value Deduction, the Twenty-Percent Ceiling, the 2026 Floor and 2/37 Haircut, and the Single Appraisal That Sections 4942 and 4943 Both Depend On",
     "excerpt": "A digital asset gift to a private foundation generally produces a deduction equal to cost basis rather than fair market value, because cryptocurrency cannot be qualified appreciated stock under Section 170(e)(5). This analysis works the arithmetic through the 2026 floor and the 2/37 limitation, then explains the three separate valuations a foundation gift requires and how Sections 4940, 4941, 4942, 4943, and 4944 constrain each one.",
