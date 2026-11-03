@@ -1,0 +1,259 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-11-03",
+      "headline": "The Appraisal Intake File: What Attorneys and CPAs Must Assemble Before a Digital Asset Appraisal Can Be Signed, the Three Fixed Valuation Dates That Decide Which Records Matter, and the Ten Gaps That Sink an Otherwise Sound Valuation",
+      "description": "A qualified appraisal of cryptocurrency or an NFT is only as defensible as the record set it was built from, and Treasury Regulation Section 1.170A-17(a)(6) makes the client's own disclosure a component of that validity. The post organizes the intake file by valuation date, covering the contribution-date file for Form 8283 Section B, the date-of-death and alternate valuation file for Form 706 under Sections 2031 and 2032, the December 31 file behind Form 5498 box 5, and the gift-date file that supports adequate disclosure under Section 6501(c)(4). It sets out the six universal record categories, the distinction between on-chain control evidence and legal title, the qualified appraiser exclusions under Regulation Section 1.170A-17(b)(5), the sixty-day signing window, the Section 500,000 attachment threshold, Form 8971 and Section 1014(f) consistent basis, the Part III small-item statement, and ten intake failures that force a second appraisal.",
+      "datePublished": "2026-11-03",
+      "dateModified": "2026-11-03",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-11-03-digital-asset-appraisal-intake-file-attorneys-cpas"
+      },
+      "image": "https://qdav.mba/blog/2026-11-03-digital-asset-appraisal-intake-file-attorneys-cpas/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Documentation intake for a qualified appraisal of digital assets",
+        "description": "The record set an attorney, CPA, executor, trustee, or donor must assemble before a qualified appraiser can sign an opinion of fair market value on cryptocurrency, NFTs, or other digital assets, organized by the valuation date the filing requires. Addresses Regulation Section 1.170A-17(a)(3) through (a)(6) contents, timing, and donor-disclosure requirements; the sixty-day appraisal signing window; the Form 8283 Section B digital asset category added in the December 2025 revision; the line 3 column (a) description standard; Part III small-item statements and Part V donee acknowledgment sequencing; the Section 500,000 appraisal attachment threshold; pass-through member reporting; Section 2031 and Section 2032 dual-date files; Section 6035 and Section 1014(f) consistent basis reporting on Form 8971; Form 5498 box 5 December 31 fair market value reporting for self-directed IRAs; Section 6501(c)(4) adequate disclosure for gift tax transfers; Section 6695A and Section 6662 valuation misstatement exposure; and the Section 1.170A-17(b)(5) exclusions from qualified appraiser status."
+      },
+      "keywords": [
+        "qualified appraisal",
+        "digital asset appraisal",
+        "Form 8283 Section B",
+        "fair market value",
+        "IRS Section 170",
+        "USPAP",
+        "qualified appraiser",
+        "Form 5498",
+        "Form 706",
+        "Form 8971",
+        "alternate valuation date",
+        "adequate disclosure",
+        "defensible data"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-11-03",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What documents do I need for a digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six categories, regardless of the purpose: identity and authority documents for the person directing the engagement, custody or control evidence for the asset, acquisition and basis records at lot level, records establishing holding period and which units are ordinary income, market data as of the valuation date, and a signed disclosure of any restriction or agreement affecting sale. The purpose of the appraisal determines the valuation date those records must address, not the categories themselves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a cryptocurrency donation require a qualified appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, where the claimed deduction exceeds $5,000 per item or group of similar items. Form 8283, Section B applies and requires a written qualified appraisal by a qualified appraiser; the form itself is only an appraisal summary. Above $500,000, the qualified appraisal must be attached to the return."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use an exchange statement or screenshot as the valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. An exchange statement establishes that units were held and, sometimes, what was paid. It does not establish fair market value on the valuation date, does not document methodology, and carries no appraiser declaration. A screenshot has no audit trail at all. Both fail the requirement that a qualified appraisal be prepared under generally accepted appraisal standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When must the appraisal be signed for a charitable gift?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No earlier than 60 days before the date of contribution, and the donor must receive it before the return is due, including extensions. If the deduction is first claimed on an amended return, the appraisal must be received before that amended return is filed. The valuation effective date must fall within the same 60-day window, or be the contribution date where the report is dated later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a Form 706 estate return need a qualified appraisal for crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no Section 170-style statutory mandate, but the practical standard is the same. Section 6695A penalizes appraisers for valuation misstatements on estate returns, and Section 6662 imposes accuracy-related penalties on the estate at its own valuation misstatement thresholds. A date-of-death and, where Section 2032 is elected, alternate-date workfile is the defense."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who cannot sign as a qualified appraiser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The donor, the donee, a party to the transaction in which the donor acquired the property, individuals related to those parties and their employees, and anyone barred from practicing before the Internal Revenue Service. A seller may sign only in the narrow case where the property is contributed within two months of acquisition and the appraised value does not exceed the acquisition price."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support and by the valuation date that obligation fixes: contribution date for charitable contributions under IRS Section 170 and Form 8283 Section B; date of death and, where elected, the Section 2032 alternate valuation date for estate tax returns with Section 6035 basis reporting; transfer date for gift tax reporting under Section 2512 and Form 709 with adequate disclosure under Section 6501(c)(4); and December 31 for the annual SDIRA value attestation underlying Form 5498 box 5. Engagement intake covers authority and title documentation, custody and control evidence, lot-level acquisition and basis reconstruction, holding period and ordinary income classification, date-specific market data, restriction and agreement disclosure under Regulation Section 1.170A-17(a)(3)(ii), and examination support for Section 6662 valuation misstatement exposure.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Donors",
+          "Trustees",
+          "Executors",
+          "Wealth Managers",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraisal Intake and Documentation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Appraisal Intake File Review and Record Assembly for Digital Asset Engagements"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lot-Level Acquisition and Adjusted Basis Reconstruction for Digital Assets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Custody and Control Attestation Review for Self-Custodied and Custodial Digital Assets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal and Form 8283 Section B Support for Charitable Contributions of Digital Assets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dual-Date Estate Tax Valuation Workfile for Section 2032 Alternate Valuation Elections"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 8971 and Section 1014(f) Consistent Basis Reporting Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gift Tax Appraisal with Adequate Disclosure Documentation Under Section 6501(c)(4)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Asset Valuation Audit and Examination Support"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
