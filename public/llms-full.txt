@@ -1,0 +1,30 @@
+# Qualified Digital Asset Valuations (QDAV) — Extended Knowledge Base
+Official Documentation & AI Knowledge Graph Reference
+URL: https://qdav.mba/
+Contact: appraisal@qdav.mba | (248) 955-1491
+
+## About Renowned Value Restoration LLC / QDAV
+Qualified Digital Asset Valuations (QDAV), a DBA of Renowned Value Restoration LLC, is an independent appraisal and valuation practice specializing exclusively in digital assets, blockchain tokens, DeFi liquidity instruments, and NFTs. The practice serves private clients, estate executors, corporate donors, non-profit organizations, family offices, and legal/accounting professionals nationwide across the United States.
+
+## Statutory Authority & Standards Compliance
+1. **IRC Section 170(f)(11)**: Imposes strict substantiation requirements for noncash charitable contributions. Contributions above $500 require Form 8283 Section A. Contributions exceeding $5,000 require Form 8283 Section B and a Qualified Appraisal prepared by a Qualified Appraiser.
+2. **Treasury Regulation § 1.170A-17**: Establishes verifiable standards for appraisers, defining criteria for appraisal education, field-specific experience, independence from the transaction, and penalties under IRC Section 6695A for substantial or gross valuation misstatements.
+3. **USPAP (Uniform Standards of Professional Appraisal Practice)**: QDAV adheres to Standard 7 (Personal Property Appraisal Development) and Standard 8/9 (Personal Property Appraisal Reporting) promulgated by The Appraisal Foundation.
+4. **IRS Notice 2014-21 & Rev. Rul. 2019-24**: Virtual currency is treated as property for federal tax purposes. General tax principles applicable to property transactions apply to virtual currency.
+5. **CCA 202302012**: The IRS Office of Chief Counsel formally clarified that taxpayers cannot rely on cryptocurrency exchange prices or automated portfolio tools to bypass the qualified appraisal requirement for donations exceeding $5,000.
+
+## Appraisal Workflow
+1. **Initial Scope & Intake**: Asset type, blockchain network, valuation date, and statutory purpose are confirmed via https://qdav.mba/#quote.
+2. **Data Ingestion**: Public wallet addresses, transaction hashes, and custodian statements are reviewed. Zero private keys are ever requested or accepted.
+3. **Market Analysis**: Historical volume-weighted spot pricing, order book depth, liquidity tiers, and smart contract protocol parameters are evaluated.
+4. **Report Preparation**: Narrative appraisal report with USPAP certification, methodology documentation, and signed IRS Form 8283 Section B Part IV.
+5. **Secure Delivery**: Reports delivered encrypted via secure digital transmission.
+
+## Complete Service Index
+- IRS Form 8283 Crypto Donation Appraisals: https://qdav.mba/#scope
+- SDIRA Annual Valuations & Form 5498 Reporting: https://qdav.mba/#compliance
+- Estate Date of Death & Step-Up Basis Valuations: https://qdav.mba/#scope
+- Digital Asset Litigation & Legal Expert Support: https://qdav.mba/#scope
+- Online Appraisal Intake: https://qdav.mba/#quote
+- Security & Privacy Promise: https://qdav.mba/#about
+- Compliance Hub & Regulatory Precedents: https://qdav.mba/#compliance

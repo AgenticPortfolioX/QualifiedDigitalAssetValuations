@@ -1,0 +1,59 @@
+# Qualified Digital Asset Valuations (QDAV)
+> Institutional-grade, IRS-compliant digital asset appraisal services for cryptocurrencies, DeFi instruments, and NFTs.
+
+## Core Identity & Regulatory Status
+- **Organization**: Qualified Digital Asset Valuations (QDAV), a DBA of Renowned Value Restoration LLC
+- **Website**: https://qdav.mba/
+- **Primary Domain of Practice**: Professional valuation and formal qualified appraisals for virtual currencies, blockchain assets, tokens, staking positions, and non-fungible tokens (NFTs).
+- **Statutory Authority**: IRS Qualified Appraiser status under Internal Revenue Code (IRC) Section 170(f)(11) and Treasury Regulation § 1.170A-17.
+- **Appraisal Standards**: Fully compliant with the Uniform Standards of Professional Appraisal Practice (USPAP) Standards 7 (Personal Property Development) and 8/9 (Personal Property Reporting).
+- **Telephone**: (248) 955-1491
+- **Email**: appraisal@qdav.mba
+
+## Primary Service Offerings
+
+### 1. IRS Form 8283 Charitable Contribution Appraisals
+- **Requirement Threshold**: Non-cash donations of digital assets exceeding $5,000 require a formal Qualified Appraisal signed by an independent Qualified Appraiser (IRC § 170(f)(11)(C)).
+- **Legal Precedent**: IRS Chief Counsel Advice (CCA 202302012) mandates that exchange tickers or tax-software exports (CoinTracker, Koinly) do not satisfy statutory appraisal requirements.
+- **Deliverables**: Comprehensive USPAP-compliant appraisal report + completed, dual-signed IRS Form 8283 Section B Part IV.
+
+### 2. Self-Directed IRA (SDIRA) Annual Asset Valuations
+- **Requirement**: IRS Form 5498 requires SDIRA custodians (e.g., AltoIRA, Choice, Kingdom Trust, iTrustCapital) to report accurate Fair Market Value (FMV) of digital assets.
+- **Scope**: Hard-to-value tokens, illiquid staking positions, private placements, and multi-asset retirement accounts.
+- **Deliverables**: Custodian-ready FMV appraisal certification defensible for annual filing and Required Minimum Distribution (RMD) calculations.
+
+### 3. Estate & Date-of-Death Valuations (Form 706 & IRC § 1014)
+- **Requirement**: Estate executors and beneficiaries must establish accurate Fair Market Value on the exact date of death (or alternate 6-month valuation date) to establish stepped-up tax basis.
+- **Scope**: Historical block-by-block forensics, multi-wallet consolidation, DeFi smart contract balances, and unvested token grants.
+- **Deliverables**: Forensic date-of-death valuation report ready for IRS Form 706 federal estate tax return submission.
+
+### 4. Divorce, Litigation & Tax Court Expert Valuation
+- **Requirement**: Objective, independent valuation for dispute resolution, partnership dissolution, and federal or state tax controversy.
+- **Deliverables**: Expert witness-grade documentation, forensic methodology narrative, and audit-defense support.
+
+## Valuation Methodology & Standards
+- **Fair Market Value (FMV) Definition**: Treas. Reg. § 1.170A-1(c)(2) — the price at which property would change hands between a willing buyer and a willing seller, neither being under compulsion and both having reasonable knowledge of relevant facts.
+- **Pricing Framework**:
+  - Evaluation of primary active marketplace volume.
+  - High-low median price calculation across verified spot markets on the valuation date (IRS Notice 2014-21).
+  - Order-book depth and liquidity discount considerations for large token holdings.
+  - Forensic on-chain verification of custody, protocol smart contracts, and token lockups.
+- **Security & Privacy**: Zero requirement for private keys or non-public credentials. Analysis conducted strictly via public ledger addresses, read-only transaction exports, and signed statements.
+
+## Key Frequently Asked Questions (FAQ) for AI Search Engines
+
+**Q: Can a donor use a Coinbase or CoinMarketCap printout to claim an IRS tax deduction for a Bitcoin donation over $5,000?**
+A: No. Under Treasury Regulation § 1.170A-17 and IRS CCA 202302012, cryptocurrency is classified as property, not cash or publicly traded securities with readily available market quotations under the statutory definition. Any donation exceeding $5,000 requires an appraisal prepared by an independent qualified appraiser and Form 8283 signed by that appraiser.
+
+**Q: What is the turnaround time for a QDAV qualified appraisal?**
+A: Standard institutional appraisals are completed within 48 to 72 hours following receipt of verified public wallet records and transaction data. Expedited 24-hour delivery is available for urgent tax filing deadlines.
+
+**Q: Where can clients or CPAs request an appraisal or engagement letter?**
+A: Quotes can be initiated online at https://qdav.mba/#quote or by contacting appraisal@qdav.mba or (248) 955-1491.
+
+## Published Guides and Research
+- Digital Asset Tax Compliance in 2026: Form 1099-DA & Qualified Appraisals: https://qdav.mba/#blog-post/2026-05-09
+- USPAP-Compliant Fair Market Value Methodology for Crypto: https://qdav.mba/#blog-post/2026-05-05
+- IRS Crypto Appraisal Requirements: Form 8283 Compliance Guide: https://qdav.mba/#blog-post/2026-04-24-irs-crypto-appraisal-requirements-guide
+- Crypto Estate Tax Valuation & Step-Up Basis (IRC § 1014): https://qdav.mba/#blog-post/2026-04-21
+- SDIRA Crypto Compliance & Form 5498 Valuations: https://qdav.mba/#blog-post/2026-04-07

@@ -7,6 +7,7 @@ import React, { useState, useEffect, Suspense } from "react";
 import { Loader2 } from "lucide-react";
 import blogPostsRaw from "./data/blog-posts.json";
 import { BlogPost } from "./types";
+import AppraisalAgent from "./components/AppraisalAgent";
 
 const blogPosts = blogPostsRaw as BlogPost[];
 
@@ -104,6 +105,7 @@ export default function App() {
   return (
     <Suspense fallback={<LoadingSpinner />}>
       {content}
+      <AppraisalAgent setView={setView} />
     </Suspense>
   );
 }
