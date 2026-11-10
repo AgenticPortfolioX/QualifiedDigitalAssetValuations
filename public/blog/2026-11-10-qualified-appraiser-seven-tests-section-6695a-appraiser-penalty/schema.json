@@ -1,0 +1,258 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-11-10",
+      "headline": "The Qualified Appraiser Is a Term of Art: Treasury Regulation Section 1.170A-17(b)'s Two Credentialing Pathways, the Verifiable-Education Declaration the Preamble Refused to Waive, the Statutory Independence Tests, and the Section 6695A Appraiser Penalty That Runs on Its Own Three-Year Clock",
+      "description": "A qualified appraiser is a defined term under IRC Section 170(f)(11)(E), not a description of someone with relevant experience. This analysis works through Treasury Regulation Section 1.170A-17(b)'s two credentialing pathways, the type-of-property test as applied to bitcoin, NFTs, and DeFi positions, the six statutory exclusions, and the Section 6695A penalty the appraiser personally answers for.",
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-10",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-11-10-qualified-appraiser-seven-tests-section-6695a-appraiser-penalty"
+      },
+      "image": "https://qdav.mba/blog/2026-11-10-qualified-appraiser-seven-tests-section-6695a-appraiser-penalty/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Qualified appraiser status and the Section 6695A appraiser penalty for digital asset appraisals",
+        "description": "The statutory and regulatory requirements that determine who may sign a qualified appraisal of cryptocurrency, NFTs, or other digital assets, and the penalty the appraiser personally faces if the appraised value produces a substantial or gross valuation misstatement. Addresses IRC Section 170(f)(11)(E) and its definition of qualified appraiser; Treasury Regulation Section 1.170A-17(b)(2)(i)'s alternative coursework-plus-two-years and recognized-designation pathways; the coursework provider limits in Section 1.170A-17(b)(2)(ii); the rejection of a generic qualification statement in the preamble to T.D. 9836 at 83 Fed. Reg. 36410; the type-of-property definition in Section 1.170A-17(b)(3) and its three examples applied to fungible tokens, NFT collections, and DeFi positions; the verifiability requirement of Section 1.170A-17(b)(4); the report contents in Section 1.170A-17(a)(3)(iv) and the appraiser declaration in (a)(3)(vi); the six exclusions in Section 1.170A-17(b)(5); the prohibited-fee rule of Section 1.170A-17(a)(9) and the disregard rule of (a)(11); IRC Section 6695A's elements, its two-cap penalty formula, and the more-likely-than-not exception in subsection (c); the Section 6662(e), (g), and (h) thresholds; the separate penalty case described in IRM 20.1.12 including Form 5345-D activity code 552, IRC Section 6751(b) supervisory approval, Letter 4477, Letter 4478, CP 15, Form 8278, the three-year statute, and Form 872-AP; USPAP Competency and Record Keeping Rules; and Circular 230 Section 10.51(a)(13)."
+      },
+      "keywords": [
+        "qualified appraiser",
+        "Treasury Regulation 1.170A-17(b)",
+        "section 6695A penalty",
+        "qualified appraisal",
+        "fair market value",
+        "IRS Section 170",
+        "USPAP",
+        "digital asset appraisal",
+        "verifiable education and experience",
+        "recognized appraiser designation",
+        "Circular 230",
+        "defensible data"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-11-10",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who qualifies as a qualified appraiser for an IRS digital asset appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An individual who satisfies IRC Section 170(f)(11)(E) and Treasury Regulation Section 1.170A-17(b): someone who has qualifying coursework in valuing that type of property plus two or more years of experience valuing it, or a recognized appraiser designation for that type, who regularly performs compensated appraisals, and who is not within any of the six exclusions in Section 1.170A-17(b)(5). The test applies to the individual who signs, as of the signature date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a digital asset appraiser need a professional designation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Section 1.170A-17(b)(2)(i) provides two alternative pathways, and a recognized appraiser designation is only one of them. The coursework-plus-two-years pathway is fully sufficient. What the regulation does require is that whichever pathway is used relate to the type of property being appraised, and that the appraiser state the specific education and experience in the report under Section 1.170A-17(b)(4)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my CPA, my exchange, or the NFT marketplace sign the appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no. An exchange or marketplace is a party to the acquisition transaction and is excluded under Section 1.170A-17(b)(5)(iii), and an exchange export is not an appraisal at all. A CPA may sign only if the CPA individually satisfies the credentialing test for that type of property and is not otherwise excluded; general tax expertise is not a substitute for experience valuing that category of property."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty if an appraiser overvalues digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under IRC Section 6695A the appraiser pays the lesser of two amounts: the greater of 10 percent of the underpayment attributable to the misstatement or $1,000; or 125 percent of the gross income received from preparing the appraisal. It applies where the claimed value produces a substantial or gross valuation misstatement under Section 6662, and the appraiser knew or should have known the appraisal would be used with a return or claim for refund."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the IRS have to penalize the appraiser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three years from the date the relevant return was filed, or from the date a claim for refund was filed, under IRM 20.1.12.5. The period is extended only by Form 872-AP, a consent specific to the Section 6695A penalty. Extending the statute on the taxpayer's examination does not extend the appraiser's period, so the two matters can diverge in time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an appraiser charge a percentage of the appraised value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Regulation Section 1.170A-17(a)(9) provides that the fee cannot be based to any extent on the appraised value, and specifies that a fee is treated as value-based if any part depends on the amount the Service allows after examination. Section 1.170A-17(b)(5)(i) then provides that an individual receiving such a fee is not a qualified appraiser for that property, which means the appraisal fails as a qualified appraisal regardless of its quality."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset valuation, developed and reported under USPAP Standards 9 and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, personal representatives, executors, trust officers, trustees, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support and by the valuation date that obligation fixes: contribution date for charitable contributions under IRS Section 170 and Form 8283 Section B; date of death and, where elected, the Section 2032 alternate valuation date for estate tax returns with Section 6035 basis reporting; transfer date for gift tax reporting under Section 2512 and Form 709 with adequate disclosure under Section 6501(c)(4); and December 31 for the annual SDIRA value attestation underlying Form 5498 box 5. Every engagement designates the individual who will sign, documents that individual's education and experience in valuing the type of property under Regulation Section 1.170A-17(b)(4), screens for the Section 1.170A-17(b)(5) disqualifications, and builds the contemporaneous workfile needed to support an appraiser's more-likely-than-not position under Section 6695A(c).",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Donors",
+          "Trustees",
+          "Executors",
+          "Wealth Managers",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Appraiser Qualification and Engagement Scope Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraiser Qualification Review for Digital Asset Appraisal Engagements"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Type-of-Property Determination for Fungible Tokens, NFT Collections, and DeFi Positions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Appraiser Independence and Prohibited-Fee Screening Under Section 1.170A-17(b)(5)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraiser Declaration and Education Statement Drafting Under Section 1.170A-17(a)(3)(vi) and (b)(4)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal and Form 8283 Section B Support for Charitable Contributions of Digital Assets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dual-Date Estate Tax Valuation Workfile for Section 2032 Alternate Valuation Elections"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SDIRA Annual Digital Asset Value Attestation and Form 5498 Fair Market Value Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Section 6695A More-Likely-Than-Not Workfile Development and Examination Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Appraiser Selection and Vetting Advisory for Attorneys and CPAs"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
