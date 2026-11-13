@@ -1,0 +1,273 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-11-13",
+      "headline": "Digital Assets Across the Border: FinCEN Notice 2020-2, the FBAR Peak-Value Rule, Form 8938's Threshold Ladder, and the Valuation Evidence Both Regimes Demand",
+      "description": "Two reporting regimes reach the same offshore digital asset position and disagree about almost everything: threshold, valuation date, penalty architecture, and whether cryptocurrency counts at all. This analysis works through FinCEN Notice 2020-2, the FBAR maximum-value rule, Form 8938's four threshold tiers, the penalty stack under 31 U.S.C. Section 5321(a)(5) and IRC Sections 6038D and 6662(j), the Form 3520 gift and trust perimeter, and the evidence file a peak value requires.",
+      "datePublished": "2026-11-13",
+      "dateModified": "2026-11-13",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-11-13-foreign-digital-asset-accounts-fbar-form-8938-peak-value-valuation"
+      },
+      "image": "https://qdav.mba/blog/2026-11-13-foreign-digital-asset-accounts-fbar-form-8938-peak-value-valuation/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Cross-border digital asset reporting: FBAR, Form 8938, and Form 3520 valuation obligations",
+        "description": "The compliance and valuation obligations that attach when digital assets are held outside the United States or move across borders. Addresses 31 U.S.C. Section 5314 and 31 C.F.R. Section 1010.350; FinCEN Notice 2020-2 and its treatment of foreign accounts holding only virtual currency; the fiat-balance carve-out that brings a foreign exchange account inside the FBAR; the FBAR maximum account value rule, its reasonable-approximation standard, quarterly statement reliance, per-account valuation, rounding, the December 31 Treasury Reporting Rates of Exchange conversion, and the transfer-netting rule at IRM 4.26.16.2.6; IRC Section 6038D and 26 C.F.R. Sections 1.6038D-2 and 1.6038D-8, including the five threshold tiers, the maximum-value reporting basis, the absence of any digital asset guidance, the aggregate-value presumption in 1.6038D-8(d), and the reasonable cause standard in 1.6038D-8(g); the 40 percent undisclosed foreign financial asset penalty under IRC Section 6662(j); the open assessment period under IRC Section 6501(c)(8); the FBAR non-willful and willful penalties under 31 U.S.C. Section 5321(a)(5) as adjusted by 31 C.F.R. Section 1010.821, and the per-report holding of Bittner v. United States, 598 U.S. 85 (2023); IRC Section 6039F and Form 3520 Part IV foreign gift reporting; IRC Section 6048(b), Form 3520-A, and the Section 6677 penalty computed on the gross value of trust assets; and the valuation evidence required to support a peak value, including USPAP Standards 7, 9, and 10, dated holdings reconstruction, price-source hierarchy, transfer netting schedules, and methodology memoranda for illiquid positions."
+      },
+      "keywords": [
+        "FBAR cryptocurrency",
+        "Form 8938 crypto",
+        "FinCEN Notice 2020-2",
+        "FinCEN Form 114",
+        "foreign crypto exchange reporting",
+        "FBAR maximum value",
+        "Form 8938 threshold",
+        "section 6038D penalty",
+        "section 6662(j)",
+        "Bittner v. United States",
+        "Form 3520 foreign gift",
+        "Form 3520-A foreign trust",
+        "digital asset valuation",
+        "qualified appraisal",
+        "fair market value",
+        "USPAP compliant",
+        "defensible data",
+        "offshore crypto reporting"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-11-13",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need to file an FBAR for cryptocurrency held on a foreign exchange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if the account is reportable for a reason other than the virtual currency. Under FinCEN Notice 2020-2, a foreign account holding only virtual currency is not reportable on the FBAR, and no final rule amending that position has been published. An account that also holds fiat currency, securities, or another reportable asset is a foreign financial account under 31 C.F.R. Section 1010.350 today, and the whole account is reportable once the $10,000 aggregate threshold is met."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is cryptocurrency reportable on Form 8938?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No authority resolves the question. IRC Section 6038D, the regulations, Form 8938, and its instructions never mention digital assets, and the IRS has published no guidance on whether a foreign exchange balance is a specified foreign financial asset. The conservative reading treats a custodial foreign venue as a foreign financial institution and the balance as reportable once the applicable threshold is exceeded. What is not defensible is an undocumented assumption in either direction, particularly given the Section 1.6038D-8(d) presumption that applies where aggregate value cannot be demonstrated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the maximum account value calculated on the FBAR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Report a reasonable approximation of the greatest value the account held at any time during the calendar year, valued in the account's own currency, then converted at the Treasury Reporting Rates of Exchange for December 31 of that year. Round up to the next whole dollar. Value each account separately; do not report an aggregate. Where periodic statements are issued at least quarterly and fairly reflect the maximum, they may be relied on, but month-end balances are not the maximum by definition and a peak that occurred mid-month must be captured by other evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for not filing Form 8938?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "$10,000 for each year the required form is not filed complete and correct. If the failure continues more than 90 days after the IRS mails notice, an additional $10,000 accrues for each 30-day period or fraction, capped at $50,000, producing a $60,000 ceiling per year. Separately, IRC Section 6662(j) imposes a 40 percent accuracy-related penalty on the portion of any underpayment attributable to an undisclosed foreign financial asset. The figures are statutory and are not adjusted for inflation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a self-custody wallet trigger the FBAR or Form 8938?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no for the FBAR, because a wallet whose keys the holder controls is not an account maintained by a foreign financial institution. The same reasoning usually keeps it outside Form 8938's financial-account prong. That conclusion depends on control, not on labeling: a hosted wallet, an arrangement where a third party holds keys, or a lending or staking platform holding customer assets presents an institution, and the analysis changes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Form 3520 threshold for a foreign gift of digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "$100,000 for gifts and bequests received from a foreign individual or a foreign estate, aggregated across related parties, reported in Part IV of Form 3520. Gifts from foreign corporations and partnerships use a lower inflation-adjusted threshold. The penalty for failure to report is five percent of the gift per month, up to 25 percent, subject to reasonable cause."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an appraisal establish an FBAR maximum value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and for a volatile or illiquid position it is often the only defensible route. The rule requires a reasonable approximation of the greatest value during the year, and a valuation prepared to appraisal standards supplies exactly what a spreadsheet cannot: a stated definition of value, a fixed date, identified property interests, a documented data hierarchy, and reasoning that a third party can test. A reporting-purpose attestation is not a qualified appraisal under IRS Section 170, and a qualified appraisal prepared for a charitable contribution does not automatically serve the reporting purpose."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What records must be kept for a foreign crypto account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For the FBAR, 31 C.F.R. Section 1010.420 requires five years of records showing the account holder's name, the account number, the institution's name and address, the type of account, and the maximum value during the year. The regulation does not prescribe a document type, which means the obligation falls on the file: dated holdings reconstructions, price-source records, transfer schedules, and the methodology memorandum supporting any position without a continuous observable price."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals and valuation attestations for cryptocurrency, NFT, and digital asset positions, developed and reported under USPAP Standards 7, 9, and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, trustees, executors, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support and by the valuation date that obligation fixes: contribution date for charitable contributions under IRS Section 170 and Form 8283 Section B; date of death and, where elected, the Section 2032 alternate valuation date for estate tax returns; transfer date for gift tax reporting under Section 2512; December 31 for the annual SDIRA value attestation and for the cross-border year-end position; and the peak-value date within a calendar or tax year for FBAR and Form 8938 reporting, where the maximum value during the year rather than the year-end balance is the reported figure. Every engagement designates the individual who will sign, documents that individual's education and experience in valuing the type of property under Regulation Section 1.170A-17(b)(4), builds the dated holdings reconstruction and price-source hierarchy the reporting date requires, and states the assumptions and limiting conditions that make the conclusion testable by a third party.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal and Cross-Border Valuation Attestation under USPAP Standards 7, 9, and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "Tax Attorneys",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Donors",
+          "Trustees",
+          "Executors",
+          "Wealth Managers",
+          "SDIRA Custodians",
+          "Litigation Counsel"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Cross-Border Digital Asset Reporting Valuation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "FBAR Maximum Account Value Reconstruction and Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 8938 Maximum Fair Market Value Determination for Specified Foreign Financial Assets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Peak-Value Dating and Price-Source Hierarchy Development for Volatile Digital Assets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transfer-Netting Schedule Preparation for Multi-Venue Foreign Account Aggregation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Illiquid and Restricted Digital Asset Valuation Methodology Memorandum"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Form 3520 Foreign Gift and Form 3520-A Foreign Trust Asset Valuation Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal and Form 8283 Section B Support for Charitable Contributions of Foreign-Custodied Digital Assets"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Delinquent Foreign Account Reporting Valuation Support and Reasonable Cause Documentation"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
