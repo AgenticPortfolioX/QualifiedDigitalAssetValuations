@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-11-13-foreign-digital-asset-accounts-fbar-form-8938-peak-value-valuation",
+    "title": "Digital Assets Across the Border: FinCEN Notice 2020-2, the FBAR Peak-Value Rule, Form 8938's Threshold Ladder, and the Valuation Evidence Both Regimes Demand",
+    "excerpt": "Two reporting regimes reach the same offshore digital asset position and disagree about almost everything: threshold, valuation date, penalty architecture, and whether cryptocurrency counts at all. This analysis works through FinCEN Notice 2020-2, the FBAR maximum-value rule, Form 8938's four threshold tiers, the penalty stack under 31 U.S.C. Section 5321(a)(5) and IRC Sections 6038D and 6662(j), the Form 3520 gift and trust perimeter, and the evidence file a peak value requires.",
+    "author": "QDAV",
+    "date": "2026-11-13",
+    "description": "Two reporting regimes reach the same offshore digital asset position and disagree about almost everything: threshold, valuation date, penalty architecture, and whether cryptocurrency counts at all. This analysis works through FinCEN Notice 2020-2, the FBAR maximum-value rule, Form 8938's four threshold tiers, the penalty stack under 31 U.S.C. Section 5321(a)(5) and IRC Sections 6038D and 6662(j), the Form 3520 gift and trust perimeter, and the evidence file a peak value requires.",
+    "category": "QDAV",
+    "image": "/blog/2026-11-13-foreign-digital-asset-accounts-fbar-form-8938-peak-value-valuation/feature_image.png",
+    "path": "/blog/2026-11-13-foreign-digital-asset-accounts-fbar-form-8938-peak-value-valuation/final.md",
+    "schema": "/blog/2026-11-13-foreign-digital-asset-accounts-fbar-form-8938-peak-value-valuation/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-10-qualified-appraiser-seven-tests-section-6695a-appraiser-penalty",
     "title": "The Qualified Appraiser Is a Term of Art: Treasury Regulation Section 1.170A-17(b)'s Two Credentialing Pathways, the Verifiable-Education Declaration the Preamble Refused to Waive, the Statutory Independence Tests, and the Section 6695A Appraiser Penalty That Runs on Its Own Three-Year Clock",
     "excerpt": "A qualified appraiser is a defined term under IRC Section 170(f)(11)(E), not a description of someone with relevant experience. This analysis works through Treasury Regulation Section 1.170A-17(b)'s two credentialing pathways, the type-of-property test as applied to bitcoin, NFTs, and DeFi positions, the six statutory exclusions, and the Section 6695A penalty the appraiser personally answers for.",
