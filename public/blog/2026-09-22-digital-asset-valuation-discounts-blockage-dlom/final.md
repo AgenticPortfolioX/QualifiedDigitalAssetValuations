@@ -228,6 +228,6 @@ That is the standard QDAV applies to every engagement involving a concentrated, 
 
 **QDAV — Qualified Digital Asset Valuations** provides USPAP-compliant qualified appraisals for cryptocurrency, NFT, and complex digital asset holdings for tax, estate, and charitable contribution purposes. Serving high-net-worth individuals, estate attorneys, CPAs, trustees, and donors across Metro Detroit, Wayne, Oakland, and Genesee Counties.
 
-Contact: appraisal@qdav.mba | (248) 955-1491 | 2711 Williamsburg Cir., Auburn Hills, MI 48326 | https://qdav.mba
+Contact: appraisal@qdav.mba | (248) 313-8955 | 2711 Williamsburg Cir., Auburn Hills, MI 48326 | https://qdav.mba
 
 *This article is provided for educational purposes and does not constitute tax, legal, or accounting advice. Valuation discounts for digital assets are fact-specific and should be determined with the taxpayer's attorney and CPA. Statutory thresholds, regulatory text, and case authority should be confirmed against the Internal Revenue Code, the Treasury Regulations, and current guidance for the year of the transaction. The FTX decision discussed above arose in a bankruptcy claim estimation and is cited for its evidentiary reasoning, not as tax authority.*

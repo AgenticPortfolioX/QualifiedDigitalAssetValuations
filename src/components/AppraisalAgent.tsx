@@ -72,7 +72,7 @@ const KNOWLEDGE_BASE = [
   },
   {
     triggers: ["contact", "phone", "email", "call", "human", "speak"],
-    answer: "You can reach our appraisal team directly by phone at (248) 955-1491 or via email at appraisal@qdav.mba. We're based in the US and respond promptly.",
+    answer: "You can reach our appraisal team directly by phone at (248) 313-8955 or via email at appraisal@qdav.mba. We're based in the US and respond promptly.",
     actionText: "Submit Appraisal Scope",
     actionView: "quote"
   }
@@ -220,8 +220,8 @@ export default function AppraisalAgent({ setView }: AppraisalAgentProps) {
 
             {/* Quick Contact Bar */}
             <div className="bg-gray-50 border-b border-gray-100 px-4 py-2 flex items-center justify-between text-[11px] text-gray-600">
-              <a href="tel:2489551491" className="flex items-center gap-1 hover:text-accent-blue font-semibold">
-                <Phone className="w-3 h-3 text-accent-blue" /> (248) 955-1491
+              <a href="tel:2483138955" className="flex items-center gap-1 hover:text-accent-blue font-semibold">
+                <Phone className="w-3 h-3 text-accent-blue" /> (248) 313-8955
               </a>
               <span className="text-gray-300">|</span>
               <a href="mailto:appraisal@qdav.mba" className="flex items-center gap-1 hover:text-accent-blue font-semibold">
@@ -306,3 +306,4 @@ export default function AppraisalAgent({ setView }: AppraisalAgentProps) {
     </div>
   );
 }
+

@@ -263,7 +263,7 @@ A USPAP-compliant qualified appraisal prepared by a qualified appraiser serves m
 
 Taxpayers who treat a qualified appraisal as an integral component of their tax compliance strategy — rather than a reactive measure after receiving an IRS notice — are best positioned to withstand IRS scrutiny and avoid the substantial penalties that accompany valuation misstatements.
 
-At Qualified Digital Asset Valuations (QDAV), we prepare USPAP Compliant qualified appraisals for cryptocurrencies, NFTs, and complex digital assets. Our appraisals are prepared in accordance with USPAP Standards 7 and 9 by IRS-qualified appraisers employing defensible data and thorough valuation methodology, and they are designed to provide the audit defense our clients require. For a consultation regarding your digital asset valuation needs, contact us at (248) 955-1491 or visit qdav.mba.
+At Qualified Digital Asset Valuations (QDAV), we prepare USPAP Compliant qualified appraisals for cryptocurrencies, NFTs, and complex digital assets. Our appraisals are prepared in accordance with USPAP Standards 7 and 9 by IRS-qualified appraisers employing defensible data and thorough valuation methodology, and they are designed to provide the audit defense our clients require. For a consultation regarding your digital asset valuation needs, contact us at (248) 313-8955 or visit qdav.mba.
 
 ---
 

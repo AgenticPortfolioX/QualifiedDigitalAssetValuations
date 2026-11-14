@@ -8,6 +8,7 @@ import { Loader2 } from "lucide-react";
 import blogPostsRaw from "./data/blog-posts.json";
 import { BlogPost } from "./types";
 import AppraisalAgent from "./components/AppraisalAgent";
+import { trackPageView } from "./utils/analytics";
 
 const blogPosts = blogPostsRaw as BlogPost[];
 
@@ -21,6 +22,7 @@ const AboutPage = React.lazy(() => import("./pages/AboutPage"));
 const ScopeServicesPage = React.lazy(() => import("./pages/ScopeServicesPage"));
 const ComplianceHub = React.lazy(() => import("./pages/ComplianceHub"));
 const QuoteWorkflow = React.lazy(() => import("./pages/QuoteWorkflow"));
+const ConfirmationPage = React.lazy(() => import("./pages/ConfirmationPage"));
 
 function LoadingSpinner() {
   return (
@@ -31,15 +33,16 @@ function LoadingSpinner() {
 }
 
 export default function App() {
-  const [viewState, setViewState] = useState<"home" | "compliance" | "about" | "quote" | "scope" | "blog" | "blog-post" | "compliance-links" | "privacy" | "terms">("home");
+  const [viewState, setViewState] = useState<"home" | "compliance" | "about" | "quote" | "confirmation" | "scope" | "blog" | "blog-post" | "compliance-links" | "privacy" | "terms">("home");
   const [selectedPostId, setSelectedPostId] = useState<string | null>(null);
 
   useEffect(() => {
     const handleHashChange = () => {
-      const hash = window.location.hash.replace('#', '');
+      const rawHash = window.location.hash;
+      const hash = rawHash.replace('#', '');
       const [viewName, postId] = hash.split('/');
       
-      const validViews = ["home", "compliance", "about", "quote", "scope", "blog", "blog-post", "compliance-links", "privacy", "terms"];
+      const validViews = ["home", "compliance", "about", "quote", "confirmation", "scope", "blog", "blog-post", "compliance-links", "privacy", "terms"];
       
       if (validViews.includes(viewName)) {
         setViewState(viewName as any);
@@ -52,11 +55,16 @@ export default function App() {
       } else {
         setViewState("home");
       }
+
+      // Track SPA pageview in Google Analytics
+      trackPageView(rawHash || "#home");
     };
 
     window.addEventListener("hashchange", handleHashChange);
     if (window.location.hash) {
       handleHashChange();
+    } else {
+      trackPageView("#home");
     }
     
     return () => window.removeEventListener("hashchange", handleHashChange);
@@ -71,7 +79,9 @@ export default function App() {
 
   let content = null;
 
-  if (view === "privacy") {
+  if (view === "confirmation") {
+    content = <ConfirmationPage onBack={() => setView("home")} setView={setView} />;
+  } else if (view === "privacy") {
     content = <PrivacyPolicyPage onBack={() => setView("home")} setView={setView} />;
   } else if (view === "terms") {
     content = <TermsOfServicePage onBack={() => setView("home")} setView={setView} />;

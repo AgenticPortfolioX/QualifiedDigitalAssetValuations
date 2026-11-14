@@ -46,5 +46,5 @@
 
 - **Category = brand name** ("QDAV"), NOT pillar name — required for site category filtering.
 - Post targets Pillar 7 (Estate Administration & Fiduciary Duties). Companion artifacts: research at `research/serp_keyword_research_2026-09-01.md`; GEO audit at `analytics/performance_reports/seo_audit_2026-09-01.md`.
-- Contact block uses (248) 955-1491 and appraisal@qdav.mba per brand canonical.
+- Contact block uses (248) 313-8955 and appraisal@qdav.mba per brand canonical.
 - No follow-up edits expected; content is evergreen but references 2026 figures (e.g., $15M federal exemption) — review annually for inflation-adjusted exemption changes.

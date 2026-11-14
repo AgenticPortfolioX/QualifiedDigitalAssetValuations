@@ -401,5 +401,5 @@ At Qualified Digital Asset Valuations (QDAV), every appraisal we produce is full
 
 **QDAV | Qualified Digital Asset Valuations**
 2711 Williamsburg Cir. | Auburn Hills, MI 48326
-(248) 955-1491 | appraisal@udav.mba
+(248) 313-8955 | appraisal@udav.mba
 https://qdav.mba

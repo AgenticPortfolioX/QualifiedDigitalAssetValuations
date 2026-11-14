@@ -229,7 +229,7 @@ The self-directed IRA is one of the few structures that allows a retirement acco
 
 QDAV (Qualified Digital Asset Valuations) provides USPAP Compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets held in self-directed IRAs, estates, trusts, and charitable giving — built on qualified-appraiser credentials and fair market value determination that survives IRS scrutiny. The annual attestation does not have to be the most stressful email of your year; it can be the most routine one, if the value behind it rests on defensible data.
 
-**Contact QDAV at (248) 955-1491 or appraisal@qdav.mba to schedule a USPAP Compliant qualified appraisal for your SDIRA's digital asset holdings.**
+**Contact QDAV at (248) 313-8955 or appraisal@qdav.mba to schedule a USPAP Compliant qualified appraisal for your SDIRA's digital asset holdings.**
 
 ---
 

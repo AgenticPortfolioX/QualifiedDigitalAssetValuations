@@ -300,7 +300,7 @@ The consequences of non-compliance are severe — complete deduction disallowanc
 
 Donating cryptocurrency to charity is a generous and tax-advantaged strategy. But the tax advantage depends entirely on compliance with the substantiation requirements. A USPAP-compliant qualified appraisal from a qualified appraiser is not a formality — it is the legal foundation of your deduction.
 
-If you are planning a cryptocurrency charitable donation and need a qualified appraisal, contact Qualified Digital Asset Valuations (QDAV) at (248) 955-1491 or appraisal@qdav.mba.
+If you are planning a cryptocurrency charitable donation and need a qualified appraisal, contact Qualified Digital Asset Valuations (QDAV) at (248) 313-8955 or appraisal@qdav.mba.
 
 ---
 

@@ -21,9 +21,15 @@
   </url>
   <url>
     <loc>https://qdav.mba/#quote</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://qdav.mba/#confirmation</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://qdav.mba/#about</loc>
@@ -112,3 +118,4 @@
     <priority>0.80</priority>
   </url>
 </urlset>
+

@@ -254,7 +254,7 @@ Qualified Digital Asset Valuations provides USPAP-compliant, IRS-qualified appra
 
 **We serve estate attorneys, CPAs, fiduciaries, and beneficiaries who need valuation reports that withstand IRS examination.**
 
-For a consultation on your digital asset estate valuation needs, contact QDAV at (248) 955-1491 or appraisal@qdav.mba.
+For a consultation on your digital asset estate valuation needs, contact QDAV at (248) 313-8955 or appraisal@qdav.mba.
 
 ---
 

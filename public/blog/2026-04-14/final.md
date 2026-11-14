@@ -301,7 +301,7 @@ For self-directed IRA holders with cryptocurrency, the question is no longer whe
 
 ---
 
-*Qualified Digital Asset Valuations (QDAV) provides USPAP-compliant, IRS-qualified appraisals for cryptocurrency, NFTs, and complex digital assets. Contact us at (248) 955-1491 or appraisal@qdav.mba to discuss your SDIRA valuation requirements.*
+*Qualified Digital Asset Valuations (QDAV) provides USPAP-compliant, IRS-qualified appraisals for cryptocurrency, NFTs, and complex digital assets. Contact us at (248) 313-8955 or appraisal@qdav.mba to discuss your SDIRA valuation requirements.*
 
 ---
 

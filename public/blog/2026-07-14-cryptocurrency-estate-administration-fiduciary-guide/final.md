@@ -367,7 +367,7 @@ A USPAP-compliant qualified appraisal should be obtained when:
 
 QDAV provides USPAP-compliant, IRS-qualified appraisals for cryptocurrency, NFT, and complex digital asset holdings for estate, tax, and fiduciary purposes. Our appraisers meet the qualified appraiser requirements under Treasury Circular 230 and have demonstrated competency in digital asset valuation under USPAP Standards 7 and 9. We serve estate attorneys, trustees, executors, CPAs, and family offices throughout the United States.
 
-For a consultation regarding digital asset valuation requirements for an estate engagement, contact us at (248) 955-1491 or appraisal@qdav.mba.
+For a consultation regarding digital asset valuation requirements for an estate engagement, contact us at (248) 313-8955 or appraisal@qdav.mba.
 
 ---
 

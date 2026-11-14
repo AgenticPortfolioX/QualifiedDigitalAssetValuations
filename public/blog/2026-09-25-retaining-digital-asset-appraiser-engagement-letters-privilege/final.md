@@ -244,6 +244,6 @@ QDAV scopes digital asset appraisal engagements by the obligation the report mus
 
 Qualified Digital Asset Valuations (QDAV)
 Auburn Hills, Michigan — serving Metro Detroit, Wayne, Oakland, and Genesee Counties
-(248) 955-1491 | appraisal@qdav.mba | https://qdav.mba
+(248) 313-8955 | appraisal@qdav.mba | https://qdav.mba
 
 *This article is educational and does not constitute legal or tax advice. Engagement structures for specific matters should be reviewed with qualified counsel. Defensible data and a defensible engagement are the same standard applied to different parts of the same file.*

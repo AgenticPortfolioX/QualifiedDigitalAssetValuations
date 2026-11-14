@@ -1,7 +1,7 @@
 # Qualified Digital Asset Valuations (QDAV) — Extended Knowledge Base
 Official Documentation & AI Knowledge Graph Reference
 URL: https://qdav.mba/
-Contact: appraisal@qdav.mba | (248) 955-1491
+Contact: appraisal@qdav.mba | (248) 313-8955
 
 ## About Renowned Value Restoration LLC / QDAV
 Qualified Digital Asset Valuations (QDAV), a DBA of Renowned Value Restoration LLC, is an independent appraisal and valuation practice specializing exclusively in digital assets, blockchain tokens, DeFi liquidity instruments, and NFTs. The practice serves private clients, estate executors, corporate donors, non-profit organizations, family offices, and legal/accounting professionals nationwide across the United States.
@@ -28,3 +28,4 @@ Qualified Digital Asset Valuations (QDAV), a DBA of Renowned Value Restoration L
 - Online Appraisal Intake: https://qdav.mba/#quote
 - Security & Privacy Promise: https://qdav.mba/#about
 - Compliance Hub & Regulatory Precedents: https://qdav.mba/#compliance
+

@@ -279,4 +279,4 @@ A qualified, USPAP-compliant appraisal does more than assign a number. It constr
 
 ---
 
-*Qualified Digital Asset Valuations (QDAV) provides USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and digital assets. With practice centered in Auburn Hills, Michigan, QDAV serves clients nationwide. Contact us at (248) 955-1491 or visit qdav.mba for more information.*
+*Qualified Digital Asset Valuations (QDAV) provides USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and digital assets. With practice centered in Auburn Hills, Michigan, QDAV serves clients nationwide. Contact us at (248) 313-8955 or visit qdav.mba for more information.*

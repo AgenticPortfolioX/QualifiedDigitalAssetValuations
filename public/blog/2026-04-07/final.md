@@ -225,7 +225,7 @@ Yes. SDIRAs are subject to the same audit authority as any other retirement acco
 
 ### How much does a professional crypto appraisal cost?
 
-Appraisal costs vary based on the complexity and number of assets. QDAV provides transparent pricing for each engagement. Contact us at (248) 955-1491 or appraisal@qdav.mba for a consultation and estimate. The cost is typically a small percentage of the value being protected.
+Appraisal costs vary based on the complexity and number of assets. QDAV provides transparent pricing for each engagement. Contact us at (248) 313-8955 or appraisal@qdav.mba for a consultation and estimate. The cost is typically a small percentage of the value being protected.
 
 ### What is the difference between a crypto appraisal and a crypto tax report?
 
@@ -243,7 +243,7 @@ If you hold cryptocurrency in a self-directed IRA and have not obtained a USPAP-
 
 **Contact QDAV to schedule your qualified digital asset appraisal:**
 
-- **Phone:** (248) 955-1491
+- **Phone:** (248) 313-8955
 - **Email:** appraisal@qdav.mba
 - **Office:** 2711 Williamsburg Cir, Auburn Hills, MI 48326
 - **Website:** https://qdav.mba

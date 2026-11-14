@@ -350,7 +350,7 @@ Yet the enhanced reporting environment does not eliminate — and in many respec
 
 At Qualified Digital Asset Valuations (QDAV), our team of qualified appraisers provides USPAP-compliant valuation services for the full spectrum of digital assets — from liquid cryptocurrencies to illiquid NFTs, complex DeFi positions, and multi-wallet portfolios. Our clinical, standards-based approach ensures that every appraisal we deliver meets the strict requirements of the IRS, the Treasury Department, and the Uniform Standards of Professional Appraisal Practice.
 
-*For more information about qualified appraisals for digital asset cost basis documentation, estate planning, charitable contributions, gift tax reporting, or SDIRA compliance, contact QDAV at (248) 955-1491 or visit qdav.mba.*
+*For more information about qualified appraisals for digital asset cost basis documentation, estate planning, charitable contributions, gift tax reporting, or SDIRA compliance, contact QDAV at (248) 313-8955 or visit qdav.mba.*
 
 ---
 

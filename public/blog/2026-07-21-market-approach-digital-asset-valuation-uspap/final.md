@@ -410,6 +410,6 @@ Self-directed IRA custodians require annual qualified appraisals of digital asse
 
 *Qualified Digital Asset Valuations (QDAV) provides USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets. Our engagement team includes qualified appraisers under IRC Section 170(f)(11) with expertise in USPAP Standards 7 and 9, blockchain data analysis, and digital asset valuation methodology.*
 
-*Contact QDAV: (248) 955-1491 | appraisal@udav.mba | 2711 Williamsburg Cir., Auburn Hills, MI 48326*
+*Contact QDAV: (248) 313-8955 | appraisal@udav.mba | 2711 Williamsburg Cir., Auburn Hills, MI 48326*
 
 *Disclaimer: This article is for informational purposes and does not constitute appraisal advice, tax advice, or legal advice. A formal engagement with a qualified appraiser is required to obtain a USPAP-compliant qualified appraisal for IRS purposes. The authors are not CPAs or attorneys, and readers should consult qualified tax and legal professionals regarding their specific circumstances.*

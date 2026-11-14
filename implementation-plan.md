@@ -1,7 +1,7 @@
-# Implementation Plan: QDAV Website Review, Customer Acquisition, SEO & AEO Strategy
+# Implementation Plan: Phone Update, Google Analytics & Confirmation Funnel
 
 **Status Board: Antigravity Orchestrator (Gemini 3.8 Flash)**
-- **Current Task**: Implementation of Traditional SEO, AEO Standards & On-Site AI Appraisal Assistant + Buzz CRO Report Delivery
+- **Current Task**: Updating phone number to 248-313-8955, implementing Google Analytics 4 tracking + ad conversion events, creating dedicated customer funnel confirmation URL (`#confirmation`), and deploying live.
 - **Assigned Agent**: Antigravity Full-Stack & Growth Architect
 - **Current Completion Status**: 100% Complete & Live
 
@@ -9,28 +9,29 @@
 
 ## Step-by-Step Checklist
 
-- [x] **Phase 1: Deep Codebase & Asset Review**
-  - [x] Audit site structure (`index.html`, `App.tsx`, `HomePage.tsx`, `QuoteWorkflow.tsx`, `AboutPage.tsx`, `ScopeServicesPage.tsx`, `ComplianceHub.tsx`).
-  - [x] Audit SEO assets (`robots.txt`, `sitemap.xml`, OpenGraph tags, schema).
-  - [x] Audit blog infrastructure (`public/blog/`, `blog_blueprint.md`, JSON-LD schemas).
-  - [x] Audit conversion paths and quote workflow.
+- [x] **Phase 1: Customer Funnel Confirmation URL & Page**
+  - [x] Create dedicated `src/pages/ConfirmationPage.tsx` with clear submission confirmation, next steps, and instant GA4 conversion event firing.
+  - [x] Add `#confirmation` route to `src/App.tsx`.
+  - [x] Update `src/pages/QuoteWorkflow.tsx` to redirect / set view to `confirmation` upon successful Formspree submission, giving a permanent URL: `https://qdav.mba/#confirmation`.
+  - [x] Add `https://qdav.mba/#confirmation` to `public/sitemap.xml`.
 
-- [x] **Phase 2: Buzz CRO Report Delivery (Channel: QDAV-Business)**
-  - [x] Identify Buzz relay (`https://gramsagency.communities.buzz.xyz`) and private key.
-  - [x] Identify QDAV-Business channel UUID (`f067eec0-68e0-4302-b24d-287df114cd4d`).
-  - [x] Deliver comprehensive Conversion Rate Optimization & Client Acquisition Report to `#QDAV-Business` channel.
+- [x] **Phase 2: Comprehensive Phone Number Update (248-313-8955)**
+  - [x] Update `index.html` (Schema.org `"telephone": "+1-248-313-8955"`).
+  - [x] Update `src/components/AppraisalAgent.tsx` (call links, text, and FAQ answers).
+  - [x] Update `src/pages/HomePage.tsx` (footer phone link).
+  - [x] Update `src/pages/AboutPage.tsx` (contact section phone).
+  - [x] Update `src/pages/QuoteWorkflow.tsx` (placeholder and text).
+  - [x] Update `src/pages/TermsOfServicePage.tsx` (SMS consent HELP/STOP numbers).
+  - [x] Update `public/llms.txt` and `public/llms-full.txt`.
+  - [x] Update all blog markdown and schema files in `public/blog/`.
 
-- [x] **Phase 3: Traditional Search Engine Optimization (SEO)**
-  - [x] Create `public/robots.txt` with crawl directives for search engines and modern AI bots.
-  - [x] Create `public/sitemap.xml` mapping all core site views and 9 published blog articles.
-  - [x] Add comprehensive Root-Level Schema.org JSON-LD (`FinancialService`, `ProfessionalService`, `FAQPage`) to `index.html`.
+- [x] **Phase 3: Google Analytics 4 (GA4) & Advertising Conversion Tracking**
+  - [x] Create `src/utils/analytics.ts` for standardized GA4 event dispatching (`page_view`, `generate_lead`, `conversion`, `form_start`, `click_to_call`, `click_to_email`).
+  - [x] Inject Google Tag (`gtag.js`) into `index.html` with support for `VITE_GA_MEASUREMENT_ID` and fallback configuration.
+  - [x] Track SPA hash-based route changes automatically.
+  - [x] Fire `generate_lead` and advertising `conversion` events when customers submit the appraisal quote or load `#confirmation`.
 
-- [x] **Phase 4: AEO (Answer Engine Optimization) & AI Agents**
-  - [x] Deploy `public/llms.txt` and `public/llms-full.txt` (the standard for Perplexity, ChatGPT Search, Claude, and Gemini citations).
-  - [x] Add Question-Answer Entity Schema for direct citation extraction.
-  - [x] Build and integrate an on-site **AI Appraisal Agent** (`src/components/AppraisalAgent.tsx` floating assistant widget that answers IRS/appraisal questions, assists visitors, and preserves the current site layout untouched).
-
-- [x] **Phase 5: Local Testing, Browser Verification & Live Deployment**
-  - [x] Verify clean TypeScript build (`npm run build`).
-  - [x] Test endpoints in browser / local server (`robots.txt`, `sitemap.xml`, `llms.txt`, floating AI widget).
-  - [x] Commit changes and push to GitHub `origin/main` to trigger live GitHub Pages deployment.
+- [x] **Phase 4: Build Verification, Browser Testing & Live Deployment**
+  - [x] Run `npm run build` to verify clean build without TypeScript errors.
+  - [x] Verify rendered DOM and confirmation page.
+  - [x] Commit and push changes to GitHub `origin/main` for automatic GitHub Pages deployment.

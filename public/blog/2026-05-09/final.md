@@ -218,5 +218,5 @@ At Qualified Digital Asset Valuations (QDAV), we specialize in providing IRS-qua
 
 **Qualified Digital Asset Valuations (QDAV)**  
 2711 Williamsburg Cir, Auburn Hills, MI 48326  
-(248) 955-1491 | appraisal@qdav.mba  
+(248) 313-8955 | appraisal@qdav.mba  
 https://qdav.mba

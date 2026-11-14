@@ -289,7 +289,7 @@ Every appraisal we produce meets the requirements of:
 Our service area includes Metro Detroit — Wayne, Oakland, and Genesee Counties — with remote capability for clients nationwide.
 
 **Contact QDAV:**
-- Phone: (248) 955-1491
+- Phone: (248) 313-8955
 - Email: appraisal@udav.mba
 - Web: [qdav.mba](https://qdav.mba)
 

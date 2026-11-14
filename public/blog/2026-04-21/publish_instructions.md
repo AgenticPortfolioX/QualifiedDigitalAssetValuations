@@ -67,4 +67,4 @@ Full guide: [LINK]
 - Link to QDAV service pages for estate valuations
 
 ## Call to Action
-End-of-post CTA directs readers to contact QDAV at (248) 955-1491 or appraisal@qdav.mba for estate valuation consultations.
+End-of-post CTA directs readers to contact QDAV at (248) 313-8955 or appraisal@qdav.mba for estate valuation consultations.

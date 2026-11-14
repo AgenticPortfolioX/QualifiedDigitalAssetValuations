@@ -256,7 +256,7 @@ AO-41 requires appraisers to take reasonable steps to ensure that entering confi
 
 Qualified Digital Asset Valuations (QDAV), a division of Renowned Value Restoration LLC, is a USPAP-compliant appraisal firm specializing in the valuation of cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes. Based in Auburn Hills, Michigan, and serving clients throughout Metro Detroit and nationwide, QDAV provides IRS-qualified appraisals that meet the stringent standards of Treasury regulations, including the requirements of Section 170 of the Internal Revenue Code.
 
-Our appraisal methodology integrates professional valuation standards with blockchain data analysis, ensuring that every opinion of value is supported by defensible evidence and rigorous methodology. Contact us at (248) 955-1491 or visit qdav.mba to schedule a consultation.
+Our appraisal methodology integrates professional valuation standards with blockchain data analysis, ensuring that every opinion of value is supported by defensible evidence and rigorous methodology. Contact us at (248) 313-8955 or visit qdav.mba to schedule a consultation.
 
 **Disclaimer:** This article is for informational purposes and does not constitute legal or tax advice. Consult with your tax professional regarding your specific circumstances.
 

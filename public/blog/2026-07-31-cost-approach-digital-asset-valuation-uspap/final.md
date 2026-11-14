@@ -230,4 +230,4 @@ A qualified appraisal is required for charitable contributions exceeding $5,000 
 
 ---
 
-*Qualified Digital Asset Valuations (QDAV) provides USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets — serving high-net-worth individuals, estate attorneys, CPAs, and self-directed IRA holders nationwide from Metro Detroit. For a consultation, call (248) 955-1491 or email appraisal@udav.mba.*
+*Qualified Digital Asset Valuations (QDAV) provides USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets — serving high-net-worth individuals, estate attorneys, CPAs, and self-directed IRA holders nationwide from Metro Detroit. For a consultation, call (248) 313-8955 or email appraisal@udav.mba.*

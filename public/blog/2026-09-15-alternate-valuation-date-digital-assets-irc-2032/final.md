@@ -187,7 +187,7 @@ Section 2032 gives an executor one lever for a portfolio that falls after death,
 
 Both answers require the same thing: two dates, one methodology, and a documented record of what was held when and what it was worth.
 
-If you are advising an executor on a digital asset estate, or administering one, contact QDAV at (248) 955-1491 or visit [qdav.mba](https://qdav.mba) to discuss a dual-date appraisal engagement. Engagements can be opened on the date of death and held open through the alternate valuation date so the executor has both columns of the return with time to spare.
+If you are advising an executor on a digital asset estate, or administering one, contact QDAV at (248) 313-8955 or visit [qdav.mba](https://qdav.mba) to discuss a dual-date appraisal engagement. Engagements can be opened on the date of death and held open through the alternate valuation date so the executor has both columns of the return with time to spare.
 
 ---
 

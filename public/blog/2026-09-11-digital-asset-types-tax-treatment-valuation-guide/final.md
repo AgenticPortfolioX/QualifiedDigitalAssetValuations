@@ -274,6 +274,6 @@ For attorneys, CPAs, fiduciaries, and holders of significant positions, the prac
 
 **Qualified Digital Asset Valuations** provides USPAP Compliant digital asset appraisals for tax, estate, gift, charitable contribution, and audit-defense purposes — including asset-class-specific engagements for stablecoins, NFTs, and locked or vested tokens requiring discount support. Serving Metro Detroit and clients nationally.
 
-**Schedule a qualified appraisal engagement:** (248) 955-1491 | appraisal@udav.mba | qdav.mba
+**Schedule a qualified appraisal engagement:** (248) 313-8955 | appraisal@udav.mba | qdav.mba
 
 *This article is provided for educational purposes and does not constitute tax, legal, or accounting advice. Valuation conclusions depend on the specific facts and circumstances of each engagement. Consult a qualified professional regarding your situation.*

@@ -359,4 +359,4 @@ For attorneys and CPAs, the document package is also a client-service opportunit
 
 At QDAV, we are a USPAP-compliant appraisal firm specializing in digital assets. We prepare qualified appraisals for estates, gifts, charitable contributions, SDIRA attestations, and audit defense — and we work closely with the attorneys, CPAs, and trust officers who bring us their clients. If you are preparing a client for a digital asset appraisal, we can provide the document request, review the package, and deliver a valuation built on Defensible Data.
 
-*Contact QDAV at (248) 955-1491 or visit https://qdav.mba to discuss an engagement.*
+*Contact QDAV at (248) 313-8955 or visit https://qdav.mba to discuss an engagement.*

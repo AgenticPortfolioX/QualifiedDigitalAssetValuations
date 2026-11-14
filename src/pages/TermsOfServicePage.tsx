@@ -100,14 +100,14 @@ export default function TermsOfServicePage({ onBack, setView }: { onBack: () => 
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">4. Support (HELP)</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    For support, text <span className="font-bold">HELP</span> to (248) 955-1491 or email support@qdav.mba.
+                    For support, text <span className="font-bold">HELP</span> to (248) 313-8955 or email support@qdav.mba.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">5. Opt-Out (STOP)</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    You may opt-out at any time by texting <span className="font-bold">STOP</span> to (248) 955-1491.
+                    You may opt-out at any time by texting <span className="font-bold">STOP</span> to (248) 313-8955.
                   </p>
                 </div>
 

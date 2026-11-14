@@ -38,7 +38,7 @@ Before publishing, confirm:
 - [ ] The JSON parses without error (validate at `https://validator.schema.org`).
 - [ ] `Article.datePublished` reads `2026-09-15`.
 - [ ] `Article.image` resolves at `https://qdav.mba/assets/images/2026-09-15-alternate-valuation-date-digital-assets-irc-2032/feature_image.png` — upload the featured image to that path.
-- [ ] The telephone number in `LocalBusiness` reads `(248) 955-1491`.
+- [ ] The telephone number in `LocalBusiness` reads `(248) 313-8955`.
 - [ ] The `Service.description` digital asset terms are not truncated.
 
 ## 4. URL and metadata

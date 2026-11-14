@@ -177,7 +177,7 @@ export default function AboutPage({ onBack, onStart, setView }: { onBack: () => 
           </div>
           <h3 className="text-4xl font-black text-gray-900 tracking-tighter">Contact & Support</h3>
           <div className="space-y-4">
-            <p className="text-2xl font-black text-accent-blue">(248) 955-1491</p>
+            <p className="text-2xl font-black text-accent-blue">(248) 313-8955</p>
             <p className="text-gray-500 font-medium max-w-lg mx-auto">
               By providing your phone number, you are consenting to receive text messages from Qualified Digital Asset Valuations. You can opt-out at any time by texting <span className="font-bold">STOP</span>. For help, text <span className="font-bold">HELP</span>. Message and data rates may apply. Message frequency varies. Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes.
             </p>

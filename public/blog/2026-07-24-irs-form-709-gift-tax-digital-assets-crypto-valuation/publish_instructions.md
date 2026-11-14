@@ -40,5 +40,5 @@
 
 ## CTA
 
-Primary: "Contact QDAV for a USPAP-compliant gift tax valuation at (248) 955-1491"
+Primary: "Contact QDAV for a USPAP-compliant gift tax valuation at (248) 313-8955"
 Secondary: "Visit https://qdav.mba to schedule a consultation"

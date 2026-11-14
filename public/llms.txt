@@ -7,7 +7,7 @@
 - **Primary Domain of Practice**: Professional valuation and formal qualified appraisals for virtual currencies, blockchain assets, tokens, staking positions, and non-fungible tokens (NFTs).
 - **Statutory Authority**: IRS Qualified Appraiser status under Internal Revenue Code (IRC) Section 170(f)(11) and Treasury Regulation § 1.170A-17.
 - **Appraisal Standards**: Fully compliant with the Uniform Standards of Professional Appraisal Practice (USPAP) Standards 7 (Personal Property Development) and 8/9 (Personal Property Reporting).
-- **Telephone**: (248) 955-1491
+- **Telephone**: (248) 313-8955
 - **Email**: appraisal@qdav.mba
 
 ## Primary Service Offerings
@@ -49,7 +49,7 @@ A: No. Under Treasury Regulation § 1.170A-17 and IRS CCA 202302012, cryptocurre
 A: Standard institutional appraisals are completed within 48 to 72 hours following receipt of verified public wallet records and transaction data. Expedited 24-hour delivery is available for urgent tax filing deadlines.
 
 **Q: Where can clients or CPAs request an appraisal or engagement letter?**
-A: Quotes can be initiated online at https://qdav.mba/#quote or by contacting appraisal@qdav.mba or (248) 955-1491.
+A: Quotes can be initiated online at https://qdav.mba/#quote or by contacting appraisal@qdav.mba or (248) 313-8955.
 
 ## Published Guides and Research
 - Digital Asset Tax Compliance in 2026: Form 1099-DA & Qualified Appraisals: https://qdav.mba/#blog-post/2026-05-09
@@ -57,3 +57,4 @@ A: Quotes can be initiated online at https://qdav.mba/#quote or by contacting ap
 - IRS Crypto Appraisal Requirements: Form 8283 Compliance Guide: https://qdav.mba/#blog-post/2026-04-24-irs-crypto-appraisal-requirements-guide
 - Crypto Estate Tax Valuation & Step-Up Basis (IRC § 1014): https://qdav.mba/#blog-post/2026-04-21
 - SDIRA Crypto Compliance & Form 5498 Valuations: https://qdav.mba/#blog-post/2026-04-07
+

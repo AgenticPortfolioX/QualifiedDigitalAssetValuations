@@ -29,4 +29,4 @@
 
 - No hashtags, no emojis. American English. Institutional Sage tone.
 - Do NOT add internal links to unpublished posts. Existing anchor: brand site qdav.mba, LinkedIn company page, X @qdav_mba.
-- CTA in post: "(248) 955-1491 | appraisal@qdav.mba" — contact per brand identity.
+- CTA in post: "(248) 313-8955 | appraisal@qdav.mba" — contact per brand identity.

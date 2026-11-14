@@ -370,7 +370,7 @@ For estate attorneys and CPAs advising clients with significant digital asset ho
 
 The gift that goes unreported — or the gift whose value is documented by a smartphone screenshot of a Coinbase portfolio — is an invitation to an IRS examination. The gift that is documented with USPAP-compliant methodology, timely filed Form 709, and defensible data is a transfer of wealth that withstands scrutiny.
 
-QDAV (Qualified Digital Asset Valuations) provides USPAP Compliant qualified appraisals for digital asset gifts, trust funding, estate planning, and audit defense. Contact us at (248) 955-1491 or visit https://qdav.mba to schedule a consultation.
+QDAV (Qualified Digital Asset Valuations) provides USPAP Compliant qualified appraisals for digital asset gifts, trust funding, estate planning, and audit defense. Contact us at (248) 313-8955 or visit https://qdav.mba to schedule a consultation.
 
 ---
 

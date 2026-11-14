@@ -609,7 +609,7 @@ The NFT market differs fundamentally from cryptocurrency markets:
 - **Estate tax appraisals:** Custom quote based on complexity
 - **SDIRA annual appraisals:** $250-$750 depending on holdings
 
-Contact QDAV at (248)955-1491 or appraisal@udav.mba for a specific quote tailored to your situation.
+Contact QDAV at (248) 313-8955 or appraisal@udav.mba for a specific quote tailored to your situation.
 
 ---
 
@@ -728,7 +728,7 @@ Cryptocurrency and NFT charitable donations can generate significant tax benefit
 
 **Next steps:**
 
-1. Contact QDAV for a quote: (248)955-1491 or appraisal@udav.mba
+1. Contact QDAV for a quote: (248) 313-8955 or appraisal@udav.mba
 2. Provide wallet addresses and donation details
 3. Receive compliant appraisal within 5-10 business days
 4. Complete Form 8283 with charity's signature
@@ -757,7 +757,7 @@ Cryptocurrency and NFT charitable donations can generate significant tax benefit
 
 **Contact:**  
 📍 2711 Williamsburg Cir, Auburn Hills, MI 48326  
-📞 (248) 955-1491  
+📞 (248) 313-8955  
 📧 appraisal@udav.mba  
 🌐 https://qdav.mba
 

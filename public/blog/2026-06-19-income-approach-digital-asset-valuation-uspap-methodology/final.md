@@ -392,4 +392,4 @@ For estate attorneys, CPAs, SDIRA custodians, and high-net-worth individuals man
 
 ---
 
-*This article provides general information about digital asset valuation methodology and does not constitute a qualified appraisal. QDAV (Qualified Digital Asset Valuations) is a division of Renowned Value Restoration LLC, providing USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset holdings. Contact us at (248) 955-1491 or visit [https://qdav.mba](https://qdav.mba) to discuss your specific valuation requirements.*
+*This article provides general information about digital asset valuation methodology and does not constitute a qualified appraisal. QDAV (Qualified Digital Asset Valuations) is a division of Renowned Value Restoration LLC, providing USPAP-compliant qualified appraisals for cryptocurrency, NFT, and digital asset holdings. Contact us at (248) 313-8955 or visit [https://qdav.mba](https://qdav.mba) to discuss your specific valuation requirements.*
