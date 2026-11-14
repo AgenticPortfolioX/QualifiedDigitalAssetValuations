@@ -52,6 +52,7 @@ A: Standard institutional appraisals are completed within 48 to 72 hours followi
 A: Quotes can be initiated online at https://qdav.mba/#quote or by contacting appraisal@qdav.mba or (248) 313-8955.
 
 ## Published Guides and Research
+- Foreign Digital Assets, FBAR & Form 8938 Peak-Value Valuations: https://qdav.mba/#blog-post/2026-11-13-foreign-digital-asset-accounts-fbar-form-8938-peak-value-valuation
 - Digital Asset Tax Compliance in 2026: Form 1099-DA & Qualified Appraisals: https://qdav.mba/#blog-post/2026-05-09
 - USPAP-Compliant Fair Market Value Methodology for Crypto: https://qdav.mba/#blog-post/2026-05-05
 - IRS Crypto Appraisal Requirements: Form 8283 Compliance Guide: https://qdav.mba/#blog-post/2026-04-24-irs-crypto-appraisal-requirements-guide
