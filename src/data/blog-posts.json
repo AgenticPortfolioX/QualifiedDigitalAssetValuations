@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-11-17-trustee-digital-asset-valuation-prudent-investor-rule-power-to-adjust",
+    "title": "Who Values What a Trustee Holds: The Duty to Marshal Digital Assets, the Michigan Prudent Investor Rule's Treatment of a Concentrated Crypto Position, the Principal-and-Income Adjustment Power That Only Functions With a Valuation, and the Fiduciary Accounting That Turns Volatility Into a Surcharge Claim",
+    "excerpt": "A trustee inherits an asset with no custodian, no statement, and a price that answers only one of three statutory questions. This analysis works through MCL 700.1502 through 700.1509, the diversification default of MCL 700.1504, the impartiality requirement of MCL 555.503, the four conditions and eight prohibitions of the adjustment power at MCL 555.504, the parallel allocations of fiduciary accounting income and distributable net income under IRC Sections 643, 661, 662, and 663(b), and the market-value demand of MCL 700.7814(3).",
+    "author": "QDAV",
+    "date": "2026-11-17",
+    "description": "A trustee inherits an asset with no custodian, no statement, and a price that answers only one of three statutory questions. This analysis works through MCL 700.1502 through 700.1509, the diversification default of MCL 700.1504, the impartiality requirement of MCL 555.503, the four conditions and eight prohibitions of the adjustment power at MCL 555.504, the parallel allocations of fiduciary accounting income and distributable net income under IRC Sections 643, 661, 662, and 663(b), and the market-value demand of MCL 700.7814(3).",
+    "category": "QDAV",
+    "image": "/blog/2026-11-17-trustee-digital-asset-valuation-prudent-investor-rule-power-to-adjust/feature_image.png",
+    "path": "/blog/2026-11-17-trustee-digital-asset-valuation-prudent-investor-rule-power-to-adjust/final.md",
+    "schema": "/blog/2026-11-17-trustee-digital-asset-valuation-prudent-investor-rule-power-to-adjust/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-13-foreign-digital-asset-accounts-fbar-form-8938-peak-value-valuation",
     "title": "Digital Assets Across the Border: FinCEN Notice 2020-2, the FBAR Peak-Value Rule, Form 8938's Threshold Ladder, and the Valuation Evidence Both Regimes Demand",
     "excerpt": "Two reporting regimes reach the same offshore digital asset position and disagree about almost everything: threshold, valuation date, penalty architecture, and whether cryptocurrency counts at all. This analysis works through FinCEN Notice 2020-2, the FBAR maximum-value rule, Form 8938's four threshold tiers, the penalty stack under 31 U.S.C. Section 5321(a)(5) and IRC Sections 6038D and 6662(j), the Form 3520 gift and trust perimeter, and the evidence file a peak value requires.",
