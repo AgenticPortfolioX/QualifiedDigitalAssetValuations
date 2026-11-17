@@ -1,0 +1,258 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-11-17",
+      "headline": "Who Values What a Trustee Holds: The Duty to Marshal Digital Assets, the Michigan Prudent Investor Rule's Treatment of a Concentrated Crypto Position, the Principal-and-Income Adjustment Power That Only Functions With a Valuation, and the Fiduciary Accounting That Turns Volatility Into a Surcharge Claim",
+      "description": "A trustee inherits an asset with no custodian, no statement, and a price that answers only one of three statutory questions. This analysis works through MCL 700.1502 through 700.1509, the diversification default of MCL 700.1504, the impartiality requirement of MCL 555.503, the four conditions and eight prohibitions of the adjustment power at MCL 555.504, the parallel allocations of fiduciary accounting income and distributable net income under IRC Sections 643, 661, 662, and 663(b), and the market-value demand of MCL 700.7814(3).",
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-11-17-trustee-digital-asset-valuation-prudent-investor-rule-power-to-adjust"
+      },
+      "image": "https://qdav.mba/blog/2026-11-17-trustee-digital-asset-valuation-prudent-investor-rule-power-to-adjust/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Fiduciary administration and valuation of digital assets held in trusts and estates",
+        "description": "The state-law fiduciary duties that attach to a digital asset position and the valuation each duty requires. Addresses the marshal-and-identify duty and the three distinct fiduciary holdings of authority, ability, and proof; the limits of the Revised Uniform Fiduciary Access to Digital Assets Act where no custodian exists for a self-custodied wallet; the Michigan prudent investor rule at MCL 700.1502, including the reasonable-care-skill-and-caution standard, the default-rule status of the rule, the portfolio-context requirement of MCL 700.1503(1), the mandatory consideration list at MCL 700.1503(2), the affirmative fact-verification obligation of MCL 700.1503(3), the no-inherent-imprudence provision at MCL 700.1503(4), and the special-skill duty at MCL 700.1503(5); the duties-at-inception requirement of MCL 700.1505; the diversification default and special-circumstances exception of MCL 700.1504, read against Estate of Janes and against express retention clauses under MCL 700.1502(2); the process-not-outcome standard and no-hindsight rule of MCL 700.1509; the impartiality requirement of Section 103 of the Michigan Uniform Principal and Income Act at MCL 555.503; the conditional power to adjust at MCL 555.504, including its three statutory preconditions, the nine-factor consideration list drawn from Section 104(b) of the uniform act, the eight prohibitions in MCL 555.504(4) affecting marital deduction trusts, gift tax exclusion trusts, fixed annuity interests, permanent charitable set-asides, grantor trust and estate inclusion triggers, and fiduciary-beneficiary conflicts, and the release provision in MCL 555.504(6); the parallel allocations of fiduciary accounting income and distributable net income under IRC Sections 641 through 643, 661, 662, 663(b) and Treasury Regulation Section 1.663(b)-1, 642(c), and the Section 645 election; the annual reporting duty and market-value language of MCL 700.7814(3); the scope elements a fiduciary-purpose appraisal must state, including valuation date, standard of value and premise, position size and market impact, methodology, extraordinary assumptions and limiting conditions, and appraiser independence; and the surcharge exposure that follows an undocumented inception review, diversification determination, or allocation analysis."
+      },
+      "keywords": [
+        "trustee digital asset valuation",
+        "fiduciary duty cryptocurrency trust",
+        "prudent investor rule concentrated position",
+        "power to adjust principal and income",
+        "trustee surcharge digital assets",
+        "qualified appraisal trust administration",
+        "Uniform Principal and Income Act digital assets",
+        "distributable net income trust",
+        "MCL 700.1504 diversification",
+        "MCL 555.504 adjustment",
+        "MCL 700.7814 annual report",
+        "RUFADAA self-custody",
+        "fiduciary accounting income",
+        "digital asset valuation",
+        "qualified appraisal",
+        "fair market value",
+        "USPAP compliant",
+        "defensible data"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-11-17",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does a trustee have to diversify a concentrated cryptocurrency position?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under MCL 700.1504, a fiduciary must diversify unless it reasonably determines that, because of special circumstances, the purposes of the estate are better served without diversifying. Diversification is the default; departure requires a documented, contemporaneous determination addressing the three elements of the exception."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the current market price an acceptable trust valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a small position in a liquid market, a quoted price is a reasonable measure of market value. For a position large enough to move the market, or one subject to staking, lending, vesting, or lockup restrictions, the quoted price overstates what the trust could realize. Obtain a valuation reflecting the position as held, or disclose the basis and the constraint in the accounting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a trustee shift value between principal and income when a digital asset produces no income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if the conditions of MCL 555.504(1) are met: the fiduciary invests as a prudent investor, the instrument defines distributions by reference to income, and the fiduciary determines it cannot comply with the impartiality requirement after applying Section 103(1) and (2). Even then, the eight prohibitions in MCL 555.504(4) may foreclose the adjustment, notably in marital deduction trusts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the trustee cannot obtain access to a self-custodied wallet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no custodian to petition and no administrative reset. RUFADAA reaches electronic records held by a custodian, and a self-custodied wallet has none. The trustee's remedies are forensic recovery of key material, a court determination of ownership where access can later be established, and an accounting disclosing the position as inaccessible. Prevention is the only reliable remedy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is a gain on the sale of trust-held cryptocurrency taxed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Realized capital gain is generally allocated to principal under state law and excluded from distributable net income, so the trust bears the tax at compressed rates. A complex trust or estate may elect under IRC Section 663(b) to treat distributions within 65 days after year end as made on the last day of the year, but only to the extent of the greater of DNI or taxable income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a fiduciary engage an appraiser for a digital asset position?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At the point the fiduciary must make a decision the statute measures against a value: the inception review under MCL 700.1505, a diversification determination under MCL 700.1504, an adjustment analysis under MCL 555.504, a distribution in kind, and each annual accounting under MCL 700.7814(3). Engaging after the decision produces a report that documents a conclusion rather than supporting one."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals and valuation attestations for cryptocurrency, NFT, and digital asset positions, developed and reported under USPAP Standards 7, 9, and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, trustees, executors, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support and by the valuation date that obligation fixes: contribution date for charitable contributions under IRS Section 170 and Form 8283 Section B; date of death and, where elected, the Section 2032 alternate valuation date for estate tax returns; transfer date for gift tax reporting under Section 2512; a distribution date for a distribution in kind from a trust or estate; the fiscal year end for a trustee's annual report of trust property and market values; and the specific date as of which a fiduciary made a retention, diversification, or principal-and-income adjustment determination. Every engagement designates the individual who will sign, identifies whether the report supports a tax filing or a fiduciary administration question, states the valuation date, standard of value, and premise, addresses position size and market impact where the position is large or restricted, discloses the extraordinary assumptions and limiting conditions including the assumption of key control, and confirms fee independence from the conclusion.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal and Fiduciary Valuation Support under USPAP Standards 7, 9, and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Trustees",
+          "Successor Trustees",
+          "Executors",
+          "Personal Representatives",
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "Fiduciary Litigation Counsel",
+          "CPAs",
+          "Tax Professionals",
+          "Wealth Managers",
+          "HNW Individuals",
+          "Beneficiaries",
+          "SDIRA Custodians"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Fiduciary Digital Asset Valuation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Inception Review Valuation for Trust and Estate Digital Asset Positions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Diversification Determination Support and Special-Circumstances Retention Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Principal and Income Adjustment Valuation Under Uniform Principal and Income Act Section 104"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Annual Trustee Report Market Value Determination and Basis Disclosure"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Distribution-in-Kind Valuation for Trust and Estate Distributions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Position Size, Market Impact, and Restriction Discount Analysis for Concentrated Digital Asset Holdings"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fiduciary Accounting File and Methodology Memorandum for Surcharge Defense"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Qualified Appraisal Support for Date-of-Death, Alternate Valuation, and Gift Tax Reporting"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
