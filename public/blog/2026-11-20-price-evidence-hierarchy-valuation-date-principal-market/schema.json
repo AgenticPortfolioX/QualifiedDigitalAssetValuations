@@ -1,0 +1,247 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-11-20",
+      "headline": "The Ladder Was Already in the Regulation: Treasury Regulation Section 20.2031-2's Five Tiers of Price Evidence Applied to a Twenty-Four-Hour Digital Asset Market",
+      "description": "A digital asset position carries dozens of simultaneous prices and no closing auction. Treasury Regulation Section 20.2031-2 already sets a five-tier ladder of price evidence and names the exchange that counts; this analysis applies that ladder tier by tier, fixes the timestamp convention, separates price from executable liquidity, and specifies the file a qualified appraisal has to hold.",
+      "datePublished": "2026-11-20",
+      "dateModified": "2026-11-20",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-11-20-price-evidence-hierarchy-valuation-date-principal-market"
+      },
+      "image": "https://qdav.mba/blog/2026-11-20-price-evidence-hierarchy-valuation-date-principal-market/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Selection of price evidence in a digital asset appraisal for estate, gift, and charitable purposes",
+        "description": "The hierarchy of price evidence an appraiser must exhaust before choosing a number for a digital asset position. Addresses the fair market value definition of Treas. Reg. 20.2031-1(b); the five tiers of Treas. Reg. 20.2031-2 at paragraphs (b) through (f), including the mean-between-highest-and-lowest-sales rule, inverse weighting by trading days, bid-and-asked tier, incomplete-data tier, the modification tier for sporadic sales and block size with its requirement that complete support data accompany the return, and the no-price tier; the instruction to use the records of the exchange where the property is principally dealt in and its composite-listing fallback; contract-address and network identity as the precondition to venue selection; the distinction between the ASC 820 principal market and exit-price measurement and the tax fair market value standard, including the limits of ASC 820-10-35-36B on holder-size adjustments; the absence of a conventional market close in digital asset markets as identified by the SBAI operational due diligence framework; the four statutory valuation dates under IRC Sections 2031, 2032, 2512, and 170 and the dominion-and-control timing of Rev. Rul. 2019-24 and Rev. Rul. 2023-14; the exchange-rate dispersion documented in the AICPA comment letter of June 2016 and Notice 2014-21 Q-5's reasonable-manner-consistently-applied standard; depth, spread, volume, and wash-trading evidence bearing on executable liquidity; the additional valuation implied by a stablecoin or bitcoin quote currency; pre-launch, locked, vesting, bridged, and liquidity-provider positions with no observable price; reconciliation and source weighting rather than averaging; the price-evidence file; Form 8283 Section B and Treas. Reg. 1.170A-17 qualified appraisal requirements; and the penalty exposure of IRC Sections 6695A and 6662."
+      },
+      "keywords": [
+        "crypto valuation date of death",
+        "fair market value of cryptocurrency IRS",
+        "qualified appraisal digital assets",
+        "digital asset appraisal methodology",
+        "principal market digital asset valuation",
+        "which exchange price crypto valuation",
+        "Treasury Regulation 20.2031-2",
+        "principally dealt in exchange",
+        "valuation date timestamp",
+        "order book depth crypto position",
+        "stablecoin depeg valuation",
+        "pre-launch token valuation",
+        "wash trading reported volume",
+        "Form 8283 appraisal",
+        "USPAP digital asset",
+        "USPAP compliant",
+        "defensible data"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-11-20",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How is cryptocurrency valued for estate tax purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At fair market value on the date of death under IRC Section 2031, or on the alternate valuation date six months later if the executor elects under Section 2032 and the election reduces both the gross estate and the estate tax. Fair market value means the price at which the property would change hands between a willing buyer and a willing seller, neither under compulsion, both having reasonable knowledge of the relevant facts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which exchange price should an appraiser use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The venue where the property is principally dealt in, subject to the records being generally available and the venue being accessible to the holder, on the correct contract address and network. Practically, that means the deepest accessible venue for that specific instrument, with the selection documented in the engagement letter before the data is pulled."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if the asset had no trades on the valuation date?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treasury Regulation Section 20.2031-2 anticipates this. Value may be derived from the nearest sales before and after the date, weighted inversely by the number of trading days between each sale and the valuation date, or from bona fide bid and asked prices where sales are unavailable across a reasonable period. Where the market is dormant or the observation is stale, the price ceases to be reliable evidence and a supported method is required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you average prices from several exchanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only where the sources agree closely enough that the average reduces noise rather than hiding disagreement. Where sources diverge materially, the divergence has a cause such as a stale feed, a wrong contract address, a thin venue, a depegged quote currency, or restricted access, and the cause determines the treatment. Averaging without identifying the cause produces a number that cannot be defended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you value a token that has never traded publicly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From the instrument's own economics and from transactions in comparable restricted instruments: treasury and runway, revenue or fee capture, emission and unlock schedule, governance and economic rights, and the terms of recent financings. A private round price for a locked token is evidence about a restricted instrument, and it cannot be applied to an unrestricted token without adjustment and explanation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What records should be retained to support a crypto valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contract address and network; named venue and access status; UTC timestamp of observation; observation type and window; order-book depth; trailing volume and trade counts; the quote currency and its own conversion source; the raw API response with retrieval time and a file hash; and a log of every source considered and rejected with the reason. Retention is what allows the number to be reproduced rather than merely restated."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals and valuation attestations for cryptocurrency, NFT, and digital asset positions, developed and reported under USPAP Standards 7, 9, and 10, the business and intangible asset appraisal standards. Serving HNW individuals, estate attorneys, CPAs, tax controversy counsel, trustees, executors, donors, SDIRA holders and custodians, and tax professionals requiring IRS-defensible valuations. QDAV scopes engagements by the obligation the report must support and by the valuation date that obligation fixes: contribution date for charitable contributions under IRS Section 170 and Form 8283 Section B; date of death and, where elected, the Section 2032 alternate valuation date for estate tax returns; transfer date for gift tax reporting under Section 2512; a distribution date for a distribution in kind from a trust or estate; the fiscal year end for a trustee's annual report of trust property and market values; and the specific date as of which a fiduciary made a retention, diversification, or principal-and-income adjustment determination. Every engagement states the valuation date, time zone, and observation convention for the price used; identifies the venue determined to be the market in which the property is principally dealt in and the contract address and network relied upon; documents the price-evidence hierarchy applied, the sources considered and rejected, and the conversion path from the quotation currency to dollars; discloses the extraordinary assumptions and limiting conditions including any assumption of stablecoin par value; designates the individual who will sign; and confirms fee independence from the conclusion.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Qualified Digital Asset Appraisal and Valuation Support under USPAP Standards 7, 9, and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Executors",
+          "Personal Representatives",
+          "Trustees",
+          "Estate Attorneys",
+          "Trusts and Estates Counsel",
+          "CPAs",
+          "Tax Professionals",
+          "HNW Individuals",
+          "Donors of Digital Assets",
+          "SDIRA Custodians"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Asset Price Evidence and Valuation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Date-of-Death and Alternate Valuation Date Price Determination"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Principal Market Determination and Venue Selection Memorandum"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Timestamp and Observation Convention Design for Digital Asset Valuations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Executable Liquidity and Depth Analysis for Concentrated Positions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pre-Launch, Locked, and Vesting Token Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Price-Source Reconciliation and Divergence Report"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Price-Evidence File Assembly for Form 8283 Section B"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
