@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-11-20-price-evidence-hierarchy-valuation-date-principal-market",
+    "title": "The Ladder Was Already in the Regulation: Treasury Regulation Section 20.2031-2's Five Tiers of Price Evidence Applied to a Twenty-Four-Hour Digital Asset Market, the 'Principally Dealt In' Instruction That Anticipates the Principal-Market Question, and the Timestamp Convention That Decides Which Number a Qualified Appraisal May Use",
+    "excerpt": "A digital asset position carries dozens of simultaneous prices and no closing auction. Treasury Regulation Section 20.2031-2 already sets a five-tier ladder of price evidence and names the exchange that counts; this analysis applies that ladder tier by tier, fixes the timestamp convention, separates price from executable liquidity, and specifies the file a qualified appraisal has to hold.",
+    "author": "QDAV",
+    "date": "2026-11-20",
+    "description": "A digital asset position carries dozens of simultaneous prices and no closing auction. Treasury Regulation Section 20.2031-2 already sets a five-tier ladder of price evidence and names the exchange that counts; this analysis applies that ladder tier by tier, fixes the timestamp convention, separates price from executable liquidity, and specifies the file a qualified appraisal has to hold.",
+    "category": "QDAV",
+    "image": "/blog/2026-11-20-price-evidence-hierarchy-valuation-date-principal-market/feature_image.png",
+    "path": "/blog/2026-11-20-price-evidence-hierarchy-valuation-date-principal-market/final.md",
+    "schema": "/blog/2026-11-20-price-evidence-hierarchy-valuation-date-principal-market/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-17-trustee-digital-asset-valuation-prudent-investor-rule-power-to-adjust",
     "title": "Who Values What a Trustee Holds: The Duty to Marshal Digital Assets, the Michigan Prudent Investor Rule's Treatment of a Concentrated Crypto Position, the Principal-and-Income Adjustment Power That Only Functions With a Valuation, and the Fiduciary Accounting That Turns Volatility Into a Surcharge Claim",
     "excerpt": "A trustee inherits an asset with no custodian, no statement, and a price that answers only one of three statutory questions. This analysis works through MCL 700.1502 through 700.1509, the diversification default of MCL 700.1504, the impartiality requirement of MCL 555.503, the four conditions and eight prohibitions of the adjustment power at MCL 555.504, the parallel allocations of fiduciary accounting income and distributable net income under IRC Sections 643, 661, 662, and 663(b), and the market-value demand of MCL 700.7814(3).",
