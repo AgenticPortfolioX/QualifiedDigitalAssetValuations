@@ -1,0 +1,255 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-11-24",
+      "headline": "The One Valuation Date Nobody Gets to Elect: How a Self-Directed IRA's December 31 Account Balance Sets the Required Minimum Distribution",
+      "description": "A self-directed IRA holding digital assets produces two numbers every year and taxes both of them. This analysis fixes the December 31 account balance under Treas. Reg. Section 1.401(a)(9)-5, works the Uniform Lifetime Table, follows an in-kind token distribution through Form 1099-R code K, and computes the Section 4974 excise tax that a stale quote creates.",
+      "datePublished": "2026-11-24",
+      "dateModified": "2026-11-24",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-11-24-rmd-required-minimum-distributions-digital-assets-sdira-valuation"
+      },
+      "image": "https://qdav.mba/blog/2026-11-24-rmd-required-minimum-distributions-digital-assets-sdira-valuation/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "Required minimum distributions from self-directed IRAs holding digital assets",
+        "description": "The statutory and regulatory mechanics that convert a prior-year-end digital asset account balance into a required minimum distribution, and the consequences of valuing that balance incorrectly. Addresses IRC Section 401(a)(9)(A) and the applicable age under Section 401(a)(9)(C)(v) as amended by SECURE 2.0 Section 107 (age 73 for individuals born 1951-1959; age 75 for those born 1960 or later); Section 408(a)(6) and Section 408A(c)(5); Treas. Reg. Section 1.401(a)(9)-5(a)(1) and (b) (account balance as of the last valuation date in the preceding calendar year, adjusted for later contributions and distributions); the Uniform Lifetime Table at Section 1.401(a)(9)-9 and the Joint and Last Survivor Table for a spouse sole beneficiary more than ten years younger; aggregation of IRAs under Section 1.408-8 with employer plans excluded; the April 1 first-year deferral that produces two distributions in one taxable year; Notice 2014-21's requirement that virtual currency be converted at an exchange rate determined in a reasonable manner consistently applied; Rev. Rul. 2023-14 (staking rewards) and Rev. Rul. 2019-24 (hard-fork airdrops) as additions to the account balance; locked, vesting, and unsolicited positions; fair market value on the date of an in-kind distribution and Form 1099-R code K reporting; Form 5498 box 15a and box 15b reporting codes; the non-carryforward of excess distributions under Publication 590-B; IRC Section 4974(a) excise tax of 25 percent of the shortfall, Section 4974(e) reduction to 10 percent within the correction window, Section 4974(d) reasonable-error waiver, and Form 5329 Part IX reporting, as finalized in T.D. 10001 (89 FR 58886); the Section 401(a)(9)(H) ten-year rule and the annual distribution layer preserved for beneficiaries where the owner died on or after the required beginning date; the boundary between an annual fair market value determination and an IRS Section 170 qualified appraisal under Treas. Reg. Section 1.170A-17; and USPAP Standards 9 and 10."
+      },
+      "keywords": [
+        "crypto IRA required minimum distribution",
+        "self-directed IRA RMD cryptocurrency",
+        "IRA December 31 valuation",
+        "Section 4974 excise tax",
+        "in-kind distribution crypto IRA",
+        "Uniform Lifetime Table 2026",
+        "Form 5329 RMD shortfall",
+        "Form 1099-R code K",
+        "Form 5498 fair market value",
+        "inherited IRA 10-year rule crypto",
+        "crypto IRA valuation attestation",
+        "USPAP Compliant",
+        "Qualified Appraisal",
+        "Fair Market Value",
+        "Defensible Data"
+      ],
+      "articleSection": "Self-Directed IRAs & Retirement",
+      "wordCount": 4501,
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-11-24",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How is a required minimum distribution calculated for a self-directed IRA holding cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The distribution equals the account balance on the last valuation date of the preceding calendar year, adjusted for later contributions and distributions, divided by the distribution period for the owner's age from the Uniform Lifetime Table. For a holder turning 73, the divisor is 26.5; a one-million-dollar balance produces a requirement of $37,735.85."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which price should be used for the December 31 value of a digital asset?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The price must come from a venue where the asset is actually traded, at a stated minute and time zone, on a method applied consistently from year to year. Notice 2014-21 requires a reasonable manner consistently applied and names no venue; the defensible approach documents the selection rule before the observation is taken."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the distribution be satisfied by transferring crypto out of the account instead of selling it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. An in-kind distribution is taxed at fair market value on the date the property leaves the account and is reported on Form 1099-R with code K where no readily available value exists. Fungible assets can be distributed to the dollar; an indivisible asset cannot, and any overshoot is taxable income that does not reduce a later year's requirement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the December 31 value was wrong?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the balance was understated, the requirement was too low, and the shortfall carries a 25 percent excise tax under IRC Section 4974, reduced to 10 percent if a corrective distribution is taken and a return filed within the correction window. If the balance was overstated, the holder took more than required, paid income tax on the excess, and receives no credit in any future year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a qualified appraisal required for an IRA's annual valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No statute requires an IRS Section 170 qualified appraisal for the value reported on Form 5498. Where the number becomes taxable income, as in an in-kind distribution or a Roth conversion, or where the position is restricted, illiquid, or likely to be examined, appraisal-grade support is the defensible position."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a Roth IRA holding crypto have required minimum distributions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Roth IRA owner has no lifetime distribution requirement under IRC Section 408A(c)(5). An inherited Roth is treated as though the owner died before the required beginning date, so a non-spouse beneficiary generally takes no annual distribution but must empty the account within ten years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the ten-year rule work for an inherited IRA holding digital assets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The account must be emptied by December 31 of the year containing the tenth anniversary of the owner's death. If the owner died on or after the required beginning date, annual distributions are also required in years one through nine, each computed from that year's prior-year-end balance."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Qualified Digital Asset Appraisal Services",
+      "description": "USPAP-compliant qualified appraisals and annual valuation determinations for cryptocurrency, NFT, and digital asset positions held in self-directed IRAs and retirement accounts, developed and reported under USPAP Standards 9 and 10. Engagements support the December 31 account balance reported on Form 5498, the fair market value used for an in-kind distribution or Roth conversion reported on Form 1099-R, the annual distribution required from an inherited account under IRC Section 401(a)(9), and the documentation a holder needs if an examination asks how a balance was determined. Every engagement states the valuation date, time zone, and observation convention for the price used; identifies the venue relied upon, the contract address, and the network; reconciles units across custodial wallets, self-custody wallets, staking ledgers, and locked allocations; documents the price-evidence hierarchy applied and the sources considered and rejected; discloses extraordinary assumptions including any restriction discount applied to a locked position; designates the signing appraiser; and confirms fee independence from the conclusion.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Self-Directed IRA and Retirement Account Digital Asset Valuation under USPAP Standards 9 and 10",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Self-Directed IRA Holders",
+          "SDIRA Custodians",
+          "IRA Beneficiaries",
+          "CPAs",
+          "Tax Professionals",
+          "Estate Attorneys",
+          "Trustees",
+          "HNW Individuals"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Retirement Account Digital Asset Valuation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "December 31 Account Balance Determination and Annual Valuation Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Required Minimum Distribution Base Analysis and Unit Reconciliation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "In-Kind Distribution and Roth Conversion Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Locked, Vesting, and Restricted Token Valuation with Documented Discounts"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Staking Reward, Fork, and Airdrop Inclusion Analysis"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Inherited IRA Beneficiary Distribution Valuation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Section 4974 Shortfall Response and Corrective Valuation Memorandum"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
