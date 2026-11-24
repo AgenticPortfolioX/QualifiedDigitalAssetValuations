@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-11-24-rmd-required-minimum-distributions-digital-assets-sdira-valuation",
+    "title": "The One Valuation Date Nobody Gets to Elect: How a Self-Directed IRA's December 31 Account Balance Sets the Required Minimum Distribution, Why an In-Kind Distribution of Digital Assets Is Taxed at the Value of the Day It Leaves, and the Section 4974 Shortfall Tax That Punishes a Stale Price",
+    "excerpt": "A self-directed IRA holding digital assets produces two numbers every year and taxes both of them. This analysis fixes the December 31 account balance under Treas. Reg. Section 1.401(a)(9)-5, works the Uniform Lifetime Table, follows an in-kind token distribution through Form 1099-R code K, and computes the Section 4974 excise tax that a stale quote creates.",
+    "author": "QDAV",
+    "date": "2026-11-24",
+    "description": "A self-directed IRA holding digital assets produces two numbers every year and taxes both of them. This analysis fixes the December 31 account balance under Treas. Reg. Section 1.401(a)(9)-5, works the Uniform Lifetime Table, follows an in-kind token distribution through Form 1099-R code K, and computes the Section 4974 excise tax that a stale quote creates.",
+    "category": "QDAV",
+    "image": "/blog/2026-11-24-rmd-required-minimum-distributions-digital-assets-sdira-valuation/feature_image.png",
+    "path": "/blog/2026-11-24-rmd-required-minimum-distributions-digital-assets-sdira-valuation/final.md",
+    "schema": "/blog/2026-11-24-rmd-required-minimum-distributions-digital-assets-sdira-valuation/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-20-price-evidence-hierarchy-valuation-date-principal-market",
     "title": "The Ladder Was Already in the Regulation: Treasury Regulation Section 20.2031-2's Five Tiers of Price Evidence Applied to a Twenty-Four-Hour Digital Asset Market, the 'Principally Dealt In' Instruction That Anticipates the Principal-Market Question, and the Timestamp Convention That Decides Which Number a Qualified Appraisal May Use",
     "excerpt": "A digital asset position carries dozens of simultaneous prices and no closing auction. Treasury Regulation Section 20.2031-2 already sets a five-tier ladder of price evidence and names the exchange that counts; this analysis applies that ladder tier by tier, fixes the timestamp convention, separates price from executable liquidity, and specifies the file a qualified appraisal has to hold.",
