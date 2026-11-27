@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-11-27-cp2000-automated-underreporter-form-1099-da-digital-asset-valuation",
+    "title": "The Notice That Arrives Before Any Examination: How the Automated Underreporter Program Turns a Proceeds-Only Form 1099-DA Into a CP2000 Proposal, Why the Thirty-Day Window Is Administrative Rather Than Statutory, and the Valuation Record That Decides the Ninety-Day Letter",
+    "excerpt": "The first filing season in which the IRS holds mass proceeds-only Forms 1099-DA is producing Automated Underreporter matches at scale. This analysis reads the CP2000 from the inside, separates the basis-matching notice a ledger can answer from the valuation-matching notice only fair market value evidence can answer, and traces the Section 6201(d) burden of production through the ninety-day letter.",
+    "author": "QDAV",
+    "date": "2026-11-27",
+    "description": "The first filing season in which the IRS holds mass proceeds-only Forms 1099-DA is producing Automated Underreporter matches at scale. This analysis reads the CP2000 from the inside, separates the basis-matching notice a ledger can answer from the valuation-matching notice only fair market value evidence can answer, and traces the Section 6201(d) burden of production through the ninety-day letter.",
+    "category": "QDAV",
+    "image": "/blog/2026-11-27-cp2000-automated-underreporter-form-1099-da-digital-asset-valuation/feature_image.png",
+    "path": "/blog/2026-11-27-cp2000-automated-underreporter-form-1099-da-digital-asset-valuation/final.md",
+    "schema": "/blog/2026-11-27-cp2000-automated-underreporter-form-1099-da-digital-asset-valuation/sdira_compliance_schema.json"
+  },
+  {
     "id": "2026-11-24-rmd-required-minimum-distributions-digital-assets-sdira-valuation",
     "title": "The One Valuation Date Nobody Gets to Elect: How a Self-Directed IRA's December 31 Account Balance Sets the Required Minimum Distribution, Why an In-Kind Distribution of Digital Assets Is Taxed at the Value of the Day It Leaves, and the Section 4974 Shortfall Tax That Punishes a Stale Price",
     "excerpt": "A self-directed IRA holding digital assets produces two numbers every year and taxes both of them. This analysis fixes the December 31 account balance under Treas. Reg. Section 1.401(a)(9)-5, works the Uniform Lifetime Table, follows an in-kind token distribution through Form 1099-R code K, and computes the Section 4974 excise tax that a stale quote creates.",
