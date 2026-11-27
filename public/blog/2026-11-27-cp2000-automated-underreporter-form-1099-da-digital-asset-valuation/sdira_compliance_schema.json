@@ -1,0 +1,257 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://qdav.mba/#article-2026-11-27",
+      "headline": "The Notice That Arrives Before Any Examination: How the Automated Underreporter Program Turns a Proceeds-Only Form 1099-DA Into a CP2000 Proposal",
+      "description": "The first filing season in which the IRS holds mass proceeds-only Forms 1099-DA is producing Automated Underreporter matches at scale. This analysis reads the CP2000 from the inside, distinguishes the basis-matching notice a ledger can answer from the valuation-matching notice only fair market value evidence can answer, and traces the Section 6201(d) burden of production through the ninety-day letter.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://qdav.mba/#organization",
+        "name": "Qualified Digital Asset Valuations (QDAV)",
+        "url": "https://qdav.mba"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://qdav.mba/#blog-post/2026-11-27-cp2000-automated-underreporter-form-1099-da-digital-asset-valuation"
+      },
+      "image": "https://qdav.mba/blog/2026-11-27-cp2000-automated-underreporter-form-1099-da-digital-asset-valuation/feature_image.png",
+      "about": {
+        "@type": "Thing",
+        "name": "IRS Automated Underreporter CP2000 notices arising from Form 1099-DA digital asset reporting",
+        "description": "The procedural and substantive mechanics of the IRS Automated Underreporter program as applied to digital assets. Addresses IRC Section 6045 as amended by Section 80603 of the Infrastructure Investment and Jobs Act (Pub. L. 117-58) and the final regulations at T.D. 10000, 89 Fed. Reg. 56480 (July 9, 2024), including gross proceeds reporting for transactions effected on or after January 1, 2025, basis reporting for covered securities sold on or after January 1, 2026, the covered and noncovered security definitions in the 2026 Instructions for Form 1099-DA, and the de minimis and optional aggregate reporting thresholds of $600 for processors of digital asset payments and specified NFTs and $10,000 for qualifying stablecoins. Covers IRS Tax Topic 652 and Publication 5181 (the CP2000 as a proposal rather than a bill, the thirty-day response window and sixty-day window abroad, the Response form, the Authorization section, joint-filer signature requirements, and the transition to a statutory notice of deficiency); Notice 2024-56 penalty relief and Notice 2024-57 reporting deferrals for staking, lending, liquidity-pool, and wrapping activity; the repeal of the decentralized finance broker regulations by H.J. Res. 25, Pub. L. 119-5 (April 10, 2025); IRC Section 6212 and Section 6213(a) and (c) (assessment barred until a notice of deficiency is mailed and the ninety-day or one-hundred-fifty-day period expires); IRC Section 6601 interest measured from the original return due date; IRC Section 6201(d) and Section 7491(a) burden of production and burden of proof; IRC Section 6501(a), Section 6501(e)(1)(A) (six-year period where omitted gross income exceeds twenty-five percent), and Section 6501(c)(1) (no limitation for a false or fraudulent return); IRC Section 6662(a), (b)(2), (b)(3), (b)(8), (d)(1)(A), (d)(2)(B), (e)(1)(A), (e)(2), (g)(1), (g)(2), and (h) penalty thresholds; IRC Section 6664(c)(1) and Treas. Reg. Section 1.6664-4 reasonable cause and good faith; IRC Section 6751(b)(1) and (b)(2)(B) supervisory approval; Form 8949 boxes H and K; Form 1040-X, Form 843, Form 8275, and Form 2848; IRC Section 1014(a) and Section 2032 basis at date of death and alternate valuation; and IRC Section 170(f)(11)(C) and (E) qualified appraisal requirements. Discusses Paschall v. Commissioner, T.C. Memo. 2026-46 (June 4, 2026), Walquist v. Commissioner, 152 T.C. No. 3 (2019), and Chai v. Commissioner, 851 F.3d 190 (2d Cir. 2017).",
+        "sameAs": "https://www.irs.gov/taxtopics/tc652"
+      },
+      "keywords": [
+        "CP2000 notice crypto",
+        "IRS automated underreporter digital assets",
+        "Form 1099-DA missing basis",
+        "zero basis CP2000",
+        "CP2000 response qualified appraisal",
+        "notice of deficiency 90 days",
+        "section 6201(d) burden of production",
+        "section 6501(e) six year statute",
+        "section 6662 substantial understatement",
+        "form 8949 box H box K",
+        "covered security 1099-DA",
+        "digital asset valuation attestation",
+        "USPAP Compliant",
+        "Qualified Appraisal",
+        "Fair Market Value",
+        "Defensible Data"
+      ],
+      "articleSection": "IRS Audit Defense",
+      "wordCount": 4895,
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://qdav.mba/#faq-2026-11-27",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a CP2000 notice an audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A CP2000 is a proposed-changes notice generated by the IRS Automated Underreporter program when third-party information returns do not match a filed return. Tax Topic 652 states that it is not a bill but a proposal to adjust income, payments, credits, or deductions. It becomes consequential only if it goes unanswered, at which point the Service issues a statutory notice of deficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I ignore a CP2000 about cryptocurrency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the IRS does not hear from the taxpayer by the response date, it issues a statutory notice of deficiency. Under IRC Section 6213(a) no assessment may be made until that notice is mailed and the ninety-day period — one hundred fifty days outside the United States — expires, so the right to contest is preserved. If no petition is filed in the Tax Court within that period, Section 6213(c) assesses the deficiency upon expiration, and interest under Section 6601 has been running from the return's original due date the entire time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why did I receive a CP2000 for a crypto sale I reported correctly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because for 2025 dispositions the broker reported gross proceeds and, in most cases, no cost basis. Basis reporting began only for covered securities sold on or after January 1, 2026, and a covered security excludes any asset acquired before 2026 or transferred into the broker's custody. When the matching engine holds a proceeds figure and no basis figure, the difference can appear as unreported income unless the return supplies the basis needed to compute actual gain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a covered security for Form 1099-DA purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A digital asset acquired after 2025 for cash, stored-value cards, other digital assets, or property or services, in an account for which the broker provided custodial services, and held in that account until the broker effects the disposition. Every element must be satisfied. Assets acquired before 2026, assets the broker did not custody at acquisition, and assets transferred in are noncovered securities, for which basis reporting is voluntary rather than required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do I have to respond to a CP2000, and can the deadline be extended?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRS asks for a response within thirty days of the date printed on the notice, or sixty days where the taxpayer lives outside the United States. The window runs from the notice date, not delivery. Additional time can be requested through the notice's reply channels and is granted in the Service's discretion. The thirty-day window is administrative; the jurisdictional deadline is the ninety-day period following a notice of deficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a qualified appraisal resolve a CP2000?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can resolve the category in which the disputed number is fair market value at a specific date rather than cost basis — staking rewards and other income recognized at receipt, inherited assets whose basis is fixed under Section 1014, non-cash dispositions, and charitable contributions measured under Section 170. It cannot substitute for records where the dispute is what the taxpayer paid. Where value is the question, a determination prepared under USPAP Standards 9 and 10 raises the documented dispute and demonstrates the cooperation IRC Section 6201(d) requires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the three-year statute of limitations protect me if the return was filed long ago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. Section 6501(a) sets a three-year period, but Section 6501(e)(1)(A) extends it to six years where omitted gross income exceeds twenty-five percent of the gross income stated on the return — a threshold an omitted proceeds-only disposition can clear without any finding of bad faith. Section 6501(c)(1) removes the period entirely for a false or fraudulent return filed with intent to evade tax. A taxpayer who reported the disposition and supplied a basis is in a stronger position than one who omitted it."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://qdav.mba/#localbusiness",
+      "name": "Qualified Digital Asset Valuations (QDAV)",
+      "legalName": "Renowned Value Restoration LLC",
+      "description": "USPAP-compliant, IRS-qualified appraisals for cryptocurrencies, NFTs, and complex digital assets for tax, estate, and charitable contribution purposes.",
+      "url": "https://qdav.mba",
+      "telephone": "(248) 955-1491",
+      "email": "appraisal@qdav.mba",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2711 Williamsburg Cir.",
+        "addressLocality": "Auburn Hills",
+        "addressRegion": "MI",
+        "postalCode": "48326",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Metro Detroit"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Oakland County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Genesee County"
+        }
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/qdav",
+        "https://x.com/qdav_mba"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://qdav.mba/#service",
+      "name": "Digital Asset Valuation and IRS Notice Response Support",
+      "description": "USPAP-compliant valuation determinations developed and reported under USPAP Standards 9 and 10 for use in responding to IRS Automated Underreporter notices, examinations, and return positions involving cryptocurrency, NFTs, and digital asset positions. Engagements fix fair market value on a stated valuation date at a stated time and time zone, identify the asset by contract address and network, state the price-evidence hierarchy applied and the sources considered and rejected, reconcile units across custodial wallets, self-custody wallets, and staking ledgers, disclose extraordinary assumptions including any restriction discount applied to a locked or vesting position, designate the signing appraiser, and confirm fee independence from the conclusion. Determinations are prepared for income recognized at receipt on staking, airdrop, hard-fork, and mining events; basis established at date of death under IRC Section 1014 and the alternate valuation date under Section 2032; amounts realized on non-cash dispositions; and charitable contributions measured under IRC Section 170 with appraisal reporting sufficient for Form 8283. Each engagement produces a report that identifies the specific item in dispute, states the correct treatment, and documents the cooperation that IRC Section 6201(d) requires.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://qdav.mba/#localbusiness"
+      },
+      "serviceType": "Digital Asset Fair Market Value Determination under USPAP Standards 9 and 10 for IRS Notice and Examination Response",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "CPAs",
+          "Tax Professionals",
+          "Estate Attorneys",
+          "Tax Controversy Practitioners",
+          "Trustees",
+          "Executors",
+          "HNW Individuals",
+          "SDIRA Custodians"
+        ]
+      },
+      "areaServed": [
+        "Metro Detroit",
+        "Michigan",
+        "United States"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Notice Response and Controversy Valuation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CP2000 Response Valuation Determination"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fair Market Value at Receipt for Staking, Airdrop, Hard Fork, and Mining Income"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Date-of-Death Basis Determination under IRC Section 1014 and Section 2032"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Amount Realized Analysis for Non-Cash Digital Asset Dispositions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Section 6201(d) Cooperation Statement Support and Documented Dispute Package"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Charitable Contribution Valuation and Form 8283 Appraisal Reporting"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reasonable Cause and Adequate Disclosure Documentation for Section 6662 Exposure"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
